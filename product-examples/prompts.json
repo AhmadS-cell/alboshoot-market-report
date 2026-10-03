@@ -1,0 +1,68 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "generate-reference-then-edit",
+  "status": "illustrative-product-concept",
+  "assets": [
+    {
+      "name": "front",
+      "prompt": "Create a single photorealistic premium ecommerce apparel product photograph, portrait 4:5 composition. A fictional Arab male model about 30 years old, short dark beard, wearing a plain white Saudi thobe and a black Saudi bisht with restrained antique-gold zari trim running along the front opening and around the neckline. No headwear. Full frontal view, full garment visible from shoulders to hem, relaxed arms, garment open enough to show drape but modest. Deep charcoal black softly woven lightweight fabric, traditional roomy flowing Saudi bisht silhouette, thin elegant muted gold trim, no flashy brocade, no pockets invented. Clean light gray seamless studio, soft even neutral lighting, true textile texture, crisp construction details, realistic proportions, camera eye level, generous small margins around full body. This is a consistent fictional product concept for مُسدل, premium rather than ornate luxury. No logos, no words, no watermarks, no text overlays, no collage. Retain realistic textile wrinkles and restrained contrast. This front image will serve as the reference for back, side, inside, fabric and embroidery detail photographs.",
+      "reference": null
+    },
+    {
+      "name": "back",
+      "prompt": "Using the reference photograph, create a SINGLE photorealistic premium ecommerce product photograph, portrait 4:5 aspect ratio. Same fictional black Saudi bisht with muted antique-gold zari, same model where present, same neutral gray seamless studio and soft neutral lighting. Preserve garment, color, construction, fabric and zari design. Full back view on the SAME man, standing straight facing away, entire garment and feet in frame. Front gold opening trim is not on the back: only subtle gold outline at arm openings may be visible. Preserve same silhouette, roomy width, black textile and hem. No extra embroidery across back. This is an illustrative design concept. No watermarks. No collage. No UI.",
+      "reference": "front.png"
+    },
+    {
+      "name": "side",
+      "prompt": "Using the reference photograph, create a SINGLE photorealistic premium ecommerce product photograph, portrait 4:5 aspect ratio. Same fictional black Saudi bisht with muted antique-gold zari, same model where present, same neutral gray seamless studio and soft neutral lighting. Preserve garment, color, construction, fabric and zari design. Full length side / three quarter 45-degree photograph of the SAME man and garment, turned toward his left, show relaxed hanging arm, volume and gold opening trim, entire hem and feet visible. Exactly same product, same garment proportions. This is an illustrative design concept. No watermarks. No collage. No UI.",
+      "reference": "front.png"
+    },
+    {
+      "name": "fabric",
+      "prompt": "Using the reference photograph, create a SINGLE photorealistic premium ecommerce product photograph, portrait 4:5 aspect ratio. Same fictional black Saudi bisht with muted antique-gold zari, same model where present, same neutral gray seamless studio and soft neutral lighting. Preserve garment, color, construction, fabric and zari design. Extreme textile macro photograph of a softly folded area of the SAME black bisht body fabric, subtle woven black texture visible, gently translucent against gray in one fold, realistic not shiny leather. No gold trim in this shot. No model, no text. This is an illustrative design concept. No watermarks. No collage. No UI.",
+      "reference": "front.png"
+    },
+    {
+      "name": "zari",
+      "prompt": "Using the reference photograph, create a SINGLE photorealistic premium ecommerce product photograph, portrait 4:5 aspect ratio. Same fictional black Saudi bisht with muted antique-gold zari, same model where present, same neutral gray seamless studio and soft neutral lighting. Preserve garment, color, construction, fabric and zari design. Close-up photograph of the SAME antique muted gold zari trim on black bisht, matching its exact woven decorative pattern and width. Show the join of the trim with body fabric and neat stitching, enough adjacent black fabric for scale. Not decorative jewelry or embroidery newly added. This is an illustrative design concept. No watermarks. No collage. No UI.",
+      "reference": "front.png"
+    },
+    {
+      "name": "inside",
+      "prompt": "Using the reference photograph, create a SINGLE photorealistic premium ecommerce product photograph, portrait 4:5 aspect ratio. Same fictional black Saudi bisht with muted antique-gold zari, same model where present, same neutral gray seamless studio and soft neutral lighting. Preserve garment, color, construction, fabric and zari design. Close-up photograph of the SAME bisht held partly open to reveal reverse of fabric and inner seam behind the front gold trim. Unlined lightweight black body fabric, gold edge viewed in reverse, clean inner seams. No invented satin full lining. Cropped hands holding gently, only white thobe behind. True product construction concept. This is an illustrative design concept. No watermarks. No collage. No UI.",
+      "reference": "front.png"
+    },
+    {
+      "name": "measure",
+      "prompt": "Using the reference photograph, create a SINGLE photorealistic premium ecommerce product photograph, portrait 4:5 aspect ratio. Same fictional black Saudi bisht with muted antique-gold zari, same model where present, same neutral gray seamless studio and soft neutral lighting. Preserve garment, color, construction, fabric and zari design. Top-down studio photograph of the SAME black and gold bisht laid flat symmetrically on a large neutral light gray table. Show a plain metric measuring tape along the shoulder-to-hem direction, tape markings naturally small and not readable as an exact size. Full garment visible. No overlay dimensions, no numerical claims. Folded plain white thobe absent. This is an illustrative design concept. No watermarks. No collage. No UI.",
+      "reference": "front.png"
+    },
+    {
+      "name": "movement",
+      "prompt": "Using the reference photograph, create a SINGLE photorealistic premium ecommerce product photograph, portrait 4:5 aspect ratio. Same fictional black Saudi bisht with muted antique-gold zari, same model where present, same neutral gray seamless studio and soft neutral lighting. Preserve garment, color, construction, fabric and zari design. Full length SAME model taking a natural small step and turning, showing the SAME black bisht flowing modestly, same neckline and muted gold trim. Single sharp still frame, not collage, no video icons or text. No dramatic wind, hem visible, neutral studio. This is an illustrative design concept. No watermarks. No collage. No UI.",
+      "reference": "front.png"
+    },
+    {
+      "name": "gift-closed",
+      "prompt": "Using the reference photograph, create a SINGLE photorealistic premium ecommerce product photograph, portrait 4:5 aspect ratio. Same fictional black Saudi bisht with muted antique-gold zari, same model where present, same neutral gray seamless studio and soft neutral lighting. Preserve garment, color, construction, fabric and zari design. Product packaging concept photograph, a plain sturdy warm light gray rectangular gift box with matching closed lid, simple off-white cotton ribbon, no visible logos, no name, no text. Same black and gold bisht folded is fully concealed inside. Only box on neutral studio background; no perfume, incense or additional gifts. This is an illustrative design concept. No watermarks. No collage. No UI.",
+      "reference": "front.png"
+    },
+    {
+      "name": "gift-open",
+      "prompt": "Using the reference photograph, create a SINGLE photorealistic premium ecommerce product photograph, portrait 4:5 aspect ratio. Same fictional black Saudi bisht with muted antique-gold zari, same model where present, same neutral gray seamless studio and soft neutral lighting. Preserve garment, color, construction, fabric and zari design. Product packaging concept photograph, matching plain sturdy warm light gray rectangular gift box, lid removed and beside it, off-white tissue paper, SAME black and muted gold bisht neatly folded with front trim visible, one blank off-white message card. No logos, no words, no perfume, no incense, no extra gifts. Neutral studio backdrop. This is an illustrative design concept. No watermarks. No collage. No UI.",
+      "reference": "front.png",
+      "revision_prompt": "Edit this packaging concept to show ONLY the open gift box on the studio tabletop, no model or person anywhere, no worn garment outside the box, no hands. Matching the closed gift box reference: a normal sized plain light gray rigid rectangular apparel box about 45 by 35 cm concept, off-white tissue, one neatly folded black bisht showing the same muted antique-gold zari as the garment reference, one small blank off-white card. The detached lid rests beside the box. Realistic scale and a tight three-quarter top-down product packaging photograph. Portrait 4:5. Soft gray neutral studio. No text, no logos, no collage. One folded garment only, no additional items. Preserve the fabric and zari, and preserve the plain box finish of the closed reference. Photorealistic clean premium ecommerce product photography."
+    },
+    {
+      "name": "name-tab",
+      "prompt": "Using the reference photograph, create a SINGLE photorealistic premium ecommerce product photograph, portrait 4:5 aspect ratio. Same fictional black Saudi bisht with muted antique-gold zari, same model where present, same neutral gray seamless studio and soft neutral lighting. Preserve garment, color, construction, fabric and zari design. Macro product photograph showing a discrete personalized name tab on the INSIDE ONLY of the SAME black bisht near the inner neckline seam. Show a small matte black rectangular fabric tab, delicately sewn to the inner neckline seam, embroidered with exactly the Arabic name «أحمد العتيبي» in subtle off-white thread, clearly readable naturally stitched text right to left. Tab approximately 5x2 cm concept, not a hanging paper tag, not on outside gold trim. Small gold trim and black fabric context visible. The tab is oriented naturally as read when looking inside the collar. No other text, no decorative logo, no text overlays. Keep same gold weave and black material. Tight crisp detail photograph. This is an illustrative design concept. No watermarks. No collage. No UI.",
+      "reference": "front.png"
+    },
+    {
+      "name": "care",
+      "prompt": "Using the reference photograph, create a SINGLE photorealistic premium ecommerce product photograph, portrait 4:5 aspect ratio. Same fictional black Saudi bisht with muted antique-gold zari, same model where present, same neutral gray seamless studio and soft neutral lighting. Preserve garment, color, construction, fabric and zari design. Close-up product concept photograph of a small white fabric care tag attached to the INSIDE seam of SAME black bisht, reverse black fabric and modest gold trim visible at edge. Tag has ONLY a few simple non-specific laundry pictogram outlines without words or numbers, because actual care instructions are not yet verified. No fake composition or invented percentages. No before-and-after collage. This is an illustrative design concept. No watermarks. No collage. No UI.",
+      "reference": "front.png"
+    }
+  ]
+}

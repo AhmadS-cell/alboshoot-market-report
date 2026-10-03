@@ -246,6 +246,15 @@
       "brief": "صورة الملصق والمعلومات، وعند ادعاء أداء: نفس العينة/المقياس والضوء قبل وبعد عناية محددة موثقة؛ نسجل التغير ولا نخفيه.",
       "caption": "العناية المعتمدة [تعليمات]؛ الاختبار [طريقة ودورات ونتيجة إن وجد].",
       "persona": "نورة؛ وعمر للعناية"
+    },
+    {
+      "id": "13-name-tab",
+      "name": "اسم · تبويب داخلي",
+      "required": "P0 · عند توفير التطريز",
+      "purpose": "مكان الاسم وشكله قبل تخصيص دائم",
+      "brief": "صورة تبويب الاسم داخل الرقبة، تبين موضعه وخياطته ولون الخيط وحجم الحروف. مثالنا مولّد؛ التطريز الفعلي يحتاج عينة معتمدة. الاسم والموضع لا يتغيران دون موافقة العميل.",
+      "caption": "مثال أحمد العتيبي · تبويب داخلي · خيط عاجي؛ تعتمد تهجئة العميل قبل التنفيذ.",
+      "persona": "كلاهما؛ للنفس أو للهدية"
     }
   ],
   "categories": [
@@ -509,5 +518,44 @@
       "تنقل لوحة مفاتيح، تركيز واضح، مصغرات مسماة، حركة قابلة للإيقاف، وشريط شراء لا يغطي المحتوى.",
       "إنجاز المهام على الهاتف، وعدم انزلاق الصفحة أفقيًا أو حجب الأخطاء."
     ]
-  ]
+  ],
+  "example_media": {
+    "0": "front.png",
+    "1": "back.png",
+    "2": "side.png",
+    "3": "fabric.png",
+    "4": "zari.png",
+    "5": "inside.png",
+    "6": "measure.png",
+    "7": "movement.png",
+    "9": "gift-closed.png",
+    "10": "gift-open.png",
+    "11": "care.png",
+    "12": "name-tab.png"
+  },
+  "customization": {
+    "name": {
+      "default": false,
+      "max_characters": 24,
+      "placement": "inside-neck-tab",
+      "thread_options": [
+        "ivory",
+        "gold"
+      ],
+      "approval_required": true
+    },
+    "length": {
+      "default": false,
+      "target_range_demo_cm": [
+        90,
+        160
+      ],
+      "customer_height_is_not_garment_length": true
+    },
+    "gift": {
+      "default": false,
+      "message_max_characters": 160
+    },
+    "costs_lead_times_and_policy": "requires-operational-approval"
+  }
 }
