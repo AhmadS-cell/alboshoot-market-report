@@ -1,0 +1,90 @@
+{
+  "css_source": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Noto+Naskh+Arabic:wght@500;600&display=swap",
+  "files": [
+    {
+      "file": "brand-01.woff2",
+      "bytes": 42848,
+      "source": "https://fonts.gstatic.com/s/ibmplexsansarabic/v15/Qw3CZRtWPQCuHme67tEYUIx3Kh0PHR9N6Ys43PWrfQ.woff2"
+    },
+    {
+      "file": "brand-02.woff2",
+      "bytes": 1448,
+      "source": "https://fonts.gstatic.com/s/ibmplexsansarabic/v15/Qw3CZRtWPQCuHme67tEYUIx3Kh0PHR9N6Ysw3PWrfQ.woff2"
+    },
+    {
+      "file": "brand-03.woff2",
+      "bytes": 6656,
+      "source": "https://fonts.gstatic.com/s/ibmplexsansarabic/v15/Qw3CZRtWPQCuHme67tEYUIx3Kh0PHR9N6Ysz3PWrfQ.woff2"
+    },
+    {
+      "file": "brand-04.woff2",
+      "bytes": 19164,
+      "source": "https://fonts.gstatic.com/s/ibmplexsansarabic/v15/Qw3CZRtWPQCuHme67tEYUIx3Kh0PHR9N6Ys93PU.woff2"
+    },
+    {
+      "file": "brand-05.woff2",
+      "bytes": 45296,
+      "source": "https://fonts.gstatic.com/s/ibmplexsansarabic/v15/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPO_-CRXMR5Kw.woff2"
+    },
+    {
+      "file": "brand-06.woff2",
+      "bytes": 1456,
+      "source": "https://fonts.gstatic.com/s/ibmplexsansarabic/v15/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPO_-CZXMR5Kw.woff2"
+    },
+    {
+      "file": "brand-07.woff2",
+      "bytes": 6540,
+      "source": "https://fonts.gstatic.com/s/ibmplexsansarabic/v15/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPO_-CaXMR5Kw.woff2"
+    },
+    {
+      "file": "brand-08.woff2",
+      "bytes": 20088,
+      "source": "https://fonts.gstatic.com/s/ibmplexsansarabic/v15/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPO_-CUXMQ.woff2"
+    },
+    {
+      "file": "brand-09.woff2",
+      "bytes": 45688,
+      "source": "https://fonts.gstatic.com/s/ibmplexsansarabic/v15/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPi-OCRXMR5Kw.woff2"
+    },
+    {
+      "file": "brand-10.woff2",
+      "bytes": 1476,
+      "source": "https://fonts.gstatic.com/s/ibmplexsansarabic/v15/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPi-OCZXMR5Kw.woff2"
+    },
+    {
+      "file": "brand-11.woff2",
+      "bytes": 6680,
+      "source": "https://fonts.gstatic.com/s/ibmplexsansarabic/v15/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPi-OCaXMR5Kw.woff2"
+    },
+    {
+      "file": "brand-12.woff2",
+      "bytes": 20500,
+      "source": "https://fonts.gstatic.com/s/ibmplexsansarabic/v15/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPi-OCUXMQ.woff2"
+    },
+    {
+      "file": "brand-13.woff2",
+      "bytes": 94032,
+      "source": "https://fonts.gstatic.com/s/notonaskharabic/v44/RrQKbpV-9Dd1b1OAGA6M9PkyDuVBeN2DHV20Lg.woff2"
+    },
+    {
+      "file": "brand-14.woff2",
+      "bytes": 14284,
+      "source": "https://fonts.gstatic.com/s/notonaskharabic/v44/RrQKbpV-9Dd1b1OAGA6M9PkyDuVBeN36HV20Lg.woff2"
+    },
+    {
+      "file": "brand-15.woff2",
+      "bytes": 9408,
+      "source": "https://fonts.gstatic.com/s/notonaskharabic/v44/RrQKbpV-9Dd1b1OAGA6M9PkyDuVBeN3oHV20Lg.woff2"
+    },
+    {
+      "file": "brand-16.woff2",
+      "bytes": 10392,
+      "source": "https://fonts.gstatic.com/s/notonaskharabic/v44/RrQKbpV-9Dd1b1OAGA6M9PkyDuVBeN2IHV20Lg.woff2"
+    },
+    {
+      "file": "brand-17.woff2",
+      "bytes": 19696,
+      "source": "https://fonts.gstatic.com/s/notonaskharabic/v44/RrQKbpV-9Dd1b1OAGA6M9PkyDuVBeN2GHV0.woff2"
+    }
+  ]
+}
