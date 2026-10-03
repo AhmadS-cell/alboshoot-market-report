@@ -95,7 +95,8 @@
 <label id="pp-orders-label">هدف الطلبات لكل موديل<input id="pp-orders" type="number" value="10" min="1" step="1" required></label>
 <label id="pp-budget-label" hidden>ميزانية الإعلان الكلية (ر.س)<input id="pp-budget" type="number" value="5000" min="0" step="0.01" required disabled></label>
 <label>مدة الخطة بالأيام<input id="pp-days" type="number" value="30" min="1" step="1" required></label>
-<label>مصاريف إضافية لكل طلب (ر.س)<input id="pp-extra" type="number" value="0" min="0" step="0.01" required><small>شحن، تغليف، دفع ومرتجعات؛ 0 يعني أنها غير مقدرة بعد، وليست مجانية.</small></label>
+<label>التغليف والكيس لكل طلب (ر.س)<input id="pp-packaging" type="number" value="25" min="0" step="0.01" required><small>25 ر.س حسب تقدير مُسدل؛ تُضاف بعد تكلفة المنتج ولا تُكرر في المصاريف الأخرى.</small></label>
+<label>مصاريف أخرى لكل طلب (ر.س)<input id="pp-extra" type="number" value="0" min="0" step="0.01" required><small>شحن، تخصيص، دفع ومرتجعات، باستثناء التغليف؛ 0 يعني أنها غير مقدرة بعد، وليست مجانية.</small></label>
 <label>تكاليف ثابتة خلال الخطة (ر.س)<input id="pp-fixed" type="number" value="0" min="0" step="0.01" required><small>أدوات، رواتب، تصوير وغيرها؛ أدخلها لتقدير الربح بعد هذه المصاريف.</small></label>
 <label>الربح المطلوب لكل طلب بعد المصاريف (ر.س)<input id="pp-target" type="number" value="100" min="0" step="0.01" required><small>100 افتراض لتحديد سقف تكلفة الاكتساب المستهدف.</small></label>
 </div>
@@ -114,22 +115,22 @@
 <div class="table-wrap" tabindex="0" aria-label="مقارنة سيناريوهات الإعلان"><table><thead><tr><th scope="col">تكلفة الزيارة</th><th scope="col">اكتساب الطلب</th><th scope="col">مساهمة الطلب</th><th scope="col">إعلان لنفس عدد الطلبات</th><th scope="col">ربح الخطة</th></tr></thead><tbody id="pp-scenarios"></tbody></table></div>
 </div>
 <p class="small"><b>الهامش 80% يعني:</b> (الإيراد الصافي − تكلفة المنتج) ÷ الإيراد الصافي. على إيراد 200 تصبح تكلفة المنتج الواصلة المفترضة 40 والربح الإجمالي 160 ر.س؛ وعلى إيراد 400 تصبح التكلفة 80 والربح الإجمالي 320 ر.س. نطبق 80% على الفئتين كافتراض تقديري؛ متوسط الهامش الفعلي = إجمالي الربح الإجمالي ÷ إجمالي الإيراد الصافي، وقد تختلف الهوامش حسب الموديل. هذا هامش قبل الإعلان والخدمات.</p>
-<button type="button" id="pp-copy-detail" class="profit-copy">استخدم تقدير الفئة الحالية في تفاصيل تكلفة الطلب ↓</button><p class="small">التفاصيل أدناه تبدأ ببيانات فئة 400: إيراد 400، تكلفة منتج 80، إعلان 100 ر.س، وباقي المصاريف 0 إلى أن نقدّرها. الزر ينقل الإيراد وتكلفة المنتج والإعلان من الحاسبة، ويحافظ على مصاريف الشحن والخدمة التي أدخلتها.</p>
+<button type="button" id="pp-copy-detail" class="profit-copy">استخدم تقدير الفئة الحالية في تفاصيل تكلفة الطلب ↓</button><p class="small">التفاصيل أدناه تبدأ ببيانات فئة 400: إيراد 400، تكلفة منتج 80، تغليف 25، إعلان 100 ر.س، وباقي المصاريف 0 إلى أن نقدّرها. الزر ينقل الإيراد وتكلفة المنتج والتغليف والإعلان من الحاسبة، ويحافظ على مصاريف التوصيل والرسوم والمرتجعات التي أدخلتها.</p>
 <details><summary>المعادلات والافتراضات التي نراجعها مع كل تجربة</summary><ul>
 <li>الإيراد الصافي = السعر ÷ (1 + الضريبة المشمولة). تكلفة المنتج = الإيراد الصافي × (1 − الهامش الإجمالي). تكاليف المدخلات تستخدم الأساس المحاسبي نفسه.</li>
 <li>تكلفة اكتساب الطلب = تكلفة الزيارة ÷ (نسبة التحويل ÷ 100). نستخدم نفس مجموعة الزيارات المدفوعة ونفس الفترة؛ تحويل المتجر الكلي أو تكلفة النقرة التي لا تصل للمتجر قد يعطيان تقديرًا مضللًا.</li>
 <li>عدد الطلبات المستهدف = الموديلات × الطلبات لكل موديل. الزيارات المطلوبة = الطلبات ÷ نسبة التحويل. ميزانية الإعلان = الزيارات × تكلفة الزيارة.</li>
 <li>عند تحديد الميزانية: الطلبات المتوقعة = الميزانية ÷ تكلفة اكتساب الطلب. يعرض النموذج متوسطًا متوقعًا وقد يكون كسريًا، وليس عددًا مضمونًا. يجب أن يكفي المخزون لهدف الخطة.</li>
-<li>مساهمة الطلب = الإيراد الصافي − تكلفة المنتج − المصاريف الإضافية − اكتساب الطلب. ربح الخطة = الطلبات × مساهمة الطلب − الثابتة.</li>
-<li>سقف الاكتساب للتعادل = الإيراد الصافي − تكلفة المنتج − المصاريف الإضافية − الثابتة ÷ الطلبات. سقفه للربح المطلوب = سقف التعادل − الربح المطلوب لكل طلب.</li>
-<li>تمويل الخطة = شراء كامل المخزون + الإعلان + المصاريف الإضافية للطلبات المتوقعة + الثابتة، بافتراض دفعها قبل إعادة استخدام حصيلة البيع. المخزون غير المباع يبقى رأس مال محتجزًا، ولا يُخصم كله من ربح الطلبات المباعة. هذا ليس تنبؤًا بتوقيت التدفق النقدي.</li>
+<li>مساهمة الطلب = الإيراد الصافي − تكلفة المنتج − التغليف − المصاريف الأخرى − اكتساب الطلب. ربح الخطة = الطلبات × مساهمة الطلب − الثابتة.</li>
+<li>سقف الاكتساب للتعادل = الإيراد الصافي − تكلفة المنتج − التغليف − المصاريف الأخرى − الثابتة ÷ الطلبات. سقفه للربح المطلوب = سقف التعادل − الربح المطلوب لكل طلب.</li>
+<li>تمويل الخطة = شراء كامل المخزون + الإعلان + (التغليف + المصاريف الأخرى) × الطلبات المتوقعة + الثابتة، بافتراض دفعها قبل إعادة استخدام حصيلة البيع. المخزون غير المباع يبقى رأس مال محتجزًا، ولا يُخصم كله من ربح الطلبات المباعة. هذا ليس تنبؤًا بتوقيت التدفق النقدي.</li>
 <li>توزيع الطلبات والميزانية بالتساوي على الموديلات لغرض التخطيط فقط؛ الطلب الفعلي والتكلفة قد يختلفان لكل موديل. عدد الموديلات وحده لا يحدد الميزانية.</li>
 </ul><p>تعريفات مرجعية: <a href="https://support.google.com/google-ads/answer/6396841?hl=en" target="_blank" rel="noopener">متوسط تكلفة التحويل من Google Ads</a> و<a href="https://support.google.com/google-ads/answer/2684489?hl=en" target="_blank" rel="noopener">نسبة التحويل</a>. المعادلات هنا تطبيق حسابي على افتراضات مُسدل؛ 3 ر.س للزيارة ليس معيار سوق موثقًا.</p></details>
 </div></div>
 <h3>تفاصيل تكلفة الطلب — بيانات تقديرية قابلة للتعديل</h3><p class="small">المصاريف الصفرية غير مقدرة بعد. استبدل القيم بتكاليفك الفعلية عند توفرها.</p><div class="calculator"><div class="calc-fields">
 <label>إيراد الطلب الصافي من الضريبة<input type="number" min="0" step="0.01" id="revenue" value="400" placeholder="ر.س"></label>
 <label>تكلفة القطعة الواصلة للمخزن<input type="number" min="0" step="0.01" id="landed" value="80" placeholder="شراء + نقل + تكاليف توريد"></label>
-<label>التغليف والتخصيص<input type="number" min="0" step="0.01" id="service" value="0" placeholder="ر.س"></label>
+<label>التغليف والتخصيص<input type="number" min="0" step="0.01" id="service" value="25" placeholder="ر.س"></label>
 <label>التوصيل المدفوع من المتجر<input type="number" min="0" step="0.01" id="delivery" value="0" placeholder="ر.س"></label>
 <label>رسوم الدفع والمنصة لكل طلب<input type="number" min="0" step="0.01" id="fees" value="0" placeholder="ر.س"></label>
 <label>متوسط تكلفة مرتجع/خطأ لكل طلب<input type="number" min="0" step="0.01" id="returns" value="0" placeholder="احتمال الحالة × كلفتها"></label>
@@ -170,7 +171,7 @@ document.querySelectorAll('a[href^="#voc-"]').forEach(a=>a.addEventListener('cli
  let currentEstimate = null;
  function copyDetail() {
   if (!currentEstimate) return;
-  ['revenue','landed','marketing'].forEach((id,i) => { const field=document.getElementById(id); field.value=currentEstimate[i].toFixed(2); field.dispatchEvent(new Event('input',{bubbles:true})); });
+  ['revenue','landed','marketing','service'].forEach((id,i) => { const field=document.getElementById(id); field.value=currentEstimate[i].toFixed(2); field.dispatchEvent(new Event('input',{bubbles:true})); });
  }
  function render() {
   const byBudget = el('mode').value === 'budget';
@@ -184,10 +185,10 @@ document.querySelectorAll('a[href^="#voc-"]').forEach(a=>a.addEventListener('cli
   const v = name => Number(el(name).value);
   const revenue = v('price') / (1 + v('tax')/100), cost = revenue * (1-v('margin')/100), cr = v('cr')/100;
   const cpa = v('cpc')/cr, models = v('models'), stock = models*v('stock');
-  currentEstimate=[revenue,cost,cpa];
+  currentEstimate=[revenue,cost,cpa,v('packaging')];
   const orders = byBudget ? v('budget')/cpa : models*v('orders');
   const clicks = orders/cr, budget = byBudget ? v('budget') : orders*cpa;
-  const extra = v('extra'), fixed = v('fixed'), preAds = revenue-cost-extra;
+  const extra = v('extra')+v('packaging'), fixed = v('fixed'), preAds = revenue-cost-extra;
   const contribution = preAds-cpa, profit = orders*contribution-fixed;
   const breakCpa = orders>0 ? preAds-fixed/orders : null;
   const targetCpa = breakCpa === null ? null : breakCpa-v('target');
@@ -196,6 +197,7 @@ document.querySelectorAll('a[href^="#voc-"]').forEach(a=>a.addEventListener('cli
   set('cpa-result',cpa);set('total-cost',cost+extra+cpa);set('unit-profit',contribution,contribution<0);set('plan-profit',profit,profit<0);
   el('summary').innerHTML = [
    row('إيراد القطعة الصافي / تكلفة المنتج المفترضة',money(revenue)+' / '+money(cost)),
+   row('التغليف والكيس / المصاريف الأخرى لكل طلب',money(v('packaging'))+' / '+money(v('extra'))),
    row('الموديلات / كامل مخزون الخطة',count(models)+' موديلات / '+count(stock)+' قطعة'),
    row('الطلبات '+(byBudget?'المتوقعة':'المستهدفة')+' / لكل موديل',count(orders)+' / '+count(orders/models)),
    row('الزيارات المدفوعة المطلوبة تقريبًا',count(clicks)),
@@ -211,7 +213,7 @@ document.querySelectorAll('a[href^="#voc-"]').forEach(a=>a.addEventListener('cli
    row('العائد على الإعلان / العائد للتعادل',orders>0?count(revenue/cpa)+'× / '+(breakCpa>0?count(revenue/breakCpa)+'×':'غير متاح'):'لا يُحسب دون طلبات')
   ].join('');
   const messages = ['هذه نتيجة افتراضات؛ التحويل '+count(v('cr'))+'% وتكلفة الزيارة '+money(v('cpc'))+' يحتاجان قياسًا فعليًا.'];
-  if(extra===0 || fixed===0) messages.push('المصاريف الإضافية أو الثابتة ما زالت صفرًا؛ الربح المعروض لا يشمل التكاليف غير المقدرة.');
+  if(v('extra')===0 || fixed===0) messages.push('المصاريف الأخرى أو الثابتة ما زالت صفرًا؛ الربح يشمل التغليف المدخل، ولا يشمل التكاليف غير المقدرة.');
   if(orders>stock+1e-9) messages.push('الطلبات تتجاوز المخزون: وفّر كمية كافية أو خفّض الهدف/الميزانية قبل اعتماد الخطة؛ الربح مشروط بتوفير القطع.');
   if(orders===0) messages.push('ميزانية صفر تعني صفر طلبات مدفوعة متوقعة؛ التكاليف الثابتة تبقى مستحقة.');
   if(profit<0) messages.push('الخطة تخسر بعد المصاريف المدخلة.');
