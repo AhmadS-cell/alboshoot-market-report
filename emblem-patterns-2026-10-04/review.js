@@ -19,7 +19,7 @@
     updatePattern();
   }));
   document.querySelectorAll('[data-emblem]').forEach(b=>b.addEventListener('click',()=>{
-    const id=b.dataset.emblem,src=root+id+'/emblem-192.png';
+    const id=b.dataset.emblem,src=id==='06-wordmark-lam'?'brand-svg-kit/emblem/lam-burgundy.svg':root+id+'/emblem-192.png';
     if(b.dataset.colour){scheme=b.dataset.colour==='inverse'?'inverse':'pack';document.querySelectorAll('[data-scheme]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.scheme===scheme)));updatePattern();}
     document.querySelectorAll('[data-emblem]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
     const mark=document.querySelector('.selected-mark');mark.style.maskImage=`url('${src}')`;mark.style.webkitMaskImage=`url('${src}')`;mark.hidden=false;
@@ -29,7 +29,7 @@
     document.getElementById('repeat-empty').hidden=true;
     document.getElementById('applications').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});
   }));
-  const initialSrc=root+'06-wordmark-lam/emblem-192.png';
+  const initialSrc='brand-svg-kit/emblem/lam-burgundy.svg';
   const initialMark=document.querySelector('.selected-mark');initialMark.style.maskImage=`url('${initialSrc}')`;initialMark.style.webkitMaskImage=`url('${initialSrc}')`;initialMark.hidden=false;
   document.getElementById('selected-name').textContent='اللام بساق طويلة · معاينة';
   document.getElementById('repeat-image').setAttribute('href',initialSrc);document.getElementById('emblem-repeat').removeAttribute('hidden');document.getElementById('repeat-empty').hidden=true;
