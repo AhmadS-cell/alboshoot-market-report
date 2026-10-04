@@ -1,0 +1,679 @@
+{
+  "date": "2026-10-04",
+  "title": "بحث تجربة متجر مُسدل قبل التصميم",
+  "method": "مراجعة حية للصفحات العامة: الرئيسية ← المجموعة ← المنتج في 6 متاجر؛ فتح دليل بريم وفلاتر/تفاصيل Bouguessa ودليل TOTEME. لقطات أصلية دون تعديل.",
+  "scope": {
+    "sites": 6,
+    "salla_stores": 4,
+    "page_steps": 18,
+    "screenshots": 23,
+    "mobile_test": "دليل مقاس بريم عند 390×844 فقط؛ لا يمثل فحصًا كاملًا لكل المتاجر على الهاتف"
+  },
+  "limitations": [
+    "لم نضف مشتريات أو ندخل الدفع، ولم نتحقق من تنفيذ الخدمة أو جودة المنتج الفعلية.",
+    "عدد التقييمات والتوفر وادعاءات الخامة في المواقع معلومات ناشرها، لا تحقق مستقل.",
+    "الملاحظات البصرية تخص الحالات واللقطات المفحوصة؛ لا شهادة إتاحة أو قياس تحويل أو أداء.",
+    "معرض صور منتج Bouguessa لم يظهر في المتصفح؛ تقييمه محدود للوحة الشراء والتفاصيل.",
+    "Hadabstores وDalabayah وMA Abaya تعذر فتحها بسبب DNS؛ Abayah Gallery تعذر جلبها. استبعدت من العينة البصرية."
+  ],
+  "sources": [
+    {
+      "id": "bshti",
+      "name": "بشتي",
+      "url": "https://bshti.com/",
+      "type": "متجر سلة · مرجع سابق",
+      "take": "تصنيف درجات البشت وصور القطعة على عارض وخيارات الاسم والخبن.",
+      "adapt": "شرح فرق الدرجات بالخامة والتشطيب؛ الاسم والسعر كنص حي، والقياس قريب من الاختيار.",
+      "steps": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "riyadh",
+      "name": "بشت الرياض",
+      "url": "https://bishtofriyadh.com/ar",
+      "type": "متجر سلة · مرجع سابق",
+      "take": "متجر يجمع الرجال والنساء، وتصوير أمامي واضح وتفاصيل للقصّة والإغلاق.",
+      "adapt": "نقرب اختيار المقاس من السعر ونلخص خصائص القرار قبل الوصف المطول.",
+      "steps": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "bareem",
+      "name": "بريم / BAREEM",
+      "url": "https://bareem-sa.com/ar/",
+      "type": "متجر سلة · عبايات",
+      "take": "عدد النتائج وفلاتر السعر، ودليل قياس ملاصق لاختيار المقاس.",
+      "adapt": "جدول قياس HTML مقروء على الهاتف، مع توحيد خلفيات الصور وقصّها.",
+      "steps": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "sheeen",
+      "name": "شين لاين / Sheeen Line",
+      "url": "https://sheeenline.com/",
+      "type": "متجر سلة · عبايات",
+      "take": "تصنيف حسب الاستعمال والخامة، وقسم التسليم الفوري وتمييز المقاس النافد.",
+      "adapt": "نختصر الهيدر، ونثبت الخامة والقياسات ومدة التجهيز في المنتج.",
+      "steps": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "bouguessa",
+      "name": "Bouguessa",
+      "url": "https://bouguessa.com/",
+      "type": "فاشن فاخر · Shopify",
+      "take": "هدوء التصوير وثلاث صور كبيرة في المجموعة وفلاتر مرتبة.",
+      "adapt": "نستفيد من التكوين، مع دعوة تسوق واضحة ودليل مقاس أقرب وتقدير شحن مبكر.",
+      "steps": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "toteme",
+      "name": "TOTEME",
+      "url": "https://toteme.com/en-int",
+      "type": "فاشن فاخر · رجال ونساء",
+      "take": "هوية مشتركة وتنقل مختصر، وصور ألوان ومقاس العارض وجدول HTML.",
+      "adapt": "نوازن ظهور الرجال والنساء، ونضيف قياسات فعلية خاصة بالبشت والعباية والثوب والفروة.",
+      "steps": [
+        16,
+        17,
+        18
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Baymard · تجربة شراء الملابس",
+      "url": "https://baymard.com/research-articles/apparel-5-best-practices",
+      "supports": "دليل مقاس ملاصق للاختيار، معلومات القياس والصور على عارض."
+    },
+    {
+      "name": "Baymard · المجموعات والفلاتر",
+      "url": "https://baymard.com/research-articles/current-state-product-list-and-filtering",
+      "supports": "تجميع ألوان القطعة عند ملاءمة البيانات، فلاتر ذات صلة وملخص للفلاتر المطبقة."
+    },
+    {
+      "name": "Baymard · تكلفة الشحن على المنتج",
+      "url": "https://baymard.com/research-articles/show-shipping-costs-on-product-pages",
+      "supports": "إظهار تكلفة الشحن المتوقعة قرب قرار الشراء."
+    },
+    {
+      "name": "سلة · حلول العبايات",
+      "url": "https://salla.com/abaya",
+      "supports": "صور وفيديو ودليل مقاس وخيارات للقياسات؛ مرجع رسمي للقدرات، وليس دليلًا على أداء مُسدل."
+    },
+    {
+      "name": "سلة · Twilight",
+      "url": "https://docs.salla.dev/doc-422053",
+      "supports": "تطوير ثيمات مخصصة باستخدام Twig وHTML وCSS وJavaScript."
+    },
+    {
+      "name": "سلة · مسارات الصفحات",
+      "url": "https://docs.salla.dev/422556m0",
+      "supports": "قوالب الرئيسية والمجموعات والمنتج والسلة."
+    },
+    {
+      "name": "سلة · مكونات الرئيسية",
+      "url": "https://docs.salla.dev/422558m0",
+      "supports": "مكونات home وإعداداتها القابلة لإدارة التاجر."
+    },
+    {
+      "name": "سلة · twilight.json",
+      "url": "https://docs.salla.dev/421879m0",
+      "supports": "إعدادات الثيم ومكوناته والمزامنة."
+    },
+    {
+      "name": "سلة · Twilight JS SDK",
+      "url": "https://docs.salla.dev/422610m0",
+      "supports": "ربط واجهة الثيم بالسلة وأحداث المنصة."
+    },
+    {
+      "name": "W3C · حجم أهداف اللمس",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "supports": "معيار AA يتناول 24px مع شروط واستثناءات؛ هدف مُسدل المقترح 44px قرار تصميم."
+    },
+    {
+      "name": "Google · Core Web Vitals",
+      "url": "https://web.dev/articles/vitals",
+      "supports": "أهداف التحميل والتفاعل والثبات؛ تُقاس لاحقًا للكمبيوتر والهاتف عند الشريحة المئوية 75."
+    }
+  ],
+  "evidence": [
+    {
+      "step": 1,
+      "site": "bshti",
+      "page": "home",
+      "url": "https://bshti.com/",
+      "viewport": [
+        1360,
+        896
+      ],
+      "notes": "درجات البشت واضحة كفئات مصورة؛ نص وأسعار داخل البانرات، وشريط كاش باك بارز. أيقونات الهيدر داكنة على أخضر داكن: خطر تباين مرئي.",
+      "capture": "01-bshti-home.png",
+      "health": "يحتاج ضبطًا",
+      "observed_on": "2026-10-04"
+    },
+    {
+      "step": 2,
+      "site": "bshti",
+      "page": "collection",
+      "url": "https://bshti.com/%D8%A8%D8%B4%D8%AA-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5/c385923236",
+      "viewport": [
+        1360,
+        896
+      ],
+      "notes": "6 أعمدة على الكمبيوتر، صور على عارض، اسم وسعر وزر إضافة في كل بطاقة. فرز ظاهر؛ كثافة تقلل مساحة تفاصيل القماش. فلاتر المقاس والخامة غير ظاهرة في الشاشة المفحوصة.",
+      "capture": "02-bshti-collection.png",
+      "health": "يحتاج ضبطًا",
+      "observed_on": "2026-10-04"
+    },
+    {
+      "step": 3,
+      "site": "bshti",
+      "page": "product",
+      "url": "https://bshti.com/%D8%A8%D8%B4%D8%AA-%D8%A7%D8%B3%D9%88%D8%AF-%D8%B1%D8%AC%D8%A7%D9%84%D9%8A-%D9%85%D9%84%D9%83%D9%8A-%D8%A7%D8%B3%D9%88%D8%AF/p837646458",
+      "viewport": [
+        1360,
+        896
+      ],
+      "notes": "صورة كبيرة على عارض وأزرار مقاسات ظاهرة وخيارات الاسم والخبن؛ شريط شراء ثابت بثلاثة مسارات. وصف افتتاحي عام وبطاقات تقسيط تسبق المقاس. رابط قياس قريب من أزرار المقاس غير ظاهر في اللقطة؛ صفحة القياس متاحة بالفوتر. لم نختبر الدفع أو الضريبة.",
+      "capture": "03-bshti-product.png",
+      "health": "يحتاج ضبطًا",
+      "observed_on": "2026-10-04"
+    },
+    {
+      "step": 4,
+      "site": "riyadh",
+      "page": "home",
+      "url": "https://bishtofriyadh.com/ar",
+      "viewport": [
+        1362,
+        897
+      ],
+      "notes": "بحث واسع وتنقل رجال/نساء وصورة افتتاحية كبيرة؛ فئات شتوية وبشوت وعبايات ضمن متجر واحد. زر تسوق مباشر فوق الصورة غير ظاهر في الحالة الملتقطة. مساحة الصورة تفصل الهوية عن شبكة المنتجات.",
+      "capture": "04-riyadh-home.png",
+      "health": "أساس جيد",
+      "observed_on": "2026-10-04"
+    },
+    {
+      "step": 5,
+      "site": "riyadh",
+      "page": "collection",
+      "url": "https://bishtofriyadh.com/ar/%D8%B9%D8%A8%D8%A7%D9%8A%D8%A9-%D8%B5%D9%8A%D9%81%D9%8A/c2135278561",
+      "viewport": [
+        1362,
+        897
+      ],
+      "notes": "تصوير أمامي كامل وخلفيات بيضاء متجانسة؛ 5 أعمدة واسم يتضمن اللون وسعر مخفض. فرز ظاهر، دون فلاتر وظيفية ظاهرة في اللقطة. تكرار الموديل بألوان منفصلة يستدعي قرار تجميع الألوان لمُسدل.",
+      "capture": "05-riyadh-collection.png",
+      "health": "أساس جيد",
+      "observed_on": "2026-10-04"
+    },
+    {
+      "step": 6,
+      "site": "riyadh",
+      "page": "product",
+      "url": "https://bishtofriyadh.com/ar/%D8%B9%D8%A8%D8%A7%D9%8A%D8%A9-%D9%83%D9%84%D9%88%D8%B4-%D8%A7%D9%84%D8%AD%D8%B1%D9%88%D9%81-%D9%84%D9%88%D9%86-%D8%A7%D8%B3%D9%88%D8%AF/p41451722",
+      "viewport": [
+        1362,
+        897
+      ],
+      "notes": "وصف يحدد القصّة والإغلاق والقماش واللون وصورة على عارضة؛ اختيار المقاس قائمة 52–60. المقاس وزر الإضافة يأتيان أسفل كتلة وصف وتقسيط. دليل القياس بالفوتر لا بجانب الاختيار. لا نعتمد تسمية كريب لإثبات تركيب الألياف.",
+      "capture": "06-riyadh-product.png",
+      "health": "يحتاج ضبطًا",
+      "observed_on": "2026-10-04"
+    },
+    {
+      "step": 7,
+      "site": "bareem",
+      "page": "home",
+      "url": "https://bareem-sa.com/ar/",
+      "viewport": [
+        1265,
+        712
+      ],
+      "notes": "تنقل واضح حسب المنتج، أرضية فاتحة وصورة افتتاحية كبيرة، ثم مجموعات ومحتوى هدايا. أسماء التصنيفات الصغيرة باللون الذهبي على فاتح تستدعي اختبار تباين؛ الشريط المتحرك للعروض بارز.",
+      "capture": "07-bareem-home.png",
+      "health": "أساس جيد",
+      "observed_on": "2026-10-04"
+    },
+    {
+      "step": 8,
+      "site": "bareem",
+      "page": "collection",
+      "url": "https://bareem-sa.com/ar/category/ydAGGB?filters[category_id]=1548467025",
+      "viewport": [
+        1265,
+        712
+      ],
+      "notes": "عدد النتائج وفلاتر سعر وفرز ظاهرة وثلاث صور كبيرة. صور البطاقات متفاوتة في الخلفية والقصّ، وبعض النصوص داخل الصور. نستفيد من بنية الفرز والفلاتر مع تصوير موحد لمُسدل.",
+      "capture": "08-bareem-collection.png",
+      "health": "أساس جيد",
+      "observed_on": "2026-10-04"
+    },
+    {
+      "step": 9,
+      "site": "bareem",
+      "page": "product-size-guide",
+      "url": "https://bareem-sa.com/ar/mQlYWAq",
+      "extra": [
+        "09b-bareem-size-guide.png",
+        "09c-bareem-guide-mobile.png"
+      ],
+      "viewport": [
+        1265,
+        712
+      ],
+      "notes": "دليل قياس ملاصق لاختيار المقاس، فُتح فعليًا وفيه طول وعرض وكم بالسم والإنش. مقاس نافد مميز في القائمة، وخيار هدية. على390px تظهر صورة الجدول بنص صغير؛ لمُسدل نستخدم جدول HTML قابل للقراءة والتمرير. لم نختبر إضافة أو دفع.",
+      "capture": "09-bareem-product.png",
+      "health": "يحتاج ضبطًا على الموبايل",
+      "observed_on": "2026-10-04"
+    },
+    {
+      "step": 10,
+      "site": "Sheeen Line",
+      "page": "home",
+      "url": "https://sheeenline.com/",
+      "capture": "10-sheeen-home.png",
+      "notes": "تصنيفات دقيقة حسب الاستخدام والخامة مع قسم تسليم فوري؛ صفان طويلان في التنقل وشريط متحرك. ست صور افتتاحية تعرض تنوع القطع، لكن دعوة تسوق واحدة غير ظاهرة في اللقطة.",
+      "health": "يحتاج تبسيطًا",
+      "observed_on": "2026-10-04",
+      "viewport": [
+        1265,
+        712
+      ]
+    },
+    {
+      "step": 11,
+      "site": "Sheeen Line",
+      "page": "collection",
+      "url": "https://sheeenline.com/%D8%AA%D8%B3%D9%84%D9%8A%D9%85-%D9%81%D9%88%D8%B1%D9%8A/c684432888",
+      "capture": "11-sheeen-collection.png",
+      "notes": "مجموعة التسليم الفوري تعرض 13 منتجًا وفرزًا وصورًا كبيرة بأربعة أعمدة. اختلاف الخلفيات وقص الصور؛ عنوان المجموعة في مسار التصفح بينما مكان العنوان الكبير يعرض العدد. زمن التسليم الفعلي لم يُتحقق.",
+      "health": "أساس جيد",
+      "observed_on": "2026-10-04",
+      "viewport": [
+        1265,
+        712
+      ]
+    },
+    {
+      "step": 12,
+      "site": "Sheeen Line",
+      "page": "product",
+      "url": "https://sheeenline.com/%DA%A4%D9%83%D8%AA%D9%88%D8%B1%D9%8A%D8%A7/p1223468214",
+      "capture": "12-sheeen-product.png",
+      "notes": "أزرار مقاس ظاهرة مع تمييز النافد وصورة كبيرة؛ تفاصيل الخامة والقياس والتجهيز غير ظاهرة في الصفحة وDOM المفحوصين لهذا المنتج. اسم شاعري منفرد لا يصف القصّة. يلزم إثبات الخصائص قبل اعتمادها لمُسدل.",
+      "health": "معلومات القرار ناقصة",
+      "observed_on": "2026-10-04",
+      "viewport": [
+        1265,
+        712
+      ]
+    },
+    {
+      "step": 13,
+      "site": "Bouguessa",
+      "page": "home",
+      "url": "https://bouguessa.com/",
+      "capture": "13-bouguessa-home.png",
+      "notes": "هيدر نحيف وتنقل مختصر وصورة افتتاحية تركز على القصّة والملمس، تليها قصة المجموعة ومنتجات مختارة وروابط Long Jackets والأتيليه. نأخذ هدوء التكوين ونضيف دعوة تسوق أوضح وظهورًا متوازنًا للرجال والنساء.",
+      "health": "مرجع بصري جيد",
+      "observed_on": "2026-10-04",
+      "viewport": [
+        1265,
+        712
+      ]
+    },
+    {
+      "step": 14,
+      "site": "Bouguessa",
+      "page": "collection-filters",
+      "url": "https://bouguessa.com/collections/long-jackets",
+      "capture": "14-bouguessa-collection.png",
+      "extra": [
+        "14b-bouguessa-filters.png"
+      ],
+      "notes": "ثلاثة أعمدة كبيرة وخلفيات وقص صور متناسقة، عنوان وعدد وفرز دون بانر ضخم. فتحت درج الفلاتر: التوفر والسعر والمقاس وخيارات إضافية للخامة مع تطبيق ومسح. ظهرت نافذة اشتراك أثناء المراجعة وأغلقتها.",
+      "health": "مرجع بنيوي جيد",
+      "observed_on": "2026-10-04",
+      "viewport": [
+        1265,
+        712
+      ]
+    },
+    {
+      "step": 15,
+      "site": "Bouguessa",
+      "page": "product-details",
+      "url": "https://bouguessa.com/products/iconic-long-blazer-black?variant=49905636933919",
+      "capture": "15-bouguessa-product.png",
+      "extra": [
+        "15b-bouguessa-details.png"
+      ],
+      "notes": "مقاسات بأزرار ولوحة شراء بسيطة؛ توضيح أثر تعديل الطول على موعد التسليم بجانب الشراء، ودرج تفاصيل مفتوح يصف القصّة والخامة. دليل المقاس موجود أسفل لوحة القرار. معرض الصور الكبير بقي فارغًا في جلسة المتصفح؛ لا نحكم على جودة صور هذه الصفحة. عبارة الشحن المحسوب لاحقًا أقل وضوحًا من تقدير التكلفة مبكرًا.",
+      "health": "فحص جزئي: صور المعرض لم تظهر",
+      "observed_on": "2026-10-04",
+      "viewport": [
+        1265,
+        712
+      ]
+    },
+    {
+      "step": 16,
+      "site": "TOTEME",
+      "page": "home",
+      "url": "https://toteme.com/en-int",
+      "capture": "16-toteme-home.png",
+      "notes": "تنقل Women وMen ضمن هوية واحدة؛ هيدر مختصر وشعار وسط ومساحة كبيرة حول صورة المجموعة الرجالية، ثم كتل للفئات النسائية. نأخذ وحدة النظام مع توازن الظهور، ونقلل المساحة الافتتاحية على الموبايل لتبقى دعوة التسوق واضحة.",
+      "health": "مرجع بصري جيد",
+      "observed_on": "2026-10-04",
+      "viewport": [
+        1265,
+        712
+      ]
+    },
+    {
+      "step": 17,
+      "site": "TOTEME",
+      "page": "collection",
+      "url": "https://toteme.com/en-int/collections/men-fall-winter-26",
+      "capture": "17-toteme-collection.png",
+      "notes": "شبكة نظيفة بأربع قطع وخلفيات متناسقة، اسم وسعر تحت الصورة، تبديل كثافة 2/4/8 وفلاتر. عرض القطعة وحدها يفيد المقارنة؛ لمُسدل نضيف صورًا على عارض لفهم سقوط البشت والعباية ونحافظ على المقاسات واللون كتفاصيل عملية.",
+      "health": "مرجع بنيوي جيد",
+      "observed_on": "2026-10-04",
+      "viewport": [
+        1265,
+        712
+      ]
+    },
+    {
+      "step": 18,
+      "site": "TOTEME",
+      "page": "product-fit",
+      "url": "https://toteme.com/en-int/products/raglan-crew-ecru-navy",
+      "capture": "18-toteme-product.png",
+      "extra": [
+        "18b-toteme-fit.png"
+      ],
+      "notes": "صورة أمامية كاملة على عارض، ألوان بصور، مقاسات واضحة وشرح مختصر للخامة. فُتح Size & Fit فعليًا: قصّة وطول العارض والمقاس الذي يرتديه وجدول HTML لتحويل المقاسات. لمُسدل نضيف قياسات القطعة الخاصة بكل فئة بدل الاعتماد على التحويل العام وحده. نافذة الاشتراك حجبت الوصول مؤقتًا وأغلقتها؛ لم نختبر الدفع.",
+      "health": "مرجع جيد للمقاس",
+      "observed_on": "2026-10-04",
+      "viewport": [
+        1351,
+        890
+      ]
+    }
+  ],
+  "capture_manifest": [
+    {
+      "file": "captures/01-bshti-home.png",
+      "sha256": "40cd83a56e200737b45e012c96c4b1e67ed6675c3172b7463d240c08df4a71f5",
+      "pixels": [
+        1360,
+        896
+      ],
+      "step": 1,
+      "source_url": "https://bshti.com/",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/02-bshti-collection.png",
+      "sha256": "bdc9de524d1faaca3530d9ad724559c7f16ddc50a2723ca6a3df2d2eb02cbc50",
+      "pixels": [
+        1360,
+        896
+      ],
+      "step": 2,
+      "source_url": "https://bshti.com/%D8%A8%D8%B4%D8%AA-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5/c385923236",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/03-bshti-product.png",
+      "sha256": "845d52d8ed648a24aaaf9d9e92c13ddbba167f78922efb8559c97d88285ec888",
+      "pixels": [
+        1360,
+        896
+      ],
+      "step": 3,
+      "source_url": "https://bshti.com/%D8%A8%D8%B4%D8%AA-%D8%A7%D8%B3%D9%88%D8%AF-%D8%B1%D8%AC%D8%A7%D9%84%D9%8A-%D9%85%D9%84%D9%83%D9%8A-%D8%A7%D8%B3%D9%88%D8%AF/p837646458",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/04-riyadh-home.png",
+      "sha256": "2f7638e1f7934562511649587273dd1003afa8149276fa6b60c2de2a29d51379",
+      "pixels": [
+        1362,
+        897
+      ],
+      "step": 4,
+      "source_url": "https://bishtofriyadh.com/ar",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/05-riyadh-collection.png",
+      "sha256": "f9c06db73ac0fdb101537099f8164badfe65ea46a515c5e6e4fdd3f7b0f0d7f0",
+      "pixels": [
+        1362,
+        897
+      ],
+      "step": 5,
+      "source_url": "https://bishtofriyadh.com/ar/%D8%B9%D8%A8%D8%A7%D9%8A%D8%A9-%D8%B5%D9%8A%D9%81%D9%8A/c2135278561",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/06-riyadh-product.png",
+      "sha256": "a459f33d86b8386d890ac7b2867e5d250bcb2eac54eb465880d1e10991c733fb",
+      "pixels": [
+        1362,
+        897
+      ],
+      "step": 6,
+      "source_url": "https://bishtofriyadh.com/ar/%D8%B9%D8%A8%D8%A7%D9%8A%D8%A9-%D9%83%D9%84%D9%88%D8%B4-%D8%A7%D9%84%D8%AD%D8%B1%D9%88%D9%81-%D9%84%D9%88%D9%86-%D8%A7%D8%B3%D9%88%D8%AF/p41451722",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/07-bareem-home.png",
+      "sha256": "33d21d3f290b909f0ef936ba0ef543bc465f8b5176241e6fdbaa22a9b922d6f5",
+      "pixels": [
+        1265,
+        712
+      ],
+      "step": 7,
+      "source_url": "https://bareem-sa.com/ar/",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/08-bareem-collection.png",
+      "sha256": "8c4367cc6566d0f855802779d4be55729f1db31461990a79b92642b47b68ac7f",
+      "pixels": [
+        1265,
+        712
+      ],
+      "step": 8,
+      "source_url": "https://bareem-sa.com/ar/category/ydAGGB?filters[category_id]=1548467025",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/09-bareem-product.png",
+      "sha256": "cca3f2fa08cd9a0fe9fad6400e591a81aad6c38800f924c13dfe4a1a42fd528d",
+      "pixels": [
+        1265,
+        712
+      ],
+      "step": 9,
+      "source_url": "https://bareem-sa.com/ar/mQlYWAq",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/09b-bareem-size-guide.png",
+      "sha256": "dcf893741fab7573ede29f3a3a4fe0c392eab2b6067e0d183246515fac2736c3",
+      "pixels": [
+        1280,
+        720
+      ],
+      "step": 9,
+      "source_url": "https://bareem-sa.com/ar/mQlYWAq",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/09c-bareem-guide-mobile.png",
+      "sha256": "f76f50e11de6825a444853abdc4110a7101c58b4128eac32b7dda0c302286887",
+      "pixels": [
+        390,
+        844
+      ],
+      "step": 9,
+      "source_url": "https://bareem-sa.com/ar/mQlYWAq",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/10-sheeen-home.png",
+      "sha256": "bd2c39337e265c2ab8d12c437ee0ad2ef16bfdc8f3d571ee921c3186631de195",
+      "pixels": [
+        1265,
+        712
+      ],
+      "step": 10,
+      "source_url": "https://sheeenline.com/",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/11-sheeen-collection.png",
+      "sha256": "bf1bf13b8927c5777b88367f4c95af546e2a505fab3b38322dc816e12ad4f0f6",
+      "pixels": [
+        1265,
+        712
+      ],
+      "step": 11,
+      "source_url": "https://sheeenline.com/%D8%AA%D8%B3%D9%84%D9%8A%D9%85-%D9%81%D9%88%D8%B1%D9%8A/c684432888",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/12-sheeen-product.png",
+      "sha256": "66bc122732609c5493f335572f40d43aecda653db799306ba72d14ce9d09ae5d",
+      "pixels": [
+        1265,
+        712
+      ],
+      "step": 12,
+      "source_url": "https://sheeenline.com/%DA%A4%D9%83%D8%AA%D9%88%D8%B1%D9%8A%D8%A7/p1223468214",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/13-bouguessa-home.png",
+      "sha256": "d54b12dd65df547c03be93e2ed4b71a9c0bdedf465b093e568fd15f7cb73f36d",
+      "pixels": [
+        1265,
+        712
+      ],
+      "step": 13,
+      "source_url": "https://bouguessa.com/",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/14-bouguessa-collection.png",
+      "sha256": "df99f09c7e059eb1382413919a6a51cd077b34087a9a0fd5481f170a405d9a59",
+      "pixels": [
+        1265,
+        712
+      ],
+      "step": 14,
+      "source_url": "https://bouguessa.com/collections/long-jackets",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/14b-bouguessa-filters.png",
+      "sha256": "739105a27820347f195371edd2363008b70f15874415b995cd733ab30e574cb4",
+      "pixels": [
+        1280,
+        720
+      ],
+      "step": 14,
+      "source_url": "https://bouguessa.com/collections/long-jackets",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/15-bouguessa-product.png",
+      "sha256": "1f6083ee0c30d7cd51dde8eb50558ca939cd79aafbec0e0b4724e98676904761",
+      "pixels": [
+        1265,
+        712
+      ],
+      "step": 15,
+      "source_url": "https://bouguessa.com/products/iconic-long-blazer-black?variant=49905636933919",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/15b-bouguessa-details.png",
+      "sha256": "96ebdafb8ccd01cc8a51d01e0f402decaf88f17e87f68c8718d594ca50778231",
+      "pixels": [
+        1280,
+        720
+      ],
+      "step": 15,
+      "source_url": "https://bouguessa.com/products/iconic-long-blazer-black?variant=49905636933919",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/16-toteme-home.png",
+      "sha256": "5252bec22b339a1058625cb13a55b07da796fa4e8d01249f56c202ecd231a887",
+      "pixels": [
+        1265,
+        712
+      ],
+      "step": 16,
+      "source_url": "https://toteme.com/en-int",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/17-toteme-collection.png",
+      "sha256": "cb1115db3404ea50ab893cd98e2847aad4fa21d7ade39b90ec00729876c39751",
+      "pixels": [
+        1265,
+        712
+      ],
+      "step": 17,
+      "source_url": "https://toteme.com/en-int/collections/men-fall-winter-26",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/18-toteme-product.png",
+      "sha256": "b221a1aec647cc4e981a730744e23c599f54aed4bef687797b072b9ac827533e",
+      "pixels": [
+        1351,
+        890
+      ],
+      "step": 18,
+      "source_url": "https://toteme.com/en-int/products/raglan-crew-ecru-navy",
+      "transform": "none; original browser viewport capture"
+    },
+    {
+      "file": "captures/18b-toteme-fit.png",
+      "sha256": "eb185d808e7074d2dd89161d338770388836e6aec45fcd62dbe0579959903cd8",
+      "pixels": [
+        1366,
+        900
+      ],
+      "step": 18,
+      "source_url": "https://toteme.com/en-int/products/raglan-crew-ecru-navy",
+      "transform": "none; original browser viewport capture"
+    }
+  ],
+  "builder_brief": "design-brief.json"
+}
