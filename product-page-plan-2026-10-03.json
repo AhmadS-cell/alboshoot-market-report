@@ -557,5 +557,66 @@
       "message_max_characters": 160
     },
     "costs_lead_times_and_policy": "requires-operational-approval"
+  },
+  "category_examples": "product-examples/categories.json",
+  "example_media_by_category": {
+    "bisht": {
+      "0": "product-examples/front.png",
+      "1": "product-examples/back.png",
+      "2": "product-examples/side.png",
+      "3": "product-examples/fabric.png",
+      "4": "product-examples/zari.png",
+      "5": "product-examples/inside.png",
+      "6": "product-examples/measure.png",
+      "7": "product-examples/movement.png",
+      "9": "product-examples/gift-closed.png",
+      "10": "product-examples/gift-open.png",
+      "11": "product-examples/care.png",
+      "12": "product-examples/name-tab.png"
+    },
+    "abaya": {
+      "0": "product-examples/abaya/front.png",
+      "1": "product-examples/abaya/back.png",
+      "2": "product-examples/abaya/side.png",
+      "3": "product-examples/abaya/fabric.png",
+      "4": "product-examples/abaya/finish.png",
+      "5": "product-examples/abaya/inside.png",
+      "6": "product-examples/abaya/measure.png",
+      "7": "product-examples/abaya/movement.png",
+      "8": "product-examples/abaya/opacity.png",
+      "9": "product-examples/gift-closed.png",
+      "10": "product-examples/abaya/gift-open.png",
+      "11": "product-examples/abaya/care.png",
+      "12": "product-examples/abaya/name-tab.png"
+    },
+    "thobe": {
+      "0": "product-examples/thobe/front.png",
+      "1": "product-examples/thobe/back.png",
+      "2": "product-examples/thobe/side.png",
+      "3": "product-examples/thobe/fabric.png",
+      "4": "product-examples/thobe/finish.png",
+      "5": "product-examples/thobe/inside.png",
+      "6": "product-examples/thobe/measure.png",
+      "7": "product-examples/thobe/movement.png",
+      "8": "product-examples/thobe/opacity.png",
+      "9": "product-examples/gift-closed.png",
+      "10": "product-examples/thobe/gift-open.png",
+      "11": "product-examples/thobe/care.png",
+      "12": "product-examples/thobe/name-tab.png"
+    },
+    "farwa": {
+      "0": "product-examples/farwa/front.png",
+      "1": "product-examples/farwa/back.png",
+      "2": "product-examples/farwa/side.png",
+      "3": "product-examples/farwa/fabric.png",
+      "4": "product-examples/farwa/finish.png",
+      "5": "product-examples/farwa/inside.png",
+      "6": "product-examples/farwa/measure.png",
+      "7": "product-examples/farwa/movement.png",
+      "9": "product-examples/gift-closed.png",
+      "10": "product-examples/farwa/gift-open.png",
+      "11": "product-examples/farwa/care.png",
+      "12": "product-examples/farwa/name-tab.png"
+    }
   }
 }

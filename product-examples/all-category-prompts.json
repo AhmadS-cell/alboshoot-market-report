@@ -1,0 +1,290 @@
+{
+  "brand": "مُسدل",
+  "date": "2026-10-03",
+  "mode": "built-in image generation and referenced edits",
+  "unique_new_images": 35,
+  "total_unique_images": 47,
+  "notes": "Fictional product concepts. Model heights, measurements, composition, opacity and care are not established by generated pixels. Closed gift box reused across categories.",
+  "assets": [
+    {
+      "category": "abaya",
+      "shot": "front",
+      "path": "product-examples/abaya/front.png",
+      "prompt": "Use case: product-mockup. Create ONE photorealistic premium ecommerce apparel product concept photograph for مُسدل. Portrait 4:5, seamless neutral light gray studio, soft even neutral lighting, authentic visible textile texture and realistic proportions. A fictional Arab woman wearing a modest matte black abaya and simple black hijab. Abaya is a relaxed straight roomy silhouette, full-length with closed front and subtle concealed snap closure, plain cuffs, light black lining, no visible zari, no flashy embroidery, no belt, no decorative branding. Front is closed and drapes naturally, modest rather than body-contouring. Full body, entire hem visible with discreet black shoes, arms relaxed. Same model and exact construction will be used for all other angles. Premium restrained contemporary Arab modest clothing. Do not add other people or products, logos, written words, watermark, overlay text or collage. This is a fictional design concept reference, not a manufactured SKU.",
+      "reference": null,
+      "revision": null
+    },
+    {
+      "category": "abaya",
+      "shot": "back",
+      "path": "product-examples/abaya/back.png",
+      "prompt": "Use case: product-mockup. Reference image is the exact fictional garment and model to preserve: matte black relaxed closed abaya with concealed snaps, plain cuffs, light black lining and same hijab/model. Create ONE photorealistic premium ecommerce product photograph. Full straight back view, same model facing away, entire garment to shoes visible. Preserve the back shape, width, sleeves, seam placement and hem; no new decorative features. Same neutral gray seamless studio, soft neutral lighting, portrait 4:5, accurate natural fabric drape. No collage, no watermark, no logos or text, no extra products. This remains an illustrative concept, not measured manufacturing evidence.",
+      "reference": "product-examples/abaya/front.png",
+      "revision": null
+    },
+    {
+      "category": "abaya",
+      "shot": "side",
+      "path": "product-examples/abaya/side.png",
+      "prompt": "Use case: product-mockup. Reference image is the exact fictional garment and model to preserve: matte black relaxed closed abaya with concealed snaps, plain cuffs, light black lining and same hijab/model. Create ONE photorealistic premium ecommerce product photograph. Full length 45-degree / side angle on same model, relaxed arms, whole hem visible; show silhouette, sleeve and existing pocket if present without inventing features. Same neutral gray seamless studio, soft neutral lighting, portrait 4:5, accurate natural fabric drape. No collage, no watermark, no logos or text, no extra products. This remains an illustrative concept, not measured manufacturing evidence.",
+      "reference": "product-examples/abaya/front.png",
+      "revision": null
+    },
+    {
+      "category": "abaya",
+      "shot": "fabric",
+      "path": "product-examples/abaya/fabric.png",
+      "prompt": "Use case: product-mockup. Reference image is the exact fictional garment and model to preserve: matte black relaxed closed abaya with concealed snaps, plain cuffs, light black lining and same hijab/model. Create ONE photorealistic premium ecommerce product photograph. Extreme close-up macro of the exact outer BODY fabric in softly folded section, with visible weave and natural textile texture. No collar, no buttons, no fur, no model, no text. Match reference material color and finish. Same neutral gray seamless studio, soft neutral lighting, portrait 4:5, accurate natural fabric drape. No collage, no watermark, no logos or text, no extra products. This remains an illustrative concept, not measured manufacturing evidence.",
+      "reference": "product-examples/abaya/front.png",
+      "revision": null
+    },
+    {
+      "category": "abaya",
+      "shot": "finish",
+      "path": "product-examples/abaya/finish.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, matte black relaxed closed abaya with concealed snaps, plain cuffs, light black lining and same hijab/model. Create ONE photorealistic premium ecommerce concept photograph. Close-up of the plain cuff and its neat seam, matte black outer textile, show cuff width and finish; no gold, no decorative embroidery, no added cuff button. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/abaya/front.png",
+      "revision": null
+    },
+    {
+      "category": "abaya",
+      "shot": "inside",
+      "path": "product-examples/abaya/inside.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, matte black relaxed closed abaya with concealed snaps, plain cuffs, light black lining and same hijab/model. Create ONE photorealistic premium ecommerce concept photograph. Close-up with the front edge gently opened by the same model to reveal the light black lining, inner stitching and concealed snap fasteners along the inside opening. Stay modest: hijab and covered inner layer, no visible bare body. No gold trim. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/abaya/front.png",
+      "revision": "Remove the small invented AYA branding label completely. Preserve every other detail, construction, model, camera and lighting. No logos or text anywhere."
+    },
+    {
+      "category": "abaya",
+      "shot": "measure",
+      "path": "product-examples/abaya/measure.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, matte black relaxed closed abaya with concealed snaps, plain cuffs, light black lining and same hijab/model. Create ONE photorealistic premium ecommerce concept photograph. Top-down photograph of the same abaya laid flat, closed and unstretched, sleeves relaxed to sides; a metric tape follows shoulder to hem, small natural marks not readable as an exact size. Entire garment on neutral gray table, no overlay measurements or words, hijab not shown. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/abaya/front.png",
+      "revision": null
+    },
+    {
+      "category": "abaya",
+      "shot": "movement",
+      "path": "product-examples/abaya/movement.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, matte black relaxed closed abaya with concealed snaps, plain cuffs, light black lining and same hijab/model. Create ONE photorealistic premium ecommerce concept photograph. One full-length still of the same woman in the same black abaya and hijab taking a natural small step and gently turning, showing sleeve ease, hem and closed front; no wind, no montage, no icons. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/abaya/front.png",
+      "revision": null
+    },
+    {
+      "category": "abaya",
+      "shot": "opacity",
+      "path": "product-examples/abaya/opacity.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, matte black relaxed closed abaya with concealed snaps, plain cuffs, light black lining and same hijab/model. Create ONE photorealistic premium ecommerce concept photograph. Photographic setup concept for checking coverage: close-up of a doubled black outer fabric plus its matching black lining held flat in front of a clearly partly visible half-white half-black contrast card under soft daylight. Preserve black materials; no transparent nude body, no numerical claim, no text or infographic. This illustrates test setup, not a validated opacity result. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/abaya/front.png",
+      "revision": null
+    },
+    {
+      "category": "abaya",
+      "shot": "gift-open",
+      "path": "product-examples/abaya/gift-open.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, matte black relaxed closed abaya with concealed snaps, plain cuffs, light black lining and same hijab/model. Create ONE photorealistic premium ecommerce concept photograph. ONLY a normal sized open light-gray rectangular apparel gift box on a studio tabletop, lid beside it, off-white tissue, same plain black abaya neatly folded with one cuff edge visible, one blank off-white message card. No person, hijab, jewelry, perfumes, accessories, no words or logos. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/abaya/front.png",
+      "revision": null
+    },
+    {
+      "category": "abaya",
+      "shot": "care",
+      "path": "product-examples/abaya/care.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, matte black relaxed closed abaya with concealed snaps, plain cuffs, light black lining and same hijab/model. Create ONE photorealistic premium ecommerce concept photograph. Close-up of a small plain off-white fabric care/composition tag sewn to an inner seam of the same black abaya lining. Tag is blank awaiting actual verified instructions: no text, symbols or invented percentages. A little black outer fabric and seam context visible, no model face. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/abaya/front.png",
+      "revision": null
+    },
+    {
+      "category": "abaya",
+      "shot": "name-tab",
+      "path": "product-examples/abaya/name-tab.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, matte black relaxed closed abaya with concealed snaps, plain cuffs, light black lining and same hijab/model. Create ONE photorealistic premium ecommerce concept photograph. Tight sharp macro of the inside neckline of the same black abaya, a small black rectangular fabric name tab sewn inside the neck seam, embroidered with exactly the Arabic name «نورة القحطاني» in subtle off-white thread, naturally legible right to left. Show tab with inner black lining and seam context, no bare skin, no outside embroidery, no other words. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/abaya/front.png",
+      "revision": null
+    },
+    {
+      "category": "thobe",
+      "shot": "front",
+      "path": "product-examples/thobe/front.png",
+      "prompt": "Use case: product-mockup. Create ONE photorealistic premium ecommerce apparel product concept photograph for مُسدل. Portrait 4:5, seamless neutral light gray studio, soft even neutral lighting, authentic visible textile texture and realistic proportions. A fictional Arab male model with short dark beard, no headwear, wearing a plain crisp white Saudi thobe, full length, straight regular relaxed fit, traditional stand collar and a neat concealed front placket, simple button cuffs, one subtle chest pocket. No bisht, no scarf, no jewelry. White woven textile with restrained realistic texture, black shoes mostly below hem. Full frontal standing relaxed, collar to shoes and full hem visible. Same model and exact construction will be used for all other angles. Premium restrained contemporary Arab modest clothing. Do not add other people or products, logos, written words, watermark, overlay text or collage. This is a fictional design concept reference, not a manufactured SKU.",
+      "reference": null,
+      "revision": null
+    },
+    {
+      "category": "thobe",
+      "shot": "back",
+      "path": "product-examples/thobe/back.png",
+      "prompt": "Use case: product-mockup. Reference image is the exact fictional garment and model to preserve: plain white Saudi thobe, stand collar, concealed placket, simple button cuffs and one chest pocket, same male model. Create ONE photorealistic premium ecommerce product photograph. Full straight back view, same model facing away, entire garment to shoes visible. Preserve the back shape, width, sleeves, seam placement and hem; no new decorative features. Same neutral gray seamless studio, soft neutral lighting, portrait 4:5, accurate natural fabric drape. No collage, no watermark, no logos or text, no extra products. This remains an illustrative concept, not measured manufacturing evidence.",
+      "reference": "product-examples/thobe/front.png",
+      "revision": null
+    },
+    {
+      "category": "thobe",
+      "shot": "side",
+      "path": "product-examples/thobe/side.png",
+      "prompt": "Use case: product-mockup. Reference image is the exact fictional garment and model to preserve: plain white Saudi thobe, stand collar, concealed placket, simple button cuffs and one chest pocket, same male model. Create ONE photorealistic premium ecommerce product photograph. Full length 45-degree / side angle on same model, relaxed arms, whole hem visible; show silhouette, sleeve and existing pocket if present without inventing features. Same neutral gray seamless studio, soft neutral lighting, portrait 4:5, accurate natural fabric drape. No collage, no watermark, no logos or text, no extra products. This remains an illustrative concept, not measured manufacturing evidence.",
+      "reference": "product-examples/thobe/front.png",
+      "revision": null
+    },
+    {
+      "category": "thobe",
+      "shot": "fabric",
+      "path": "product-examples/thobe/fabric.png",
+      "prompt": "Use case: product-mockup. Reference image is the exact fictional garment and model to preserve: plain white Saudi thobe, stand collar, concealed placket, simple button cuffs and one chest pocket, same male model. Create ONE photorealistic premium ecommerce product photograph. Extreme close-up macro of the exact outer BODY fabric in softly folded section, with visible weave and natural textile texture. No collar, no buttons, no fur, no model, no text. Match reference material color and finish. Same neutral gray seamless studio, soft neutral lighting, portrait 4:5, accurate natural fabric drape. No collage, no watermark, no logos or text, no extra products. This remains an illustrative concept, not measured manufacturing evidence.",
+      "reference": "product-examples/thobe/front.png",
+      "revision": null
+    },
+    {
+      "category": "thobe",
+      "shot": "finish",
+      "path": "product-examples/thobe/finish.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, plain white Saudi thobe, stand collar, concealed placket, simple button cuffs and one chest pocket, same male model. Create ONE photorealistic premium ecommerce concept photograph. Close-up of the same white Saudi thobe's stand collar and the top of its concealed front placket, with precise stitching. Match reference collar shape and textile. No new jewelry, bisht or embroidery. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/thobe/front.png",
+      "revision": null
+    },
+    {
+      "category": "thobe",
+      "shot": "inside",
+      "path": "product-examples/thobe/inside.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, plain white Saudi thobe, stand collar, concealed placket, simple button cuffs and one chest pocket, same male model. Create ONE photorealistic premium ecommerce concept photograph. Close-up of the same white thobe cuff gently opened, revealing the actual folded cuff construction, inner neat seam and simple white button/fastening. White body fabric is unlined; do not invent a full lining or waistcoat. Same male model's covered forearm and natural hand may be visible. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/thobe/front.png",
+      "revision": null
+    },
+    {
+      "category": "thobe",
+      "shot": "measure",
+      "path": "product-examples/thobe/measure.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, plain white Saudi thobe, stand collar, concealed placket, simple button cuffs and one chest pocket, same male model. Create ONE photorealistic premium ecommerce concept photograph. Top-down photograph of the same white thobe laid flat, buttoned, sleeves relaxed to sides, show collar and chest pocket; a metric tape follows shoulder to hem, natural small marks not readable as exact size. Entire garment on neutral gray table, no overlay dimensions or text. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/thobe/front.png",
+      "revision": null
+    },
+    {
+      "category": "thobe",
+      "shot": "movement",
+      "path": "product-examples/thobe/movement.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, plain white Saudi thobe, stand collar, concealed placket, simple button cuffs and one chest pocket, same male model. Create ONE photorealistic premium ecommerce concept photograph. One full length still of same man in same white thobe making a natural small step and slight turn, show cuff and hem with realistic ease, no dramatic wind, no bisht, no montage or icons. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/thobe/front.png",
+      "revision": null
+    },
+    {
+      "category": "thobe",
+      "shot": "opacity",
+      "path": "product-examples/thobe/opacity.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, plain white Saudi thobe, stand collar, concealed placket, simple button cuffs and one chest pocket, same male model. Create ONE photorealistic premium ecommerce concept photograph. Photographic setup concept for checking coverage: a close-up of same white body fabric sample held flat over a partly visible half-white half-charcoal contrast card under diffuse daylight. Preserve original textile and realistic light; no nude body, no numerical or opacity claim, no labels or text. Illustrate test setup, not a validated result. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/thobe/front.png",
+      "revision": null
+    },
+    {
+      "category": "thobe",
+      "shot": "gift-open",
+      "path": "product-examples/thobe/gift-open.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, plain white Saudi thobe, stand collar, concealed placket, simple button cuffs and one chest pocket, same male model. Create ONE photorealistic premium ecommerce concept photograph. ONLY a normal sized open light-gray rectangular apparel gift box on neutral studio tabletop, lid beside it, off-white tissue and the same plain white Saudi thobe neatly folded with its stand collar and top placket visible, one blank off-white message card. No person, headwear, bisht, jewelry or extra gifts, no words/logos. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/thobe/front.png",
+      "revision": null
+    },
+    {
+      "category": "thobe",
+      "shot": "care",
+      "path": "product-examples/thobe/care.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, plain white Saudi thobe, stand collar, concealed placket, simple button cuffs and one chest pocket, same male model. Create ONE photorealistic premium ecommerce concept photograph. Close-up of a small blank off-white fabric care/composition tag sewn into the same white thobe's inner side seam. Tag awaits real verified instructions: no text, symbols or percentages. Show white body fabric and inner seam texture; no full invented lining. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/thobe/front.png",
+      "revision": null
+    },
+    {
+      "category": "thobe",
+      "shot": "name-tab",
+      "path": "product-examples/thobe/name-tab.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, plain white Saudi thobe, stand collar, concealed placket, simple button cuffs and one chest pocket, same male model. Create ONE photorealistic premium ecommerce concept photograph. Tight sharp macro of the inside neck seam of the same white thobe, a discreet small off-white rectangular fabric name tab sewn inside the collar, embroidered with exactly the Arabic name «أحمد العتيبي» in muted dark-gray thread, naturally legible right to left. Same white collar texture and stitching, not on outside chest pocket. No other words. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/thobe/front.png",
+      "revision": "Correct only the Arabic embroidered name to EXACTLY أحمد العتيبي. Surname letters are ا ل ع ت ي ب ي, one ي before ب and one ي after ب. Do not duplicate any letter. Preserve same tag, stitching, garment, color and lighting."
+    },
+    {
+      "category": "farwa",
+      "shot": "front",
+      "path": "product-examples/farwa/front.png",
+      "prompt": "Use case: product-mockup. Create ONE photorealistic premium ecommerce apparel product concept photograph for مُسدل. Portrait 4:5, seamless neutral light gray studio, soft even neutral lighting, authentic visible textile texture and realistic proportions. A fictional Arab male model with short dark beard wearing a long charcoal-gray Saudi winter farwa over a plain white thobe, no headwear. Farwa is a relaxed straight ankle-length winter overcoat, matte charcoal woven outer fabric, warm light taupe faux-fur lining and a restrained light taupe faux-fur shawl collar facing; plain cuffs and two simple side welt pockets, no gold trim, no zari. Front partly open enough to reveal real-looking lining. No belt. Full frontal standing relaxed, entire overcoat hem and black shoes visible. Same model and exact construction will be used for all other angles. Premium restrained contemporary Arab modest clothing. Do not add other people or products, logos, written words, watermark, overlay text or collage. This is a fictional design concept reference, not a manufactured SKU.",
+      "reference": null,
+      "revision": null
+    },
+    {
+      "category": "farwa",
+      "shot": "back",
+      "path": "product-examples/farwa/back.png",
+      "prompt": "Use case: product-mockup. Reference image is the exact fictional garment and model to preserve: charcoal-gray long winter farwa, matte woven outer, light taupe faux-fur lining and shawl collar, simple cuffs and side welt pockets, same male model. Create ONE photorealistic premium ecommerce product photograph. Full straight back view, same model facing away, entire garment to shoes visible. Preserve the back shape, width, sleeves, seam placement and hem; no new decorative features. Same neutral gray seamless studio, soft neutral lighting, portrait 4:5, accurate natural fabric drape. No collage, no watermark, no logos or text, no extra products. This remains an illustrative concept, not measured manufacturing evidence.",
+      "reference": "product-examples/farwa/front.png",
+      "revision": null
+    },
+    {
+      "category": "farwa",
+      "shot": "side",
+      "path": "product-examples/farwa/side.png",
+      "prompt": "Use case: product-mockup. Reference image is the exact fictional garment and model to preserve: charcoal-gray long winter farwa, matte woven outer, light taupe faux-fur lining and shawl collar, simple cuffs and side welt pockets, same male model. Create ONE photorealistic premium ecommerce product photograph. Full length 45-degree / side angle on same model, relaxed arms, whole hem visible; show silhouette, sleeve and existing pocket if present without inventing features. Same neutral gray seamless studio, soft neutral lighting, portrait 4:5, accurate natural fabric drape. No collage, no watermark, no logos or text, no extra products. This remains an illustrative concept, not measured manufacturing evidence.",
+      "reference": "product-examples/farwa/front.png",
+      "revision": null
+    },
+    {
+      "category": "farwa",
+      "shot": "fabric",
+      "path": "product-examples/farwa/fabric.png",
+      "prompt": "Use case: product-mockup. Reference image is the exact fictional garment and model to preserve: charcoal-gray long winter farwa, matte woven outer, light taupe faux-fur lining and shawl collar, simple cuffs and side welt pockets, same male model. Create ONE photorealistic premium ecommerce product photograph. Extreme close-up macro of the exact outer BODY fabric in softly folded section, with visible weave and natural textile texture. No collar, no buttons, no fur, no model, no text. Match reference material color and finish. Same neutral gray seamless studio, soft neutral lighting, portrait 4:5, accurate natural fabric drape. No collage, no watermark, no logos or text, no extra products. This remains an illustrative concept, not measured manufacturing evidence.",
+      "reference": "product-examples/farwa/front.png",
+      "revision": null
+    },
+    {
+      "category": "farwa",
+      "shot": "finish",
+      "path": "product-examples/farwa/finish.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, charcoal-gray long winter farwa, matte woven outer, light taupe faux-fur lining and shawl collar, simple cuffs and side welt pockets, same male model. Create ONE photorealistic premium ecommerce concept photograph. Close-up of the same farwa's light taupe faux-fur shawl collar where it meets charcoal woven outer fabric. Show realistic short faux-fur pile, edge seam and charcoal textile, no gold trim. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/farwa/front.png",
+      "revision": null
+    },
+    {
+      "category": "farwa",
+      "shot": "inside",
+      "path": "product-examples/farwa/inside.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, charcoal-gray long winter farwa, matte woven outer, light taupe faux-fur lining and shawl collar, simple cuffs and side welt pockets, same male model. Create ONE photorealistic premium ecommerce concept photograph. Close-up of same farwa held partly open to reveal light taupe faux-fur lining and inner sleeve/edge seam, charcoal outer fabric, white thobe covered layer behind. Preserve reference lining and shawl collar, no new buttons, zipper or gold trim. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/farwa/front.png",
+      "revision": "Remove the small invented FARWA branding label completely. Preserve every other detail, garment, model, camera and lighting. No logos or text anywhere."
+    },
+    {
+      "category": "farwa",
+      "shot": "measure",
+      "path": "product-examples/farwa/measure.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, charcoal-gray long winter farwa, matte woven outer, light taupe faux-fur lining and shawl collar, simple cuffs and side welt pockets, same male model. Create ONE photorealistic premium ecommerce concept photograph. Top-down photograph of same charcoal farwa laid flat and partly open, light taupe faux-fur lining at front opening visible, sleeves naturally placed, pockets preserved; a metric tape follows shoulder to hem with natural small marks not readable as exact size. Full coat on neutral gray table, no text or overlay measurements. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/farwa/front.png",
+      "revision": "Remove the small invented FARWA branding label completely from the inner neck. Preserve every other detail and measuring tape. No brand logos or invented text."
+    },
+    {
+      "category": "farwa",
+      "shot": "movement",
+      "path": "product-examples/farwa/movement.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, charcoal-gray long winter farwa, matte woven outer, light taupe faux-fur lining and shawl collar, simple cuffs and side welt pockets, same male model. Create ONE photorealistic premium ecommerce concept photograph. One full length still of same man wearing same charcoal and taupe-lined farwa over white thobe, taking a natural small step and slight turn, coat hanging naturally with hem and sleeve visible. No wind, icons, montage or temperature claims. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/farwa/front.png",
+      "revision": null
+    },
+    {
+      "category": "farwa",
+      "shot": "gift-open",
+      "path": "product-examples/farwa/gift-open.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, charcoal-gray long winter farwa, matte woven outer, light taupe faux-fur lining and shawl collar, simple cuffs and side welt pockets, same male model. Create ONE photorealistic premium ecommerce concept photograph. ONLY a normal sized deeper open light-gray rectangular apparel gift box on neutral tabletop, lid beside it, off-white tissue and same charcoal farwa folded inside showing light taupe faux-fur collar and charcoal outer, one blank off-white message card. No person or other garments, no perfume or accessories, no text/logos. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/farwa/front.png",
+      "revision": null
+    },
+    {
+      "category": "farwa",
+      "shot": "care",
+      "path": "product-examples/farwa/care.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, charcoal-gray long winter farwa, matte woven outer, light taupe faux-fur lining and shawl collar, simple cuffs and side welt pockets, same male model. Create ONE photorealistic premium ecommerce concept photograph. Close-up of a small blank off-white fabric care/composition tag sewn on inner seam of same farwa, light taupe faux-fur lining and charcoal outer at edge. Tag awaits verified instructions: no words, symbols or percentages. No temperature claims or natural-fur claim. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/farwa/front.png",
+      "revision": null
+    },
+    {
+      "category": "farwa",
+      "shot": "name-tab",
+      "path": "product-examples/farwa/name-tab.png",
+      "prompt": "Use case: product-mockup. Reference: exact fictional garment to preserve, charcoal-gray long winter farwa, matte woven outer, light taupe faux-fur lining and shawl collar, simple cuffs and side welt pockets, same male model. Create ONE photorealistic premium ecommerce concept photograph. Tight sharp macro of the inside neckline seam of same farwa, small charcoal rectangular fabric name tab sewn at inner back neck over a woven reinforcement strip, next to the light taupe faux-fur lining. Embroidered with exactly the Arabic name «أحمد العتيبي» in subtle off-white thread, naturally legible right to left. No outer monogram, no other words. Portrait 4:5, same light-gray neutral studio, soft neutral lighting, truthful-looking textile, consistent construction with reference. No collage, watermark, logos or text except the exact requested name on the internal tab. No invented additional product accessories. This is an illustrative design reference.",
+      "reference": "product-examples/farwa/front.png",
+      "revision": "Correct only the Arabic embroidered name to EXACTLY أحمد العتيبي. Surname letters are ا ل ع ت ي ب ي, one ي before ب and one ي after ب. Do not duplicate any letter. Preserve same tag, stitching, garment, color and lighting."
+    }
+  ]
+}
