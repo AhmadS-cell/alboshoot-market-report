@@ -1,0 +1,35 @@
+/* Musdal selected flow identity, 4 October 2026. */
+:root{
+ --primary:#5C1E32;--accent:#A77359;--secondary:#DDDAD3;--paper:#FCFBF8;
+ --ink:#29282A;--muted:#5D5C5E;--line:#DDDAD3;--white:#fff;
+ --green:var(--primary);--gold:var(--accent);--pale:#F4F3EF;--warn:#F8F4EF;
+}
+body{background:var(--paper);color:var(--ink)}
+a{color:var(--primary)}
+a:hover{color:#461725}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline-color:var(--primary)}
+body>header,.top,.template,.calculator output,.menu-toggle{background:var(--primary);color:var(--paper)}
+body>header .brand,body>header .metrics strong,.hero aside b{color:var(--paper)}
+body>header .date,body>header .hero p,body>header .metrics span,.top .hero p,.top .bar a{color:var(--secondary)}
+.top-tools a,.top-tools button,.jump a,.footer a{color:var(--paper)}
+.hero .kicker{color:var(--secondary)}
+.kicker,.section-head>span,.gate b,td b,.store-head strong,.mobile-head strong{color:var(--primary)}
+.sidebar nav a.active{background:#F4F3EF;border-right-color:var(--accent)}
+.sidebar nav a:hover,.card,.preview-note,.team-head,.gallery,.purchase,.below,.model-card,.selection-summary,.gift-options,.features,.annotation,.size-result{background:var(--paper)}
+.callout{background:#F4F3EF;border-right-color:var(--accent)}
+.warning,.note,.gate .stop{background:var(--warn)}
+.gate .stop,.note{color:var(--primary)}
+.ok{background:#F4F3EF;border-color:var(--line);color:var(--ink)}
+th,.size-table th{background:#F4F3EF;color:var(--primary)}
+tbody tr:nth-child(even){background:var(--paper)}
+.buy-button,.mini-sticky a,button[aria-pressed=true],button[role=tab][aria-selected=true]{background:var(--primary)!important;border-color:var(--primary)!important;color:var(--paper)!important}
+.text-button{color:var(--primary)}
+.copy{background:var(--secondary);color:var(--primary)}
+.service-box input[type=checkbox],input[type=radio]{accent-color:var(--primary)}
+.footer{background:var(--primary);color:var(--secondary)}
+.brand-controls button,.brand-controls button[aria-pressed=true]{border-color:var(--primary)}
+.brand-option:first-child{border-top:3px solid var(--primary)}
+@media print{
+ body,body>header,.top,.template,.footer{background:#fff;color:var(--ink)}
+ body>header .brand,body>header .hero p,body>header .date,.top .hero p{color:var(--ink)}
+}
