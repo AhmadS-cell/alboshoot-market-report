@@ -1,0 +1,184 @@
+{
+  "brand": "مُسدل",
+  "date": "2026-10-04",
+  "status": "lam-direction-selected-variant-awaiting-selection",
+  "palette": {
+    "primary": "#5C1E32",
+    "base": "#FCFBF8",
+    "secondary": "#DDDAD3",
+    "accent": "#A77359",
+    "text": "#29282A",
+    "muted": "#5D5C5E"
+  },
+  "wordmark": "Approved flow wordmark unchanged; these are separate emblem concepts.",
+  "production": {
+    "route": "native ImageGen, transparent raster originals",
+    "export": "Alpha-bound crop with 14% margin; proportional Lanczos resize only. Original shapes and native colours preserved. CSS alpha masks display the approved flat palette in the review.",
+    "vector_status": "No editable emblem vector master; SVG pattern assets are native repeat geometry.",
+    "quality_note": "Original lam is the preferred starting concept. Upright and extended native outputs retain rough alpha edges; review concepts require contour refinement before final print masters."
+  },
+  "candidates": [
+    {
+      "id": "05-lam",
+      "name": "اللام الأصلية",
+      "idea": "لام واضحة بفتحة واسعة وساق مائلة قليلًا؛ الخيار الذي أعجبك.",
+      "fit": "الأقرب لاختيارك؛ نكبرها ونترك حولها مساحة مريحة.",
+      "patternFit": "تكرار متباعد على ورق التغليف.",
+      "source_receipt": "01a1058c-86cf-7b03-a3d9-5467511e4748/exec-6328c40d-82cf-4865-b5aa-428475465925.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_crop": [
+        207,
+        176,
+        1047,
+        1090
+      ],
+      "original_sha256": "f103d025503d48db9c626bd6e939b805f57c0bf0eeb408617c4c0c412a8451ae",
+      "exports": [
+        "emblem-16.png",
+        "emblem-32.png",
+        "emblem-48.png",
+        "emblem-64.png",
+        "emblem-192.png",
+        "emblem-512.png",
+        "favicon.ico"
+      ]
+    },
+    {
+      "id": "02-upright",
+      "name": "اللام المستقيمة",
+      "idea": "ساق قائمة وتقاء منحني واضح في الأسفل؛ حضور أقرب إلى الحرف المقروء.",
+      "fit": "للأيقونة وبطاقة المنتج؛ شخصية ثابتة وأقل ميلًا.",
+      "patternFit": "خط الحافة أو تكرار اللام بمسافة واسعة.",
+      "source_receipt": "see generation-prompts.json",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_crop": [
+        266,
+        201,
+        982,
+        1104
+      ],
+      "original_sha256": "75a368042e0cabb5d561bb148ce862ba983c4ee757e870938dd00d651498e1cc",
+      "exports": [
+        "emblem-16.png",
+        "emblem-32.png",
+        "emblem-48.png",
+        "emblem-64.png",
+        "emblem-192.png",
+        "emblem-512.png",
+        "favicon.ico"
+      ]
+    },
+    {
+      "id": "03-extended",
+      "name": "اللام الممتدة",
+      "idea": "انحناءة أوسع باتجاه اليسار، بإيقاع يرتبط بانسدال القماش.",
+      "fit": "للتغليف والواجهات؛ نختبر الفراغ المفتوح عند تصغيرها.",
+      "patternFit": "إيقاع الانسدال أو تكرار متباعد.",
+      "source_receipt": "see generation-prompts.json",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_crop": [
+        113,
+        289,
+        1146,
+        1011
+      ],
+      "original_sha256": "069317b29d59825dfbacd7ab85be49e709e70ce3a2398a2c9c586088c9843793",
+      "exports": [
+        "emblem-16.png",
+        "emblem-32.png",
+        "emblem-48.png",
+        "emblem-64.png",
+        "emblem-192.png",
+        "emblem-512.png",
+        "favicon.ico"
+      ]
+    },
+    {
+      "id": "01-mim",
+      "name": "الميم · مقارنة ثانوية",
+      "idea": "الميم التي أعجبتك، بمقياس أصغر للمقارنة مع اللام.",
+      "fit": "بديل ثانوي؛ التركيز الحالي على تطوير اللام.",
+      "patternFit": "تكرار متباعد للرمز داخل التغليف.",
+      "source_receipt": "01a1058c-4792-7e82-afdb-25d95c615e50/exec-8931fed2-44a8-4066-a9df-d782cadc2f9e.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_crop": [
+        146,
+        305,
+        1133,
+        1005
+      ],
+      "original_sha256": "f1e737fdb4e962e74d5a62c4fb5d9cb94864b450f7e543775eb6f2f21754cf83",
+      "exports": [
+        "emblem-16.png",
+        "emblem-32.png",
+        "emblem-48.png",
+        "emblem-64.png",
+        "emblem-192.png",
+        "emblem-512.png",
+        "favicon.ico"
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "id": "flow",
+      "name": "إيقاع الانسدال",
+      "idea": "خطوط متوازية تنثني وتعود، بإيقاع رأسي منتظم.",
+      "web": "فواصل الأقسام والمساحات الجانبية؛ اللون الحجري على الأوف وايت.",
+      "pack": "داخل الصندوق وورق التغليف؛ نحاسي محدود أو أوف وايت على البورغندي."
+    },
+    {
+      "id": "edge",
+      "name": "خط الحافة",
+      "idea": "مسار أفقي مزدوج مستوحى من حافة القطعة وتشطيبها.",
+      "web": "شريط فصل قصير أو أسفل قسم الهدايا.",
+      "pack": "حافة الصندوق، الشريط الورقي والكرت؛ لا يُغطّي اسم مُسدل."
+    },
+    {
+      "id": "weave",
+      "name": "شبكة النسج",
+      "idea": "وحدات هندسية بسيطة تتداخل بتكرار واضح وغير مزخرف.",
+      "web": "مساحة محدودة بحدة منخفضة؛ خلفيات المحتوى والمنتجات تبقى سادة.",
+      "pack": "ظهر الكرت أو الورق الداخلي، بتكرار أوسع من النقوش التقليدية."
+    }
+  ],
+  "research": [
+    {
+      "title": "Pentagram — Viren",
+      "url": "https://www.pentagram.com/work/viren",
+      "observed": "رمز مستقل مرن في الأحجام والاستخدامات، ومنه باترن متكرر ضمن نظام متماسك.",
+      "inference": "لمُسدل: نبدأ بصورة ظلية بسيطة، ونختبر الرمز مستقلاً وبحجم صغير قبل توسيعه إلى باترن."
+    },
+    {
+      "title": "LOEWE — Our history",
+      "url": "https://dev.loewe.com/usa/en/art-and-craft/our-history.html",
+      "observed": "الأناجرام في تاريخ الدار مرتبط بالاسم وبأداة وسم الجلد.",
+      "inference": "لمُسدل: مرجعنا الخاص هو حروف الاسم وانسدال القماش؛ الأشكال هنا أصلية وليست اقتباسًا لأناجرام الدار."
+    },
+    {
+      "title": "The Met — Geometric Patterns in Islamic Art",
+      "url": "https://www.metmuseum.org/essays/geometric-patterns-in-islamic-art",
+      "observed": "تتكون كثير من الأنماط الهندسية من وحدات بسيطة تُكرر وتُركب.",
+      "inference": "لمُسدل: نستخدم التكرار والهندسة باقتصاد، ونبتعد عن الزهور والنقوش المزدحمة. لا ننسب باترناتنا إلى تقليد محلي محدد."
+    },
+    {
+      "title": "Google Search Central — Favicons",
+      "url": "https://developers.google.com/search/docs/appearance/favicon-in-search",
+      "observed": "الأيقونة مربعة وممثلة للعلامة؛ توصي الوثيقة بمصدر أكبر من 48 بكسل.",
+      "inference": "نعاين 16 و32 و48 بكسل فعلياً، ونجهز نسخ 64 و192 بكسل، مع مساحة آمنة وفراغات واضحة."
+    }
+  ],
+  "prompt_record": "generation-prompts.json"
+}

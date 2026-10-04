@@ -1,0 +1,33 @@
+{
+  "route": "native built-in ImageGen",
+  "date": "2026-10-04",
+  "intent": "Develop the user-selected Arabic lam; original lam and secondary mim retained.",
+  "candidates": [
+    {
+      "id": "05-lam",
+      "source": "01a1058c-86cf-7b03-a3d9-5467511e4748/exec-6328c40d-82cf-4865-b5aa-428475465925.png",
+      "prompt_summary": "Single Arabic lam, right upright with angled cap and broad open left cup. Compact solid burgundy #5C1E32, transparent background, unisex flowing but sturdy. No extra text, decoration, gradients or badge.",
+      "status": "User-preferred starting concept"
+    },
+    {
+      "id": "01-mim",
+      "source": "01a1058c-4792-7e82-afdb-25d95c615e50/exec-8931fed2-44a8-4066-a9df-d782cadc2f9e.png",
+      "prompt_summary": "Standalone Arabic mim derived from Musdal's opening letter, generous eye and flowing tail, solid burgundy on transparent background, calm gender-neutral, no flowers or decoration.",
+      "status": "Secondary comparison only"
+    },
+    {
+      "id": "02-upright",
+      "source": "01a1058c-4792-7e82-afdb-25d95c615e50/exec-01400f4f-a0a3-42cc-8f43-ab7099b24559.png",
+      "attempts": 2,
+      "quality": "Native alpha fringe remains. Concept proportions only; needs final contour refinement.",
+      "final_prompt": "Use case: precise-object-edit / logo-brand.\nClean up the supplied upright Arabic lam emblem without changing its design. Preserve the existing recognizably Arabic ل silhouette: vertical straight right upright with perfectly horizontal flat-cut top, broad curved bottom return toward the left, short left terminal rising gently, wide open top/counter, single substantial continuous stroke. Preserve proportions and position.\n\nCRITICAL REPAIR: The supplied image has ragged white artifacts, bumps and stray specks around its edges. Remove ALL detached fragments and all jagged/spiky fringe. Replace the rough contour with a completely smooth mathematically clean vector-like outer and inner edge, preserving the intended silhouette. Straight stem must have two straight smooth vertical edges. Bottom bowl must have smooth broad flowing curves. No distress, fuzz, noise, stippling or texture.\n\nSymbol fill is one completely flat uniform off-white #FCFBF8. Genuine transparent alpha background and transparent cup opening. Clean sharp anti-aliased boundaries only. No white halos outside the shape, no extra pixels or detached bits. Maintain approximately 14% safe margin within the square canvas.\n\nOnly one solid off-white Arabic lam symbol. No text, labels, wordmark, background color, border, mockup, shadow, gradient, ornamental detail or extra mark. Do not add burgundy; final preview on burgundy will be made separately. Return clean transparent PNG."
+    },
+    {
+      "id": "03-extended",
+      "source": "01a1058c-86cf-7b03-a3d9-5467511e4748/exec-5b3c4377-3e3d-436d-adfa-b4599aee0dee.png",
+      "attempts": 2,
+      "quality": "Native alpha fringe remains. Wide proportions only; needs final contour refinement.",
+      "final_prompt": "Use case: precise-object-edit.\nRepair this Arabic lam ل emblem. Keep the broader lower-sweeping lam direction, right-hand upright, wide smooth bowl, and flat rising left terminal.\nCRITICAL CLEANUP: replace ragged / speckled / chalky edges with a single absolutely clean continuous vector-like contour. Remove ALL white flecks, halo, texture, splatter, stray pixels, scratches and disjoint marks outside the ONE letter silhouette. Uniform opaque flat off-white #FCFBF8 only, absolutely no shading or gradient.\nRefine proportions to a balanced wide lam: silhouette width1.4times its height, rather than the current overly horizontal smile-like bowl. Increase the substantial RIGHT UPRIGHT height, preserving its angled cap, so this reads confidently as Arabic ل. Left terminal remains low, thick and FLAT CUT with a slight upward rise. Broad open inner counter and thick lower stroke remain legible at16px. One single joined silhouette.\nCenter properly on square1024x1024 canvas,14% minimum transparent margin. Genuine transparent alpha background and counter, no rectangle or solid background. Clean professionally finished isolated off-white lam mark, unisex strong flowing Arabic calligraphy. No labels, text, board, mockup, ornament, circle or extra symbols."
+    }
+  ]
+}
