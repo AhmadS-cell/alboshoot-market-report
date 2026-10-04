@@ -324,6 +324,16 @@
       "sha256": "a625b5a04a65fefa0943f4fe8bdd2bb65728e10aaa972cef766892e40f5874df"
     },
     {
+      "path": "assets/packaging-full-01.png",
+      "bytes": 2175980,
+      "sha256": "c8cf4dfaca5ccc70946633348456aba394168c1616117df185c92c3b57cca865"
+    },
+    {
+      "path": "assets/packaging-full-02.png",
+      "bytes": 2361749,
+      "sha256": "0ba4e8a8f319a30084d61c0b478f0d35748ccd88508168cdf9624bc8e2e8e284"
+    },
+    {
       "path": "assets/patterns/edge-inverse.svg",
       "bytes": 561,
       "sha256": "fa1fdc5e4c808b5a65cb8c8110858203d6206c4ae32c0cf60fcccd1523e9222b"
@@ -510,13 +520,13 @@
     },
     {
       "path": "independent-images.json",
-      "bytes": 2430,
-      "sha256": "a9b778a515c0d47f376fd4e81d7f27020674ee1b3ea8ecd87e95112726b25548"
+      "bytes": 3065,
+      "sha256": "712ce25876a5066377eddea6085105e344436307e63fc68404a4cc7289a2360b"
     },
     {
       "path": "index.html",
-      "bytes": 24524,
-      "sha256": "22077cc077aa02de9d982376150eb20c31fa2682f2e2d5579c2df829dd98036c"
+      "bytes": 27375,
+      "sha256": "fd8c0470e8f4aa9f72ca25cbb455837533648154096468687d9290e3b2a493ec"
     },
     {
       "path": "proofs/bag-board.png",

@@ -103,5 +103,21 @@
       "width": 1600,
       "height": 1153
     }
+  ],
+  "fullConcepts": [
+    {
+      "label": "الصورة الكاملة 1 · الورقة والبطاقات وتجربة الفتح",
+      "path": "assets/packaging-full-01.png",
+      "width": 1536,
+      "height": 1024,
+      "originalUncropped": true
+    },
+    {
+      "label": "الصورة الكاملة 2 · البوكس والشبرة مع التغليف الداخلي",
+      "path": "assets/packaging-full-02.png",
+      "width": 1536,
+      "height": 1024,
+      "originalUncropped": true
+    }
   ]
 }
