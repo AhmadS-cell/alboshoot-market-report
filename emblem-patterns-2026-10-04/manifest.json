@@ -1,7 +1,7 @@
 {
   "brand": "مُسدل",
   "date": "2026-10-04",
-  "status": "lam-direction-selected-variant-awaiting-selection",
+  "status": "long-stem-lam-selected-two-colourways",
   "palette": {
     "primary": "#5C1E32",
     "base": "#FCFBF8",
@@ -15,9 +15,90 @@
     "route": "native ImageGen, transparent raster originals",
     "export": "Alpha-bound crop with 14% margin; proportional Lanczos resize only. Original shapes and native colours preserved. CSS alpha masks display the approved flat palette in the review.",
     "vector_status": "No editable emblem vector master; SVG pattern assets are native repeat geometry.",
-    "quality_note": "Original lam is the preferred starting concept. Upright and extended native outputs retain rough alpha edges; review concepts require contour refinement before final print masters."
+    "quality_note": "Selected long-stem lam is a native raster concept. Old candidates archived for comparison; editable final print master remains to be prepared."
   },
-  "candidates": [
+  "patterns": [
+    {
+      "id": "flow",
+      "name": "إيقاع الانسدال",
+      "idea": "خطوط متوازية تنثني وتعود، بإيقاع رأسي منتظم.",
+      "web": "فواصل الأقسام والمساحات الجانبية؛ اللون الحجري على الأوف وايت.",
+      "pack": "داخل الصندوق وورق التغليف؛ نحاسي محدود أو أوف وايت على البورغندي."
+    },
+    {
+      "id": "edge",
+      "name": "خط الحافة",
+      "idea": "مسار أفقي مزدوج مستوحى من حافة القطعة وتشطيبها.",
+      "web": "شريط فصل قصير أو أسفل قسم الهدايا.",
+      "pack": "حافة الصندوق، الشريط الورقي والكرت؛ لا يُغطّي اسم مُسدل."
+    },
+    {
+      "id": "weave",
+      "name": "شبكة النسج",
+      "idea": "وحدات هندسية بسيطة تتداخل بتكرار واضح وغير مزخرف.",
+      "web": "مساحة محدودة بحدة منخفضة؛ خلفيات المحتوى والمنتجات تبقى سادة.",
+      "pack": "ظهر الكرت أو الورق الداخلي، بتكرار أوسع من النقوش التقليدية."
+    }
+  ],
+  "research": [
+    {
+      "title": "Pentagram — Viren",
+      "url": "https://www.pentagram.com/work/viren",
+      "observed": "رمز مستقل مرن في الأحجام والاستخدامات، ومنه باترن متكرر ضمن نظام متماسك.",
+      "inference": "لمُسدل: نبدأ بصورة ظلية بسيطة، ونختبر الرمز مستقلاً وبحجم صغير قبل توسيعه إلى باترن."
+    },
+    {
+      "title": "LOEWE — Our history",
+      "url": "https://dev.loewe.com/usa/en/art-and-craft/our-history.html",
+      "observed": "الأناجرام في تاريخ الدار مرتبط بالاسم وبأداة وسم الجلد.",
+      "inference": "لمُسدل: مرجعنا الخاص هو حروف الاسم وانسدال القماش؛ الأشكال هنا أصلية وليست اقتباسًا لأناجرام الدار."
+    },
+    {
+      "title": "The Met — Geometric Patterns in Islamic Art",
+      "url": "https://www.metmuseum.org/essays/geometric-patterns-in-islamic-art",
+      "observed": "تتكون كثير من الأنماط الهندسية من وحدات بسيطة تُكرر وتُركب.",
+      "inference": "لمُسدل: نستخدم التكرار والهندسة باقتصاد، ونبتعد عن الزهور والنقوش المزدحمة. لا ننسب باترناتنا إلى تقليد محلي محدد."
+    },
+    {
+      "title": "Google Search Central — Favicons",
+      "url": "https://developers.google.com/search/docs/appearance/favicon-in-search",
+      "observed": "الأيقونة مربعة وممثلة للعلامة؛ توصي الوثيقة بمصدر أكبر من 48 بكسل.",
+      "inference": "نعاين 16 و32 و48 بكسل فعلياً، ونجهز نسخ 64 و192 بكسل، مع مساحة آمنة وفراغات واضحة."
+    }
+  ],
+  "prompt_record": "generation-prompts.json",
+  "selected_emblem": {
+    "id": "06-wordmark-lam",
+    "name": "اللام بساق طويلة",
+    "selected": true,
+    "source": "06-wordmark-lam/emblem-original.png",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "alpha_crop": [
+      312,
+      147,
+      927,
+      1144
+    ],
+    "original_sha256": "88bedcaee56afa08a95906955c04d169d9939101ee718fba1da064078cca2889",
+    "reference": "flow-unisex-2026-10-04/flow-unisex-concept-v2.png",
+    "colourways": [
+      {
+        "ground": "#FCFBF8",
+        "ink": "#5C1E32",
+        "role": "primary"
+      },
+      {
+        "ground": "#5C1E32",
+        "ink": "#FCFBF8",
+        "role": "inverse"
+      }
+    ],
+    "geometry": "Long right stem, angled cap and angular join to open bowl, based on the wordmark lam. Generated raster interpretation; not pixel-identical extraction."
+  },
+  "previous_candidates": [
     {
       "id": "05-lam",
       "name": "اللام الأصلية",
@@ -130,55 +211,5 @@
         "favicon.ico"
       ]
     }
-  ],
-  "patterns": [
-    {
-      "id": "flow",
-      "name": "إيقاع الانسدال",
-      "idea": "خطوط متوازية تنثني وتعود، بإيقاع رأسي منتظم.",
-      "web": "فواصل الأقسام والمساحات الجانبية؛ اللون الحجري على الأوف وايت.",
-      "pack": "داخل الصندوق وورق التغليف؛ نحاسي محدود أو أوف وايت على البورغندي."
-    },
-    {
-      "id": "edge",
-      "name": "خط الحافة",
-      "idea": "مسار أفقي مزدوج مستوحى من حافة القطعة وتشطيبها.",
-      "web": "شريط فصل قصير أو أسفل قسم الهدايا.",
-      "pack": "حافة الصندوق، الشريط الورقي والكرت؛ لا يُغطّي اسم مُسدل."
-    },
-    {
-      "id": "weave",
-      "name": "شبكة النسج",
-      "idea": "وحدات هندسية بسيطة تتداخل بتكرار واضح وغير مزخرف.",
-      "web": "مساحة محدودة بحدة منخفضة؛ خلفيات المحتوى والمنتجات تبقى سادة.",
-      "pack": "ظهر الكرت أو الورق الداخلي، بتكرار أوسع من النقوش التقليدية."
-    }
-  ],
-  "research": [
-    {
-      "title": "Pentagram — Viren",
-      "url": "https://www.pentagram.com/work/viren",
-      "observed": "رمز مستقل مرن في الأحجام والاستخدامات، ومنه باترن متكرر ضمن نظام متماسك.",
-      "inference": "لمُسدل: نبدأ بصورة ظلية بسيطة، ونختبر الرمز مستقلاً وبحجم صغير قبل توسيعه إلى باترن."
-    },
-    {
-      "title": "LOEWE — Our history",
-      "url": "https://dev.loewe.com/usa/en/art-and-craft/our-history.html",
-      "observed": "الأناجرام في تاريخ الدار مرتبط بالاسم وبأداة وسم الجلد.",
-      "inference": "لمُسدل: مرجعنا الخاص هو حروف الاسم وانسدال القماش؛ الأشكال هنا أصلية وليست اقتباسًا لأناجرام الدار."
-    },
-    {
-      "title": "The Met — Geometric Patterns in Islamic Art",
-      "url": "https://www.metmuseum.org/essays/geometric-patterns-in-islamic-art",
-      "observed": "تتكون كثير من الأنماط الهندسية من وحدات بسيطة تُكرر وتُركب.",
-      "inference": "لمُسدل: نستخدم التكرار والهندسة باقتصاد، ونبتعد عن الزهور والنقوش المزدحمة. لا ننسب باترناتنا إلى تقليد محلي محدد."
-    },
-    {
-      "title": "Google Search Central — Favicons",
-      "url": "https://developers.google.com/search/docs/appearance/favicon-in-search",
-      "observed": "الأيقونة مربعة وممثلة للعلامة؛ توصي الوثيقة بمصدر أكبر من 48 بكسل.",
-      "inference": "نعاين 16 و32 و48 بكسل فعلياً، ونجهز نسخ 64 و192 بكسل، مع مساحة آمنة وفراغات واضحة."
-    }
-  ],
-  "prompt_record": "generation-prompts.json"
+  ]
 }

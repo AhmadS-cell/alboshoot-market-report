@@ -90,7 +90,7 @@
     "count": 4,
     "lam_options": 3,
     "secondary_mim": 1,
-    "status": "lam-direction-selected-variant-awaiting-selection",
+    "status": "long-stem-lam-selected-two-colourways",
     "review_url": "brand-system.html#emblems",
     "candidates": [
       {
@@ -120,6 +120,19 @@
         "idea": "الميم التي أعجبتك، بمقياس أصغر للمقارنة مع اللام.",
         "fit": "بديل ثانوي؛ التركيز الحالي على تطوير اللام.",
         "patternFit": "تكرار متباعد للرمز داخل التغليف."
+      }
+    ],
+    "selected": "06-wordmark-lam",
+    "colourways": [
+      {
+        "ground": "#FCFBF8",
+        "ink": "#5C1E32",
+        "role": "primary"
+      },
+      {
+        "ground": "#5C1E32",
+        "ink": "#FCFBF8",
+        "role": "inverse"
       }
     ]
   },
