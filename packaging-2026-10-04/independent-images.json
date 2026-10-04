@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-04",
+  "policy": "One independent image per option",
+  "photos": [
+    "assets/box-01-kraft.png",
+    "assets/box-02-white.png",
+    "assets/bag-concept.png"
+  ],
+  "artwork": [
+    {
+      "label": "bag-front-panel.svg",
+      "path": "images/bag-front-panel.png",
+      "width": 1600,
+      "height": 1993
+    },
+    {
+      "label": "bag-side-panel.svg",
+      "path": "images/bag-side-panel.png",
+      "width": 1600,
+      "height": 5156
+    },
+    {
+      "label": "care-card-burgundy.svg",
+      "path": "images/care-card-burgundy.png",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "label": "care-card.svg",
+      "path": "images/care-card.png",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "label": "gift-message-burgundy.svg",
+      "path": "images/gift-message-burgundy.png",
+      "width": 1600,
+      "height": 1147
+    },
+    {
+      "label": "gift-message.svg",
+      "path": "images/gift-message.png",
+      "width": 1600,
+      "height": 1147
+    },
+    {
+      "label": "hangtag-back.svg",
+      "path": "images/hangtag-back.png",
+      "width": 1600,
+      "height": 2743
+    },
+    {
+      "label": "hangtag-front.svg",
+      "path": "images/hangtag-front.png",
+      "width": 1600,
+      "height": 2743
+    },
+    {
+      "label": "inner-01-lam.svg",
+      "path": "images/inner-01-lam.png",
+      "width": 1600,
+      "height": 2232
+    },
+    {
+      "label": "inner-02-edge.svg",
+      "path": "images/inner-02-edge.png",
+      "width": 1600,
+      "height": 2232
+    },
+    {
+      "label": "reward-back-base.svg",
+      "path": "images/reward-back-base.png",
+      "width": 1600,
+      "height": 1153
+    },
+    {
+      "label": "reward-back-covered-PREVIEW.svg",
+      "path": "images/reward-back-covered-PREVIEW.png",
+      "width": 1600,
+      "height": 1153
+    },
+    {
+      "label": "ribbon-print-repeat.svg",
+      "path": "images/ribbon-print-repeat.png",
+      "width": 1600,
+      "height": 299
+    },
+    {
+      "label": "seal-sticker.svg",
+      "path": "images/seal-sticker.png",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "label": "thank-you-front-burgundy.svg",
+      "path": "images/thank-you-front-burgundy.png",
+      "width": 1600,
+      "height": 1153
+    },
+    {
+      "label": "thank-you-front-ivory.svg",
+      "path": "images/thank-you-front-ivory.png",
+      "width": 1600,
+      "height": 1153
+    }
+  ]
+}

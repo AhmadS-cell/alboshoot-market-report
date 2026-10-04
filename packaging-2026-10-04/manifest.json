@@ -1,0 +1,582 @@
+{
+  "brand": "مُسدل",
+  "date": "2026-10-04",
+  "version": 1,
+  "status": "review_only_not_press_ready",
+  "confirmed": "lightweight_standard_packaging_gift_box_optional",
+  "suggested_discount_percent": 10,
+  "suggested_validity_days": 45,
+  "print_colour_space": "RGB draft; final ICC conversion pending printer",
+  "fonts": "live editable text; licensed fonts bundled",
+  "box_colour_policy": "supplier stock kraft or stock white; no custom colour coating; no direct box print",
+  "box_options": [
+    "1 natural brown kraft + printed burgundy ribbon",
+    "2 stock white + printed burgundy ribbon"
+  ],
+  "website": "pending confirmed store URL; never print placeholder",
+  "real_coupons_created": false,
+  "box_dieline": "pending supplier folded-garment sample",
+  "scratch_panel": {
+    "trim_mm": [
+      148,
+      105
+    ],
+    "artboard_mm": [
+      154,
+      111
+    ],
+    "panel_from_trim_top_left_mm": [
+      44,
+      35,
+      60,
+      20
+    ],
+    "hidden_safe_mm": [
+      56,
+      16
+    ],
+    "base": "reward-back-base.svg",
+    "mask": "scratch-mask.svg",
+    "excluded_from_production": "reward-back-covered-PREVIEW.svg"
+  },
+  "sources": [
+    [
+      "هوية مُسدل المحلية والأصول المتجهية المختارة",
+      "assets/brand-overview.svg",
+      "الباليت واللام وشعار انسياب؛ أصول أصلية من المشروع."
+    ],
+    [
+      "Scratch Card Printing UK · طريقة تصنيع القشط",
+      "https://www.scratchcardprinting.co.uk/how-are-scratch-cards-made/",
+      "يفصل الحبر المخفي عن الورنيش الواقي وطبقة القشط؛ دليل عملية، وليس عرض سعر محلي."
+    ],
+    [
+      "Scratch Card Printing UK · قالب تجهيز الملفات",
+      "https://www.scratchcardprinting.co.uk/wp-content/uploads/2024/07/Scratch-Card-Set-Up-Guide.pdf",
+      "فصل الرسم الأساسي وطبقة القشط والطباعة فوقها؛ متطلبات الحبر تعتمد على طريقة الطباعة."
+    ],
+    [
+      "Apprintable · دليل القشط والبيانات المتغيرة",
+      "https://www.apprintable.com/scratch-card-printing-guide.html",
+      "يدعم الرموز المتغيرة وهامش تغطية منطقة القشط؛ مواصفات المورد النهائي لها الأولوية."
+    ],
+    [
+      "MOO · دليل ملفات البطاقات",
+      "https://www.moo.com/us/greeting-cards/design-guidelines",
+      "ملفات PDF متجهية، نزف، وصور بدقة 300dpi؛ أحجام مُسدل في هذه الحزمة مقترحة."
+    ],
+    [
+      "Solopress · دليل ملفات الستيكر",
+      "https://beta.solopress.com/support-guides/custom-shape-sticker-sheet-artwork/",
+      "مسار القص في طبقة منفصلة بلون خاص؛ التسمية تؤكد مع المطبعة."
+    ]
+  ],
+  "inner_options": [
+    "1 spaced lam",
+    "2 calm edge"
+  ],
+  "card_options": [
+    "1 ivory front",
+    "2 burgundy front"
+  ],
+  "bag": {
+    "status": "design_approved_production_later",
+    "size_mm": [
+      320,
+      400,
+      120
+    ],
+    "front": "bag-front-panel.svg",
+    "side": "bag-side-panel.svg",
+    "supplier_dieline": "pending"
+  },
+  "pdfs": [
+    {
+      "file": "designer-brief.pdf",
+      "pages": 7,
+      "bytes": 759603
+    },
+    {
+      "file": "cards-review.pdf",
+      "pages": 5,
+      "bytes": 101986
+    },
+    {
+      "file": "collateral-review.pdf",
+      "pages": 5,
+      "bytes": 85016
+    }
+  ],
+  "files": [
+    {
+      "path": "artwork/bag-front-panel.svg",
+      "bytes": 699024,
+      "sha256": "3d25a4db24b9b9e88765c10b41844cfb4ada40d1b439322c7db71f3fd6a2311e"
+    },
+    {
+      "path": "artwork/bag-side-panel.svg",
+      "bytes": 701474,
+      "sha256": "ab158e3d7c365a8d44f6df9604a7a5061b39edc7dd300019d4e9484ec5d7b72f"
+    },
+    {
+      "path": "artwork/care-card-burgundy.svg",
+      "bytes": 647001,
+      "sha256": "4b69eee5ac273ea47850d020c8c91c949c59594ca18294ba3259d02760b93d4f"
+    },
+    {
+      "path": "artwork/care-card.svg",
+      "bytes": 647001,
+      "sha256": "280b0b0159b99da61fdcd70980312e08c6369ffdd1957f391fc73daaebfc0fde"
+    },
+    {
+      "path": "artwork/gift-message-burgundy.svg",
+      "bytes": 653956,
+      "sha256": "630bfaa0081fa97f8726f982a1b4d226f0fe389ab61e04f869171c8309a63fe3"
+    },
+    {
+      "path": "artwork/gift-message.svg",
+      "bytes": 653855,
+      "sha256": "b67dd87e25e252d482c94b201032fcebd84390f91c7c8f31fc9ce131de97b7bd"
+    },
+    {
+      "path": "artwork/hangtag-back.svg",
+      "bytes": 642143,
+      "sha256": "f2b620fc888fb56634ea32d5d46e10b775f2a172a49a443f1c39912f59080f04"
+    },
+    {
+      "path": "artwork/hangtag-cut-hole-mask.svg",
+      "bytes": 641317,
+      "sha256": "0be0bd5dd009d7c7e29042d99fed8f0b467ec6d60bed0e845ec00757f52937aa"
+    },
+    {
+      "path": "artwork/hangtag-front.svg",
+      "bytes": 663627,
+      "sha256": "4f402b792713dcbc33473d0c65e84a4da11205bbfd11c0ceb95f6ceba035ad50"
+    },
+    {
+      "path": "artwork/inner-01-lam.svg",
+      "bytes": 912522,
+      "sha256": "cf0ea234fb60d211dfbcbe710234f37c1f0ab70a0aeade8615ee018e650e682a"
+    },
+    {
+      "path": "artwork/inner-02-edge.svg",
+      "bytes": 703864,
+      "sha256": "0594936c170dc57c6778cb2aabe40e506b5fe713f405f96db36a6bd60316f462"
+    },
+    {
+      "path": "artwork/reward-back-base.svg",
+      "bytes": 647873,
+      "sha256": "7157040f6e8054a265a61baee7a3f73f09f2f2fd5f936f86bcda0d6976b3abd5"
+    },
+    {
+      "path": "artwork/reward-back-covered-PREVIEW.svg",
+      "bytes": 648107,
+      "sha256": "3f021e6f9cd4bbf5cb528b69eb2ea06b971080cf48d1c29c4b8898412b5e3b2c"
+    },
+    {
+      "path": "artwork/ribbon-print-repeat.svg",
+      "bytes": 658828,
+      "sha256": "6bacfa21c1bdc50ec2d59ffc991f9ece48c8619a18997d72fb80c9ea3111289b"
+    },
+    {
+      "path": "artwork/scratch-mask.svg",
+      "bytes": 641185,
+      "sha256": "abc4f9bbc527a87023e6a83a6718a2647539561f9ba8cb4e16b397ab2e40e7e0"
+    },
+    {
+      "path": "artwork/seal-cut-mask.svg",
+      "bytes": 641214,
+      "sha256": "d68b69fafb8a567ed88d9de8a3d45788309a1f46d51814c13c31a76ea64cacb0"
+    },
+    {
+      "path": "artwork/seal-sticker.svg",
+      "bytes": 646247,
+      "sha256": "487067655d0dabeb759eeec4239070fd319fd30e301d77ae084a2dd9796f8895"
+    },
+    {
+      "path": "artwork/thank-you-front-burgundy.svg",
+      "bytes": 659566,
+      "sha256": "0909d33fd1caac8d485b8fc60f627a17c39ad8a5827c9c6c62da2b631977c7e6"
+    },
+    {
+      "path": "artwork/thank-you-front-ivory.svg",
+      "bytes": 659566,
+      "sha256": "f7e760b6f5088d520fa320086be284171f41e57a0e717de332ca61cfad80aa7a"
+    },
+    {
+      "path": "assets/bag-concept.jpg",
+      "bytes": 106114,
+      "sha256": "74cd2927b6f07e39aa6cb5f4593dde34b32f9b9f37becb110d64f3cb2bdc7e49"
+    },
+    {
+      "path": "assets/bag-concept.png",
+      "bytes": 1627502,
+      "sha256": "f7e9f1ac551332be9f9105402de03c842d5a9a0e1c96b81cc94814dbddc3a0a9"
+    },
+    {
+      "path": "assets/box-01-kraft.jpg",
+      "bytes": 238375,
+      "sha256": "75475be8d540fc83f0bf48f014bc0f447eaf35b96cdb03d31fb750cc9c9cb304"
+    },
+    {
+      "path": "assets/box-01-kraft.png",
+      "bytes": 2360501,
+      "sha256": "939ccae18baefa37ab4a0be89d3dd99253c0c861d9eced35f19890956a047581"
+    },
+    {
+      "path": "assets/box-02-white.jpg",
+      "bytes": 188150,
+      "sha256": "79222e4de4b6367ce16a3761b52e93e9ff8f360123783799123f9bb6601374c6"
+    },
+    {
+      "path": "assets/box-02-white.png",
+      "bytes": 2235515,
+      "sha256": "ee46360f2fc9451314624257fa932e09bddef076a52a4a405f058ce26f43ecd2"
+    },
+    {
+      "path": "assets/brand-manifest.json",
+      "bytes": 14444,
+      "sha256": "598f00692ccd5731537dbbd37f2ceb31571e6c057919108299a16c4c3089dc91"
+    },
+    {
+      "path": "assets/brand-overview.svg",
+      "bytes": 52085,
+      "sha256": "e7e64561c83aadf0caa5ed8757aa74ae30672669f481caa0583dc45546f359ae"
+    },
+    {
+      "path": "assets/emblem/lam-burgundy.svg",
+      "bytes": 5101,
+      "sha256": "fe2961e93d0f04900ea4d9748c8b13615a542d68083d1a46fb7b2c2afedf133a"
+    },
+    {
+      "path": "assets/emblem/lam-off-white.svg",
+      "bytes": 5101,
+      "sha256": "95b1cbf59bda0a79a9171f5e5f691b1ad4e47fc595d9fd071fa29cda4f2ad3e8"
+    },
+    {
+      "path": "assets/emblem/lam-on-burgundy.svg",
+      "bytes": 5158,
+      "sha256": "45b1b91f800156eacb4425723854af5abd41967e1a8c5ba6798e36f973db279d"
+    },
+    {
+      "path": "assets/emblem/lam-on-off-white.svg",
+      "bytes": 5158,
+      "sha256": "29b8ffaca0b4048430a441ad5e162cc28f01f157984ae78335710ca8aacc7967"
+    },
+    {
+      "path": "assets/logos/wordmark-arabic-burgundy.svg",
+      "bytes": 11986,
+      "sha256": "9af4acc69e8dac993470a353f90629ae799755514e4c8fa370fadf951f68ae85"
+    },
+    {
+      "path": "assets/logos/wordmark-arabic-latin-burgundy.svg",
+      "bytes": 17526,
+      "sha256": "bdbdf556155fbdeacadc738fafa0c0ae21d75d28e5c9b3bbade87e36682a61b2"
+    },
+    {
+      "path": "assets/logos/wordmark-arabic-latin-off-white.svg",
+      "bytes": 17526,
+      "sha256": "495ff32b3dc2effe8faf08dce9ba3564257a898fcb652c15e3d6e5f1dc9b9e89"
+    },
+    {
+      "path": "assets/logos/wordmark-arabic-latin-on-burgundy.svg",
+      "bytes": 17609,
+      "sha256": "1777c12bb2f8e07c467e7bafdfe90a1ebe06b4c6b77e8e7ae438878a08ad307b"
+    },
+    {
+      "path": "assets/logos/wordmark-arabic-latin-on-off-white.svg",
+      "bytes": 17609,
+      "sha256": "d6aaf03c2e7f43983b6e7cbda2165e1065e2b1c284e4d3b965c1e4dade933cc5"
+    },
+    {
+      "path": "assets/logos/wordmark-arabic-off-white.svg",
+      "bytes": 11986,
+      "sha256": "97fd28118963eb86c10e12c64387145ee47f0f8b6c0490b2b8f3641758bf5305"
+    },
+    {
+      "path": "assets/logos/wordmark-arabic-on-burgundy.svg",
+      "bytes": 12069,
+      "sha256": "92ef757b5d914ad1a5a3c835de143f49d2b0d9e3e63119cb88ca7cc66852309f"
+    },
+    {
+      "path": "assets/logos/wordmark-arabic-on-off-white.svg",
+      "bytes": 12069,
+      "sha256": "a032bd6d6866266401d000bc986a521690aa5dda142e9980dae04337341887a5"
+    },
+    {
+      "path": "assets/logos/wordmark-latin-burgundy.svg",
+      "bytes": 5865,
+      "sha256": "2359bb257a8bb971742cf056c061e79b6e287007d5044ae2b29ddff6b94cb5d7"
+    },
+    {
+      "path": "assets/logos/wordmark-latin-off-white.svg",
+      "bytes": 5865,
+      "sha256": "8f9e5c825e5a9392ac3595914a4afe84acb792715893801d1a76b3aee23ea7c0"
+    },
+    {
+      "path": "assets/logos/wordmark-latin-on-burgundy.svg",
+      "bytes": 5945,
+      "sha256": "c4227fd59feade040db671774ee91973643fad99662055719487ee8a26b2d7c0"
+    },
+    {
+      "path": "assets/logos/wordmark-latin-on-off-white.svg",
+      "bytes": 5945,
+      "sha256": "a625b5a04a65fefa0943f4fe8bdd2bb65728e10aaa972cef766892e40f5874df"
+    },
+    {
+      "path": "assets/patterns/edge-inverse.svg",
+      "bytes": 561,
+      "sha256": "fa1fdc5e4c808b5a65cb8c8110858203d6206c4ae32c0cf60fcccd1523e9222b"
+    },
+    {
+      "path": "assets/patterns/edge-pack.svg",
+      "bytes": 558,
+      "sha256": "2bb99954a9bcdbba9496306b63fec6335dfb9e07a25d1aa38bd0be4386e50fb2"
+    },
+    {
+      "path": "assets/patterns/edge-web.svg",
+      "bytes": 557,
+      "sha256": "13ab0a09b51215f380122441a8e0e9ad16bfb6300af7a937ac7db5c711adcc8e"
+    },
+    {
+      "path": "assets/patterns/flow-inverse.svg",
+      "bytes": 527,
+      "sha256": "fe515e64acdc8d4a82dfd0c861395183ef8b93e0fc890a856970f803c24f9cab"
+    },
+    {
+      "path": "assets/patterns/flow-pack.svg",
+      "bytes": 524,
+      "sha256": "6dda081b64025b0c65e237e44940172bf5f6fe0cc8e79f30a1a9e7d44377ff3f"
+    },
+    {
+      "path": "assets/patterns/flow-web.svg",
+      "bytes": 523,
+      "sha256": "ad8e879087a2a6eda50bd02f88d8ac1cf9d21f94a0536a222c2a765393ed39be"
+    },
+    {
+      "path": "assets/patterns/lam-repeat-inverse.svg",
+      "bytes": 5309,
+      "sha256": "1085082501a71a549c579f26a108cada7e91c28a9a12bfff6d6dd2d9a0c28130"
+    },
+    {
+      "path": "assets/patterns/lam-repeat-pack.svg",
+      "bytes": 5309,
+      "sha256": "97eb4a9102e8eab15c3d99ce6da609923c47f09193fefcbb2fdfa90d45f55756"
+    },
+    {
+      "path": "assets/patterns/lam-repeat-web.svg",
+      "bytes": 5309,
+      "sha256": "42fe5d54a85333c5fbb3c495ab471d70dff614ff473d82f72e95446835ac8d89"
+    },
+    {
+      "path": "assets/patterns/weave-inverse.svg",
+      "bytes": 605,
+      "sha256": "ffef9773f16b8c0d5ddfad56e38363276220b4eec92f3e8f5c3d7da54dd1b9a9"
+    },
+    {
+      "path": "assets/patterns/weave-pack.svg",
+      "bytes": 602,
+      "sha256": "72a450524fc8580d343382782505660ce3c76adbb2afc621622d21ca58464037"
+    },
+    {
+      "path": "assets/patterns/weave-web.svg",
+      "bytes": 601,
+      "sha256": "7cdbf55181e307f49deef73276c6919cb35e4cc56a7bd83db2c157129dcb97c3"
+    },
+    {
+      "path": "cards-review.html",
+      "bytes": 3457,
+      "sha256": "546f3ffda0a5badd298c67684a7680548d485f4f79ab8d3dd49feb4a1a7ad06c"
+    },
+    {
+      "path": "collateral-review.html",
+      "bytes": 2932,
+      "sha256": "f902944f7ea1ef785e0725dd90f0654c4af1b9f7e45854053e0ee5de5b6e9815"
+    },
+    {
+      "path": "designer-brief.html",
+      "bytes": 16345,
+      "sha256": "b02467c2da83f63f972b49959c497e6d171f342a18443057795e70a9817e1938"
+    },
+    {
+      "path": "designer-brief.md",
+      "bytes": 7556,
+      "sha256": "50b3d8bbd9129a49063b13640640b3943c86eea046d6763bf34928f4accc9134"
+    },
+    {
+      "path": "fonts/ibmplexsansarabic-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "fonts/plex-arabic-400.ttf",
+      "bytes": 235924,
+      "sha256": "6f611412270a132bbac838da9259d4c68569b4175f3b3b8fa3fa36a30b56dab9"
+    },
+    {
+      "path": "fonts/plex-arabic-500.ttf",
+      "bytes": 242100,
+      "sha256": "b8363ab9f733dfa4f8e96b8b2102c24b5cf4110fb96d1d3d9a9412f6fb49cf74"
+    },
+    {
+      "path": "fonts/plex-arabic-600.ttf",
+      "bytes": 244616,
+      "sha256": "597bd5502e5997be4414e4c9c88834b30ff3784250c84f20bce2b20e53ebd467"
+    },
+    {
+      "path": "generation-prompts.json",
+      "bytes": 7452,
+      "sha256": "eba4e077ab55dd8d99df7fe54308e8c2b8ae724ad233521875fb8b0bfd4d4728"
+    },
+    {
+      "path": "images/bag-front-panel.png",
+      "bytes": 48139,
+      "sha256": "b92a07688f2263ebb0f79ca205803e747acb43f4b0870dcb028f83428fd75ab1"
+    },
+    {
+      "path": "images/bag-side-panel.png",
+      "bytes": 55570,
+      "sha256": "5332d74544fc89fdee151c1f0b23d7af0c2258ef3463b32bc986fa81c6ca81aa"
+    },
+    {
+      "path": "images/care-card-burgundy.png",
+      "bytes": 62268,
+      "sha256": "23f977bfefc0b7321ab1477b83a220afe590beaf13d50bc4d2a0adf9ed49fcde"
+    },
+    {
+      "path": "images/care-card.png",
+      "bytes": 61149,
+      "sha256": "e06102c124aa06c5804b491d9c0713252fa0fca7ce70e9b76456c93c68761cad"
+    },
+    {
+      "path": "images/gift-message-burgundy.png",
+      "bytes": 34383,
+      "sha256": "94a6aa83aba98ddcb49c59ed1205f5639ad1aaf349ec719fee432ee99bd311f2"
+    },
+    {
+      "path": "images/gift-message.png",
+      "bytes": 33760,
+      "sha256": "10934299c7e621f72eaf69a313a67c518d56f6790746fedf545d0e399fbc3f59"
+    },
+    {
+      "path": "images/hangtag-back.png",
+      "bytes": 84160,
+      "sha256": "ec89fc8bc24b76a9e52dfeb5339e0a38f0b6d245e5139701afbb18038ea92ca2"
+    },
+    {
+      "path": "images/hangtag-front.png",
+      "bytes": 52356,
+      "sha256": "437f8bf780aad339a73e2224bd2b92f3fb419b071802728194be52e6397e87a1"
+    },
+    {
+      "path": "images/inner-01-lam.png",
+      "bytes": 33221,
+      "sha256": "bdc6539409b6a4ccdaa1ca5fced89ee288fc18f68629964a184b84ea5102300e"
+    },
+    {
+      "path": "images/inner-02-edge.png",
+      "bytes": 26785,
+      "sha256": "a14d2f248f735608a87a6bbdb3ca2aeb213337868dc30f39cee9c9a6b33f6f94"
+    },
+    {
+      "path": "images/reward-back-base.png",
+      "bytes": 72890,
+      "sha256": "a9669f4426d5b6e882ddc43c21274c0c3a771b6182d4f8a664f4702b55de78d0"
+    },
+    {
+      "path": "images/reward-back-covered-PREVIEW.png",
+      "bytes": 67619,
+      "sha256": "2bc638aa035fae2e5a25a88388f5faa0bd4b451d3e5a93e9ec871ecf933ad5c6"
+    },
+    {
+      "path": "images/ribbon-print-repeat.png",
+      "bytes": 15488,
+      "sha256": "8e9f9bfe310cb0ec6d14f6c30f6f8b4c16ab7c405c4fcbb26726814f3940398b"
+    },
+    {
+      "path": "images/seal-sticker.png",
+      "bytes": 45647,
+      "sha256": "b29a2eb0ea45f6259cfa122f753f9f75856f60bb0a86bb9e6cab28691dbea9c5"
+    },
+    {
+      "path": "images/thank-you-front-burgundy.png",
+      "bytes": 65845,
+      "sha256": "6ccb5f2fb6c7e3c18280c01ab875465038193d1b4857d5b917bc6474fea5d849"
+    },
+    {
+      "path": "images/thank-you-front-ivory.png",
+      "bytes": 64645,
+      "sha256": "f5222299f77fcb1bea07fa65a3f98a41004df3a0bd76a426c74e3a4cb546d330"
+    },
+    {
+      "path": "independent-images.json",
+      "bytes": 2430,
+      "sha256": "a9b778a515c0d47f376fd4e81d7f27020674ee1b3ea8ecd87e95112726b25548"
+    },
+    {
+      "path": "index.html",
+      "bytes": 24524,
+      "sha256": "22077cc077aa02de9d982376150eb20c31fa2682f2e2d5579c2df829dd98036c"
+    },
+    {
+      "path": "proofs/bag-board.png",
+      "bytes": 359187,
+      "sha256": "21ebf56e090185010424bbbf7fab541c4165da79bd7fbd66c77893b720e0cf83"
+    },
+    {
+      "path": "proofs/box-options-board.png",
+      "bytes": 479797,
+      "sha256": "cac364fff9cb9aa44dc47d4b18a2fdd26492fa5d6486fcdda4d3b1380d17ce77"
+    },
+    {
+      "path": "proofs/cards-board.png",
+      "bytes": 103613,
+      "sha256": "bcf18268fef91f135732cd4c6aabbb5503ad950385cd10150f2d6029ab916a17"
+    },
+    {
+      "path": "proofs/cards-review.pdf",
+      "bytes": 101986,
+      "sha256": "b4a093416ca59960001ba1219eade2e50f5b95b4be0b4c9fbfc8bc27299f6ca3"
+    },
+    {
+      "path": "proofs/collateral-review.pdf",
+      "bytes": 85016,
+      "sha256": "bd8626154d27c2f341d8a848010f5ccb283beed9d548d416683226d54c83b8e6"
+    },
+    {
+      "path": "proofs/designer-brief.pdf",
+      "bytes": 759603,
+      "sha256": "4382d08a32abae029ca658d6913ed734661777d377836e628c20903bb063abb8"
+    },
+    {
+      "path": "proofs/inner-options-board.png",
+      "bytes": 39371,
+      "sha256": "6d37a2c9f9cf5de66f0740b2e463055069c624f748bb41505b9ebdea8e8c087e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1345,
+      "sha256": "fdd8bd990ff5c43f965947a5dd6c121d52cd2e14e2c06bad220fee3a1bd64bf0"
+    },
+    {
+      "path": "style.css",
+      "bytes": 7053,
+      "sha256": "19a8e40893734056add961505b17b41e989f0093a21982e265623e8e5cf99b19"
+    },
+    {
+      "path": "variable-data-DEMO.csv",
+      "bytes": 144,
+      "sha256": "05d702f7209451a7a560935e6dbdc002a5d684998e6987efd17b438e44a3b033"
+    }
+  ],
+  "approval": {
+    "date": "2026-10-04",
+    "bag_design": "approved",
+    "thank_you_scratch_card_design": "approved",
+    "card_front_colour": "not_selected",
+    "box_option": "not_selected",
+    "inner_option": "not_selected",
+    "print_production": "pending final URL, dimensions and sample"
+  },
+  "asset_policy": "One independent downloadable image per option; no combined image as the only deliverable."
+}

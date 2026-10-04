@@ -1,0 +1,478 @@
+{
+  "brand": "مُسدل / MUSDAL",
+  "date": "2026-10-04",
+  "selected_wordmark": "انسياب",
+  "selected_emblem": "اللام بساق طويلة",
+  "palette": {
+    "burgundy": "#5C1E32",
+    "off-white": "#FCFBF8",
+    "light-stone": "#DDDAD3",
+    "copper": "#A77359",
+    "text": "#29282A",
+    "muted": "#5D5C5E"
+  },
+  "all_visual_assets": "SVG geometry only; no embedded or linked bitmap images",
+  "logo_text": "Arabic and Latin lettering are outlined paths; no installed fonts required",
+  "tracing": {
+    "engine": "Potrace1.16",
+    "official_source": "https://potrace.sourceforge.net/",
+    "download_sha1": "7e360015c8ac0e6efdffa6c26974daf65ab596e9",
+    "settings": "alpha max0.8, opt tolerance0.05, coordinate unit100; outline traced from approved raster source",
+    "fidelity_note": "Vector reconstruction of raster artwork, preserving shapes and proportions; original pre-generation vector does not exist."
+  },
+  "source_records": {
+    "arabic": {
+      "width": 2808,
+      "height": 1272,
+      "source": "report/flow-unisex-2026-10-04/flow-unisex-concept-v2.png",
+      "roi": [
+        450,
+        50,
+        1152,
+        368
+      ],
+      "alpha": false,
+      "source_sha256": "7020575ad61f1fccd795e5422672656c0b81a060543ca0d700c6873083c3f731",
+      "paths": 1
+    },
+    "lockup": {
+      "width": 2808,
+      "height": 1468,
+      "source": "report/flow-unisex-2026-10-04/flow-unisex-concept-v2.png",
+      "roi": [
+        450,
+        50,
+        1152,
+        417
+      ],
+      "alpha": false,
+      "source_sha256": "7020575ad61f1fccd795e5422672656c0b81a060543ca0d700c6873083c3f731",
+      "paths": 1
+    },
+    "latin": {
+      "width": 1600,
+      "height": 160,
+      "source": "report/flow-unisex-2026-10-04/flow-unisex-concept-v2.png",
+      "roi": [
+        600,
+        373,
+        1000,
+        413
+      ],
+      "alpha": false,
+      "source_sha256": "7020575ad61f1fccd795e5422672656c0b81a060543ca0d700c6873083c3f731",
+      "paths": 1
+    },
+    "lam": {
+      "width": 1228,
+      "height": 1992,
+      "source": "report/emblem-patterns-2026-10-04/06-wordmark-lam/emblem-original.png",
+      "roi": null,
+      "alpha": true,
+      "source_sha256": "88bedcaee56afa08a95906955c04d169d9939101ee718fba1da064078cca2889",
+      "paths": 1
+    }
+  },
+  "pattern_usage": {
+    "flow": "فواصل الموقع وورق التغليف",
+    "edge": "حواف الصناديق والشريط الورقي والقرطاسية",
+    "weave": "ظهر الكرت والورق الداخلي",
+    "lam-repeat": "الورق الداخلي وظهر القرطاسية"
+  },
+  "assets": [
+    {
+      "path": "logos/wordmark-arabic-burgundy.svg",
+      "role": "wordmark",
+      "type": "wordmark-arabic",
+      "colourway": "burgundy",
+      "bytes": 11986,
+      "sha256": "9af4acc69e8dac993470a353f90629ae799755514e4c8fa370fadf951f68ae85",
+      "vector_only": true
+    },
+    {
+      "path": "logos/wordmark-arabic-off-white.svg",
+      "role": "wordmark",
+      "type": "wordmark-arabic",
+      "colourway": "off-white",
+      "bytes": 11986,
+      "sha256": "97fd28118963eb86c10e12c64387145ee47f0f8b6c0490b2b8f3641758bf5305",
+      "vector_only": true
+    },
+    {
+      "path": "logos/wordmark-arabic-on-off-white.svg",
+      "role": "wordmark",
+      "type": "wordmark-arabic",
+      "colourway": "on-off-white",
+      "bytes": 12069,
+      "sha256": "a032bd6d6866266401d000bc986a521690aa5dda142e9980dae04337341887a5",
+      "vector_only": true
+    },
+    {
+      "path": "logos/wordmark-arabic-on-burgundy.svg",
+      "role": "wordmark",
+      "type": "wordmark-arabic",
+      "colourway": "on-burgundy",
+      "bytes": 12069,
+      "sha256": "92ef757b5d914ad1a5a3c835de143f49d2b0d9e3e63119cb88ca7cc66852309f",
+      "vector_only": true
+    },
+    {
+      "path": "logos/wordmark-arabic-latin-burgundy.svg",
+      "role": "wordmark",
+      "type": "wordmark-arabic-latin",
+      "colourway": "burgundy",
+      "bytes": 17526,
+      "sha256": "bdbdf556155fbdeacadc738fafa0c0ae21d75d28e5c9b3bbade87e36682a61b2",
+      "vector_only": true
+    },
+    {
+      "path": "logos/wordmark-arabic-latin-off-white.svg",
+      "role": "wordmark",
+      "type": "wordmark-arabic-latin",
+      "colourway": "off-white",
+      "bytes": 17526,
+      "sha256": "495ff32b3dc2effe8faf08dce9ba3564257a898fcb652c15e3d6e5f1dc9b9e89",
+      "vector_only": true
+    },
+    {
+      "path": "logos/wordmark-arabic-latin-on-off-white.svg",
+      "role": "wordmark",
+      "type": "wordmark-arabic-latin",
+      "colourway": "on-off-white",
+      "bytes": 17609,
+      "sha256": "d6aaf03c2e7f43983b6e7cbda2165e1065e2b1c284e4d3b965c1e4dade933cc5",
+      "vector_only": true
+    },
+    {
+      "path": "logos/wordmark-arabic-latin-on-burgundy.svg",
+      "role": "wordmark",
+      "type": "wordmark-arabic-latin",
+      "colourway": "on-burgundy",
+      "bytes": 17609,
+      "sha256": "1777c12bb2f8e07c467e7bafdfe90a1ebe06b4c6b77e8e7ae438878a08ad307b",
+      "vector_only": true
+    },
+    {
+      "path": "logos/wordmark-latin-burgundy.svg",
+      "role": "wordmark",
+      "type": "wordmark-latin",
+      "colourway": "burgundy",
+      "bytes": 5865,
+      "sha256": "2359bb257a8bb971742cf056c061e79b6e287007d5044ae2b29ddff6b94cb5d7",
+      "vector_only": true
+    },
+    {
+      "path": "logos/wordmark-latin-off-white.svg",
+      "role": "wordmark",
+      "type": "wordmark-latin",
+      "colourway": "off-white",
+      "bytes": 5865,
+      "sha256": "8f9e5c825e5a9392ac3595914a4afe84acb792715893801d1a76b3aee23ea7c0",
+      "vector_only": true
+    },
+    {
+      "path": "logos/wordmark-latin-on-off-white.svg",
+      "role": "wordmark",
+      "type": "wordmark-latin",
+      "colourway": "on-off-white",
+      "bytes": 5945,
+      "sha256": "a625b5a04a65fefa0943f4fe8bdd2bb65728e10aaa972cef766892e40f5874df",
+      "vector_only": true
+    },
+    {
+      "path": "logos/wordmark-latin-on-burgundy.svg",
+      "role": "wordmark",
+      "type": "wordmark-latin",
+      "colourway": "on-burgundy",
+      "bytes": 5945,
+      "sha256": "c4227fd59feade040db671774ee91973643fad99662055719487ee8a26b2d7c0",
+      "vector_only": true
+    },
+    {
+      "path": "emblem/lam-burgundy.svg",
+      "role": "emblem",
+      "colourway": "burgundy",
+      "bytes": 5101,
+      "sha256": "fe2961e93d0f04900ea4d9748c8b13615a542d68083d1a46fb7b2c2afedf133a",
+      "vector_only": true
+    },
+    {
+      "path": "favicon/favicon-burgundy.svg",
+      "role": "favicon",
+      "colourway": "burgundy",
+      "bytes": 5099,
+      "sha256": "e92778ed4583659d04b7fd7b65844374a1eb181c2168ca9c18621cab9dd71895",
+      "vector_only": true
+    },
+    {
+      "path": "emblem/lam-off-white.svg",
+      "role": "emblem",
+      "colourway": "off-white",
+      "bytes": 5101,
+      "sha256": "95b1cbf59bda0a79a9171f5e5f691b1ad4e47fc595d9fd071fa29cda4f2ad3e8",
+      "vector_only": true
+    },
+    {
+      "path": "favicon/favicon-off-white.svg",
+      "role": "favicon",
+      "colourway": "off-white",
+      "bytes": 5099,
+      "sha256": "e0cb20c0e8a30111cdebe402dddbc759d16a1e20a26c78a89637f2eaae707c72",
+      "vector_only": true
+    },
+    {
+      "path": "emblem/lam-on-off-white.svg",
+      "role": "emblem",
+      "colourway": "on-off-white",
+      "bytes": 5158,
+      "sha256": "29b8ffaca0b4048430a441ad5e162cc28f01f157984ae78335710ca8aacc7967",
+      "vector_only": true
+    },
+    {
+      "path": "favicon/favicon-on-off-white.svg",
+      "role": "favicon",
+      "colourway": "on-off-white",
+      "bytes": 5156,
+      "sha256": "139a39f2fbc388daf0fcd27d14fa9e7d88aed9c1db22de1cbc931e73a0bc3b2b",
+      "vector_only": true
+    },
+    {
+      "path": "emblem/lam-on-burgundy.svg",
+      "role": "emblem",
+      "colourway": "on-burgundy",
+      "bytes": 5158,
+      "sha256": "45b1b91f800156eacb4425723854af5abd41967e1a8c5ba6798e36f973db279d",
+      "vector_only": true
+    },
+    {
+      "path": "favicon/favicon-on-burgundy.svg",
+      "role": "favicon",
+      "colourway": "on-burgundy",
+      "bytes": 5156,
+      "sha256": "9ec92645742927564144d4c080ed674280e0a967456691eb93fbdffbf23a51c0",
+      "vector_only": true
+    },
+    {
+      "path": "favicon/favicon-adaptive.svg",
+      "role": "favicon",
+      "colourway": "system light/dark",
+      "bytes": 5200,
+      "sha256": "774151e2d5b56b00250092bbf54d90ec2f99868b1f1be777355dec56decdbc4a",
+      "vector_only": true
+    },
+    {
+      "path": "patterns/flow-web.svg",
+      "role": "pattern",
+      "family": "flow",
+      "scheme": "web",
+      "tile_size": 256,
+      "bytes": 523,
+      "sha256": "ad8e879087a2a6eda50bd02f88d8ac1cf9d21f94a0536a222c2a765393ed39be",
+      "vector_only": true
+    },
+    {
+      "path": "patterns/flow-pack.svg",
+      "role": "pattern",
+      "family": "flow",
+      "scheme": "pack",
+      "tile_size": 256,
+      "bytes": 524,
+      "sha256": "6dda081b64025b0c65e237e44940172bf5f6fe0cc8e79f30a1a9e7d44377ff3f",
+      "vector_only": true
+    },
+    {
+      "path": "patterns/flow-inverse.svg",
+      "role": "pattern",
+      "family": "flow",
+      "scheme": "inverse",
+      "tile_size": 256,
+      "bytes": 527,
+      "sha256": "fe515e64acdc8d4a82dfd0c861395183ef8b93e0fc890a856970f803c24f9cab",
+      "vector_only": true
+    },
+    {
+      "path": "patterns/edge-web.svg",
+      "role": "pattern",
+      "family": "edge",
+      "scheme": "web",
+      "tile_size": 256,
+      "bytes": 557,
+      "sha256": "13ab0a09b51215f380122441a8e0e9ad16bfb6300af7a937ac7db5c711adcc8e",
+      "vector_only": true
+    },
+    {
+      "path": "patterns/edge-pack.svg",
+      "role": "pattern",
+      "family": "edge",
+      "scheme": "pack",
+      "tile_size": 256,
+      "bytes": 558,
+      "sha256": "2bb99954a9bcdbba9496306b63fec6335dfb9e07a25d1aa38bd0be4386e50fb2",
+      "vector_only": true
+    },
+    {
+      "path": "patterns/edge-inverse.svg",
+      "role": "pattern",
+      "family": "edge",
+      "scheme": "inverse",
+      "tile_size": 256,
+      "bytes": 561,
+      "sha256": "fa1fdc5e4c808b5a65cb8c8110858203d6206c4ae32c0cf60fcccd1523e9222b",
+      "vector_only": true
+    },
+    {
+      "path": "patterns/weave-web.svg",
+      "role": "pattern",
+      "family": "weave",
+      "scheme": "web",
+      "tile_size": 256,
+      "bytes": 601,
+      "sha256": "7cdbf55181e307f49deef73276c6919cb35e4cc56a7bd83db2c157129dcb97c3",
+      "vector_only": true
+    },
+    {
+      "path": "patterns/weave-pack.svg",
+      "role": "pattern",
+      "family": "weave",
+      "scheme": "pack",
+      "tile_size": 256,
+      "bytes": 602,
+      "sha256": "72a450524fc8580d343382782505660ce3c76adbb2afc621622d21ca58464037",
+      "vector_only": true
+    },
+    {
+      "path": "patterns/weave-inverse.svg",
+      "role": "pattern",
+      "family": "weave",
+      "scheme": "inverse",
+      "tile_size": 256,
+      "bytes": 605,
+      "sha256": "ffef9773f16b8c0d5ddfad56e38363276220b4eec92f3e8f5c3d7da54dd1b9a9",
+      "vector_only": true
+    },
+    {
+      "path": "patterns/lam-repeat-web.svg",
+      "role": "pattern",
+      "family": "lam-repeat",
+      "scheme": "web",
+      "tile_size": 384,
+      "bytes": 5309,
+      "sha256": "42fe5d54a85333c5fbb3c495ab471d70dff614ff473d82f72e95446835ac8d89",
+      "vector_only": true
+    },
+    {
+      "path": "patterns/lam-repeat-pack.svg",
+      "role": "pattern",
+      "family": "lam-repeat",
+      "scheme": "pack",
+      "tile_size": 384,
+      "bytes": 5309,
+      "sha256": "97eb4a9102e8eab15c3d99ce6da609923c47f09193fefcbb2fdfa90d45f55756",
+      "vector_only": true
+    },
+    {
+      "path": "patterns/lam-repeat-inverse.svg",
+      "role": "pattern",
+      "family": "lam-repeat",
+      "scheme": "inverse",
+      "tile_size": 384,
+      "bytes": 5309,
+      "sha256": "1085082501a71a549c579f26a108cada7e91c28a9a12bfff6d6dd2d9a0c28130",
+      "vector_only": true
+    },
+    {
+      "path": "colours/burgundy.svg",
+      "role": "colour",
+      "hex": "#5C1E32",
+      "bytes": 183,
+      "sha256": "893d078e43fdd9cd09665a3aee09c2c564e83641568dd73ac668057ca129baaa",
+      "vector_only": true
+    },
+    {
+      "path": "colours/off-white.svg",
+      "role": "colour",
+      "hex": "#FCFBF8",
+      "bytes": 184,
+      "sha256": "4e52ce064ffbbfed0010efbcba75fef526aaa227149f9f794e221ad83c3cdfd1",
+      "vector_only": true
+    },
+    {
+      "path": "colours/light-stone.svg",
+      "role": "colour",
+      "hex": "#DDDAD3",
+      "bytes": 186,
+      "sha256": "fe94a30f5e847b6d57f08e500dddfd94d7c224a140cfe4cf6759e3927c1ba984",
+      "vector_only": true
+    },
+    {
+      "path": "colours/copper.svg",
+      "role": "colour",
+      "hex": "#A77359",
+      "bytes": 181,
+      "sha256": "be84aa423e520eb245e5b376bad73be0d113cbf9b1460929e344d2d92f0af035",
+      "vector_only": true
+    },
+    {
+      "path": "colours/text.svg",
+      "role": "colour",
+      "hex": "#29282A",
+      "bytes": 179,
+      "sha256": "838f7aef24ca2f26acb719b30b1b51c72437795f37f4d63433538613c6a2a12d",
+      "vector_only": true
+    },
+    {
+      "path": "colours/muted.svg",
+      "role": "colour",
+      "hex": "#5D5C5E",
+      "bytes": 180,
+      "sha256": "b0be98aa73d09416e60ebc5df0868a9b3b2740b3cf57fd54c9ff6d3dd7904c88",
+      "vector_only": true
+    },
+    {
+      "path": "colours/brand-palette.svg",
+      "role": "palette",
+      "bytes": 1418,
+      "sha256": "ac2815fcd43c0fc3e1133e171dc715627ce72ee343f17818e6fd873cdb27333b",
+      "vector_only": true
+    },
+    {
+      "path": "brand-overview.svg",
+      "role": "brand overview",
+      "bytes": 52085,
+      "sha256": "e7e64561c83aadf0caa5ed8757aa74ae30672669f481caa0583dc45546f359ae",
+      "vector_only": true
+    }
+  ],
+  "verification": {
+    "svg_count": 41,
+    "no_bitmap_elements": true,
+    "outlined_logo_letters": true,
+    "rendered_at_width_px": 4096,
+    "source_silhouette_comparison": {
+      "arabic": {
+        "silhouette_iou": 0.995703,
+        "source_pixels": 457806,
+        "vector_render_pixels": 457639,
+        "ratio": 0.999635
+      },
+      "lockup": {
+        "silhouette_iou": 0.994815,
+        "source_pixels": 473457,
+        "vector_render_pixels": 473298,
+        "ratio": 0.999664
+      },
+      "latin": {
+        "silhouette_iou": 0.969182,
+        "source_pixels": 15651,
+        "vector_render_pixels": 15659,
+        "ratio": 1.000511
+      },
+      "lam": {
+        "silhouette_iou": 0.997927,
+        "source_pixels": 440529,
+        "vector_render_pixels": 440305,
+        "ratio": 0.999492
+      }
+    }
+  }
+}
