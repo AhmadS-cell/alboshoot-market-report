@@ -2,6 +2,10 @@ import { asset, homeUrl, collectionUrl, productUrl, categoryProducts, collection
 import { paginate, PAGE_SIZE } from './pagination.js';
 
 const number = n => new Intl.NumberFormat('ar-SA').format(n);
+export function ProductName({name}) {
+  const parts=name.split(' بزري ');
+  return <>{parts[0]}{parts.length>1 && <> <span className="product-name-trim">بزري {parts[1]}</span></>}</>;
+}
 export function ProductImage({product, priority = false, sizes = '(max-width: 640px) 46vw, (max-width: 1000px) 45vw, 280px'}) {
   const stem=product.imageStem;
   return <img src={asset('photos/collection/'+stem+'-800.webp')} srcSet={asset('photos/collection/'+stem+'-400.webp')+' 400w, '+asset('photos/collection/'+stem+'-800.webp')+' 800w'} sizes={sizes} alt={product.alt} width="800" height="1000" loading={priority ? 'eager' : 'lazy'} fetchPriority={priority ? 'high' : 'auto'} decoding="async"/>;
@@ -27,7 +31,7 @@ export function Collection({pageKey, pageNumber = 1, season = 'all'}) {
         {items.map((product,index)=><li className="collection-card" key={product.id}>
           <a className="collection-card-link" href={productUrl(product.id)}>
             <div className="collection-photo"><ProductImage product={product} priority={index<2}/></div>
-            <div className="collection-product-info"><h2>{product.name}</h2><p className="product-color">{product.color}{product.trim && <><span className="product-meta-separator" aria-hidden="true"/><span>زري {product.trim}</span></>}</p><p className="price">{product.price} <span>ر.س</span></p></div>
+            <div className="collection-product-info"><h2><ProductName name={product.name}/></h2><p className="product-color"><span className="product-tag">{product.color}</span>{product.trim && <span className="product-tag">زري {product.trim}</span>}</p><p className="price">{product.price} <span>ر.س</span></p></div>
           </a>
         </li>)}
       </ul>
