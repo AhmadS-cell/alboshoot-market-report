@@ -5,6 +5,10 @@
 قائمة صفحات الموقع موجودة في قسم `#homepage-preview` (27). الصفحات المتاحة الآن:
 
 - الصفحة الرئيسية: `homepage-preview-v5/index.html`.
+- كوليكشن البشوت: `homepage-preview-v5/collections/bisht.html`.
+- كوليكشن العبايات: `homepage-preview-v5/collections/abaya.html`.
+- كوليكشن الثياب والدشاديش: `homepage-preview-v5/collections/thobe.html`.
+- كوليكشن الفروات: `homepage-preview-v5/collections/farwa.html`.
 - مخطط صفحة المنتج التفاعلي: `product-page-outline.html#product-start`.
 
 عند تجهيز صفحة جديدة، أضف بطاقة إلى `.website-pages` في القسم نفسه، باسم عربي واضح ورابط مباشر وحالة الصفحة. أبقِ الصفحة الرئيسية أول بطاقة. أضف رابط الصفحة أيضًا إلى تنقل الموقع عندما تصبح جزءًا من تجربة المتجر. لا تعرض روابط لصفحات لم تُجهز بعد.
