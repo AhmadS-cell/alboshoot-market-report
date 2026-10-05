@@ -23,3 +23,5 @@ Typography decision — 5 October 2026: use unmodified Noto Naskh Arabic across 
 
 Mobile details decision — 5 October 2026: keep the eyebrow, title, description and link over the original fabric photograph. No separate black text panel beneath it. Mobile image height 360px with a balanced crop showing fabric and zari; preserve readable light text. CTA text is «شاهد القطعة» on every viewport.
 Gifting decision — 5 October 2026: homepage gifting photograph must use the approved burgundy bag from the report, with light handles and lam repeats on the side and lower front. Use an enlarged stock-white gift box with a separate burgundy paper sleeve carrying the lam and flow pattern. Keep both pieces fully visible on mobile. Current photo: photos/gifting-approved-daylight.png.
+
+Box construction correction — 5 October 2026: use the exact stock-white corrugated tuck-top mailer shown in report/packaging-2026-10-04/assets/box-02-white.png. Attached folding lid and tuck-in front/side tabs; no detachable lid or rigid two-piece gift box. Preserve approved bag and separate lam/flow paper sleeve. Corrected photo: photos/gifting-approved-mailer-daylight.png.
