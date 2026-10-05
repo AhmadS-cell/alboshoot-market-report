@@ -33,6 +33,15 @@ for(const key of Object.keys(collections)) {
 }
 console.log('Prerendered collections with descriptions, metadata, breadcrumbs and pagination. Preview is noindex until real catalog/domain handoff.');
 
+// Preserve existing preview links when the catalog fits into fewer pages.
+for(const [key,page] of [['bisht',2],['all',2],['all',3]]) {
+  const relative=collectionUrl(key,page).slice(base.length),file=path.join(out,relative);
+  if(!fs.existsSync(file)) {
+    const target=collectionUrl(key);
+    fs.writeFileSync(file,`<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><meta http-equiv="refresh" content="0;url=${target}"><link rel="canonical" href="${absolute(target)}"><title>مجموعة مُسدل</title></head><body><a href="${target}">افتح المجموعة</a><script>location.replace(${JSON.stringify(target)})</script></body></html>`);
+  }
+}
+
 for(const product of collectionProducts) {
   const url=absolute(productUrl(product.id));
   const title=product.name+' | مُسدل';
