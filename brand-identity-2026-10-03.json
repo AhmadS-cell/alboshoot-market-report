@@ -163,5 +163,15 @@
       }
     ]
   },
-  "asset_manifest": "emblem-patterns-2026-10-04/manifest.json"
+  "asset_manifest": "emblem-patterns-2026-10-04/manifest.json",
+  "selectedTypography": {
+    "arabicDisplay": "Noto Naskh Arabic",
+    "headlineWeight": 600,
+    "statementWeight": 500,
+    "bodyWeight": 400,
+    "source": "original-unmodified",
+    "bodyAndUI": "Noto Naskh Arabic",
+    "customDevelopment": "archived",
+    "selectedAt": "2026-10-05"
+  }
 }
