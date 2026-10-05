@@ -20,3 +20,5 @@ Hero refinement: pagination chevrons 16px at 0.7 opacity, primary hero CTA arrow
 Published v5 team preview is part of the GitHub knowledge base: /alboshoot-market-report/homepage-preview-v5/index.html. Report section: #homepage-preview (section 27). Build with --base /alboshoot-market-report/homepage-preview-v5/ for GitHub Pages; preserve import.meta.env.BASE_URL in asset URLs. Packaging is the next phase after team review; dimensions and materials must be confirmed before print-ready production files.
 
 Typography decision — 5 October 2026: use unmodified Noto Naskh Arabic across body and UI as well as headings. Headlines 600, hero statements and product names 500, body 400. No Arabic letter-spacing. Maintain readable mobile sizes and approved independent-section spacing.
+
+Mobile details decision — 5 October 2026: keep the eyebrow, title, description and link over the original fabric photograph. No separate black text panel beneath it. Mobile image height 360px with a balanced crop showing fabric and zari; preserve readable light text. CTA text is «شاهد القطعة» on every viewport.

@@ -15,7 +15,7 @@
 h2{color:var(--burgundy)}.details-copy h2{color:#fcfbf8}
 .category h3{color:var(--muted)}.category>div>.icon{opacity:.64}.hero-pagination .icon{width:16px;height:16px;opacity:.7}.hero .primary-button .icon{width:18px;height:18px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
-@media(max-width:640px){.details-banner>img{height:220px;object-position:20% center}.details-copy{position:static;transform:none;width:100%;padding:30px 24px 36px}.details-copy p{margin-top:12px}}
+
 
 /* Approved original Noto typography and readability, 5 October 2026. */
 :root{font-family:'Noto Naskh Arabic',serif}body{font-size:18px;line-height:1.85}h1,h2,h3{letter-spacing:normal}h2{font-size:40px;line-height:1.55;font-weight:600}h3{font-weight:600}
@@ -25,3 +25,6 @@ h2{color:var(--burgundy)}.details-copy h2{color:#fcfbf8}
 .details-copy h2{font-size:44px;line-height:1.55}.details-copy p{font-size:20px;line-height:1.9}.services a{font-size:18px}.footer-brand p{font-size:17px}.footer-links h3{font-size:21px}.footer-links a{font-size:17px;line-height:2.5}.footer-bottom{font-size:14px}.service-dialog{font-size:18px;line-height:1.9}
 @media(min-width:641px) and (max-width:1000px){.hero h1{font-size:45px}.hero-copy p{font-size:19px}.main-nav{gap:24px;font-size:17px}.category h3{font-size:20px}.services a{font-size:17px}}
 @media(max-width:640px){h2{font-size:32px;line-height:1.6}.eyebrow{font-size:15px}.text-link{font-size:17px}.main-nav{font-size:18px}.hero h1{font-size:44px;line-height:1.5}.hero-copy{padding-top:30px}.hero-copy p{font-size:19px;line-height:1.9;margin:12px 0 26px}.primary-button{font-size:18px}.brand-intro h2{font-size:30px}.brand-intro p{font-size:18px;line-height:1.95}.category h3{font-size:20px}.section-heading{align-items:flex-start;flex-wrap:wrap}.section-heading p{font-size:17px}.section-heading .text-link,.gifting .section-heading .text-link{font-size:16px}.product-info h3{font-size:21px}.product-info>span{font-size:15px}.price{font-size:20px}.price span{font-size:16px}.centered-copy p{font-size:18px}.details-copy h2{font-size:34px}.details-copy p{font-size:18px}.services a{font-size:18px}.footer-brand p{font-size:16px}.footer-links h3{font-size:20px}.footer-links a{font-size:16px;line-height:2.6}.footer-bottom{font-size:14px}}
+
+/* Details copy stays on the fabric photograph on mobile. */
+@media(max-width:640px){.details-banner{background:transparent}.details-banner>img{height:360px;aspect-ratio:auto;object-fit:cover;object-position:50% center}.details-copy{position:absolute;top:50%;right:24px;left:24px;width:auto;transform:translateY(-50%);padding:0;background:transparent}.details-copy h2{font-size:clamp(28px,8.2vw,34px)}.details-copy p{margin-top:12px}.details-copy .text-link{min-height:44px;margin-top:20px}}
