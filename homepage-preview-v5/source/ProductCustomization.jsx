@@ -19,8 +19,8 @@ export function CustomizationSummary({options,category}) {
 export function ProductCustomization({categoryKey,category,options,onChange,errors,guideDialog,detailsRef}) {
  const set=(field,value)=>onChange({...options,[field]:value,approved:field==='approved'?value:false});
  const selected=options.nameEnabled||options.lengthEnabled;
- return <details className="customization-options" ref={detailsRef}>
-  <summary>لمستك الخاصة <span>الاسم وتعديل الطول · اختياري</span></summary>
+ return <section className="customization-options" ref={detailsRef} aria-labelledby="customization-title">
+  <h2 id="customization-title">لمستك الخاصة <span>الاسم وتعديل الطول · اختياري</span></h2>
   <label className="option-toggle"><input type="checkbox" checked={options.nameEnabled} onChange={e=>set('nameEnabled',e.target.checked)}/> أضف اسمًا مطرّزًا</label>
   {options.nameEnabled&&<div className="customization-panel">
    <label htmlFor="embroidered-name">الاسم كما تريد كتابته</label><input id="embroidered-name" type="text" dir="auto" maxLength="24" autoComplete="off" value={options.embroideredName} onChange={e=>set('embroideredName',e.target.value)} placeholder="مثال: أحمد العتيبي" aria-invalid={!!errors.name} aria-describedby={errors.name?'name-help name-error':'name-help'}/>
@@ -36,5 +36,5 @@ export function ProductCustomization({categoryKey,category,options,onChange,erro
   </div>}
   {selected&&<div className="customization-review"><h3>راجع لمستك</h3><CustomizationSummary options={{...options,wrapping:false}} category={category}/><label className="option-toggle"><input id="customization-approved" type="checkbox" checked={options.approved} onChange={e=>set('approved',e.target.checked)} aria-invalid={!!errors.approved} aria-describedby={errors.approved?'approval-error':undefined}/> راجعت كتابة الاسم ولون الخيط والموضع والطول المختار.</label>{errors.approved&&<p className="field-error" id="approval-error" role="alert">{errors.approved}</p>}<p>أي تعديل على الاختيارات يحتاج مراجعة المعاينة من جديد.</p></div>}
   <p className="option-note">يمكن تجربة الخيارات وحفظها بالسلة. تكلفة الخدمات والمهلة وشروط استبدال القطعة المخصّصة تُعتمد قبل إتاحة الشراء.</p>
- </details>;
+ </section>;
 }
