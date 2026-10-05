@@ -30,4 +30,3 @@ h2{color:var(--burgundy)}.details-copy h2{color:#fcfbf8}
 @media(max-width:640px){.details-banner{background:transparent}.details-banner>img{height:360px;aspect-ratio:auto;object-fit:cover;object-position:50% center}.details-copy{position:absolute;top:50%;right:24px;left:24px;width:auto;transform:translateY(-50%);padding:0;background:transparent}.details-copy h2{font-size:clamp(28px,8.2vw,34px)}.details-copy p{margin-top:12px}.details-copy .text-link{min-height:44px;margin-top:20px}}
 /* Keep both approved packaging pieces visible in the mobile gifting photo. */
 @media(max-width:640px){.gifting .editorial-photo{aspect-ratio:1827/861;object-fit:contain;object-position:center}}
-
