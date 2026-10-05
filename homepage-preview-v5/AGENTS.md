@@ -28,3 +28,6 @@ Box construction correction — 5 October 2026: use the exact stock-white corrug
 
 Collection decision — 5 October 2026: each category opens its own collection page (bisht, abaya, thobe, farwa). No filtering for the small catalog. Compact photographic header, products near the top on mobile, editorial banner beneath the products, and distinct collection description at the bottom for SEO. Preserve approved product names and weights. Prepare real page links for pagination at eight products per page; hide unnecessary pagination for a single page. Preview catalog/prices remain illustrative; preview routes use noindex until the real catalog and store domain are confirmed.
 
+
+Packaging approved layout — 5 October 2026: option 2 stock-white folding mailer is approved. On the separate burgundy paper sleeve, use lam on the top and bottom and the full approved Arabic/Latin wordmark plus user-confirmed musdal.com on the vertical face, with restrained flow pattern. Homepage photo: photos/gifting-approved-sleeve-daylight.png. Exact four-face vector layout is packaging-2026-10-04/artwork/white-box-sleeve-approved.svg.
+

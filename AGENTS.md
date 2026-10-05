@@ -4,3 +4,6 @@ The sources/references section must always be the final content section in every
 # Packaging asset instructions
 
 Publish every packaging option as an independent image with its own clear label and direct open/download link. Keep box, inner-paper, card, and bag choices separate. Do not use a collage as the only deliverable. Preserve supplier-stock box colours (natural kraft or stock white); branding belongs on the ribbon or separate insert. The coloured patterned bag design is approved; its production timing is separate from design approval.
+
+Packaging approval — 5 October 2026: option 2 stock-white corrugated tuck-top mailer is approved. Use its attached lid and lateral locking tabs, never a rigid two-piece box. Branding on a separate burgundy paper sleeve: exact lam on top and bottom; full approved wordmark and musdal.com on vertical face, with restrained flow pattern. The domain musdal.com is explicitly supplied by the user. Keep the approved bag. Interior tissue and card-face colour remain independent undecided choices.
+
