@@ -12,3 +12,7 @@ a.website-secondary{background:#fff;border:1px solid var(--line);color:var(--pri
 @media(max-width:1000px){.website-entry{margin-inline:0}.website-pages{grid-template-columns:1fr}}
 @media(max-width:760px){.website-entry{display:block;padding:20px;margin-top:26px}.website-entry h2{font-size:27px}.website-entry p{font-size:18px}.website-actions{margin-top:20px}.website-shortcut{grid-template-columns:minmax(0,1fr) auto;align-items:center;margin-bottom:12px;padding-bottom:12px;gap:12px}.website-shortcut .website-button{font-size:16px;padding-inline:10px}.website-page-index{font-size:15px;padding-inline:0}.website-page{padding:22px}.website-page h3{font-size:24px}.website-page>a{width:100%}.website-embedded iframe{height:700px}}
 @media print{.website-entry,.website-shortcut,.website-embedded{display:none}.website-pages{display:block}.website-page{break-inside:avoid;margin-bottom:16px}.website-page a{color:var(--primary);background:#fff;font-size:13px}}
+
+/* Direct access to approved packaging from the report hero. */
+.hero-shortcuts{display:flex;justify-content:flex-start;margin:0 0 24px}.hero-shortcuts a.packaging-hero-button{background:#FFFFFF;border-color:#FFFFFF;color:#5C1E32;min-height:48px;padding-inline:26px}.hero-shortcuts a.packaging-hero-button:hover{background:#FCFBF8;border-color:#FCFBF8;color:#461725}.hero-shortcuts a.packaging-hero-button:focus-visible{outline:3px solid #FFFFFF;outline-offset:5px}@media print{.hero-shortcuts{display:none}}
+
