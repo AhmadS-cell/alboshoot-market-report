@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-06",
+  "status": "AI-generated proposed sample designs; not manufactured products",
+  "reference": "user-selected-male-reference.png",
+  "assets": [
+    {
+      "id": "D-M01",
+      "file": "D-M01-male-product.png",
+      "prompt": "Use case: product-mockup. Asset type: Musdal men's sample design D-M01, a single clean ecommerce product photograph, portrait 4:5. Input image is the user-selected garment design reference; preserve its design, charcoal heather matte woven cloth color and texture, taupe short-pile faux-fur shawl collar continuing down both open front edges, straight long relaxed coat silhouette, full sleeves, plain matching charcoal cuffs, discreet diagonal side welt pockets. Render this SAME men's farwa ALONE using invisible mannequin photography, front-facing, symmetrically arranged, with natural substantial yet supple drape, visible inner neckline and a narrow glimpse of taupe lining at open front. Garment extends to approximately above-ankle length as in reference; this is a visual silhouette, do not put measurements or labels in the image. Keep original simple fur border proportions, no hood, no belt, no embroidery, no gold trim, no decorative extra strips, no buttons or zipper added. Seamless pale warm-gray studio background, soft neutral light, realistic cloth and fur fibers, entire garment including shoulders, cuff tips and hem fully inside frame with comfortable margins. No person, no mannequin visible, no hanger, no thobe, no shoes, no props, no readable text, no branding, no watermark, no collage. This is a proposed product concept, not a photograph of a manufactured or available product."
+    },
+    {
+      "id": "D-W01",
+      "file": "D-W01-women-product.png",
+      "prompt": "Use case: product-mockup. Asset type: Musdal women's farwa sample design D-W01, a SINGLE clean ecommerce product concept photograph, portrait 4:5. Input image 1 is the approved visual family reference for men's farwa; use ONLY its charcoal heather matte cloth, warm gray-taupe soft short-pile faux-fur collar/front border, restrained simplicity. Create a distinct WOMEN'S outer-layer coat for wearing over a full abaya: gently flared A-line relaxed silhouette without waist belt, dropped shoulders with comfortable full sleeves, knee-to-upper-calf visual length (clearly shorter relative to its sleeve length than the ankle-length men's reference), a neat narrower soft shawl collar continuing as a slim taupe faux-fur border along both front edges, open front arranged slightly apart to show a smooth taupe fabric inner lining, two symmetrical discreet diagonal welt pockets at hip level, plain charcoal cuffs. Concealed hook closure is an intended hidden construction and should NOT add conspicuous hardware. Use invisible mannequin product photography; garment alone with natural realistic drape and soft folds, front facing, entirely inside the frame including shoulders, cuffs and hem. Keep gender distinction through A-line cut and shorter length, no fitted waist, no hood, no belt, no embroidery, no exposed zipper, no large buttons, no fur cuffs, no gold strips. Pale warm gray seamless studio backdrop, soft neutral lighting, accurate charcoal and taupe color, highly detailed actual textile and short fur appearance. No person, no visible mannequin, no hanger, no abaya showing, no shoes, no props, no text, no branding, no watermark, no collage. This is an original proposed sample design for review, not evidence of manufacturing or material composition."
+    }
+  ]
+}

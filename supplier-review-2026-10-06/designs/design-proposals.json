@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-06",
+  "status": "proposed sample designs, not manufactured or production-approved products",
+  "tool": "built-in image_gen",
+  "selected_reference": "designs/user-selected-male-reference.webp",
+  "sample_plan": "One D-M01 male and one D-W01 female sample proposed. Confirm fabric swatches, measurements, cost and lead time before cutting. No message sent to supplier.",
+  "items": [
+    {
+      "id": "D-M01",
+      "title": "فروة رجالية فحمي بحافة فرو تاوب",
+      "image": "designs/D-M01-male-product.webp",
+      "origin": "مبنية على صورة مُسدل التي أرسلتها واخترتها كمرجع. نحافظ على الفحمي والتاوب والقصة الطويلة، ولا نحوّلها للأخضر.",
+      "recommendation": "أقترح طلب عينة واحدة منها أولًا؛ اختيارك للتصميم واضح، وهو يختبر خامة هادئة وتشطيبًا مختلفًا عن فروات المورد المزخرفة.",
+      "silhouette": "قصة طويلة مستقيمة ومريحة فوق الثوب، أكمام كاملة، جيبان جانبيان مائلان، وواجهة مفتوحة في التصور. دون قبعة أو حزام أو تطريز خارجي.",
+      "finish": "ياقة وحافة أمامية من فرو صناعي قصير الوبر بلون تاوب. نطلب بطانة جسم قماشية ملساء بلون قريب؛ الفرو في الياقة والحافة لا يعني بطانة فرو كاملة.",
+      "fit_test": "لبسها فوق الثوب، الجلوس والقيادة والمشي، اتساع الكتف والكم، وصول اليد للجيب، وزن القطعة وثبات الياقة، واحتكاك الفرو وتساقطه.",
+      "market": "الفروة الرجالية لها مراجع عرض وتقييمات متجر موثّقة عند S4؛ هذا لا يثبت الطلب على D-M01. ترشيح هذا التصميم يعتمد أيضًا على اختيارك، ثم العينة والتكلفة.",
+      "link": "S4"
+    },
+    {
+      "id": "D-W01",
+      "title": "فروة نسائية متوسطة الطول — فحمي وتاوب",
+      "image": "designs/D-W01-women-product.webp",
+      "origin": "اقتراح تصميم جديد من مُسدل بنفس عائلة ألوان الرجالي؛ ليس موديلًا جاهزًا من المورد ولا تصميمًا اعتمدته أنت مسبقًا.",
+      "recommendation": "أقترح عينة نسائية واحدة للمقارنة: قصة أقصر قليلًا من الرجالي وتتّسع من الأسفل، فوق عباية كاملة، مع اختبار سهولة الحركة والحقيبة.",
+      "silhouette": "قصة واسعة قليلًا بشكل A، بطول مرئي بين الركبة وأعلى الساق، أكمام كاملة وجيبان مائلان. إغلاق بخطافات مخفية مقترح للتجربة، وهو غير ظاهر في الصورة.",
+      "finish": "حافة فرو صناعي قصيرة الوبر بلون تاوب مع بطانة جسم قماشية ملساء. نحدد عرض الحافة وطول القطعة وجدول القياس من العينة؛ لا نستنتج أبعادًا من الصورة المولّدة.",
+      "fit_test": "تجربتها فوق عباية كاملة مع المشي والجلوس، رفع الذراع وحمل حقيبة، راحة الياقة، إحكام الإغلاق دون تكتّل، سقوط القصة ووزن القطعة.",
+      "market": "وجود الفروة النسائية موثّق عند S1 وS3؛ تفضيل الطول المتوسط وهذه القصة اجتهاد تصميمي يُختبر. لا نصفها خفيفة أو مناسبة لكل المدن قبل قياس الوزن وتجربتها.",
+      "link": "S1"
+    }
+  ],
+  "material_options_to_quote": [
+    "matte wool-blend outer: vendor to disclose fiber percentages and GSM",
+    "matte polyester or blend outer with comparable visual texture: vendor to disclose composition and GSM",
+    "taupe short-pile faux-fur collar/front edging: vendor to disclose composition",
+    "smooth fabric body lining: vendor to disclose composition"
+  ],
+  "supplier_request": "designs/sample-request-ar.txt",
+  "measurement_status": "No manufacturing dimensions inferred from AI images; agree prototype size and full cm measurement table before cutting.",
+  "cost_status": "Supplier sample and production quotations pending; competitor garment prices are not material or production costs.",
+  "later_options": [
+    {
+      "reference": "F01",
+      "idea": "Grey tonal vertical strip design: later alternative if the first sample meets fit/cost requirements."
+    },
+    {
+      "reference": "W08",
+      "idea": "Brown embroidered hooded farwa: later heritage option; original design remains a candidate."
+    },
+    {
+      "idea": "Forest-green color on the chosen plain base: later color test only; no matching reference confirmed and not generated in this round."
+    }
+  ]
+}

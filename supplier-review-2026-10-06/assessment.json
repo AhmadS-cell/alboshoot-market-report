@@ -15,7 +15,8 @@
       "sample_checks": "اختبار جلوس ومشي وحمل حقيبة، قياس وزن القطعة وقوة السحاب؛ مقارنة أصل المورد بنسخة مُسدل.",
       "status_before_market_audit": "عينة أولى",
       "market_audit_reason": "اختبار مبكر: استخدام عملي فوق العباية وإغلاق واضح. سادة IG01 وIG05 لهما 1,188 و1,528 مشاهدة؛ على IG05 سؤال سعر. هذا دليل للفئة، وليس لـ W04 نفسه.",
-      "unproven_assumptions": "تفضيل السادة والأسود/التاوب اجتهاد لمُسدل؛ لا ترتيب ألوان مبيعًا. القصة القصيرة تعديل لم يُختبر."
+      "unproven_assumptions": "تفضيل السادة والأسود/التاوب اجتهاد لمُسدل؛ لا ترتيب ألوان مبيعًا. القصة القصيرة تعديل لم يُختبر.",
+      "current_role": "Female supplier comparison reference for Musdal D-W01."
     },
     {
       "id": "S2",
@@ -41,7 +42,8 @@
       "sample_checks": "فحص سماكة البطانة واحتكاكها بالملابس؛ لا نوصفها خفيفة أو مناسبة لكل المدن قبل العينة.",
       "status_before_market_audit": "عينة أولى",
       "market_audit_reason": "وجود الفئة واضح في IG01 وIG05؛ يتيح قياس النسائي الطويل مقابل تطوير S1. يُختار S1 أو S3 أولًا لتجنب تكرار عينتين متشابهتين.",
-      "unproven_assumptions": "لا نستنتج أن القبعة أو الطول سبب التفاعل، أو أنه مناسب لكل مدينة سعودية."
+      "unproven_assumptions": "لا نستنتج أن القبعة أو الطول سبب التفاعل، أو أنه مناسب لكل مدينة سعودية.",
+      "current_role": "Female supplier comparison reference for Musdal D-W01."
     },
     {
       "id": "S4",
@@ -59,7 +61,8 @@
         "F01",
         "W08"
       ],
-      "selection_note": "S4 is one male sampling option, not a market-proven winner over F01 or W08. Compare original specs and quotes; preserve the two alternative designs as shown before proposing reductions."
+      "selection_note": "S4 is one male sampling option, not a market-proven winner over F01 or W08. Compare original specs and quotes; preserve the two alternative designs as shown before proposing reductions.",
+      "current_role": "Male supplier comparison reference for Musdal D-M01; not the current selected custom design."
     },
     {
       "id": "S5",
@@ -617,11 +620,12 @@
   "last_section": "sources",
   "market_evidence_file": "market-evidence.json",
   "execution_priority": [
-    "One male sample: S4 or F01 or W08 after specs/quote; second male sample for comparison if feasible",
+    "Proposed first test: D-M01 male and D-W01 female, pending fabric swatches, measurements, sample quotes and lead time; supplier S1-S6 and F01/W08 retained as comparison references",
     "S1 or S3",
     "S6 comparative + personalization swatch",
     "S5 exploratory",
     "S2 exploratory"
   ],
-  "selected_product_review_file": "selected-product-review.json"
+  "selected_product_review_file": "selected-product-review.json",
+  "proposed_musdal_designs": "designs/design-proposals.json"
 }
