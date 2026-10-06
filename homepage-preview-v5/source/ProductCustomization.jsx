@@ -1,4 +1,4 @@
-import {asset} from './catalog.js';
+import {EmbroideryPreview} from './EmbroideryPreview.jsx';
 export const defaultCustomization = {wrapping:false,nameEnabled:false,embroideredName:'',thread:'',lengthEnabled:false,length:'',approved:false};
 export const normalizedName = value => value.trim().replace(/\s+/gu,' ');
 export function customizationErrors(options,category) {
@@ -26,8 +26,7 @@ export function ProductCustomization({categoryKey,category,options,onChange,erro
    <label htmlFor="embroidered-name">الاسم كما تريد كتابته</label><input id="embroidered-name" type="text" dir="auto" maxLength="24" autoComplete="off" value={options.embroideredName} onChange={e=>set('embroideredName',e.target.value)} placeholder="مثال: أحمد العتيبي" aria-invalid={!!errors.name} aria-describedby={errors.name?'name-help name-error':'name-help'}/>
    <p id="name-help">عربي أو إنجليزي، حتى ٢٤ حرفًا. الاسم داخل الرقبة، مستقل عن الزري.</p>{errors.name&&<p className="field-error" id="name-error" role="alert">{errors.name}</p>}
    <fieldset className="thread-options"><legend>لون الخيط</legend>{category.threads.map(t=><label key={t.value}><input type="radio" name="name-thread" checked={options.thread===t.value} onChange={()=>set('thread',t.value)}/><span className={'thread-dot '+t.value}/>{t.label}</label>)}</fieldset>
-   <figure className="name-placement"><img src={asset('photos/collection/name-placement-'+categoryKey+'.webp')} width="560" height="700" alt="مثال توضيحي لموضع تطريز الاسم على التبويب داخل الرقبة" loading="lazy"/><figcaption>موضع الاسم · تبويب عند داخل الرقبة. الصورة مثال من مخطط الفئة؛ يظهر اسمك في المعاينة أدناه.</figcaption></figure>
-   <div className={'name-proof '+(categoryKey==='thobe'?'light-tab':'dark-tab')}><span>معاينة اسمك</span><strong dir="auto" className={'thread-text '+options.thread}>{normalizedName(options.embroideredName)||'اسمك هنا'}</strong></div>
+   <EmbroideryPreview name={normalizedName(options.embroideredName)} thread={options.thread} threadLabel={category.threads.find(t=>t.value===options.thread)?.label} categoryKey={categoryKey}/>
   </div>}
   <label className="option-toggle"><input type="checkbox" checked={options.lengthEnabled} onChange={e=>set('lengthEnabled',e.target.checked)}/> عدّل طول القطعة</label>
   {options.lengthEnabled&&<div className="customization-panel">
