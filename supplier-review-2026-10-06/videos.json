@@ -1,0 +1,432 @@
+[
+  {
+    "id": "W13",
+    "duration": 13.169544,
+    "width": 368,
+    "height": 656,
+    "sample_interval_seconds": 2,
+    "frames": [
+      {
+        "preview": "previews/W13-00.jpg",
+        "time": 0
+      },
+      {
+        "preview": "previews/W13-01.jpg",
+        "time": 2
+      },
+      {
+        "preview": "previews/W13-02.jpg",
+        "time": 4
+      },
+      {
+        "preview": "previews/W13-03.jpg",
+        "time": 6
+      },
+      {
+        "preview": "previews/W13-04.jpg",
+        "time": 8
+      },
+      {
+        "preview": "previews/W13-05.jpg",
+        "time": 10
+      },
+      {
+        "preview": "previews/W13-06.jpg",
+        "time": 12
+      }
+    ]
+  },
+  {
+    "id": "F02",
+    "duration": 6.719896,
+    "width": 358,
+    "height": 642,
+    "sample_interval_seconds": 2,
+    "frames": [
+      {
+        "preview": "previews/F02-00.jpg",
+        "time": 0
+      },
+      {
+        "preview": "previews/F02-01.jpg",
+        "time": 2
+      },
+      {
+        "preview": "previews/F02-02.jpg",
+        "time": 4
+      },
+      {
+        "preview": "previews/F02-03.jpg",
+        "time": 6
+      }
+    ]
+  },
+  {
+    "id": "F03",
+    "duration": 44.180646,
+    "width": 358,
+    "height": 642,
+    "sample_interval_seconds": 2,
+    "frames": [
+      {
+        "preview": "previews/F03-00.jpg",
+        "time": 0
+      },
+      {
+        "preview": "previews/F03-01.jpg",
+        "time": 2
+      },
+      {
+        "preview": "previews/F03-02.jpg",
+        "time": 4
+      },
+      {
+        "preview": "previews/F03-03.jpg",
+        "time": 6
+      },
+      {
+        "preview": "previews/F03-04.jpg",
+        "time": 8
+      },
+      {
+        "preview": "previews/F03-05.jpg",
+        "time": 10
+      },
+      {
+        "preview": "previews/F03-06.jpg",
+        "time": 12
+      },
+      {
+        "preview": "previews/F03-07.jpg",
+        "time": 14
+      },
+      {
+        "preview": "previews/F03-08.jpg",
+        "time": 16
+      },
+      {
+        "preview": "previews/F03-09.jpg",
+        "time": 18
+      },
+      {
+        "preview": "previews/F03-10.jpg",
+        "time": 20
+      },
+      {
+        "preview": "previews/F03-11.jpg",
+        "time": 22
+      },
+      {
+        "preview": "previews/F03-12.jpg",
+        "time": 24
+      },
+      {
+        "preview": "previews/F03-13.jpg",
+        "time": 26
+      },
+      {
+        "preview": "previews/F03-14.jpg",
+        "time": 28
+      },
+      {
+        "preview": "previews/F03-15.jpg",
+        "time": 30
+      },
+      {
+        "preview": "previews/F03-16.jpg",
+        "time": 32
+      },
+      {
+        "preview": "previews/F03-17.jpg",
+        "time": 34
+      },
+      {
+        "preview": "previews/F03-18.jpg",
+        "time": 36
+      },
+      {
+        "preview": "previews/F03-19.jpg",
+        "time": 38
+      },
+      {
+        "preview": "previews/F03-20.jpg",
+        "time": 40
+      },
+      {
+        "preview": "previews/F03-21.jpg",
+        "time": 42
+      },
+      {
+        "preview": "previews/F03-22.jpg",
+        "time": 44
+      }
+    ]
+  },
+  {
+    "id": "F04",
+    "duration": 10.933256,
+    "width": 478,
+    "height": 850,
+    "sample_interval_seconds": 2,
+    "frames": [
+      {
+        "preview": "previews/F04-00.jpg",
+        "time": 0
+      },
+      {
+        "preview": "previews/F04-01.jpg",
+        "time": 2
+      },
+      {
+        "preview": "previews/F04-02.jpg",
+        "time": 4
+      },
+      {
+        "preview": "previews/F04-03.jpg",
+        "time": 6
+      },
+      {
+        "preview": "previews/F04-04.jpg",
+        "time": 8
+      },
+      {
+        "preview": "previews/F04-05.jpg",
+        "time": 10
+      }
+    ]
+  },
+  {
+    "id": "F05",
+    "duration": 12.599856,
+    "width": 478,
+    "height": 850,
+    "sample_interval_seconds": 2,
+    "frames": [
+      {
+        "preview": "previews/F05-00.jpg",
+        "time": 0
+      },
+      {
+        "preview": "previews/F05-01.jpg",
+        "time": 2
+      },
+      {
+        "preview": "previews/F05-02.jpg",
+        "time": 4
+      },
+      {
+        "preview": "previews/F05-03.jpg",
+        "time": 6
+      },
+      {
+        "preview": "previews/F05-04.jpg",
+        "time": 8
+      },
+      {
+        "preview": "previews/F05-05.jpg",
+        "time": 10
+      },
+      {
+        "preview": "previews/F05-06.jpg",
+        "time": 12
+      }
+    ]
+  },
+  {
+    "id": "F06",
+    "duration": 15.018438,
+    "width": 358,
+    "height": 642,
+    "sample_interval_seconds": 2,
+    "frames": [
+      {
+        "preview": "previews/F06-00.jpg",
+        "time": 0
+      },
+      {
+        "preview": "previews/F06-01.jpg",
+        "time": 2
+      },
+      {
+        "preview": "previews/F06-02.jpg",
+        "time": 4
+      },
+      {
+        "preview": "previews/F06-03.jpg",
+        "time": 6
+      },
+      {
+        "preview": "previews/F06-04.jpg",
+        "time": 8
+      },
+      {
+        "preview": "previews/F06-05.jpg",
+        "time": 10
+      },
+      {
+        "preview": "previews/F06-06.jpg",
+        "time": 12
+      },
+      {
+        "preview": "previews/F06-07.jpg",
+        "time": 14
+      }
+    ]
+  },
+  {
+    "id": "F07",
+    "duration": 14.378854,
+    "width": 478,
+    "height": 850,
+    "sample_interval_seconds": 2,
+    "frames": [
+      {
+        "preview": "previews/F07-00.jpg",
+        "time": 0
+      },
+      {
+        "preview": "previews/F07-01.jpg",
+        "time": 2
+      },
+      {
+        "preview": "previews/F07-02.jpg",
+        "time": 4
+      },
+      {
+        "preview": "previews/F07-03.jpg",
+        "time": 6
+      },
+      {
+        "preview": "previews/F07-04.jpg",
+        "time": 8
+      },
+      {
+        "preview": "previews/F07-05.jpg",
+        "time": 10
+      },
+      {
+        "preview": "previews/F07-06.jpg",
+        "time": 12
+      },
+      {
+        "preview": "previews/F07-07.jpg",
+        "time": 14
+      }
+    ]
+  },
+  {
+    "id": "F08",
+    "duration": 11.6333,
+    "width": 478,
+    "height": 850,
+    "sample_interval_seconds": 2,
+    "frames": [
+      {
+        "preview": "previews/F08-00.jpg",
+        "time": 0
+      },
+      {
+        "preview": "previews/F08-01.jpg",
+        "time": 2
+      },
+      {
+        "preview": "previews/F08-02.jpg",
+        "time": 4
+      },
+      {
+        "preview": "previews/F08-03.jpg",
+        "time": 6
+      },
+      {
+        "preview": "previews/F08-04.jpg",
+        "time": 8
+      },
+      {
+        "preview": "previews/F08-05.jpg",
+        "time": 10
+      }
+    ]
+  },
+  {
+    "id": "F09",
+    "duration": 15.833211,
+    "width": 478,
+    "height": 850,
+    "sample_interval_seconds": 2,
+    "frames": [
+      {
+        "preview": "previews/F09-00.jpg",
+        "time": 0
+      },
+      {
+        "preview": "previews/F09-01.jpg",
+        "time": 2
+      },
+      {
+        "preview": "previews/F09-02.jpg",
+        "time": 4
+      },
+      {
+        "preview": "previews/F09-03.jpg",
+        "time": 6
+      },
+      {
+        "preview": "previews/F09-04.jpg",
+        "time": 8
+      },
+      {
+        "preview": "previews/F09-05.jpg",
+        "time": 10
+      },
+      {
+        "preview": "previews/F09-06.jpg",
+        "time": 12
+      },
+      {
+        "preview": "previews/F09-07.jpg",
+        "time": 14
+      }
+    ]
+  },
+  {
+    "id": "F10",
+    "duration": 15.866411,
+    "width": 478,
+    "height": 850,
+    "sample_interval_seconds": 2,
+    "frames": [
+      {
+        "preview": "previews/F10-00.jpg",
+        "time": 0
+      },
+      {
+        "preview": "previews/F10-01.jpg",
+        "time": 2
+      },
+      {
+        "preview": "previews/F10-02.jpg",
+        "time": 4
+      },
+      {
+        "preview": "previews/F10-03.jpg",
+        "time": 6
+      },
+      {
+        "preview": "previews/F10-04.jpg",
+        "time": 8
+      },
+      {
+        "preview": "previews/F10-05.jpg",
+        "time": 10
+      },
+      {
+        "preview": "previews/F10-06.jpg",
+        "time": 12
+      },
+      {
+        "preview": "previews/F10-07.jpg",
+        "time": 14
+      }
+    ]
+  }
+]

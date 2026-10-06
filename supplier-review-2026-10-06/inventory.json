@@ -1,0 +1,221 @@
+[
+  {
+    "id": "W01",
+    "group": "women",
+    "name": "WhatsApp Image 2026-09-28 at 9.39.34 PM.jpeg",
+    "size": 108019,
+    "sha256": "a8fb6e91b44eca919da407566d3b98206364e974634cb46da9c26ed254a141b7",
+    "extension": ".jpeg",
+    "path": "originals/W01.jpeg"
+  },
+  {
+    "id": "W02",
+    "group": "women",
+    "name": "WhatsApp Image 2026-09-28 at 9.39.35 PM (1).jpeg",
+    "size": 186778,
+    "sha256": "5c318f107b274fc25cf46a6f9d4d847275199c60c74669a97de04f58b6b5c411",
+    "extension": ".jpeg",
+    "path": "originals/W02.jpeg"
+  },
+  {
+    "id": "W03",
+    "group": "women",
+    "name": "WhatsApp Image 2026-09-28 at 9.39.35 PM (2).jpeg",
+    "size": 124693,
+    "sha256": "a1ba78515aba4493ec1cdb141c85d08e57b3f0e90ee26bee26de38b0e6e4667a",
+    "extension": ".jpeg",
+    "path": "originals/W03.jpeg"
+  },
+  {
+    "id": "W04",
+    "group": "women",
+    "name": "WhatsApp Image 2026-09-28 at 9.39.35 PM.jpeg",
+    "size": 115212,
+    "sha256": "fcf116182ec49088a56f7f47f3fd126b0e5ffc2e5d61b2cde6d571e0ff38fc3f",
+    "extension": ".jpeg",
+    "path": "originals/W04.jpeg"
+  },
+  {
+    "id": "W05",
+    "group": "women",
+    "name": "WhatsApp Image 2026-09-28 at 9.39.36 PM (1).jpeg",
+    "size": 72646,
+    "sha256": "d9df01b2d669a560eeec9270e8bea3ffeddae0df8f6eea9a1a5281c6807ff4f8",
+    "extension": ".jpeg",
+    "path": "originals/W05.jpeg"
+  },
+  {
+    "id": "W06",
+    "group": "women",
+    "name": "WhatsApp Image 2026-09-28 at 9.39.36 PM (2).jpeg",
+    "size": 73476,
+    "sha256": "1075c41ef44a25961662e719b7824aa35912264afe07552dbca88634257dd50f",
+    "extension": ".jpeg",
+    "path": "originals/W06.jpeg"
+  },
+  {
+    "id": "W07",
+    "group": "women",
+    "name": "WhatsApp Image 2026-09-28 at 9.39.36 PM.jpeg",
+    "size": 76816,
+    "sha256": "4f6b4a20c76eae454e6f2a42b339c108424521d053d89017f0019a6cc5f278e2",
+    "extension": ".jpeg",
+    "path": "originals/W07.jpeg"
+  },
+  {
+    "id": "W08",
+    "group": "women",
+    "name": "WhatsApp Image 2026-09-28 at 9.43.01 PM.jpeg",
+    "size": 51886,
+    "sha256": "613f48a53b6dd4057a6601ac85a78ea8fd543df5bf1facc0de052972ec298693",
+    "extension": ".jpeg",
+    "path": "originals/W08.jpeg"
+  },
+  {
+    "id": "W09",
+    "group": "women",
+    "name": "WhatsApp Image 2026-10-05 at 5.26.51 PM.jpeg",
+    "size": 24849,
+    "sha256": "960d80174bdb84229806daba3c4c3df8ad6bbd4008a0f45ef02bc7d51d192485",
+    "extension": ".jpeg",
+    "path": "originals/W09.jpeg"
+  },
+  {
+    "id": "W10",
+    "group": "women",
+    "name": "WhatsApp Image 2026-10-05 at 5.26.52 PM.jpeg",
+    "size": 24849,
+    "sha256": "960d80174bdb84229806daba3c4c3df8ad6bbd4008a0f45ef02bc7d51d192485",
+    "extension": ".jpeg",
+    "path": "originals/W10.jpeg"
+  },
+  {
+    "id": "W11",
+    "group": "women",
+    "name": "WhatsApp Image 2026-10-05 at 5.26.54 PM (1).jpeg",
+    "size": 103809,
+    "sha256": "71d6f3b6b9e70403d3dcb307b3156ebd4259941efb5920bc64bb18e7b826aa1e",
+    "extension": ".jpeg",
+    "path": "originals/W11.jpeg"
+  },
+  {
+    "id": "W12",
+    "group": "women",
+    "name": "WhatsApp Image 2026-10-05 at 5.26.54 PM.jpeg",
+    "size": 103860,
+    "sha256": "65e53ad9ef8e0051032b7fd08fd0414a96562dd9009edc72573a61e1b6c42c01",
+    "extension": ".jpeg",
+    "path": "originals/W12.jpeg"
+  },
+  {
+    "id": "W13",
+    "group": "women",
+    "name": "WhatsApp Video 2026-10-05 at 5.26.53 PM.mp4",
+    "size": 2538947,
+    "sha256": "22abfd5db9c9fa99896a1296c65133abe64dbb720073bbe4ce0e7c93da0b4e2a",
+    "extension": ".mp4",
+    "path": "originals/W13.mp4"
+  },
+  {
+    "id": "F01",
+    "group": "farwa",
+    "name": "WhatsApp Image 2026-09-28 at 9.43.01 PM (1).jpeg",
+    "size": 151329,
+    "sha256": "3afecf7516e0cd38f44b6e17ec9d278f9fb7b68ff767b0ad1c52cdaf6d9ad609",
+    "extension": ".jpeg",
+    "path": "originals/F01.jpeg"
+  },
+  {
+    "id": "F02",
+    "group": "farwa",
+    "name": "WhatsApp Video 2026-09-28 at 9.36.35 PM (1).mp4",
+    "size": 1226493,
+    "sha256": "a847755cbc3719828b065c4a1b552020a94b8c15cbeb48e19fbc25a99c072663",
+    "extension": ".mp4",
+    "path": "originals/F02.mp4"
+  },
+  {
+    "id": "F03",
+    "group": "farwa",
+    "name": "WhatsApp Video 2026-09-28 at 9.36.35 PM.mp4",
+    "size": 8089252,
+    "sha256": "948b37ec4e7f8d52150c8b9a338b2ecde01520543532bd254447f938e38bd8e0",
+    "extension": ".mp4",
+    "path": "originals/F03.mp4"
+  },
+  {
+    "id": "F04",
+    "group": "farwa",
+    "name": "WhatsApp Video 2026-09-28 at 9.36.36 PM (1).mp4",
+    "size": 1788387,
+    "sha256": "640c7f6bcbf7b2e303c5c6e467ce36df0bb8b92f11722ea5a7a5cf491ad30a17",
+    "extension": ".mp4",
+    "path": "originals/F04.mp4"
+  },
+  {
+    "id": "F05",
+    "group": "farwa",
+    "name": "WhatsApp Video 2026-09-28 at 9.36.36 PM (2).mp4",
+    "size": 2050675,
+    "sha256": "37b653f3b1d7ca5cf89c928da19e752c093289d20642765de6a89055d2d451b4",
+    "extension": ".mp4",
+    "path": "originals/F05.mp4"
+  },
+  {
+    "id": "F06",
+    "group": "farwa",
+    "name": "WhatsApp Video 2026-09-28 at 9.36.36 PM.mp4",
+    "size": 2738078,
+    "sha256": "7c5e5556823d9ca89e1cd7ea5f4c97b2c38c2e726c60df3c3bc9e22c395cf5a8",
+    "extension": ".mp4",
+    "path": "originals/F06.mp4"
+  },
+  {
+    "id": "F07",
+    "group": "farwa",
+    "name": "WhatsApp Video 2026-09-28 at 9.36.37 PM (1).mp4",
+    "size": 2346662,
+    "sha256": "3010efcc85ea12c4bc1f16e52a4172b1458380982f8648fb8851343f0dc0e018",
+    "extension": ".mp4",
+    "path": "originals/F07.mp4"
+  },
+  {
+    "id": "F08",
+    "group": "farwa",
+    "name": "WhatsApp Video 2026-09-28 at 9.36.37 PM (2).mp4",
+    "size": 1893645,
+    "sha256": "0529713ffe784db8d74fb8a7c6ae4984b74aaa71f701b1645c8aa75495c5999d",
+    "extension": ".mp4",
+    "path": "originals/F08.mp4"
+  },
+  {
+    "id": "F09",
+    "group": "farwa",
+    "name": "WhatsApp Video 2026-09-28 at 9.36.37 PM.mp4",
+    "size": 2593772,
+    "sha256": "db85997136cf0d1601a2e6cf38a91e289b0a1e7e4d198f000358b8227903b6cf",
+    "extension": ".mp4",
+    "path": "originals/F09.mp4"
+  },
+  {
+    "id": "F10",
+    "group": "farwa",
+    "name": "WhatsApp Video 2026-09-28 at 9.36.38 PM.mp4",
+    "size": 2595309,
+    "sha256": "89f283906de6da2cf2ebedc64f956937fa013fe3a511aa2601fd5984ec6ca64d",
+    "extension": ".mp4",
+    "path": "originals/F10.mp4"
+  },
+  {
+    "id": "C01",
+    "group": "catalog",
+    "name": "كاتالوج رسلانية 2025.pdf",
+    "extension": ".pdf",
+    "path": "originals/C01-web.pdf",
+    "original_size": 81434096,
+    "original_sha256": "af8cf6896b72fb553d6e6fe73e4cb7c39bcaf8a0f8684d65f5dbc7e0e72ca811",
+    "size": 16597072,
+    "sha256": "7ed16bdc7b8800ab0a11d19a443c2589fc0c83f04b5bfa2244751b4d0b265626",
+    "published_copy": "49-page web rendering; original supplier PDF preserved locally"
+  }
+]
