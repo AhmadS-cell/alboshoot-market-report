@@ -118,5 +118,7 @@
     "status": "Proposed, not executed"
   },
   "sample_request_status": "Draft only; not sent",
-  "regulatory_scope": "Importer must confirm applicability and exact requirements; indexed SASO excerpt is not a complete regulation review"
+  "regulatory_scope": "Importer must confirm applicability and exact requirements; indexed SASO excerpt is not a complete regulation review",
+  "five_phase_plan_file": "five-phase-plan.json",
+  "current_expansion_policy": "User requested staged expansion funded by actual selling and available capital, not all samples at launch. Priorities are design/operating judgments, not verified sales ranking."
 }
