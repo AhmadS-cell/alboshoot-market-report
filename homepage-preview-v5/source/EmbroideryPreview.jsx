@@ -1,62 +1,82 @@
-import {useEffect, useId, useRef, useState} from 'react';
+import {useEffect,useRef,useState} from 'react';
 import {asset} from './catalog.js';
+import {satinStitches,paintStitches} from './embroidery-stitches.js';
 
-const threads = {
- gold: {base:'#ad8235', light:'#f2d99c', shade:'#74501e', edge:'#62431d'},
- ivory: {base:'#dbd1b5', light:'#fff9e5', shade:'#a59a7e', edge:'#8c8067'},
- slate: {base:'#77777a', light:'#bcbcc0', shade:'#454549', edge:'#353539'},
-};
+function useNameStitches(name,thread,enabled) {
+ const [artwork,setArtwork]=useState(null),[pending,setPending]=useState(true);
+ useEffect(()=>{
+  let active=true,worker=null;
+  setArtwork(null);setPending(true);
+  if(!enabled)return;
+  const timer=setTimeout(async()=>{
+   await document.fonts.ready;
+   if(!active)return;
+   const width=1536,height=280,mask=document.createElement('canvas');mask.width=width;mask.height=height;
+   const ctx=mask.getContext('2d',{willReadFrequently:true});ctx.direction=/[\u0600-\u06ff]/u.test(name)?'rtl':'ltr';ctx.textAlign='center';
+   ctx.font='600 158px "Noto Naskh Arabic"';
+   const fontSize=Math.min(158,158*1080/Math.max(1,ctx.measureText(name).width));ctx.font=`600 ${fontSize}px "Noto Naskh Arabic"`;
+   const metrics=ctx.measureText(name);ctx.fillStyle='#fff';ctx.fillText(name,width/2,(height+metrics.actualBoundingBoxAscent-metrics.actualBoundingBoxDescent)/2);
+   const pixels=ctx.getImageData(0,0,width,height).data,alpha=new Uint8Array(width*height);
+   for(let i=0;i<alpha.length;i++)alpha[i]=pixels[i*4+3];
+   const finish=(surface,count,elapsed)=>{
+    if(!active)return;
+    const overlay=document.createElement('canvas');overlay.width=1536;overlay.height=1024;
+    overlay.getContext('2d').drawImage(surface,0,340);surface.close?.();
+    overlay.toBlob(blob=>{
+     if(!active||!blob)return;
+     setArtwork({url:URL.createObjectURL(blob),count,elapsed});setPending(false);
+    },'image/png');
+   };
+   const fallback=()=>{
+    if(!active)return;
+    const started=performance.now(),stitches=satinStitches(alpha,width,height),surface=document.createElement('canvas');surface.width=width;surface.height=height;
+    paintStitches(surface.getContext('2d'),stitches,thread);finish(surface,stitches.length,performance.now()-started);
+   };
+   if(typeof Worker==='undefined'||typeof OffscreenCanvas==='undefined'){fallback();return;}
+   worker=new Worker(new URL('./embroidery-worker.js',import.meta.url),{type:'module'});
+   worker.onmessage=({data})=>{
+    if(data.error){worker?.terminate();fallback();return;}
+    if(!active){data.bitmap?.close();return;}
+    finish(data.bitmap,data.count,data.elapsed);worker?.terminate();
+   };
+   worker.onerror=()=>{worker?.terminate();fallback();};
+   worker.postMessage({alpha,width,height,thread});
+  },130);
+  return ()=>{active=false;clearTimeout(timer);worker?.terminate();};
+ },[name,thread,enabled]);
+ useEffect(()=>()=>{if(artwork?.url)URL.revokeObjectURL(artwork.url);},[artwork]);
+ return {artwork,pending};
+}
 
-function EmbroideryArtwork({name, thread, light, threadLabel, fontSize, textRef}) {
- const id=useId().replace(/:/g,'');
- const palette=threads[thread]||threads.ivory;
- const textProps={x:450,y:305,textAnchor:'middle',dominantBaseline:'middle',fontSize,fontWeight:600,fontFamily:'"Noto Naskh Arabic", serif',direction:/[\u0600-\u06ff]/u.test(name)?'rtl':'ltr'};
- return <svg className="embroidery-artwork" viewBox="0 0 900 600" role="img" aria-label={`معاينة تطريز ${name} بخيط ${threadLabel} على تبويب داخل الرقبة`}>
-  <defs>
-   <linearGradient id={`${id}-thread`} x1="0" y1="0" x2="0.35" y2="1">
-    <stop offset="0" stopColor={palette.light}/><stop offset=".32" stopColor={palette.base}/><stop offset=".52" stopColor={palette.light}/><stop offset=".8" stopColor={palette.base}/><stop offset="1" stopColor={palette.shade}/>
-   </linearGradient>
-   <pattern id={`${id}-stitches`} patternUnits="userSpaceOnUse" width="4.4" height="4.4" patternTransform="rotate(32)">
-    <path d="M1 0V4.4" stroke={palette.light} strokeWidth="1" opacity=".9"/>
-    <path d="M2.8 0V4.4" stroke={palette.shade} strokeWidth=".8" opacity=".8"/>
-    <path d="M.45 0V4.4" stroke={palette.base} strokeWidth=".35"/>
-   </pattern>
-   <filter id={`${id}-raised`} x="-10%" y="-20%" width="120%" height="150%" colorInterpolationFilters="sRGB">
-    <feDropShadow dx=".4" dy="1.8" stdDeviation=".65" floodColor="#141014" floodOpacity={light?'.5':'.85'}/>
-   </filter>
-  </defs>
-  <image href={asset(`photos/collection/embroidery-tab-${light?'light':'dark'}.webp`)} width="900" height="600"/>
-  <g filter={`url(#${id}-raised)`} aria-hidden="true">
-   <text {...textProps} ref={textRef} fontSize={fontSize} fill={`url(#${id}-thread)`} stroke={palette.edge} strokeWidth="1.3" paintOrder="stroke fill">{name}</text>
-   <text {...textProps} fill={`url(#${id}-stitches)`}>{name}</text>
-  </g>
- </svg>;
+function EmbroideryArtwork({name,thread,threadLabel,light,view,artwork,pending}) {
+ const surface=light?'light':'dark';
+ if(view==='stitches')return <img className="embroidery-artwork embroidery-example" src={asset(`photos/collection/stitch-example-${surface}-${thread}.webp`)} width="1200" height="800" alt={`مثال توضيحي لشكل غرز تطريز أحمد العتيبي بخيط ${threadLabel}؛ الاسم في الصورة مثال ثابت`} loading="lazy"/>;
+ return <div className="embroidery-artwork embroidery-composite" role="img" aria-label={`معاينة توزيع اسم ${name} بخيط ${threadLabel} على تبويب داخل الرقبة`} aria-busy={pending} data-stitch-count={artwork?.count} data-render-ms={artwork?.elapsed?.toFixed(1)}>
+  <img className="embroidery-cloth" src={asset(`photos/collection/embroidery-tab-${surface}.webp`)} width="1200" height="800" alt="" aria-hidden="true"/>
+  {artwork&&<img className="embroidery-name-threads" src={artwork.url} width="1536" height="1024" alt="" aria-hidden="true"/>}
+  {pending&&<span className="embroidery-render-pending" role="status">تجهيز معاينة الاسم…</span>}
+ </div>;
 }
 
 export function EmbroideryPreview({name,thread,threadLabel,categoryKey}) {
- const dialog=useRef(null), textRef=useRef(null), light=categoryKey==='thobe', [fontSize,setFontSize]=useState(96);
- useEffect(()=>{
-  let active=true;
-  const fit=()=>{
-   const text=textRef.current;
-   if(!active||!text)return;
-   const width=text.getComputedTextLength();
-   if(width>0)setFontSize(Math.min(96,Number(text.getAttribute('font-size'))*650/width));
-  };
-  fit();
-  document.fonts?.ready.then(fit);
-  return ()=>{active=false;};
- },[name]);
- const artworkProps={name:name||'اسمك هنا',thread,threadLabel,light,fontSize};
+ const dialog=useRef(null),light=categoryKey==='thobe',[view,setView]=useState('stitches');
+ const displayName=name||'اسمك هنا',{artwork,pending}=useNameStitches(displayName,thread,view==='name');
+ const artworkProps={name:displayName,thread,threadLabel,light,view,artwork,pending};
+ const views=<div className="embroidery-view-options" aria-label="عرض التطريز">
+  <button type="button" aria-pressed={view==='stitches'} onClick={()=>setView('stitches')}>شكل الغرز</button>
+  <button type="button" aria-pressed={view==='name'} onClick={()=>setView('name')}>معاينة اسمك</button>
+ </div>;
+ const caption=view==='stitches'?'صورة مولّدة لتوضيح الغرز باسم «أحمد العتيبي». اسم طلبك هو المكتوب أدناه.':'معاينة لتوزيع اسمك واتجاه الغرز. التنفيذ النهائي يُراجع مع العينة.';
  return <figure className="embroidery-preview">
-  <div className="embroidery-preview-heading"><span>معاينة تطريز اسمك</span><span className={'embroidery-thread-tag '+thread}>{threadLabel}</span></div>
+  <div className="embroidery-preview-heading"><span>تطريز الاسم بالخيط</span><span className={'embroidery-thread-tag '+thread}>{threadLabel}</span></div>
+  {views}
   <button type="button" className="embroidery-zoom-trigger" onClick={()=>dialog.current.showModal()} aria-label="تكبير معاينة التطريز">
-   <EmbroideryArtwork {...artworkProps} textRef={textRef}/><span className="embroidery-zoom-label">شاهد الغرز عن قرب ↗</span>
+   <EmbroideryArtwork {...artworkProps}/><span className="embroidery-zoom-label">شاهد الغرز عن قرب ↗</span>
   </button>
-  <figcaption>تطريز بالخيط على تبويب داخل الرقبة. المعاينة توضيحية؛ شكل الغرز النهائي يُراجع مع العينة.</figcaption>
+  <figcaption>{caption}<span className="embroidery-requested-name">الاسم للتطريز: <bdi>{name||'اكتب اسمك أعلاه'}</bdi> · {threadLabel}</span></figcaption>
   <dialog ref={dialog} className="embroidery-zoom-dialog" aria-label="معاينة غرز تطريز الاسم" onClick={e=>{if(e.target===e.currentTarget)dialog.current.close();}}>
-   <div className="embroidery-zoom-heading"><h3>غرز تطريز الاسم</h3><button type="button" onClick={()=>dialog.current.close()} aria-label="إغلاق معاينة التطريز">×</button></div>
-   <EmbroideryArtwork {...artworkProps}/><p><bdi>{name||'اسمك هنا'}</bdi> · {threadLabel} · داخل الرقبة</p>
+   <div className="embroidery-zoom-heading"><h3>تطريز الاسم بالخيط</h3><button type="button" onClick={()=>dialog.current.close()} aria-label="إغلاق معاينة التطريز">×</button></div>
+   {views}<EmbroideryArtwork {...artworkProps}/><p>{caption}</p><p>الاسم للتطريز: <bdi>{name||'اكتب اسمك أعلاه'}</bdi> · {threadLabel} · داخل الرقبة</p>
   </dialog>
  </figure>;
 }
