@@ -1,5 +1,6 @@
 import {EmbroideryPreview} from './EmbroideryPreview.jsx';
-export const defaultCustomization = {wrapping:false,nameEnabled:false,embroideredName:'',thread:'',lengthEnabled:false,length:'',approved:false};
+import {embroideryPhrases,embroideryText} from './embroidery-copy.js';
+export const defaultCustomization = {wrapping:false,nameEnabled:false,embroideredName:'',namePhrase:'personal',thread:'',lengthEnabled:false,length:'',approved:false};
 export const normalizedName = value => value.trim().replace(/\s+/gu,' ');
 export function customizationErrors(options,category) {
  const errors={},name=normalizedName(options.embroideredName);
@@ -12,7 +13,7 @@ export function customizationErrors(options,category) {
 export function CustomizationSummary({options,category}) {
  return <ul className="customization-summary">
   {options.wrapping&&<li>تغليف الهدية · بوكس أبيض بغلاف مُسدل والكيس المعتمد</li>}
-  {options.nameEnabled&&<li>الاسم: <bdi>{normalizedName(options.embroideredName)||'لم يُكتب بعد'}</bdi> · {category.threads.find(t=>t.value===options.thread)?.label} · داخل الرقبة</li>}
+  {options.nameEnabled&&<li>التطريز: <bdi>{embroideryText(normalizedName(options.embroideredName)||'لم يُكتب الاسم بعد',options.namePhrase||'name')}</bdi> · {category.threads.find(t=>t.value===options.thread)?.label} · داخل الرقبة</li>}
   {options.lengthEnabled&&<li>طول القطعة النهائي: {options.length||'—'} سم</li>}
  </ul>;
 }
@@ -25,15 +26,16 @@ export function ProductCustomization({categoryKey,category,options,onChange,erro
   {options.nameEnabled&&<div className="customization-panel">
    <label htmlFor="embroidered-name">الاسم كما تريد كتابته</label><input id="embroidered-name" type="text" dir="auto" maxLength="24" autoComplete="off" value={options.embroideredName} onChange={e=>set('embroideredName',e.target.value)} placeholder="مثال: أحمد العتيبي" aria-invalid={!!errors.name} aria-describedby={errors.name?'name-help name-error':'name-help'}/>
    <p id="name-help">عربي أو إنجليزي، حتى ٢٤ حرفًا. الاسم داخل الرقبة، مستقل عن الزري.</p>{errors.name&&<p className="field-error" id="name-error" role="alert">{errors.name}</p>}
+   <fieldset className="embroidery-phrase-options"><legend>عبارة التطريز</legend>{embroideryPhrases.map(p=><label key={p.value}><input type="radio" name="embroidery-phrase" value={p.value} checked={options.namePhrase===p.value} onChange={()=>set('namePhrase',p.value)}/><span><strong>{p.label}</strong><small>{p.hint}</small></span></label>)}{options.namePhrase==='name'&&<p>اختيارك السابق: الاسم وحده. اختر إحدى العبارتين لإضافتها.</p>}</fieldset>
    <fieldset className="thread-options"><legend>لون الخيط</legend>{category.threads.map(t=><label key={t.value}><input type="radio" name="name-thread" checked={options.thread===t.value} onChange={()=>set('thread',t.value)}/><span className={'thread-dot '+t.value}/>{t.label}</label>)}</fieldset>
-   <EmbroideryPreview name={normalizedName(options.embroideredName)} thread={options.thread} threadLabel={category.threads.find(t=>t.value===options.thread)?.label} categoryKey={categoryKey}/>
+   <EmbroideryPreview name={normalizedName(options.embroideredName)} phrase={options.namePhrase} thread={options.thread} threadLabel={category.threads.find(t=>t.value===options.thread)?.label} categoryKey={categoryKey}/>
   </div>}
   <label className="option-toggle"><input type="checkbox" checked={options.lengthEnabled} onChange={e=>set('lengthEnabled',e.target.checked)}/> عدّل طول القطعة</label>
   {options.lengthEnabled&&<div className="customization-panel">
    <label htmlFor="final-length">طول القطعة النهائي (سم)</label><input id="final-length" type="number" inputMode="decimal" min={category.length_range[0]} max={category.length_range[1]} step="0.1" value={options.length} onChange={e=>set('length',e.target.value)} aria-invalid={!!errors.length} aria-describedby={errors.length?'length-help length-error':'length-help'}/>
    <p id="length-help">قِس من أعلى الكتف إلى الحافة. أدخل طول القطعة، وليس طول الشخص. تغيير الطول لا يغيّر عرض المقاس المختار.</p><button className="inline-link" onClick={()=>guideDialog.current.showModal()}>شاهد طريقة القياس</button>{errors.length&&<p className="field-error" id="length-error" role="alert">{errors.length}</p>}
   </div>}
-  {selected&&<div className="customization-review"><h3>راجع لمستك</h3><CustomizationSummary options={{...options,wrapping:false}} category={category}/><label className="option-toggle"><input id="customization-approved" type="checkbox" checked={options.approved} onChange={e=>set('approved',e.target.checked)} aria-invalid={!!errors.approved} aria-describedby={errors.approved?'approval-error':undefined}/> راجعت كتابة الاسم ولون الخيط والموضع والطول المختار.</label>{errors.approved&&<p className="field-error" id="approval-error" role="alert">{errors.approved}</p>}<p>أي تعديل على الاختيارات يحتاج مراجعة المعاينة من جديد.</p></div>}
+  {selected&&<div className="customization-review"><h3>راجع لمستك</h3><CustomizationSummary options={{...options,wrapping:false}} category={category}/><label className="option-toggle"><input id="customization-approved" type="checkbox" checked={options.approved} onChange={e=>set('approved',e.target.checked)} aria-invalid={!!errors.approved} aria-describedby={errors.approved?'approval-error':undefined}/> راجعت العبارة وكتابة الاسم ولون الخيط والموضع والطول المختار.</label>{errors.approved&&<p className="field-error" id="approval-error" role="alert">{errors.approved}</p>}<p>أي تعديل على الاختيارات يحتاج مراجعة المعاينة من جديد.</p></div>}
   <p className="option-note">يمكن تجربة الخيارات وحفظها بالسلة. تكلفة الخدمات والمهلة وشروط استبدال القطعة المخصّصة تُعتمد قبل إتاحة الشراء.</p>
  </section>;
 }

@@ -10,4 +10,4 @@ export const galleryFor = product => {
  if(['thobe','abaya'].includes(product.id))photos.push({src:folder+product.id+'-light-800.webp',zoom:folder+product.id+'-light-full.webp',label:'فحص الضوء',alt:'تصور طريقة فحص قماش '+product.name+' أمام الضوء، وليس نتيجة اختبار فعلية',caption:'تصور لطريقة فحص الضوء؛ الصور المولّدة لا تثبت الشفافية. نتيجة الستر تحتاج تصوير عينة كل لون في الضوء والحركة.'});
  return photos;
 };
-export const cartKey = item => JSON.stringify([item.id,item.size,item.purpose,item.message||'',!!item.wrapping,item.nameEnabled?item.embroideredName:'',item.nameEnabled?item.thread:'',item.lengthEnabled?item.length:'']);
+export const cartKey = item => JSON.stringify([item.id,item.size,item.purpose,item.message||'',!!item.wrapping,item.nameEnabled?item.embroideredName:'',item.nameEnabled?(item.namePhrase||'name'):'',item.nameEnabled?item.thread:'',item.lengthEnabled?item.length:'']);

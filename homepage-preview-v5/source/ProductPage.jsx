@@ -17,7 +17,7 @@ export function ProductPage({productId,onAdd,cart=[]}) {
  const editingLoaded=useRef(false);
  useEffect(()=>{
   const requested=new URLSearchParams(location.search).get('edit');
-  if(requested!==null && /^\d+$/.test(requested) && !editingLoaded.current){const item=cart[Number(requested)];if(item?.id===productId){if(guide.sizes.some(s=>s.id===item.size))setSize(item.size);setPurpose(item.purpose==='gift'?'gift':'self');setMessage(item.message||'');setOptions({...defaultCustomization,...Object.fromEntries(Object.keys(defaultCustomization).filter(k=>item[k]!==undefined).map(k=>[k,item[k]])),thread:item.thread||category.threads[0].value,approved:false});editingLoaded.current=true;}}
+  if(requested!==null && /^\d+$/.test(requested) && !editingLoaded.current){const item=cart[Number(requested)];if(item?.id===productId){if(guide.sizes.some(s=>s.id===item.size))setSize(item.size);setPurpose(item.purpose==='gift'?'gift':'self');setMessage(item.message||'');setOptions({...defaultCustomization,...Object.fromEntries(Object.keys(defaultCustomization).filter(k=>item[k]!==undefined).map(k=>[k,item[k]])),namePhrase:item.namePhrase||'name',thread:item.thread||category.threads[0].value,approved:false});editingLoaded.current=true;}}
  },[cart]);
  useEffect(()=>{
   let frame=0;const update=()=>{if(!frame)frame=requestAnimationFrame(()=>{frame=0;setSticky(decision.current.getBoundingClientRect().bottom<0);});};
