@@ -1,0 +1,413 @@
+{
+  "observed_date": "2026-10-06",
+  "method": "Read public rendered Instagram profile/Reels/post pages in browser, and public merchant pages via web. No seller contact or private-message access.",
+  "sampling": "First six Reels in visible order for frwat_almalika, sole visible Reel for hagr2.5, both visible Reels for bishtofriyadh. Not a representative Saudi market sample. Instagram grid ordering may include pinned posts.",
+  "profiles": [
+    {
+      "account": "frwat_almalika",
+      "followers": 4279,
+      "saudi_link": "Visible profile location Riyadh Saudi Arabia and captions stating domestic delivery"
+    },
+    {
+      "account": "hagr2.5",
+      "followers": 8002,
+      "saudi_link": "Saudi +966 order link; captions also reference Jordan; Saudi audience not established"
+    },
+    {
+      "account": "bishtofriyadh",
+      "followers": 3998,
+      "saudi_link": "Official merchant-linked account; Riyadh branches and Saudi delivery in captions"
+    }
+  ],
+  "excluded_accounts": [
+    {
+      "account": "alkarnak_original",
+      "reason": "Prices in dinars and explicit delivery inside Jordan; excluded from Saudi conclusions"
+    }
+  ],
+  "grid_only": [
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DStCNGKCN9J/",
+      "views": 1188,
+      "detail_inspected": true
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRiiLXViCHq/",
+      "views": 1098,
+      "detail_inspected": true
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRih0OOCFuw/",
+      "views": 733,
+      "detail_inspected": true
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRaM8XHCGae/",
+      "views": 1326,
+      "detail_inspected": true
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRXtzNwCCD7/",
+      "views": 1528,
+      "detail_inspected": true
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRVTCZGiJzf/",
+      "views": 6067,
+      "detail_inspected": true
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRP_J_OiBqV/",
+      "views": 1191,
+      "detail_inspected": false
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRNUMNWjPaO/",
+      "views": 869,
+      "detail_inspected": false
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRKrK_bjO2h/",
+      "views": 860,
+      "detail_inspected": false
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DQ-TLwEjLXT/",
+      "views": 594,
+      "detail_inspected": false
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DQ-AMAWDBuC/",
+      "views": 878,
+      "detail_inspected": false
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DQ7k6PzDMbP/",
+      "views": 637,
+      "detail_inspected": false
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DQw-wfMjL-V/",
+      "views": 1737,
+      "detail_inspected": false
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DQmxb0_jI7P/",
+      "views": 481,
+      "detail_inspected": false
+    },
+    {
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DQhrXPvCFEc/",
+      "views": 594,
+      "detail_inspected": false
+    }
+  ],
+  "instagram": [
+    {
+      "id": "IG01",
+      "platform": "Instagram",
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DStCNGKCN9J/",
+      "posted_date": "2025-12-26",
+      "observed_date": "2026-10-06",
+      "design": "فروة نسائية طويلة سادة بقبعة وحافة فرو؛ عرض على الجسم",
+      "views": 1188,
+      "likes": 9,
+      "comments_total": null,
+      "shares": null,
+      "reposts": null,
+      "saves": null,
+      "visible_non_seller_comments": 1,
+      "comment_summary": "تعليق يطلب مراجعة الخاص؛ لا يثبت شراء",
+      "ai_content_label_visible": true,
+      "historical_only": false,
+      "content_type": "seller promotional post; payment/boost status unknown",
+      "audience_country": "not available",
+      "comments": []
+    },
+    {
+      "id": "IG02",
+      "platform": "Instagram",
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRiiLXViCHq/",
+      "posted_date": "2025-11-27",
+      "observed_date": "2026-10-06",
+      "design": "فروة طفل سادة بقبعة وجيوب وحواف فرو",
+      "views": 1098,
+      "likes": 12,
+      "comments_total": null,
+      "shares": null,
+      "reposts": null,
+      "saves": null,
+      "visible_non_seller_comments": 2,
+      "comment_summary": "سؤالا سعر ظاهران، وفتحنا رد البائع الذي يحيل إلى الخاص/واتساب",
+      "ai_content_label_visible": true,
+      "historical_only": false,
+      "content_type": "seller promotional post; payment/boost status unknown",
+      "audience_country": "not available",
+      "comments": [
+        {
+          "text": "كم سعر",
+          "kind": "price question"
+        },
+        {
+          "text": "كم السعر",
+          "kind": "price question"
+        }
+      ]
+    },
+    {
+      "id": "IG03",
+      "platform": "Instagram",
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRih0OOCFuw/",
+      "posted_date": "2025-11-27",
+      "observed_date": "2026-10-06",
+      "design": "هودي نسائي بلونين؛ فئة مختلفة عن الفروة",
+      "views": 733,
+      "likes": 6,
+      "comments_total": null,
+      "shares": null,
+      "reposts": null,
+      "saves": null,
+      "visible_non_seller_comments": 0,
+      "comment_summary": "لا تعليق مستخدم ظاهر في العرض المفتوح؛ العدد الإجمالي غير متاح",
+      "ai_content_label_visible": true,
+      "historical_only": false,
+      "content_type": "seller promotional post; payment/boost status unknown",
+      "audience_country": "not available",
+      "comments": []
+    },
+    {
+      "id": "IG04",
+      "platform": "Instagram",
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRaM8XHCGae/",
+      "posted_date": "2025-11-23",
+      "observed_date": "2026-10-06",
+      "design": "فروة نسائية كحلية بشرائط ذهبية على الأمام والأكمام",
+      "views": 1326,
+      "likes": 10,
+      "comments_total": null,
+      "shares": null,
+      "reposts": null,
+      "saves": null,
+      "visible_non_seller_comments": 0,
+      "comment_summary": "لا تعليق مستخدم ظاهر في العرض المفتوح؛ العدد الإجمالي غير متاح",
+      "ai_content_label_visible": true,
+      "historical_only": false,
+      "content_type": "seller promotional post; payment/boost status unknown",
+      "audience_country": "not available",
+      "comments": []
+    },
+    {
+      "id": "IG05",
+      "platform": "Instagram",
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRXtzNwCCD7/",
+      "posted_date": "2025-11-22",
+      "observed_date": "2026-10-06",
+      "design": "فروات سادة معلقة، بني وفحمي، بحواف فرو",
+      "views": 1528,
+      "likes": 17,
+      "comments_total": null,
+      "shares": null,
+      "reposts": null,
+      "saves": null,
+      "visible_non_seller_comments": 1,
+      "comment_summary": "سؤال سعر واحد ظاهر",
+      "ai_content_label_visible": true,
+      "historical_only": false,
+      "content_type": "seller promotional post; payment/boost status unknown",
+      "audience_country": "not available",
+      "comments": [
+        {
+          "text": "ممكن اعرف السعر",
+          "kind": "price question"
+        }
+      ]
+    },
+    {
+      "id": "IG06",
+      "platform": "Instagram",
+      "account": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRVTCZGiJzf/",
+      "posted_date": "2025-11-21",
+      "observed_date": "2026-10-06",
+      "design": "تفاصيل تخصيص بالاسم والحروف ورسم حصان على فروة داكنة",
+      "views": 6067,
+      "likes": 43,
+      "comments_total": null,
+      "shares": null,
+      "reposts": null,
+      "saves": null,
+      "visible_non_seller_comments": 8,
+      "comment_summary": "6 أسئلة سعر + سؤال موقع + طلب قطعة، مع 3 مجموعات ردود غير مفتوحة؛ ليست حصيلة كل التعليقات",
+      "ai_content_label_visible": true,
+      "historical_only": false,
+      "content_type": "seller promotional post; payment/boost status unknown",
+      "audience_country": "not available",
+      "comments": [
+        {
+          "text": "كممم",
+          "kind": "price question",
+          "posted_at": "2026-10-01T06:15:06Z"
+        },
+        {
+          "text": "كم السعر عمر 14",
+          "kind": "price/size question",
+          "posted_at": "2026-09-27T11:11:01Z"
+        },
+        {
+          "text": "ممكن اطلب حبه",
+          "kind": "order enquiry",
+          "posted_at": "2026-09-05T19:05:14Z"
+        },
+        {
+          "summary": "4 أسئلة سعر إضافية وسؤال عن الموقع",
+          "kind": "other visible enquiries",
+          "posted_date_range": "2025-11-28–2025-12-21"
+        }
+      ]
+    },
+    {
+      "id": "IG07",
+      "platform": "Instagram",
+      "account": "hagr2.5",
+      "url": "https://www.instagram.com/hagr2.5/reel/DQ-9O-SDLid/",
+      "posted_date": "2025-11-13",
+      "observed_date": "2026-10-06",
+      "design": "فروة طفلة بيج بقبعة وتخصيص اسم؛ عرض على الجسم",
+      "views": 769,
+      "likes": 71,
+      "comments_total": null,
+      "shares": null,
+      "reposts": null,
+      "saves": null,
+      "visible_non_seller_comments": 2,
+      "comment_summary": "تعليقان ظهرا دون نص قابل للقراءة؛ لم نصنفهما كسؤال شراء",
+      "ai_content_label_visible": false,
+      "historical_only": false,
+      "content_type": "seller promotional post; payment/boost status unknown",
+      "audience_country": "not available",
+      "comments": []
+    },
+    {
+      "id": "IG08",
+      "platform": "Instagram",
+      "account": "bishtofriyadh",
+      "url": "https://www.instagram.com/bishtofriyadh/reel/CROmiM_pHuc/",
+      "posted_date": "2021-07-12",
+      "observed_date": "2026-10-06",
+      "design": "عباية بشت لنن ملكي بحسب البائع؛ زري وألوان فاتحة",
+      "views": 2803,
+      "likes": 11,
+      "comments_total": null,
+      "shares": null,
+      "reposts": null,
+      "saves": null,
+      "visible_non_seller_comments": 1,
+      "comment_summary": "سؤال سعر ظاهر؛ مثال تاريخي مستبعد من إثبات ترند 2026",
+      "ai_content_label_visible": false,
+      "historical_only": true,
+      "content_type": "seller promotional post; payment/boost status unknown",
+      "audience_country": "not available",
+      "comments": [
+        {
+          "text": "بكم",
+          "kind": "price question"
+        }
+      ]
+    },
+    {
+      "id": "IG09",
+      "platform": "Instagram",
+      "account": "bishtofriyadh",
+      "url": "https://www.instagram.com/bishtofriyadh/reel/CQCThHhJ5N9/",
+      "posted_date": "2021-06-13",
+      "observed_date": "2026-10-06",
+      "design": "عبايات بشت معلقة بألوان مختلفة وزري",
+      "views": 1627,
+      "likes": 24,
+      "comments_total": null,
+      "shares": null,
+      "reposts": null,
+      "saves": null,
+      "visible_non_seller_comments": 0,
+      "comment_summary": "لا تعليق مستخدم ظاهر؛ مثال تاريخي مستبعد من ترند 2026",
+      "ai_content_label_visible": false,
+      "historical_only": true,
+      "content_type": "seller promotional post; payment/boost status unknown",
+      "audience_country": "not available",
+      "comments": []
+    }
+  ],
+  "merchants": [
+    {
+      "id": "SHOP01",
+      "url": "https://alwastta.com/products/فروة-شمواه-رجالي",
+      "title": "فروة شمواه رجالي",
+      "price_sar": 69,
+      "previous_price_sar": 100,
+      "store_reported_sales_lower_bound": 2765,
+      "store_sales_period": null,
+      "rating": 4.55,
+      "reviews_count": 98,
+      "out_of_stock": true,
+      "composition_claim": "100% polyester; Syrian manufacture",
+      "review_dates": null,
+      "notes": "Counter is a merchant claim, not audited transactions. Mixed warmth, fit and quality comments."
+    },
+    {
+      "id": "SHOP02",
+      "url": "https://alwastta.com/products/فروة-رجالي-مبطن-بفروة-ارنب-رجالي",
+      "title": "فروة ارنب شمواه رجالي",
+      "price_sar": 100,
+      "previous_price_sar": 161,
+      "store_reported_sales_lower_bound": 768,
+      "store_sales_period": null,
+      "rating": 4.85,
+      "reviews_count": 27,
+      "out_of_stock": true,
+      "composition_claim": "100% polyester despite rabbit/suede naming; layers not separated",
+      "review_dates": null,
+      "notes": "Two similar negative texts under one name treated as one qualitative voice, not two independent buyers."
+    },
+    {
+      "id": "SHOP03",
+      "url": "https://alwastta.com/products/فروة-جوخ-دبل-فيس",
+      "title": "فروة دبل فيس مع شال",
+      "price_sar": 289.01,
+      "previous_price_sar": 380.01,
+      "store_reported_sales_lower_bound": 13,
+      "store_sales_period": null,
+      "rating": 5,
+      "reviews_count": 2,
+      "out_of_stock": true,
+      "review_dates": null,
+      "notes": "Different garment from vest S5; cannot isolate the effect of reversible design or price."
+    }
+  ],
+  "limits": [
+    "No public share/save/total-comment counters observed in opened Instagram post UI; null is unavailable, never zero.",
+    "Views are cumulative plays, not verified Saudi unique people or purchases.",
+    "Seller videos are not independent customer reviews; six frwat_almalika posts show an AI content label.",
+    "2025 posts and recent comment dates are separated; no verified fast-growth ranking for 2026.",
+    "TikTok public search navigation timed out; web robots also blocked access. No TikTok metrics claimed."
+  ]
+}

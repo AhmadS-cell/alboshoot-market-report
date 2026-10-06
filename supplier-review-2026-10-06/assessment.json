@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "scope": "phase 1 supplier materials; preliminary market checks only",
+  "scope": "supplier visual review plus limited public social/merchant evidence; no verified Saudi trend ranking or supplier sales forecast",
   "catalog_pages": 49,
   "sampled_video_frames": 85,
   "shortlist": [
@@ -8,61 +8,79 @@
       "id": "S1",
       "title": "فروة نسائية سادة بسحاب",
       "reference": "W04",
-      "status": "عينة أولى",
+      "status": "عينة مبكرة مشروطة",
       "audience": "نسائي / يومي ومساء",
       "reason": "القصة واضحة، والألوان السادة تسهّل التنسيق. المرجع الحالي ليس جاكيتًا قصيرًا؛ نقترح اختبار طول متوسط وقصير فوق عباية كاملة.",
       "changes": "أسود وتاوب/جملي؛ تقليل الفرو البارز وشريط الأكمام، جيوب نافعة، سحاب جيد، بطانة أخف.",
-      "sample_checks": "اختبار جلوس ومشي وحمل حقيبة، قياس وزن القطعة وقوة السحاب؛ مقارنة أصل المورد بنسخة مُسدل."
+      "sample_checks": "اختبار جلوس ومشي وحمل حقيبة، قياس وزن القطعة وقوة السحاب؛ مقارنة أصل المورد بنسخة مُسدل.",
+      "status_before_market_audit": "عينة أولى",
+      "market_audit_reason": "اختبار مبكر: استخدام عملي فوق العباية وإغلاق واضح. سادة IG01 وIG05 لهما 1,188 و1,528 مشاهدة؛ على IG05 سؤال سعر. هذا دليل للفئة، وليس لـ W04 نفسه.",
+      "unproven_assumptions": "تفضيل السادة والأسود/التاوب اجتهاد لمُسدل؛ لا ترتيب ألوان مبيعًا. القصة القصيرة تعديل لم يُختبر."
     },
     {
       "id": "S2",
       "title": "كاب أسود بأكمام واسعة",
       "reference": "W05",
-      "status": "عينة أولى",
+      "status": "عينة استكشافية",
       "audience": "نسائي / طبقة خفيفة",
       "reason": "قصة قابلة لتصوير الحركة والتنسيق، وتفتح خيارًا أخف من المعطف الطويل. W06 يوضح الواجهة والربطة.",
       "changes": "توحيد الخامة واللون؛ تقليل رقع الفرو، اختبار إغلاق عملي بدل الربطة، فتحات حركة مريحة.",
-      "sample_checks": "تصوير أمام/خلف وحركة الذراع والحقيبة، والتأكد أن القصة لا تعيق الحركة أو تتكتل فوق العباية."
+      "sample_checks": "تصوير أمام/خلف وحركة الذراع والحقيبة، والتأكد أن القصة لا تعيق الحركة أو تتكتل فوق العباية.",
+      "status_before_market_audit": "عينة أولى",
+      "market_audit_reason": "اخترته لتوسيع خيارات الطبقات والحركة بصريًا. لم نجد في هذه العينة الاجتماعية دليل طلب مباشر على كاب مطابق.",
+      "unproven_assumptions": "الصورة لا تثبت أنه خفيف. كانت «عينة أولى» تمنحه ثقة أعلى من الدليل المتاح."
     },
     {
       "id": "S3",
       "title": "فروة نسائية طويلة سادة",
       "reference": "C32",
-      "status": "عينة أولى",
+      "status": "عينة مبكرة بديلة لـ S1",
       "audience": "نسائي / برّ ومساء بارد",
       "reason": "موديل 202038، ص32. قاعدة أبسط من أغلب الزخارف في الكتالوج، مع جيوب وقبعة.",
       "changes": "لون جملي أو تاوب وأسود؛ فرو بلون هادئ، جيوب أقل بروزًا، وزن متوسط، نسخة بطول مدروس.",
-      "sample_checks": "فحص سماكة البطانة واحتكاكها بالملابس؛ لا نوصفها خفيفة أو مناسبة لكل المدن قبل العينة."
+      "sample_checks": "فحص سماكة البطانة واحتكاكها بالملابس؛ لا نوصفها خفيفة أو مناسبة لكل المدن قبل العينة.",
+      "status_before_market_audit": "عينة أولى",
+      "market_audit_reason": "وجود الفئة واضح في IG01 وIG05؛ يتيح قياس النسائي الطويل مقابل تطوير S1. يُختار S1 أو S3 أولًا لتجنب تكرار عينتين متشابهتين.",
+      "unproven_assumptions": "لا نستنتج أن القبعة أو الطول سبب التفاعل، أو أنه مناسب لكل مدينة سعودية."
     },
     {
       "id": "S4",
       "title": "فروة رجالية سادة بقبعة",
       "reference": "C13",
-      "status": "عينة أولى",
+      "status": "عينة مبكرة مشروطة",
       "audience": "رجالي / برّ واستراحة",
       "reason": "موديل 102049، ص13؛ بديل القصة المغربية 102041 ص11. الفئة مفهومة، والخط الهادئ أقرب لمجموعة سهلة التنسيق.",
       "changes": "بني/جملي وفحمي؛ شريط بنفس لون القماش أو تباين محدود، جيوب عميقة، مساحة فوق الثوب.",
-      "sample_checks": "اختبار الثوب تحتها والجلوس والقيادة، الوزن والبطانة والأكمام. مقارنة قصتين دون إطلاق ألوان كثيرة."
+      "sample_checks": "اختبار الثوب تحتها والجلوس والقيادة، الوزن والبطانة والأكمام. مقارنة قصتين دون إطلاق ألوان كثيرة.",
+      "status_before_market_audit": "عينة أولى",
+      "market_audit_reason": "أقوى دليل مباشر في هذا الفحص على فئة الفروة الرجالية: SHOP01 يعلن >2,765 بيعًا و98 تقييمًا. الشكل لدى المنافس بشرائط؛ هذا لا يثبت أفضلية السادة أو القبعة.",
+      "unproven_assumptions": "اختيار زخرفة أهدأ ولبسها فوق الثوب حكم تصميمي. 69 ر.س لدى منافس مخفض يبين ضغط السعر."
     },
     {
       "id": "S5",
       "title": "سديري رجالي على وجهين",
       "reference": "C15",
-      "status": "عينة أولى",
+      "status": "عينة وظيفية استكشافية",
       "audience": "رجالي / يومي وانتقال موسمي",
       "reason": "موديل 103047، ص15. يعطي خيارًا أقل تغطية من الفروة الطويلة. وجود سديري مشابه بالسعودية يدعم اختبار الفئة.",
       "changes": "جملي/فحمي؛ جيوب عملية بالوجهين، سحاب مرتب، طول ونطاق مقاسات مناسب فوق الثوب.",
-      "sample_checks": "الوجه الثاني يجب أن يكون صالحًا للبَس فعلًا، مع بطاقة لا تعيق الاستخدام. لا نثبت خامة الوبر من الصورة."
+      "sample_checks": "الوجه الثاني يجب أن يكون صالحًا للبَس فعلًا، مع بطاقة لا تعيق الاستخدام. لا نثبت خامة الوبر من الصورة.",
+      "status_before_market_audit": "عينة أولى",
+      "market_audit_reason": "اختيار وظيفي لطبقات أقل تغطية. المرجع السعودي السابق بسعر 250 وعداد 6 مشتريات بلا فترة؛ يثبت طرح المنتج أكثر مما يثبت رواجًا واسعًا.",
+      "unproven_assumptions": "لا بيانات تفاعل موثقة على سديري مطابق. فروة SHOP03 ذات الوجهين منتج مختلف، فلا نسقط عدادها عليه."
     },
     {
       "id": "S6",
       "title": "فروة نسائية بشريط سدو",
       "reference": "C40",
-      "status": "اختبار ثانوي",
+      "status": "عينة مقارنة محدودة",
       "audience": "نسائي / تراث وهدايا وبرّ",
       "reason": "موديل 202049، ص40. يتيح صلة بصرية بالتراث المحلي، لكن الفئة منافَسة وليست فرصة بلا بدائل.",
       "changes": "تغيير التركواز والفرو الفاقع إلى أساس فحمي أو جملي، وشريط سدو أضيق. الطول ووزن البطانة اختبار مستقل.",
-      "sample_checks": "مقارنة الشريط الهادئ بالسادة تحت نفس السعر والتصوير. لا نتوسع إذا كان الإعجاب دون نية شراء."
+      "sample_checks": "مقارنة الشريط الهادئ بالسادة تحت نفس السعر والتصوير. لا نتوسع إذا كان الإعجاب دون نية شراء.",
+      "status_before_market_audit": "اختبار ثانوي",
+      "market_audit_reason": "طرح السدو عند عدة متاجر يدعم اختبار فئة تراثية. إبقاؤه للمقارنة مع السادة يمنع حسم الشكل على ذوقنا وحده.",
+      "unproven_assumptions": "لا قياس اجتماعي مباشر يثبت أنه أقل طلبًا من السادة؛ «اختبار ثانوي» ليس ترتيب شعبية."
     }
   ],
   "catalog_assessment": {
@@ -517,7 +535,87 @@
       "title": "الجديعي: بالينو أصواف طبيعية",
       "url": "https://aljedaie.com/بالينو-des-286-86-178/p351234403",
       "note": "892.50 ر.س؛ أصواف طبيعية إيطالية، عرضين 3.5 متر. سعر معروض ووحدة القطعة تؤكد عند الاختيار؛ ليس قماش فروة مثبتًا."
+    },
+    {
+      "id": "IG01",
+      "title": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DStCNGKCN9J/",
+      "note": "Public UI observed 2026-10-06; posted 2025-12-26; unavailable counters preserved as null."
+    },
+    {
+      "id": "IG02",
+      "title": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRiiLXViCHq/",
+      "note": "Public UI observed 2026-10-06; posted 2025-11-27; unavailable counters preserved as null."
+    },
+    {
+      "id": "IG03",
+      "title": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRih0OOCFuw/",
+      "note": "Public UI observed 2026-10-06; posted 2025-11-27; unavailable counters preserved as null."
+    },
+    {
+      "id": "IG04",
+      "title": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRaM8XHCGae/",
+      "note": "Public UI observed 2026-10-06; posted 2025-11-23; unavailable counters preserved as null."
+    },
+    {
+      "id": "IG05",
+      "title": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRXtzNwCCD7/",
+      "note": "Public UI observed 2026-10-06; posted 2025-11-22; unavailable counters preserved as null."
+    },
+    {
+      "id": "IG06",
+      "title": "frwat_almalika",
+      "url": "https://www.instagram.com/frwat_almalika/reel/DRVTCZGiJzf/",
+      "note": "Public UI observed 2026-10-06; posted 2025-11-21; unavailable counters preserved as null."
+    },
+    {
+      "id": "IG07",
+      "title": "hagr2.5",
+      "url": "https://www.instagram.com/hagr2.5/reel/DQ-9O-SDLid/",
+      "note": "Public UI observed 2026-10-06; posted 2025-11-13; unavailable counters preserved as null."
+    },
+    {
+      "id": "IG08",
+      "title": "bishtofriyadh",
+      "url": "https://www.instagram.com/bishtofriyadh/reel/CROmiM_pHuc/",
+      "note": "Public UI observed 2026-10-06; posted 2021-07-12; unavailable counters preserved as null."
+    },
+    {
+      "id": "IG09",
+      "title": "bishtofriyadh",
+      "url": "https://www.instagram.com/bishtofriyadh/reel/CQCThHhJ5N9/",
+      "note": "Public UI observed 2026-10-06; posted 2021-06-13; unavailable counters preserved as null."
+    },
+    {
+      "id": "SHOP01",
+      "title": "فروة شمواه رجالي",
+      "url": "https://alwastta.com/products/فروة-شمواه-رجالي",
+      "note": "Merchant reported metrics, unknown period."
+    },
+    {
+      "id": "SHOP02",
+      "title": "فروة ارنب شمواه رجالي",
+      "url": "https://alwastta.com/products/فروة-رجالي-مبطن-بفروة-ارنب-رجالي",
+      "note": "Merchant reported metrics, unknown period."
+    },
+    {
+      "id": "SHOP03",
+      "title": "فروة دبل فيس مع شال",
+      "url": "https://alwastta.com/products/فروة-جوخ-دبل-فيس",
+      "note": "Merchant reported metrics, unknown period."
     }
   ],
-  "last_section": "sources"
+  "last_section": "sources",
+  "market_evidence_file": "market-evidence.json",
+  "execution_priority": [
+    "S4",
+    "S1 or S3",
+    "S6 comparative + personalization swatch",
+    "S5 exploratory",
+    "S2 exploratory"
+  ]
 }
