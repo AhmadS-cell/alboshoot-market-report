@@ -1,0 +1,411 @@
+{
+  "observed_date": "2026-10-06",
+  "method": "Official public product and brand pages read using web search/open and rendered Chrome UI. One official Qormuz fashion-show Reel examined, plus one Jino site-linked Instagram post. Purposive benchmarks, not market-share or popularity ranking. No seller contact.",
+  "limits": [
+    "Retail prices of finished garments; not raw material, wholesale or supplier quotations.",
+    "Currencies preserved as displayed. No conversion or price-per-meter implied.",
+    "Prices and variant availability can change. A price, sold-out label or review count does not establish sales.",
+    "Composition is a seller claim. Weave terms such as twill and jacquard are not fiber percentages.",
+    "Historical editorial selection establishes prior recognition, not current demand. No causal attribution of price differences to fabric alone."
+  ],
+  "brands": [
+    {
+      "id": "AB",
+      "name": "عِبادية · Abadia",
+      "group": "luxury",
+      "basis": "Named by Visit Saudi in its farwa guide, updated 28 October 2024; direct official farwa story and product reviewed.",
+      "positioning": "تعيد تقديم الفروة للمرأة المعاصرة؛ تتحدث عن الحرفة والقطع التي تبقى طويلًا، وتذكر الفرو الصناعي في قصة الفروة.",
+      "offering": "فروات وعبايات وجاكيتات؛ قطعة دقلة طويلة بأكمام سدو متراكبة.",
+      "implication": "السدو ممكن يكون في تفصيل واحد مميز. نفحص التشطيب والانسياب قبل إضافة زخرفة على كل القطعة.",
+      "url": "https://shop.abadia.me/pages/stories/the-farwa",
+      "products": [
+        "AB1"
+      ],
+      "samples": [
+        "S1",
+        "S3",
+        "S6"
+      ]
+    },
+    {
+      "id": "JI",
+      "name": "جينو · Jino",
+      "group": "luxury",
+      "basis": "Named by Visit Saudi; official store contains male and female farwas. Historical guide's male-only description is not used as current inventory.",
+      "positioning": "تطرح اللباس التقليدي ضمن أزياء فاخرة؛ صفحات المنتجات تبرز الجلد والفرو الطبيعي أو الأرنب في نماذج محددة.",
+      "offering": "فروات رجالية ونسائية، بشت وسديري وقصات خارجية؛ نموذج جلد وفرو طبيعي بـ3,018 ريال.",
+      "implication": "مرجع لطبقة فاخرة أعلى. لا نستخدم سعر الجلد والفرو الطبيعي لتسعير عينة المورد الصناعية.",
+      "url": "https://jinocollections.com/",
+      "products": [
+        "JI1",
+        "JI2",
+        "JI3"
+      ],
+      "samples": [
+        "S4",
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "id": "FA",
+      "name": "فيث · Faith",
+      "group": "luxury",
+      "basis": "Named by Visit Saudi and historical fashion coverage; official Saudi storefront reviewed.",
+      "positioning": "تربط التراث بالفخامة وتعرض منتجات للرجال والنساء والأطفال.",
+      "offering": "فروات، كاب ALPACA MINK، وشال قابل للفصل. نموذج فروة رجالية يعلن 100% كشمير بـ12,500 ريال، نافد عند الرصد.",
+      "implication": "يفيدنا التفكير بخيارات طبقات وقابلية فصل، لكن الكاب الفاخر ليس مطابقًا لـS2 ولا يثبت طلبًا عليه.",
+      "url": "https://faithful-sa.com/ar",
+      "products": [
+        "FA1",
+        "FA2"
+      ],
+      "samples": [
+        "S4",
+        "S2"
+      ]
+    },
+    {
+      "id": "QR",
+      "name": "قرمز · Qormuz",
+      "group": "heritage",
+      "basis": "Saudi 100 Brands showroom coverage, 2022; founder interview, 2024; official garments and Instagram verified profile reviewed.",
+      "positioning": "تروي حكايات سعودية عبر القطعة وتعيد السديري بتطريز مستوحى من الجُبة للرجال والنساء.",
+      "offering": "سديري جبة بـ252 بدل420 ريال؛ سديري دجى بـ760 ريال بطلب مسبق ومدة تجهيز10–20 يوم عمل.",
+      "implication": "السديري يستحق اختبارًا بتفصيل وهوية محددين. وجود الطرح وتعليقات العرض لا يعادل مبيعات لقطعة بعينها.",
+      "url": "https://qormuz.com/en/",
+      "products": [
+        "QR1",
+        "QR2"
+      ],
+      "samples": [
+        "S5",
+        "S6"
+      ]
+    },
+    {
+      "id": "MI",
+      "name": "مهيار · Mihyar",
+      "group": "practical",
+      "basis": "Official brand page says founded2012 and more than58 Saudi showrooms; network claim not independently audited.",
+      "positioning": "لباس رجالي سعودي يجمع الراحة والابتكار، مع شراء إلكتروني واستلام من المعارض.",
+      "offering": "جيليه شتوي بسحاب وياقة عالية،100% بوليستر، بـ149 بدل349 ريال؛ المجموعة فيها طبقات أخرى.",
+      "implication": "منافس سعر ووظيفة للسديري. نحتاج فرقًا ملموسًا بالوجهين أو الجيوب والتشطيب إذا سعر مُسدل أعلى.",
+      "url": "https://mihyar.com/pages/about",
+      "products": [
+        "MI1"
+      ],
+      "samples": [
+        "S5"
+      ]
+    },
+    {
+      "id": "LO",
+      "name": "لومار · Lomar",
+      "group": "heritage",
+      "basis": "Saudi 100 Brands showroom coverage2022; current official site states25 years of experience, branches and made-to-measure options.",
+      "positioning": "تميّز الثوب بالتفصيل وبميزة محسوسة؛ نموذج العود يعلن قطن100% وتعطيرًا بتقنية النانو.",
+      "offering": "ثياب تفصيل وسديري وكاجوال وإكسسوارات. ثوب العود1,199 ريال شامل الضريبة؛ ريديش#7 بسعر699 في العرض الرسمي.",
+      "implication": "درس بالتفصيل ووصف الفائدة. الثوب فئة مجاورة؛ ليس مقارنة سعر مباشرة مع فروة أو سديري المورد.",
+      "url": "https://lomar.sa/",
+      "products": [
+        "LO1",
+        "LO2"
+      ],
+      "samples": []
+    },
+    {
+      "id": "TH",
+      "name": "ثاء · THAA",
+      "group": "luxury",
+      "basis": "Official Saudi-born brand founded2016; featured in Saudi abaya brand editorial coverage2024. Adjacent abaya benchmark, not farwa market leader ranking.",
+      "positioning": "تذكر الإنتاج المحدود والحرفة والموضة البطيئة؛ تتيح خيار مقاس خاص في القطعة التي فحصناها.",
+      "offering": "عبايات وقفاطين. ASTRA ضمن مجموعة خريف/شتاء2025–2026 بـ2,990 ريال، حرير جاكار وكروشيه يدوي وخرز حسب الوصف.",
+      "implication": "اسم المجموعة الشتوية لا يكفي لتقييم الدفء. نطلب الوزن والتركيب ونصوّر الملمس والانسياب والمقاس.",
+      "url": "https://thaaksa.com/pages/about-us",
+      "products": [
+        "TH1"
+      ],
+      "samples": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "id": "RA",
+      "name": "رنا إسماعيل · Rana Ismail",
+      "group": "heritage",
+      "basis": "Visit Saudi's farwa guide, updated28 October2024. Historical editorial benchmark; current product pricing not verified.",
+      "positioning": "الدليل السياحي يصف فروات بمخمل وزخارف تقليدية.",
+      "offering": "مرجع بصري للملمس والزخرفة؛ لا سعر حالي أو تركيب ألياف كامل موثق في هذا البحث.",
+      "implication": "نستفيد من الاتجاه البصري فقط. لا نحوله لإشارة ترند2026 أو نسعّر الخامة من الصورة.",
+      "url": "https://www.visitsaudi.com/it/stories/farwa-fashion",
+      "products": [],
+      "samples": [
+        "S6"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "AB1",
+      "brand": "AB",
+      "name": "Sadu Oversized Dagla in Black",
+      "price": 5440,
+      "currency": "AED",
+      "previous_price": null,
+      "fabric": "Twill؛ تركيب الألياف غير مذكور. ليست شهادة صوف أو كشمير.",
+      "design": "طول للكاحل وأكمام سدو متراكبة؛ ليست فروة مبطنة مطابقة للمورد.",
+      "availability": "زر شراء ومقاسات؛ التوفر النهائي حسب المقاس غير مفحوص",
+      "reviews_count": null,
+      "url": "https://shop.abadia.me/collections/farwas/products/sadu-oversized-dagla-in-black-black",
+      "verification": "Rendered official product and details tab;6Oct2026"
+    },
+    {
+      "id": "JI1",
+      "brand": "JI",
+      "name": "Men's Farwa · MW-23",
+      "price": 3018,
+      "currency": "SAR",
+      "previous_price": null,
+      "fabric": "جلد أسود وفرو طبيعي حسب البائع؛ نوع الحيوان غير محدد في هذه الصفحة.",
+      "design": "فروة رجالية؛ صفحة المنتج تنسبها لمجموعة شتاء2024.",
+      "availability": "In Stock ظاهر؛ المقاس النهائي غير مفحوص",
+      "reviews_count": 0,
+      "url": "https://www.jinocollections.com/products/mens-farwa-5",
+      "verification": "Rendered official product;6Oct2026"
+    },
+    {
+      "id": "JI2",
+      "brand": "JI",
+      "name": "Women's Farwa · WW23-15",
+      "price": 3018,
+      "currency": "SAR",
+      "previous_price": null,
+      "fabric": "جلد وفرو طبيعي حسب البائع؛ لا تركيب كامل.",
+      "design": "نسائي؛ مجموعة شتاء2024 حسب الصفحة.",
+      "availability": "In Stock حسب النص المفهرس؛ يلزم تأكيد المقاس",
+      "reviews_count": 0,
+      "url": "https://www.jinocollections.com/products/womens-farwa-11",
+      "verification": "Official public product text indexed by web; consulted6Oct2026"
+    },
+    {
+      "id": "JI3",
+      "brand": "JI",
+      "name": "Men's Brown Farwa · AW20/21-0016",
+      "price": 9487.5,
+      "currency": "SAR",
+      "previous_price": null,
+      "fabric": "فرو أرنب أبيض طبيعي، وزخرفة سعودية مرسومة يدويًا حسب البائع.",
+      "design": "Deerity؛ رمز المنتج يشير إلى2020/2021، فلا تصنّف كإطلاق2026.",
+      "availability": "In Stock حسب النص المفهرس؛ يلزم تأكيد المقاس",
+      "reviews_count": 0,
+      "url": "https://www.jinocollections.com/products/mens-farwa-1",
+      "verification": "Official public product text indexed by web; consulted6Oct2026"
+    },
+    {
+      "id": "FA1",
+      "brand": "FA",
+      "name": "BLUE CASHMERE MEN FARWA",
+      "price": 12500,
+      "currency": "SAR",
+      "previous_price": null,
+      "fabric": "100% كشمير طبيعي حسب البائع؛ بطانة الفروة غير مفصلة.",
+      "design": "فروة رجالية كلاسيكية.",
+      "availability": "نفدت الكمية عند الرصد",
+      "reviews_count": null,
+      "url": "https://faithful-sa.com/ar/lGwymly",
+      "verification": "Rendered official product;6Oct2026"
+    },
+    {
+      "id": "FA2",
+      "brand": "FA",
+      "name": "ALPACA MINK CAPE",
+      "price": null,
+      "currency": null,
+      "previous_price": null,
+      "fabric": "اسم تسويقي ظاهر بالصفحة الرئيسية؛ لا نستنتج منه نسب الألباكا أو المنك.",
+      "design": "كاب؛ ليس مطابقًا لكاب المورد.",
+      "availability": "غير مفحوص",
+      "reviews_count": null,
+      "url": "https://faithful-sa.com/ar",
+      "verification": "Official home public text;consulted6Oct2026"
+    },
+    {
+      "id": "QR1",
+      "brand": "QR",
+      "name": "Sudairi Jubbah Qormuz Color",
+      "price": 252,
+      "currency": "SAR",
+      "previous_price": 420,
+      "fabric": "تركيب الألياف غير مذكور في النص الذي فحصناه.",
+      "design": "تطريز مستوحى من الجبة؛ موجه للرجال والنساء حسب البائع؛ ليس سديريًا على وجهين مثبتًا.",
+      "availability": "زر شراء؛ المقاس النهائي غير مفحوص",
+      "reviews_count": 0,
+      "url": "https://qormuz.com/en/products/سديري-جبة-باللون-القرمزي",
+      "verification": "Rendered official product;6Oct2026"
+    },
+    {
+      "id": "QR2",
+      "brand": "QR",
+      "name": "Sudairi Dajaa",
+      "price": 760,
+      "currency": "SAR",
+      "previous_price": null,
+      "fabric": "تركيب الألياف غير مذكور.",
+      "design": "قصة فضفاضة وتفاصيل عملية؛ يطلب قياسات؛ تجهيز10–20 يوم عمل.",
+      "availability": "Pre-order ظاهر مع زر شراء؛ لا وعد بالتوفر الفوري",
+      "reviews_count": 0,
+      "url": "https://qormuz.com/products/سديري-دجى",
+      "verification": "Rendered official product;6Oct2026;indexed sold-out label conflicts with rendered pre-order, so rendered state used"
+    },
+    {
+      "id": "MI1",
+      "brand": "MI",
+      "name": "جيليه بدون أكمام ·222428182",
+      "price": 149,
+      "currency": "SAR",
+      "previous_price": 349,
+      "fabric": "100% بوليستر حسب البائع؛ اسم الرابط Suede لا يعني جلد شمواه طبيعي.",
+      "design": "سحاب وياقة عالية؛ ليس على وجهين مثبتًا.",
+      "availability": "اختيار مقاسات؛ التوفر النهائي غير مفحوص",
+      "reviews_count": null,
+      "url": "https://mihyar.com/products/sleeveless-suede-gilet-black-222428182",
+      "verification": "Rendered official product;6Oct2026"
+    },
+    {
+      "id": "TH1",
+      "brand": "TH",
+      "name": "ASTRA ·black",
+      "price": 2990,
+      "currency": "SAR",
+      "previous_price": null,
+      "fabric": "حرير جاكار وكروشيه بخيط حرير وخرز حسب البائع؛ النسبة والوزن غير مذكورين.",
+      "design": "خريف/شتاء2025–2026؛58بوصة وخيار CUSTOM SIZE؛ ليست فروة.",
+      "availability": "زر شراء ظاهر؛ المقاس الخاص لم يُطلب",
+      "reviews_count": null,
+      "url": "https://thaaksa.com/products/astra",
+      "verification": "Rendered official collection and product;6Oct2026"
+    },
+    {
+      "id": "LO1",
+      "brand": "LO",
+      "name": "ثوب العود",
+      "price": 1199,
+      "currency": "SAR",
+      "previous_price": null,
+      "fabric": "قطن100%؛ منشأ القماش فرنسي وتعطير بالعود بتقنية النانو حسب البائع؛ لم نختبر دوام الرائحة.",
+      "design": "ثوب تفصيل؛ آخر قياس محفوظ أو زيارة المعرض؛ فئة مجاورة للفروة.",
+      "availability": "زر شراء؛1199شامل الضريبة؛ لا طلب منفذ",
+      "reviews_count": 0,
+      "url": "https://lomar.sa/products/oud-thobe",
+      "verification": "Rendered official product;6Oct2026"
+    },
+    {
+      "id": "LO2",
+      "brand": "LO",
+      "name": "لومار ريديش ثوب#7",
+      "price": 699,
+      "currency": "SAR",
+      "previous_price": null,
+      "fabric": "لم تُفحص صفحة التركيب؛ لا نفترض الصوف من اللون.",
+      "design": "ثوب؛ فئة مجاورة؛ رصد سعر القائمة فقط.",
+      "availability": "سعر العرض في الصفحة الرئيسية والمنتجات المقترحة؛ المقاس غير مفحوص",
+      "reviews_count": null,
+      "url": "https://lomar.sa/products/reddish-7",
+      "verification": "Price visible in rendered official homepage and related products;6Oct2026"
+    }
+  ],
+  "social": [
+    {
+      "id": "BQ1",
+      "brand": "QR",
+      "account": "qormuz",
+      "url": "https://www.instagram.com/qormuz/reel/DQDEfOFiOEu/",
+      "posted_date": "2025-10-21",
+      "pinned": true,
+      "views_display": "28.3K",
+      "views_approx": 28300,
+      "likes": 890,
+      "comments_visible_read": 14,
+      "comments_total": null,
+      "shares": null,
+      "reposts": null,
+      "saves": null,
+      "followers": 82721,
+      "content": "Riyadh Fashion Week show; layered garments with visible heritage motifs; not a single Sadu or supplier product.",
+      "comments": [
+        {
+          "text": "واو بصراحة فزتوا",
+          "type": "praise",
+          "url": "https://www.instagram.com/p/DQDEfOFiOEu/c/18111125860605659/"
+        },
+        {
+          "text": "في مبالغة شديدة في استيحاء روح الشمال",
+          "type": "criticism_excerpt",
+          "url": "https://www.instagram.com/p/DQDEfOFiOEu/c/17890000986364983/"
+        },
+        {
+          "text": "اخيررررررا سويتو شي للشمال",
+          "type": "regional_identity_praise",
+          "url": "https://www.instagram.com/p/DQDEfOFiOEu/c/17844345798587911/"
+        }
+      ],
+      "interpretation": "A mixed design response supports testing restrained versus overt heritage motifs, not declaring either a market winner.14 visible comments are not the full thread. Pinned historical2025 show and brand followers are not product sales."
+    },
+    {
+      "id": "BJ1",
+      "brand": "JI",
+      "account": "jino.2003",
+      "url": "https://www.instagram.com/jino.2003/reel/DEFFBX4o_2W/",
+      "posted_date": "2024-12-27",
+      "likes": 4,
+      "views_display": null,
+      "views_approx": null,
+      "comments_visible_read": 0,
+      "comments_total": null,
+      "shares": null,
+      "reposts": null,
+      "saves": null,
+      "excluded_from_sample_demand": true,
+      "reason": "Official-site linked general luxury promotion, not a verified supplier-matching garment; historical2024. UI says No comments yet. Not compared to Qormuz fashion show."
+    }
+  ],
+  "recognition_sources": [
+    {
+      "title": "Visit Saudi farwa guide · updated28October2024",
+      "url": "https://www.visitsaudi.com/it/stories/farwa-fashion",
+      "supports": [
+        "AB",
+        "JI",
+        "FA",
+        "RA"
+      ],
+      "note": "Historical curated guide; not market-size data. Current Jino pages include female products contrary to guide's old male-only description."
+    },
+    {
+      "title": "Saudi100Brands showroom in Milan · The National ·24September2022",
+      "url": "https://www.thenationalnews.com/lifestyle/luxury/2022/09/24/saudi-100-brands-showroom-opens-at-milan-fashion-week/",
+      "supports": [
+        "QR",
+        "LO"
+      ],
+      "note": "Historical participation establishes recognition, not current ranking."
+    },
+    {
+      "title": "Qormuz founder interview · Arab News ·11July2024",
+      "url": "https://www.arabnews.com/saudi-arabia/qormuz-bringing-traditional-saudi-culture-to-future-generations-says-founder-2547641",
+      "supports": [
+        "QR"
+      ]
+    },
+    {
+      "title": "Saudi abaya brand editorial ·2024 · SaudiMoments",
+      "url": "https://www.saudimoments.com/best-saudibased-abaya-brands-to-shop-from-646634.html",
+      "supports": [
+        "TH"
+      ],
+      "note": "Editorial recognition for adjacent abaya category, not measured farwa demand."
+    }
+  ]
+}
