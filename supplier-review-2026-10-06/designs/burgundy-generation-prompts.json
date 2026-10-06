@@ -1,0 +1,32 @@
+{
+  "tool": "built-in image_gen",
+  "on_model_initial": {
+    "id": "D-W02",
+    "status": "Proposed design preview; not a manufactured product",
+    "tool": "built-in image_gen",
+    "outer_color": "deep burgundy wine",
+    "fur_color": "dark warm espresso-brown",
+    "fur_type": "short-pile faux fur proposed; supplier to verify",
+    "silhouette": "relaxed A-line over full abaya, below knee to calf target; verify measurements before sample",
+    "image": "D-W02-burgundy-women-on-model.png",
+    "prompt": "Use case: product-mockup. Asset type: Musdal original women's farwa design D-W02, a single photorealistic premium ecommerce product photograph, portrait 4:5. Input image is a supporting design-family reference ONLY: use the relaxed A-line silhouette, simple soft shawl collar/front fur border and discreet welt pockets, but create a distinct women's version and change the outer cloth to a rich deep BURGUNDY wine color as expressly requested by the user. A modest adult Arab woman wears the proposed coat over a plain full-length black abaya and a neatly draped matte black hijab. Whole body including shoes visible, full garment fully in frame, straight-on with a very slight natural three-quarter turn, one hand relaxed and one casually in a pocket, coat shape unobscured. Coat hem at BELOW THE KNEE / upper calf, clearly shorter than the black ankle-length abaya beneath. Elegant gently flared A-line cut with generous movement over the abaya, natural shoulder line, comfortable long sleeves with plain burgundy cuffs. Matte richly textured burgundy wool-like woven exterior, neat NARROW short-pile dark warm espresso-brown faux-fur shawl collar that continues as a restrained slim border down the two front edges. Two discreet diagonal welt pockets at hip level. Front opening naturally almost meeting at upper torso and slightly parting lower down to show the black abaya; concealed hook closure proposed with no visible conspicuous hardware, no tight fitted waist. No belt, no hood, no embroidery, no gold trim, no fur cuffs, no shiny leather, no puffy quilting, no loud buttons, no bag or jewelry competing with product. Pale warm-gray seamless studio backdrop, soft neutral diffused daylight, natural realistic skin, accurate burgundy wine hue distinct from purple and bright red, natural cloth drape and short soft fur fibers, high-end product photography, balanced comfortable margins. One photograph ONLY, no collage, no labels, no measurements, no text, no logo, no watermark. This is a proposed design visualization, not a photograph of an already manufactured garment."
+  },
+  "on_model_longer": {
+    "tool": "built-in image_gen",
+    "status": "proposed longer design preview",
+    "image": "D-W02-burgundy-women-long-v2.png",
+    "reference": "D-W02-burgundy-women-on-model.png",
+    "prompt": "Precisely edit this original photograph. ONLY lengthen the burgundy women's coat, keeping absolutely everything else unchanged. The original coat hem is around y=1090 in this 1402-pixel tall photograph; extend the lower burgundy panels down to around y=1240, and extend the two dark brown fur front borders continuously to this same longer hem. Keep a small strip of the existing black abaya visible down to its original hem around y=1300. Garment ends just above the ankles, never touches the floor. Preserve the original upper-half design exactly: same face, woman, hijab, hands, stance, collar, sleeves, pockets, shoulder positions, fur width, lighting and background. MOST IMPORTANT preserve the original PLAIN matte burgundy heather wool-like cloth texture. It has NO floral motif, NO paisley, NO swirling motifs, NO jacquard, NO embroidery, NO ornamental surface pattern. Use simple plain burgundy woven cloth across the entire garment, continuing the same original texture into the added lower length. Keep the same relaxed gently flared silhouette; do not make it wider. No other additions or alterations, no text or watermark, one photograph only."
+  },
+  "product": {
+    "tool": "built-in image_gen",
+    "use_case": "precise-object-edit / product-mockup",
+    "prompt": "Use case: precise-object-edit / product-mockup. Create ONE independent clean studio product photograph of the women's coat in the second reference (burgundy long coat on woman), displayed on an invisible mannequin with NO person, no head, no hands, no hijab or abaya. First reference shows the required independent product photography style and same original design family. Preserve the selected women's design: relaxed subtle A-line, full sleeves, two angled side pockets, open front, generously soft shawl collar and continuous front fur edging. Body colour deep burgundy, PLAIN matte wool-like heather woven fabric: absolutely no floral or swirling or jacquard decoration, no embroidery, no brand text. Short pile faux-fur collar and front edging dark brown as in second reference. Longer lower-calf / just above ankle length matching second reference; not short, not floor dragging. Smooth dark burgundy body lining visible within opening; body not fully fur lined. Neutral light gray studio seamless background, soft lighting, full garment centered with generous margins and subtle natural ground shadow, photorealistic high quality product mockup. Keep cut and pocket design recognizable from both references; only the selected burgundy colour, long length and dark brown edging of second reference supersede first reference. No belt, hood, zipper, large buttons, logos, props, text, watermark or collage.",
+    "references": [
+      "D-W01-women-product.png",
+      "D-W02-burgundy-women-long-v2.png"
+    ],
+    "output": "D-W02-burgundy-women-product-long.png"
+  },
+  "status": "User requested burgundy and longer length; supplier execution and cost unconfirmed"
+}
