@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-06",
+  "type": "Full supplier-report audit",
+  "planning_retail_range_sar": [
+    300,
+    600
+  ],
+  "current_designs": [
+    "D-M01",
+    "D-W02"
+  ],
+  "audit_findings": [
+    "Corrected stale sample order and D-W01 references",
+    "Burgundy long is the current female sample, not a later color option",
+    "Generated product and model photos exist; manufacturing/material claims remain unverified",
+    "Added retail composition benchmarks, raw material unit checks, conditional cost calculator and acceptance/pilot plan"
+  ],
+  "unresolved": [
+    "Manufacturer/reseller identity and actual factory",
+    "Fiber composition, swatches, weight, pile and care",
+    "Pattern, measurement table and agreed tolerances",
+    "Sample/production quotes, MOQ and delivery responsibilities",
+    "Actual landed cost, tax/import applicability and contribution economics",
+    "Physical sample acceptance and qualified demand at a known price"
+  ],
+  "sources": [
+    {
+      "title": "NEXT · برغندي F79-137",
+      "url": "https://www.next.sa/en/style/su671798/f79137",
+      "notes": "صفحة مفتوحة: 250/500 ريال، تركيب وطول؛ عرض تجاري وليس دليل مبيعات."
+    },
+    {
+      "title": "REISS · Brogan",
+      "url": "https://www.reiss.com/sa/en/style/su825670/w67665",
+      "notes": "صفحة مفتوحة: 1,253/2,100 ريال، تركيب وبناء دون بطانة؛ أعلى من نطاقنا."
+    },
+    {
+      "title": "Regal · wine wool-blend suiting",
+      "url": "https://regalfabricgallery.com/products/luxurious-rich-wine-maroon-self-blended-wool-suiting-tailoring-fabric-smooth-150cm-width-superior-quality-italian-origin-32033",
+      "notes": "مرجع مادة بالتجزئة؛ العملة والوحدة وحدود المطابقة موضحة بجانب السعر."
+    },
+    {
+      "title": "Croft Mill · Good Better Best Black",
+      "url": "https://www.croftmill.co.uk/products/good-better-best-black",
+      "notes": "مرجع مادة بالتجزئة؛ العملة والوحدة وحدود المطابقة موضحة بجانب السعر."
+    },
+    {
+      "title": "Big Z · Wavy Velboa Brown",
+      "url": "https://bigzfabric.com/products/wavy-velboa-faux-fur-fabric-brown",
+      "notes": "مرجع مادة بالتجزئة؛ العملة والوحدة وحدود المطابقة موضحة بجانب السعر."
+    },
+    {
+      "title": "ZATCA · عن ضريبة القيمة المضافة",
+      "url": "https://www.zatca.gov.sa/ar/RulesRegulations/VAT/Pages/About-Vat.aspx",
+      "notes": "مرجع نسبة 15%؛ تطبيقها على مُسدل ومعالجة الاسترداد يحتاجان تأكيدًا."
+    },
+    {
+      "title": "ZATCA · البحث في التعريفة الجمركية",
+      "url": "https://zatca.gov.sa/ar/eServices/Pages/eServices-220.aspx",
+      "notes": "لتأكيد HS والرسم للمنتج الفعلي؛ لم نحدد كودًا أو نسبة للفروتين."
+    },
+    {
+      "title": "SASO · دليل المنسوجات، الإصدار الثاني",
+      "url": "https://www.saso.gov.sa/ar/Laws-And-Regulations/guidelines/Documents/Technical-Regulation-Guide-for-Textile-Products-Second-Edition.pdf",
+      "notes": "قراءة النص المفهرس فقط؛ تعذر فتح كامل الملف. لا ينوب عن تحقق المستورد من اللائحة."
+    },
+    {
+      "title": "SASO · لائحة المنسوجات",
+      "url": "https://www.saso.gov.sa/ar/Laws-And-Regulations/Technical_regulations/Documents/TR-Textile-Products.pdf",
+      "notes": "رابط اللائحة الأصلية؛ لا ادعاء بفحص كاملها هنا."
+    },
+    {
+      "title": "سابر · المنصة وFAQ",
+      "url": "https://saber.sa/home/Index",
+      "notes": "رسوم الشهادات المنشورة لا تشمل VAT ولا إجمالي خدمات المطابقة."
+    },
+    {
+      "title": "Intertek · فئات اختبار النسيج",
+      "url": "https://www.intertek.com/textiles-apparel/textile-testing/",
+      "notes": "دليل لطبيعة الفحوص، لا معايير قبول سعودية أو نتائج خامة مُسدل."
+    }
+  ],
+  "excluded_or_limited": [
+    {
+      "source": "Y.A.S G48-025 / NEXT",
+      "url": "https://www.next.sa/en/style/su921089/g48025",
+      "reason": "Indexed result 502 SAR conflicted with opened page 1004 SAR; opened color Red. Not used as current budget benchmark."
+    },
+    {
+      "source": "TikTok",
+      "reason": "Blocked by robots.txt; no verified new engagement counters."
+    },
+    {
+      "source": "SABER October supplier-name circular",
+      "url": "https://saber.sa/Assets/Home/Circular_Supplier_Name_and_CR_on_Product.pdf",
+      "reason": "Opened circular lists ten other technical regulations, not textile products. Not applied to textile samples."
+    },
+    {
+      "source": "Social observations retained",
+      "reason": "Existing 6 October snapshot is a small seller-content sample; no new counters invented and no market-wide demand claim."
+    }
+  ],
+  "calculator": {
+    "formula": "max landed cost = retail / (1 + applicable sales VAT) * (1 - target contribution ratio) - other per-unit order costs",
+    "unknown_inputs": "Blank, not zero",
+    "example_only": {
+      "retail_sar": 450,
+      "vat_percent": 15,
+      "other_costs_sar": 100,
+      "target_contribution_percent": 25,
+      "max_landed_sar": 193.48
+    },
+    "fixed_costs": "Excluded from contribution; no net-profit claim"
+  },
+  "pilot": {
+    "proposed_people_per_segment": 20,
+    "representative": false,
+    "status": "Proposed, not executed"
+  },
+  "sample_request_status": "Draft only; not sent",
+  "regulatory_scope": "Importer must confirm applicability and exact requirements; indexed SASO excerpt is not a complete regulation review"
+}

@@ -16,7 +16,7 @@
       "status_before_market_audit": "عينة أولى",
       "market_audit_reason": "اختبار مبكر: استخدام عملي فوق العباية وإغلاق واضح. سادة IG01 وIG05 لهما 1,188 و1,528 مشاهدة؛ على IG05 سؤال سعر. هذا دليل للفئة، وليس لـ W04 نفسه.",
       "unproven_assumptions": "تفضيل السادة والأسود/التاوب اجتهاد لمُسدل؛ لا ترتيب ألوان مبيعًا. القصة القصيرة تعديل لم يُختبر.",
-      "current_role": "Female supplier comparison reference for Musdal D-W01."
+      "current_role": "Female supplier comparison reference for Musdal D-W02 (burgundy long)."
     },
     {
       "id": "S2",
@@ -43,7 +43,7 @@
       "status_before_market_audit": "عينة أولى",
       "market_audit_reason": "وجود الفئة واضح في IG01 وIG05؛ يتيح قياس النسائي الطويل مقابل تطوير S1. يُختار S1 أو S3 أولًا لتجنب تكرار عينتين متشابهتين.",
       "unproven_assumptions": "لا نستنتج أن القبعة أو الطول سبب التفاعل، أو أنه مناسب لكل مدينة سعودية.",
-      "current_role": "Female supplier comparison reference for Musdal D-W01."
+      "current_role": "Female supplier comparison reference for Musdal D-W02 (burgundy long)."
     },
     {
       "id": "S4",
@@ -620,12 +620,18 @@
   "last_section": "sources",
   "market_evidence_file": "market-evidence.json",
   "execution_priority": [
-    "Proposed first test: D-M01 male and D-W01 female, pending fabric swatches, measurements, sample quotes and lead time; supplier S1-S6 and F01/W08 retained as comparison references",
-    "S1 or S3",
-    "S6 comparative + personalization swatch",
-    "S5 exploratory",
-    "S2 exploratory"
+    "Phase 1: D-M01 male charcoal/taupe and D-W02 women burgundy long; pending swatches, measurements, sample quote and lead time. S1-S6 are supplier comparison references, not six manufacturing requests.",
+    "At most one optional extra after the two core samples: N041 long charcoal cardigan OR N001 burgundy knit shawl.",
+    "Phase 2: sadu, personalization swatch, vest and cape; data/swatches can be requested without ordering a new SKU.",
+    "Phase 3: launch-deferred or insufficiently defined options; not a claim of no Saudi demand."
   ],
   "selected_product_review_file": "selected-product-review.json",
-  "proposed_musdal_designs": "designs/design-proposals.json"
+  "proposed_musdal_designs": "designs/design-proposals.json",
+  "women_additions_review_file": "women-additions/review.json",
+  "full_report_audit_file": "report-audit.json",
+  "planning_retail_range_sar": {
+    "min": 300,
+    "max": 600,
+    "basis": "User planning preference 6 October 2026; not approved prices."
+  }
 }
