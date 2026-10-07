@@ -120,9 +120,9 @@
   "sample_request_status": "Draft only; not sent",
   "regulatory_scope": "Importer must confirm applicability and exact requirements; indexed SASO excerpt is not a complete regulation review",
   "five_phase_plan_file": "five-phase-plan.json",
-  "current_expansion_policy": "User corrected Phase 1 to ready-made supplier stock for selling first. Custom Musdal designs move to Phase 2 for later experimentation; no sales or stock guarantee.",
+  "current_expansion_policy": "User clarified five supplier-collection phases, ready-stock first. Musdal custom designs occupy an independent custom phase, opened at a suitable time and budget, without a numbered collection-phase dependency.",
   "phase_update_date": "2026-10-07",
-  "current_design_phase": 2,
+  "current_design_phase": "custom",
   "ready_stock_phase": 1,
   "ready_stock_choices": {
     "male_choose_one": [
@@ -137,5 +137,16 @@
     ],
     "female_alternative": "N001",
     "stock_status": "Unconfirmed. Supplier must confirm ready inventory without new development; no purchase sent."
+  },
+  "independent_custom_phase": {
+    "id": "custom",
+    "anchor": "phase-custom",
+    "title": "تجارب مُسدل الخاصة",
+    "designs": [
+      "D-M01",
+      "D-W02"
+    ],
+    "timing": "Suitable time and separate testing budget; no fixed date and no requirement to finish numbered collection phases.",
+    "status": "Deferred concepts; no supplier request sent or production approval."
   }
 }

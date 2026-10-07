@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "basis": "User corrected Phase 1 to ready-made supplier stock for selling first. Custom Musdal designs move to Phase 2 for later experimentation; no sales or stock guarantee.",
+  "basis": "User clarified five supplier-collection phases, ready-stock first. Musdal custom designs occupy an independent custom phase, opened at a suitable time and budget, without a numbered collection-phase dependency.",
   "phases": [
     {
       "phase": 1,
@@ -13,12 +13,12 @@
     },
     {
       "phase": 2,
-      "title": "تجربة وتطوير · تصاميم مُسدل وخيارات إضافية",
+      "title": "خيارات المورد الثانية · مقارنة وتوسعة محدودة",
       "timing": "بعد بداية بيع الجاهز وتوفر ميزانية تجربة",
-      "intent": "D-M01 الرجالي الفحمي/تاوب وD-W02 النسائي البرغندي الطويل هنا، لا في Phase 1. نطلب تسعيرًا ونقرر عينة تطوير بميزانية محدودة بعد بيع الجاهز. البدائل السادة الأخرى للمقارنة؛ لا نطلب جميع الصور أو العينتين تلقائيًا.",
-      "gate": "بيع فعلي ومساهمة بعد الشحن والإرجاع ونقد متاح بعد الالتزامات، ثم عرض عينة وخامة وقياسات. نختبر تصميمًا واحدًا أولًا إن كانت الميزانية لا تكفي للاثنين؛ لا إنتاج قبل قبول العينة.",
+      "intent": "خيارات المورد فقط؛ إضافة محدودة بعد بيع الجاهز. تصاميم مُسدل خارج هذه المرحلة.",
+      "gate": "بيع ومساهمة ونقد متاح، ثم اختيار إضافة واحدة وتأكيد المواصفات والمطابقة والسعر.",
       "capital": "ميزانية مستقلة للتجربة من رأس مال متاح بعد تشغيل الجاهز؛ لا نعتبر إجمالي المبيعات ربحًا يمكن صرفه.",
-      "ranking": "تصميمانا صور مقترحة وليسا منتجًا جاهزًا من المورد، لذلك يحتاجان تطويرًا واختبارًا. البدائل هنا أقل أولوية أو تحتاج مقارنة جودة قبل الشراء."
+      "ranking": "بدائل جاهزة أقل أولوية أو تحتاج مقارنة جودة ومقاس."
     },
     {
       "phase": 3,
@@ -133,8 +133,8 @@
   },
   "women_review_file": "women-additions/review.json",
   "future_timing": "Phases 3-5 may wait until 2027 or later; definition holds may move earlier after evidence. No automatic buying or confirmed season quantities.",
-  "custom_sample_phase": 2,
-  "current_samples_status": "Deferred Phase 2 concepts, not current ready-stock launch order.",
+  "custom_sample_phase": "custom",
+  "current_samples_status": "Independent custom phase, timing undecided; not current launch order.",
   "ready_stock_choices": {
     "male_choose_one": [
       "F01",
@@ -148,5 +148,16 @@
     ],
     "female_alternative": "N001",
     "stock_status": "Unconfirmed. Supplier must confirm ready inventory without new development; no purchase sent."
+  },
+  "independent_custom_phase": {
+    "id": "custom",
+    "anchor": "phase-custom",
+    "title": "تجارب مُسدل الخاصة",
+    "designs": [
+      "D-M01",
+      "D-W02"
+    ],
+    "timing": "Suitable time and separate testing budget; no fixed date and no requirement to finish numbered collection phases.",
+    "status": "Deferred concepts; no supplier request sent or production approval."
   }
 }

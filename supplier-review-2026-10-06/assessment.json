@@ -735,10 +735,11 @@
   "market_evidence_file": "market-evidence.json",
   "execution_priority": [
     "Phase 1: existing ready supplier stock only; male F01/W08/S4 choose one, female S1/S3/N041 choose one with N001 alternative. Confirm stock/spec/quote, not all candidates.",
-    "Phase 2: D-M01 and D-W02 custom experiments after ready-stock sales and available testing budget.",
+    "Phase 2: second supplier-stock options only, after sales and available cash.",
     "3: حدود هندسية أهدأ، سديري، طول أو لون بديل، وقبعة أو شريط محدود. نختار فئة واحدة بناءً على ما يطلبه العملاء، ولا نفتح كاب وسديري وألوانًا جديدة معًا.",
     "4: الزهور الكبيرة، النقوش الكاملة، الفرو المتباين، الذهبي والمناسبات. نعرض الصور لاختبار الذوق أولًا، ثم عينة واحدة فقط إذا ظهر جمهور يريدها عند سعر مجدٍ.",
-    "5: صور غير واضحة أو داخل التغليف، فئة رجالي/نسائي غير محسومة، مصدر علامة أخرى يحتاج تأكيدًا، وأطفال/جاكيتات عامة خارج البداية. نستفيد من معلومات البناء الآن دون شراء عينة."
+    "5: صور غير واضحة أو داخل التغليف، فئة رجالي/نسائي غير محسومة، مصدر علامة أخرى يحتاج تأكيدًا، وأطفال/جاكيتات عامة خارج البداية. نستفيد من معلومات البناء الآن دون شراء عينة.",
+    "Independent custom phase: D-M01/D-W02 at suitable time and separate budget, not Phase 1 or Phase 2 supplier stock."
   ],
   "selected_product_review_file": "selected-product-review.json",
   "proposed_musdal_designs": "designs/design-proposals.json",
@@ -779,5 +780,16 @@
     ],
     "female_alternative": "N001",
     "stock_status": "Unconfirmed. Supplier must confirm ready inventory without new development; no purchase sent."
+  },
+  "independent_custom_phase": {
+    "id": "custom",
+    "anchor": "phase-custom",
+    "title": "تجارب مُسدل الخاصة",
+    "designs": [
+      "D-M01",
+      "D-W02"
+    ],
+    "timing": "Suitable time and separate testing budget; no fixed date and no requirement to finish numbered collection phases.",
+    "status": "Deferred concepts; no supplier request sent or production approval."
   }
 }
