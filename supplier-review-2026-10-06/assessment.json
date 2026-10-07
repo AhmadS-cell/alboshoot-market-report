@@ -19,7 +19,7 @@
       "current_role": "Phase 1 ready-stock candidate; actual ready availability and specs must be confirmed. No new custom design for launch.",
       "phase": 1,
       "status_before_ready_policy": "عينة مبكرة مشروطة",
-      "custom_modifications_phase": 2
+      "custom_modifications_phase": "custom"
     },
     {
       "id": "S2",
@@ -35,7 +35,7 @@
       "unproven_assumptions": "الصورة لا تثبت أنه خفيف. كانت «عينة أولى» تمنحه ثقة أعلى من الدليل المتاح.",
       "phase": 3,
       "current_role": "Supplier comparison reference; Phase 3. Current Phase 1 manufacturing samples remain D-M01 and D-W02.",
-      "custom_modifications_phase": 2
+      "custom_modifications_phase": "custom"
     },
     {
       "id": "S3",
@@ -52,7 +52,7 @@
       "current_role": "Phase 1 ready-stock candidate; actual ready availability and specs must be confirmed. No new custom design for launch.",
       "phase": 1,
       "status_before_ready_policy": "عينة مبكرة بديلة لـ S1",
-      "custom_modifications_phase": 2
+      "custom_modifications_phase": "custom"
     },
     {
       "id": "S4",
@@ -74,7 +74,7 @@
       "current_role": "Phase 1 ready-stock candidate; actual ready availability and specs must be confirmed. No new custom design for launch.",
       "phase": 1,
       "status_before_ready_policy": "عينة مبكرة مشروطة",
-      "custom_modifications_phase": 2
+      "custom_modifications_phase": "custom"
     },
     {
       "id": "S5",
@@ -90,7 +90,7 @@
       "unproven_assumptions": "لا بيانات تفاعل موثقة على سديري مطابق. فروة SHOP03 ذات الوجهين منتج مختلف، فلا نسقط عدادها عليه.",
       "phase": 3,
       "current_role": "Supplier comparison reference; Phase 3. Current Phase 1 manufacturing samples remain D-M01 and D-W02.",
-      "custom_modifications_phase": 2
+      "custom_modifications_phase": "custom"
     },
     {
       "id": "S6",
@@ -106,7 +106,7 @@
       "unproven_assumptions": "لا قياس اجتماعي مباشر يثبت أنه أقل طلبًا من السادة؛ «اختبار ثانوي» ليس ترتيب شعبية.",
       "phase": 3,
       "current_role": "Supplier comparison reference; Phase 3. Current Phase 1 manufacturing samples remain D-M01 and D-W02.",
-      "custom_modifications_phase": 2
+      "custom_modifications_phase": "custom"
     }
   ],
   "catalog_assessment": {
@@ -178,7 +178,7 @@
       "decision": "عينة",
       "note": "102041، بديل S4؛ تبسيط جيد نسبيًا مع حاجة لتقييم القبعة.",
       "phase": 2,
-      "phase_gate": "نراجع المساهمة الفعلية بعد الشحن والإرجاع، المقاسات المطلوبة، وتوفر نقد بعد الالتزامات. نعيد طلب الناجح أولًا ثم نجرّب إضافة واحدة بميزانية محدودة."
+      "phase_gate": "بيع ومساهمة ونقد متاح، ثم اختيار إضافة واحدة وتأكيد المواصفات والمطابقة والسعر."
     },
     "12": {
       "title": "فروة رجالية بشرائط عريضة",
