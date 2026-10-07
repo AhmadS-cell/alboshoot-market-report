@@ -120,5 +120,22 @@
   "sample_request_status": "Draft only; not sent",
   "regulatory_scope": "Importer must confirm applicability and exact requirements; indexed SASO excerpt is not a complete regulation review",
   "five_phase_plan_file": "five-phase-plan.json",
-  "current_expansion_policy": "User requested staged expansion funded by actual selling and available capital, not all samples at launch. Priorities are design/operating judgments, not verified sales ranking."
+  "current_expansion_policy": "User corrected Phase 1 to ready-made supplier stock for selling first. Custom Musdal designs move to Phase 2 for later experimentation; no sales or stock guarantee.",
+  "phase_update_date": "2026-10-07",
+  "current_design_phase": 2,
+  "ready_stock_phase": 1,
+  "ready_stock_choices": {
+    "male_choose_one": [
+      "F01",
+      "W08",
+      "S4 (C13)"
+    ],
+    "female_choose_one": [
+      "S1 (W04)",
+      "S3 (C32)",
+      "N041"
+    ],
+    "female_alternative": "N001",
+    "stock_status": "Unconfirmed. Supplier must confirm ready inventory without new development; no purchase sent."
+  }
 }

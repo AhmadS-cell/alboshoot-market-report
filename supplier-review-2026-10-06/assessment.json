@@ -8,7 +8,7 @@
       "id": "S1",
       "title": "فروة نسائية سادة بسحاب",
       "reference": "W04",
-      "status": "عينة مبكرة مشروطة",
+      "status": "خيار شراء جاهز Phase 1 بعد تأكيد المخزون",
       "audience": "نسائي / يومي ومساء",
       "reason": "القصة واضحة، والألوان السادة تسهّل التنسيق. المرجع الحالي ليس جاكيتًا قصيرًا؛ نقترح اختبار طول متوسط وقصير فوق عباية كاملة.",
       "changes": "أسود وتاوب/جملي؛ تقليل الفرو البارز وشريط الأكمام، جيوب نافعة، سحاب جيد، بطانة أخف.",
@@ -16,8 +16,10 @@
       "status_before_market_audit": "عينة أولى",
       "market_audit_reason": "اختبار مبكر: استخدام عملي فوق العباية وإغلاق واضح. سادة IG01 وIG05 لهما 1,188 و1,528 مشاهدة؛ على IG05 سؤال سعر. هذا دليل للفئة، وليس لـ W04 نفسه.",
       "unproven_assumptions": "تفضيل السادة والأسود/التاوب اجتهاد لمُسدل؛ لا ترتيب ألوان مبيعًا. القصة القصيرة تعديل لم يُختبر.",
-      "current_role": "Supplier comparison reference; Phase 2. Current Phase 1 manufacturing samples remain D-M01 and D-W02.",
-      "phase": 2
+      "current_role": "Phase 1 ready-stock candidate; actual ready availability and specs must be confirmed. No new custom design for launch.",
+      "phase": 1,
+      "status_before_ready_policy": "عينة مبكرة مشروطة",
+      "custom_modifications_phase": 2
     },
     {
       "id": "S2",
@@ -32,13 +34,14 @@
       "market_audit_reason": "اخترته لتوسيع خيارات الطبقات والحركة بصريًا. لم نجد في هذه العينة الاجتماعية دليل طلب مباشر على كاب مطابق.",
       "unproven_assumptions": "الصورة لا تثبت أنه خفيف. كانت «عينة أولى» تمنحه ثقة أعلى من الدليل المتاح.",
       "phase": 3,
-      "current_role": "Supplier comparison reference; Phase 3. Current Phase 1 manufacturing samples remain D-M01 and D-W02."
+      "current_role": "Supplier comparison reference; Phase 3. Current Phase 1 manufacturing samples remain D-M01 and D-W02.",
+      "custom_modifications_phase": 2
     },
     {
       "id": "S3",
       "title": "فروة نسائية طويلة سادة",
       "reference": "C32",
-      "status": "عينة مبكرة بديلة لـ S1",
+      "status": "خيار شراء جاهز Phase 1 بعد تأكيد المخزون",
       "audience": "نسائي / برّ ومساء بارد",
       "reason": "موديل 202038، ص32. قاعدة أبسط من أغلب الزخارف في الكتالوج، مع جيوب وقبعة.",
       "changes": "لون جملي أو تاوب وأسود؛ فرو بلون هادئ، جيوب أقل بروزًا، وزن متوسط، نسخة بطول مدروس.",
@@ -46,14 +49,16 @@
       "status_before_market_audit": "عينة أولى",
       "market_audit_reason": "وجود الفئة واضح في IG01 وIG05؛ يتيح قياس النسائي الطويل مقابل تطوير S1. يُختار S1 أو S3 أولًا لتجنب تكرار عينتين متشابهتين.",
       "unproven_assumptions": "لا نستنتج أن القبعة أو الطول سبب التفاعل، أو أنه مناسب لكل مدينة سعودية.",
-      "current_role": "Supplier comparison reference; Phase 2. Current Phase 1 manufacturing samples remain D-M01 and D-W02.",
-      "phase": 2
+      "current_role": "Phase 1 ready-stock candidate; actual ready availability and specs must be confirmed. No new custom design for launch.",
+      "phase": 1,
+      "status_before_ready_policy": "عينة مبكرة بديلة لـ S1",
+      "custom_modifications_phase": 2
     },
     {
       "id": "S4",
       "title": "فروة رجالية سادة بقبعة",
       "reference": "C13",
-      "status": "عينة مبكرة مشروطة",
+      "status": "خيار شراء جاهز Phase 1 بعد تأكيد المخزون",
       "audience": "رجالي / برّ واستراحة",
       "reason": "موديل 102049، ص13؛ بديل القصة المغربية 102041 ص11. الفئة مفهومة، والخط الهادئ أقرب لمجموعة سهلة التنسيق.",
       "changes": "بني/جملي وفحمي؛ شريط بنفس لون القماش أو تباين محدود، جيوب عميقة، مساحة فوق الثوب.",
@@ -66,8 +71,10 @@
         "W08"
       ],
       "selection_note": "S4 is one male sampling option, not a market-proven winner over F01 or W08. Compare original specs and quotes; preserve the two alternative designs as shown before proposing reductions.",
-      "current_role": "Supplier comparison reference; Phase 2. Current Phase 1 manufacturing samples remain D-M01 and D-W02.",
-      "phase": 2
+      "current_role": "Phase 1 ready-stock candidate; actual ready availability and specs must be confirmed. No new custom design for launch.",
+      "phase": 1,
+      "status_before_ready_policy": "عينة مبكرة مشروطة",
+      "custom_modifications_phase": 2
     },
     {
       "id": "S5",
@@ -82,7 +89,8 @@
       "market_audit_reason": "اختيار وظيفي لطبقات أقل تغطية. المرجع السعودي السابق بسعر 250 وعداد 6 مشتريات بلا فترة؛ يثبت طرح المنتج أكثر مما يثبت رواجًا واسعًا.",
       "unproven_assumptions": "لا بيانات تفاعل موثقة على سديري مطابق. فروة SHOP03 ذات الوجهين منتج مختلف، فلا نسقط عدادها عليه.",
       "phase": 3,
-      "current_role": "Supplier comparison reference; Phase 3. Current Phase 1 manufacturing samples remain D-M01 and D-W02."
+      "current_role": "Supplier comparison reference; Phase 3. Current Phase 1 manufacturing samples remain D-M01 and D-W02.",
+      "custom_modifications_phase": 2
     },
     {
       "id": "S6",
@@ -97,7 +105,8 @@
       "market_audit_reason": "طرح السدو عند عدة متاجر يدعم اختبار فئة تراثية. إبقاؤه للمقارنة مع السادة يمنع حسم الشكل على ذوقنا وحده.",
       "unproven_assumptions": "لا قياس اجتماعي مباشر يثبت أنه أقل طلبًا من السادة؛ «اختبار ثانوي» ليس ترتيب شعبية.",
       "phase": 3,
-      "current_role": "Supplier comparison reference; Phase 3. Current Phase 1 manufacturing samples remain D-M01 and D-W02."
+      "current_role": "Supplier comparison reference; Phase 3. Current Phase 1 manufacturing samples remain D-M01 and D-W02.",
+      "custom_modifications_phase": 2
     }
   ],
   "catalog_assessment": {
@@ -182,8 +191,8 @@
       "title": "فروة رجالية سادة بقبعة",
       "decision": "عينة",
       "note": "102049، الاتجاه S4؛ التوصية بالتطوير وتقييم الوزن والمقاس.",
-      "phase": 2,
-      "phase_gate": "نراجع المساهمة الفعلية بعد الشحن والإرجاع، المقاسات المطلوبة، وتوفر نقد بعد الالتزامات. نعيد طلب الناجح أولًا ثم نجرّب إضافة واحدة بميزانية محدودة."
+      "phase": 1,
+      "phase_gate": "المورد يؤكد مخزونًا جاهزًا بنفس الصورة والكود، الخامة والمقاسات والكمية وسعر الوصول وموعد التسليم. فحص مطابقة وجودة الجاهز قبل كمية صغيرة للبيع؛ إذا احتاج تصنيعًا خاصًا ينتقل إلى Phase 2."
     },
     "14": {
       "title": "صدرية رجالية بشريط",
@@ -315,8 +324,8 @@
       "title": "فروة نسائية سادة بقبعة",
       "decision": "عينة",
       "note": "202038، الاتجاه S3؛ تقليل الفرو والبطانة المقترحة.",
-      "phase": 2,
-      "phase_gate": "نراجع المساهمة الفعلية بعد الشحن والإرجاع، المقاسات المطلوبة، وتوفر نقد بعد الالتزامات. نعيد طلب الناجح أولًا ثم نجرّب إضافة واحدة بميزانية محدودة."
+      "phase": 1,
+      "phase_gate": "المورد يؤكد مخزونًا جاهزًا بنفس الصورة والكود، الخامة والمقاسات والكمية وسعر الوصول وموعد التسليم. فحص مطابقة وجودة الجاهز قبل كمية صغيرة للبيع؛ إذا احتاج تصنيعًا خاصًا ينتقل إلى Phase 2."
     },
     "33": {
       "title": "عباية نسائية طويلة بزخرفة كبيرة",
@@ -725,11 +734,11 @@
   "last_section": "sources",
   "market_evidence_file": "market-evidence.json",
   "execution_priority": [
-    "Phase 1 D-M01 + D-W02 only; بداية البيع · عينتان ثم تشكيلة صغيرة | عينة مقبولة، تكلفة وصول مناسبة لسعر 300–600، مقاسات واضحة، وموعد وصول واقعي. لا شراء إنتاج من الصورة وحدها.",
-    "توسعة واحدة · بعد أول نتائج بيع | نراجع المساهمة الفعلية بعد الشحن والإرجاع، المقاسات المطلوبة، وتوفر نقد بعد الالتزامات. نعيد طلب الناجح أولًا ثم نجرّب إضافة واحدة بميزانية محدودة.",
-    "فئة جديدة محدودة · كاب، سديري أو تفصيل تراثي | إعادة طلب ناجحة للأساسيات، سؤال شراء متكرر بسعر معلوم، ثم مقارنة جودة ومقاس واحدة. إذا انتهت نافذة البيع نؤجل دون شراء مخزون شتوي متأخر.",
-    "إطلالة ومناسبات · زخارف وتباين أقوى | اهتمام شراء محدد بالتصميم والسعر، تكلفة الزخرفة ومعايير تشطيب واضحة، ثم عينة قبول. لا نمول التنوع البصري لمجرد كثرة الصور.",
-    "قائمة انتظار · تعريف ناقص أو قطاع مختلف | كود وفئة وصور كاملة وتركيب وقياس ومصدر وإمكانية علامة مُسدل؛ بعدها نعيد تقييمها وقد تنتقل لمرحلة أقرب. ليست آخر مرحلة تُشترى تلقائيًا."
+    "Phase 1: existing ready supplier stock only; male F01/W08/S4 choose one, female S1/S3/N041 choose one with N001 alternative. Confirm stock/spec/quote, not all candidates.",
+    "Phase 2: D-M01 and D-W02 custom experiments after ready-stock sales and available testing budget.",
+    "3: حدود هندسية أهدأ، سديري، طول أو لون بديل، وقبعة أو شريط محدود. نختار فئة واحدة بناءً على ما يطلبه العملاء، ولا نفتح كاب وسديري وألوانًا جديدة معًا.",
+    "4: الزهور الكبيرة، النقوش الكاملة، الفرو المتباين، الذهبي والمناسبات. نعرض الصور لاختبار الذوق أولًا، ثم عينة واحدة فقط إذا ظهر جمهور يريدها عند سعر مجدٍ.",
+    "5: صور غير واضحة أو داخل التغليف، فئة رجالي/نسائي غير محسومة، مصدر علامة أخرى يحتاج تأكيدًا، وأطفال/جاكيتات عامة خارج البداية. نستفيد من معلومات البناء الآن دون شراء عينة."
   ],
   "selected_product_review_file": "selected-product-review.json",
   "proposed_musdal_designs": "designs/design-proposals.json",
@@ -742,18 +751,33 @@
   },
   "five_phase_plan_file": "five-phase-plan.json",
   "image_phases": {
-    "F01": 2,
+    "F01": 1,
     "W01": 2,
     "W02": 4,
     "W03": 3,
-    "W04": 2,
+    "W04": 1,
     "W05": 3,
     "W06": 3,
     "W07": 4,
-    "W08": 2,
+    "W08": 1,
     "W09": 5,
     "W10": 5,
     "W11": 4,
     "W12": 2
+  },
+  "phase_update_date": "2026-10-07",
+  "ready_stock_choices": {
+    "male_choose_one": [
+      "F01",
+      "W08",
+      "S4 (C13)"
+    ],
+    "female_choose_one": [
+      "S1 (W04)",
+      "S3 (C32)",
+      "N041"
+    ],
+    "female_alternative": "N001",
+    "stock_status": "Unconfirmed. Supplier must confirm ready inventory without new development; no purchase sent."
   }
 }

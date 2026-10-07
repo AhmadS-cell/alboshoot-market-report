@@ -13,7 +13,7 @@
     filters.forEach(b => b.setAttribute('aria-pressed',String(b.dataset.phaseFilter === value)));
     boxes.forEach(box => { box.hidden = value !== 'all' && box.dataset.phaseBox !== value; if (expand && value !== 'all') { const detail = box.querySelector('.phase-products'); if (detail) detail.open = true; } });
     const groups = [...document.querySelectorAll('.new-card')].filter(c => value === 'all' || c.dataset.phase === value).length;
-    status.textContent = value === 'all' ? '5 مراحل؛ عينتان للبداية، و38 عائلة بصرية إضافية موزعة للمقارنة.' : 'Phase ' + value + (value === '1' ? ' · تصميمان للبداية فقط؛ لا إضافة ثالثة الآن.' : ' · ' + groups + ' عائلات بصرية من الإضافات؛ ليست عدد أصناف شراء.');
+    status.textContent = value === 'all' ? '5 مراحل؛ جاهز أولًا، تصميم وتجربة ثانيًا، و38 عائلة بصرية إضافية موزعة للاختيار.' : 'Phase ' + value + (value === '1' ? ' · خيارات شراء جاهز؛ نختار تشكيلة صغيرة بعد تأكيد المخزون.' : ' · ' + groups + ' عائلات بصرية من الإضافات؛ ليست عدد أصناف شراء.');
   }
   filters.forEach(b => b.addEventListener('click', () => selectPhase(b.dataset.phaseFilter)));
   function reveal(hash) {
