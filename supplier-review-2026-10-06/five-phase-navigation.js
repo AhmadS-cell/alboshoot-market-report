@@ -12,8 +12,9 @@
   function selectPhase(value, expand = true) {
     filters.forEach(b => b.setAttribute('aria-pressed',String(b.dataset.phaseFilter === value)));
     boxes.forEach(box => { box.hidden = value !== 'all' && box.dataset.phaseBox !== value; if (expand && value !== 'all') { const detail = box.querySelector('.phase-products'); if (detail) detail.open = true; } });
+    const primary = [...document.querySelectorAll('.phase-product-card')].filter(c => value === 'all' || c.dataset.primaryPhase === value).length;
     const groups = [...document.querySelectorAll('.new-card')].filter(c => value === 'all' || c.dataset.phase === value).length;
-    status.textContent = value === 'all' ? '5 مراحل للمورد + مرحلة مستقلة لتجارب مُسدل الخاصة؛ نبدأ بالجاهز.' : value === 'custom' ? 'تجارب مُسدل الخاصة · مرحلة مستقلة للتصميمين؛ الوقت والميزانية غير محددين.' : 'Phase ' + value + (value === '1' ? ' · خيارات شراء جاهز؛ نختار تشكيلة صغيرة بعد تأكيد المخزون.' : ' · ' + groups + ' عائلات بصرية من الإضافات؛ ليست عدد أصناف شراء.');
+    status.textContent = value === 'all' ? '5 مراحل للمورد + مرحلة مستقلة لتجارب مُسدل الخاصة؛ نبدأ بالجاهز.' : value === 'custom' ? 'تجارب مُسدل الخاصة · مرحلة مستقلة للتصميمين؛ الوقت والميزانية غير محددين.' : 'Phase ' + value + (value === '1' ? ' · خيارات شراء جاهز؛ نختار تشكيلة صغيرة بعد تأكيد المخزون.' : ' · ' + primary + ' قطع سابقة و' + groups + ' عائلات من الإضافات، مجمّعة في المرحلة نفسها؛ ليست طلب شراء.');
   }
   filters.forEach(b => b.addEventListener('click', () => selectPhase(b.dataset.phaseFilter)));
   function reveal(hash) {
@@ -47,3 +48,4 @@
   active(0);reveal(location.hash);onScroll();
   if(location.hash)requestAnimationFrame(()=>document.getElementById(location.hash.slice(1))?.scrollIntoView({block:'start'}));
 })();
+

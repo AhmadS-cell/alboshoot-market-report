@@ -159,5 +159,19 @@
     ],
     "timing": "Suitable time and separate testing budget; no fixed date and no requirement to finish numbered collection phases.",
     "status": "Deferred concepts; no supplier request sent or production approval."
-  }
+  },
+  "layout_updated": "2026-10-08",
+  "primary_product_locations": {
+    "review-F01": 1,
+    "review-W08": 1,
+    "S4": 1,
+    "S1": 1,
+    "S3": 1,
+    "S6": 3,
+    "S5": 3,
+    "S2": 3,
+    "review-W03": 3,
+    "review-W07": 4
+  },
+  "layout_policy": "Each primary review card exists once inside its assigned phase, including F01 and W08 in Phase 1. Original review anchors and source section are preserved. Full-catalog section is a folded evidence archive."
 }
