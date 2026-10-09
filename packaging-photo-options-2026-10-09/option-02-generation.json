@@ -1,0 +1,70 @@
+{
+  "option": 2,
+  "mode": "built-in image_gen__imagegen",
+  "date": "2026-10-09",
+  "requestedResolution": "3840x2160 if available; style reference only, no 4K claim",
+  "actualDimensions": {
+    "open": [
+      1672,
+      941
+    ],
+    "closed": [
+      1672,
+      941
+    ]
+  },
+  "references": [
+    "D:/Musdal/packaging-photo-options-2026-10-09/references/204009-6291055237761-1.jpg",
+    "D:/Musdal/packaging-photo-options-2026-10-09/references/204009-6291055237761-2.jpg",
+    "D:/Musdal/report/packaging-2026-10-04/assets/sleeve-layout.png",
+    "D:/Musdal/report/packaging-2026-10-04/assets/box-02-white-approved.png",
+    "D:/Musdal/packaging-photo-options-2026-10-09/references/lam-seal.png",
+    "D:/Musdal/packaging-photo-options-2026-10-09/references/thank-you-ivory.png",
+    "D:/Musdal/packaging-photo-options-2026-10-09/references/gift-note.png"
+  ],
+  "open": {
+    "attempts": 2,
+    "prompt": "Use case: product-mockup. Asset: OPTION 2 OPEN, ONE independent photorealistic packaging photograph for Musdal. All supplied images are REFERENCES. Reference 1 open supplier box determines exact construction and square proportions: SAME one-piece CORRUGATED stock-white exterior/kraft-brown interior tuck-top mailer, 20x20x10 proportions 2:2:1, attached hinged lid, rounded lateral locking tabs on the lid, not detachable. Reference 2 is exact sleeve artwork; reference 3 exact lam seal, reference 4 exact thank-you card artwork, reference 5 small gift note.\nScene: neutral light oak tabletop beside bright window, soft late-morning natural side light and broad gentle window shadows. Authentic cinematic neutral product photograph with Sony full-frame 50mm /70mm feel, 4K crisp paper fibres, tiny real creases, realistic contact shadows, no CGI perfection. Request landscape 3840x2160.\nComposition: elevated three-quarter view of the OPEN box, attached lid angled upright and its brown interior plus rounded tabs clearly visible. Product inside is a neatly folded textile parcel ENTIRELY wrapped in very thin semi-translucent ivory butter-paper-like tissue, like gift tissue, not thick paper and not a cloth bag. Tissue mostly blank, with just a narrow sparse burgundy thin flowing-line pattern near ONE folded edge. A round burgundy seal secures central tissue fold, EXACT single ivory Arabic lam from reference 3, matching long upright stroke and curved bowl, no invented monogram.\nBeside box ONE ivory landscape thank-you card, exact reference 4, only approved Musdal logo with spaced MUSDAL and the single heading verbatim “شكرًا لاختيارك مُسدل”. Beside it one SMALL optional ivory gift note exactly reference 5: “إهداء” with two blank writing lines; no other copy.\nRemoved burgundy paper sleeve placed naturally at side as a folded rectangular loop, showing complete front branding and lam on top. Sleeve is removable MATTE PAPER, #5C1E32, not a fabric ribbon or bow. Exact reference 2 layout: ivory lam on horizontal top and bottom; on vertical front approved Arabic مُسدل full wordmark, tiny spaced MUSDAL below, exact lowercase musdal.com, thin copper flow pattern along lower edge.\nBox white exterior has absolutely no printed branding. Don't change construction to rigid two-piece, magnetic or separate lid. No cake, flowers, perfume, extra props, QR, discount/scratch card, overlay title, inset, collage or watermark. Single natural camera image, not a diagram. Preserve correct Arabic artwork and domain.",
+    "refs": [
+      "D:/Musdal/packaging-photo-options-2026-10-09/references/204009-6291055237761-2.jpg",
+      "D:/Musdal/report/packaging-2026-10-04/assets/sleeve-layout.png",
+      "D:/Musdal/packaging-photo-options-2026-10-09/references/lam-seal.png",
+      "D:/Musdal/packaging-photo-options-2026-10-09/references/thank-you-ivory.png",
+      "D:/Musdal/packaging-photo-options-2026-10-09/references/gift-note.png"
+    ],
+    "targetedEditPrompt": "Use case: precise-object-edit. Edit target reference 1, same photorealistic Option 2 packaging photo. Preserve everything: exact same square attached-lid white corrugated/kraft mailer, tissue folds and burgundy edge flow-lines, removable burgundy paper sleeve loop with exact logo/domain/pattern, both Arabic cards, oak tabletop, window light, framing and natural photo realism.\nOnly two changes: (1) replace the small central tissue round sticker artwork with EXACT reference 2 seal, ivory single Arabic lam on burgundy circle. Its long upright tall stem is straight and the bottom forms a broad curved bowl rising slightly at left. Do not substitute a short angled dal-looking character. Apply reference 2 as printed artwork distorted only by round sticker's planar camera perspective. (2) remove plant and its pot on far left; continue window/wall/table naturally. Do not alter printed thank-you heading “شكرًا لاختيارك مُسدل” or gift note “إهداء”, domain musdal.com, logos or construction. Reference 3 supplies exact sleeve art if needed. ONE independent landscape photo; 3840x2160 if available, no panels.",
+    "source": "C:/Users/ACEMAGIC/.codex/generated_images/01a12084-72d7-7600-b087-0f290dae7ab8/exec-69652d43-2b50-4ef9-b9bf-01c9ddcbc4ee.png",
+    "saved": "D:/Musdal/packaging-photo-options-2026-10-09/option-02-open.png"
+  },
+  "closed": {
+    "attempts": 2,
+    "prompt": "Use case: product-mockup. ONE independent OPTION 2 CLOSED photograph. Reference 1 is the OPEN photo of same scene to match its late-morning oak table and window light, both cards, realistic material/color. Reference 2 supplier CLOSED white box dictates exact physical box: square white stock corrugated carton 20×20×10cm proportions 2:2:1, one-piece attached hinged tuck-top lid FULLY CLOSED, lateral locking tabs FULLY tucked. Not a rectangular shallow tray, rigid two-piece, magnetic, or lift-off lid. Reference3 exact approved sleeve art. Reference4 exact card, reference5 gift note.\nCompose one CLOSED box centered-left on SAME neutral light oak table and same window light. Lower front three-quarter 50mm Sony full-frame photographic angle, top and front clearly visible. Box fully shut; clean visible original white cardboard. A narrow separate removable matte BURGUNDY PAPER SLEEVE, #5C1E32, encircles box along its front-back direction; width about ONE THIRD of box front, not broad box-sized cover, not bow/fabric ribbon. Top sleeve panel exact ivory tall-stem curved-bowl lam from reference3; front vertical panel full approved ivory Arabic مُسدل wordmark with tiny spaced MUSDAL under it, exact lowercase musdal.com centered beneath; restrained thin copper flow-line pattern along bottom edge. Box side surfaces plain white, no branding directly on cardboard.\nBeside box, same pair of ivory cards from reference1: thank-you card exact reference4 only approved logo and “شكرًا لاختيارك مُسدل”; tiny gift note exact reference5 only “إهداء” and two blank writable lines. No additional sleeve lying separately in closed image.\nSoft broad window shadows, natural realistic daylight and restrained cinematic neutral color grading. Real cardboard fibres, sleeve fold crease/contact shadow, subtly textured uncoated card, no CGI look. ONE landscape camera-like image 3840x2160 if available, no layouts/insets/labels/watermarks. No flowers/plants/cake/perfume/twine/QR/discount or additional props. Match same square box construction/white exterior/brown interior as vendor reference, no detach lid. The real approved artwork must be preserved, don't invent glyphs.",
+    "refs": [
+      "D:/Musdal/packaging-photo-options-2026-10-09/option-02-open.png",
+      "D:/Musdal/packaging-photo-options-2026-10-09/references/204009-6291055237761-1.jpg",
+      "D:/Musdal/report/packaging-2026-10-04/assets/sleeve-layout.png",
+      "D:/Musdal/packaging-photo-options-2026-10-09/references/thank-you-ivory.png",
+      "D:/Musdal/packaging-photo-options-2026-10-09/references/gift-note.png"
+    ],
+    "targetedEditPrompt": "Use case: precise-object-edit. Edit target reference1 CLOSED white corrugated box photograph. Preserve scene, exact box geometry, stock white colour, attached-lid fully closed mailer, same matte burgundy removable sleeve, logo/domain/copper flow pattern on sleeve front, cards, table, window, natural shadows and camera appearance.\nMake ONE targeted correction: the ivory lam printed on horizontal TOP sleeve panel must be the EXACT tall upright Arabic lam artwork in reference2 (first / third art panels) and reference3 approved product photo. It has a tall nearly straight right stem and broad rounded bowl at base. Current top glyph wrongly has a diagonal short stroke like dal. Correct top graphic only, conform artwork to plane/perspective naturally as printed. Keep front Arabic logo مُسدل and musdal.com correct and unchanged. Card heading شكرًا لاختيارك مُسدل and إهداء unchanged. No other changes, no collage/insets/title. One independent photorealistic image.",
+    "source": "C:/Users/ACEMAGIC/.codex/generated_images/01a12084-72d7-7600-b087-0f290dae7ab8/exec-cc67bc25-1adf-49a6-8260-18bd6f5e0b35.png",
+    "saved": "D:/Musdal/packaging-photo-options-2026-10-09/option-02-closed.png"
+  },
+  "qa": {
+    "passed": [
+      "Square one-piece stock-white corrugated/kraft attached-lid mailer",
+      "Open rounded lateral lid tabs clearly visible",
+      "Very thin translucent tissue with one-edge flow-line pattern",
+      "Independent open and closed camera-like images",
+      "Plain white box, separate burgundy sleeve",
+      "Arabic thank-you and optional gift note present, no discount or QR",
+      "Exact lowercase musdal.com",
+      "Natural oak/window photography"
+    ],
+    "limitations": [
+      "Open sticker lam stem remains foreshortened and angled, less exact than flat approved seal artwork despite targeted edit.",
+      "Closed sleeve width about half front instead of requested one-third.",
+      "Generated branding photograph not a supplier-ready exact print proof."
+    ]
+  }
+}

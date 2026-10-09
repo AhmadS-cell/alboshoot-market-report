@@ -1,0 +1,53 @@
+{
+  "option": 1,
+  "title": "ضوء الصباح على الحجر الدافئ",
+  "tool": "built-in image_gen__imagegen",
+  "date": "2026-10-09",
+  "requested_dimensions": "3840x2160",
+  "actual_dimensions": {
+    "open": [
+      1672,
+      941
+    ],
+    "closed": [
+      1672,
+      941
+    ]
+  },
+  "upsampled": false,
+  "reference_paths": [
+    "D:/Musdal/packaging-photo-options-2026-10-09/references/204009-6291055237761-1.jpg",
+    "D:/Musdal/packaging-photo-options-2026-10-09/references/204009-6291055237761-2.jpg",
+    "D:/Musdal/report/packaging-2026-10-04/assets/sleeve-layout.png",
+    "D:/Musdal/report/packaging-2026-10-04/assets/box-02-white-approved.png",
+    "D:/Musdal/packaging-photo-options-2026-10-09/references/lam-seal.png",
+    "D:/Musdal/packaging-photo-options-2026-10-09/references/thank-you-ivory.png"
+  ],
+  "prompts": {
+    "open": "Use case: product-mockup, true camera photographic realism.\nCreate ONE independent landscape 3840x2160 4K photograph, not a collage or contact sheet. Option 1, OPEN gift packaging. Supporting images 1 and 2 are the actual supplier carton structural references; image 3 exact print artwork; image 4 exact lam sticker; image 5 exact thank-you card.\nScene: pale warm limestone tabletop beside a window, natural morning light from the left, very subtle cinematic warm colour grade, Sony full-frame camera 50mm at f/5.6, crisp believable package textures, soft background depth and restrained shadows. No unrelated props.\nSubject: ONE small square stock white exterior / kraft brown inside ONE-PIECE corrugated tuck-top folding mailer, proportions 20x20x10cm 2:2:1, matching actual supplier images 1-2. Lid attached and hinged to rear, opened upright at about 100 degrees. Its large rounded lateral locking tabs extend from the lid, and kraft corrugated interior visible. It is not a two-piece rigid box. Stock white exterior remains blank.\nInside: folded clothing fully hidden under very thin translucent ivory tissue like butter paper; delicate realistic crinkles, widely spaced tiny burgundy lam repeats copying the exact long upright stem and curved open bowl of image4. Tissue neatly folded closed and secured with one central round burgundy sticker with EXACT ivory lam from image4. Tissue should plausibly fit fully within the box.\nBranding: one removable burgundy paper belly-band sleeve (not ribbon, no bow) lies naturally to the right of the open box, slid off then slightly flattened into its rectangular loop, broad enough to show its graphics. Use exact #5C1E32 and image3 artwork: exact ivory lam on top/bottom horizontal faces, full approved Arabic wordmark مُسدل on vertical front, small spaced M U S D A L beneath, exact lower-case domain musdal.com, restrained fine copper flowing wave pattern along lower edge. Copy the artwork precisely, do not improvise a different logo. Do not print on stock box.\nAn ivory thank-you card sits to the lower left beside box, reproduced from image5; small approved wordmark and only the exact heading \"شكرًا لاختيارك مُسدل\". No added copy, discounts, scratch, QR or extra slogan. The lettering must be correctly Arabic and naturally printed in burgundy.\nComposition: realistic three-quarter view slightly elevated, entire open box including attached lid visible, tissue seal clear, sleeve and card clearly readable. One photograph filling frame with generous but not excessive breathing space, no text overlays, no watermark, no labels, no shopping bag. All assets must look physical, not rendered CGI.",
+    "open_targeted_retry": "Precise-object-edit. Keep the entire supplied photograph scene, camera position, realistic carton with attached upright lid and rounded side tabs, wrapped tissue parcel, card and natural morning light unchanged. Correct ONLY the separate burgundy object on the right: it must be a REMOVED PAPER BELLY-BAND SLEEVE, NOT an open-top tray or container. A continuous paper loop wrapping front-top-back-bottom of a box. Lay this removed loop horizontally, partly flattened at a natural angle on tabletop, with an ivory large lam prominently on its broad upward-facing horizontal surface, and on its shorter turned-down front surface show exact approved مُسدل / small spaced MUSDAL / musdal.com and the fine copper flowing wave lower-edge pattern from sleeve artwork reference. Open ends must face LEFT and RIGHT; there must be NO open top. The broad sleeve occupies only about 8cm of box width, dimensions loop 20cm deep and10cm high when unfolded. Make paper naturally lie almost flattened rather than box-like. Copy exact lam from reference onto tissue seal with a LONG upright stem and curved bowl. Retain exact \"شكرًا لاختيارك مُسدل\" card heading. Landscape, one photographic frame, no new props.",
+    "closed": "Use case: product-mockup / precise-object-edit. Generate ONE separate true-camera photograph of the same gift packaging now FULLY CLOSED. Landscape 3840x2160 4K requested, no collage.\nReference 1 is the OPEN photograph whose scene and materials you MUST match. Reference 2 is the actual CLOSED vendor box STRUCTURE. Reference3 is exact approved sleeve print artwork. Reference4 is prior approved brand placement only; its much wider carton proportions must NOT be copied. Reference5 exact thank-you card.\nKEEP same warm pale limestone tabletop beside left window, natural warm morning side light, realistic Sony full-frame50mm f/5.6 product photography, subtle cinematic grade, real fibrous paper and shadows, no unrelated props.\nCHANGE: the open box is now completely closed by folding its ATTACHED lid down and tucking rounded side locking tabs into its one-piece corrugated walls, exactly as vendor. Small square footprint20x20cm, height10cm, ratio2:2:1. White STOCK exterior blank, subtle kraft at seams. NO separate floating lid, no rigid two-piece box. Tissue and seal are fully INSIDE and nothing protrudes.\nPlace the burgundy PAPER sleeve around center of this closed box front-to-back as reference4 arrangement: top horizontal portion has one exact large ivory lam, sleeve front VERTICAL face carries exact approved full Arabic wordmark \"مُسدل\", small spaced \"M U S D A L\" beneath, exact lower-case \"musdal.com\" (m-u-s-d-a-l dot c-o-m), and fine copper flowing-wave pattern along bottom front edge, copied from reference3. Horizontal bottom sleeve portion also carries lam but is naturally hidden beneath box. Sleeve is removable broad paper strip, roughly 8cm wide across20cm carton, NOT a ribbon, NO bow, don't print directly on stock white box.\nThe same ivory thank-you card beside box lower-left, exact reference5 approved burgundy wordmark plus only heading \"شكرًا لاختيارك مُسدل\". No discounts/scratch/QR or other words.\nComposition three-quarter front view slightly above eye-level so large top lam and front wordmark/domain/pattern are both legible. Entire closed package plus card in frame. Physically convincing paper sleeve fitting firmly and naturally around box. One independent single-frame photo, no shopping bag, no overlay captions or labels."
+  },
+  "attempts": {
+    "open": 2,
+    "closed": 1
+  },
+  "native_outputs": {
+    "open": "C:\\Users\\ACEMAGIC\\.codex\\generated_images\\01a12084-0dc5-7db2-92c2-6aacf8bc2948\\exec-47847595-177b-4aa7-89b6-c8c346da6486.png",
+    "closed": "C:\\Users\\ACEMAGIC\\.codex\\generated_images\\01a12084-0dc5-7db2-92c2-6aacf8bc2948\\exec-1dc1f1da-23f0-4093-a477-0d09cd23e8bd.png"
+  },
+  "workspace_outputs": {
+    "open": "D:/Musdal/packaging-photo-options-2026-10-09/option-01-open.png",
+    "closed": "D:/Musdal/packaging-photo-options-2026-10-09/option-01-closed.png"
+  },
+  "qa": {
+    "attached_lid": "pass",
+    "vendor_white_exterior_kraft_inside": "pass",
+    "closed_square_box_proportions": "visually matches",
+    "website": "musdal.com readable",
+    "card_heading": "شكرًا لاختيارك مُسدل readable",
+    "sleeve": "separate paper loop open photo; fitted band closed photo",
+    "tissue": "thin ivory lam-pattern wrapping sealed",
+    "limitations": "AI photographic concept; natural perspective stylizes small printed glyphs, not final print master. Native output below actual 4K; no enlargement performed."
+  }
+}

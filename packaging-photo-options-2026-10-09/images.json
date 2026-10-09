@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-09",
+  "images": [
+    {
+      "option": 1,
+      "state": "open",
+      "path": "option-01-open.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2082168
+    },
+    {
+      "option": 1,
+      "state": "closed",
+      "path": "option-01-closed.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2121768
+    },
+    {
+      "option": 2,
+      "state": "open",
+      "path": "option-02-open.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2185216
+    },
+    {
+      "option": 2,
+      "state": "closed",
+      "path": "option-02-closed.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2260360
+    },
+    {
+      "option": 3,
+      "state": "open",
+      "path": "option-03-open.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2302897
+    },
+    {
+      "option": 3,
+      "state": "closed",
+      "path": "option-03-closed.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2157855
+    }
+  ],
+  "route": "built-in ImageGen",
+  "status": "review-options-not-approved"
+}
