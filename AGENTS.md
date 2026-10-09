@@ -7,3 +7,6 @@ Publish every packaging option as an independent image with its own clear label 
 
 Packaging approval — 5 October 2026: option 2 stock-white corrugated tuck-top mailer is approved. Use its attached lid and lateral locking tabs, never a rigid two-piece box. Branding on a separate burgundy paper sleeve: exact lam on top and bottom; full approved wordmark and musdal.com on vertical face, with restrained flow pattern. The domain musdal.com is explicitly supplied by the user. Keep the approved bag. Interior tissue and card-face colour remain independent undecided choices.
 
+
+# Private authenticated project access — 9 October 2026
+The owner explicitly requires Musdal reports, previews, source and assets to remain private and require login and authorized access. The owner will choose whom to invite. Public Pages is disabled; never make the repository public or use noindex as a substitute for authentication.
