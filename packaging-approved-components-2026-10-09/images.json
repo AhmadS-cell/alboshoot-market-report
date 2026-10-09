@@ -6,26 +6,44 @@
       "image": "01-closed-box.png",
       "width": 1672,
       "height": 941,
-      "approval": "معتمد من المستخدم"
+      "approval": "معتمد من المستخدم",
+      "approvedOn": "2026-10-09"
     },
     {
       "component": "inner-wrap",
       "image": "02-inner-wrap.png",
       "width": 1672,
       "height": 941,
-      "approval": "للمراجعة"
+      "approval": "معتمد من المستخدم",
+      "approvedOn": "2026-10-09"
     },
     {
       "component": "thank-you-card",
       "image": "03-thank-you-card.png",
       "width": 1672,
       "height": 941,
-      "approval": "للمراجعة"
+      "approval": "معتمد من المستخدم",
+      "approvedOn": "2026-10-09"
     }
   ],
   "cardWorkingSizeMm": [
     90,
     55
   ],
-  "cardSizeApproved": false
+  "cardSizeApproved": false,
+  "visualsApproved": true,
+  "cardReferenceSizeMm": [
+    90,
+    55
+  ],
+  "cardProductionMeasurementsConfirmed": false,
+  "boxTargetFootprintCm": [
+    30,
+    30
+  ],
+  "supplierReferenceDimensionsCm": [
+    30,
+    30,
+    10
+  ]
 }

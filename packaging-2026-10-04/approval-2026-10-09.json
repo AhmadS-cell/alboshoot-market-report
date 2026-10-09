@@ -1,0 +1,58 @@
+{
+  "approvedOn": "2026-10-09",
+  "approvedBy": "explicit-user-message",
+  "status": "visual-design-approved",
+  "components": {
+    "box": "packaging-approved-components-2026-10-09/01-closed-box.png",
+    "innerWrap": "packaging-approved-components-2026-10-09/02-inner-wrap.png",
+    "card": "packaging-approved-components-2026-10-09/03-thank-you-card.png"
+  },
+  "box": {
+    "construction": "stock-white one-piece corrugated tuck-top mailer; attached lid and lateral locking tabs",
+    "targetFootprintCm": [
+      30,
+      30
+    ],
+    "targetSource": "user estimate, to verify by sample",
+    "supplierReferenceCm": [
+      30,
+      30,
+      10
+    ],
+    "supplierSku": "204011-6291055237785",
+    "supplierUrl": "https://falconpackonline.com/en/product/204011-6291055237785-carton-box",
+    "supplierObservedAt": "2026-10-09",
+    "supplierAvailabilityAtReading": "out-of-stock",
+    "productionMeasurementsConfirmed": false
+  },
+  "sleeve": {
+    "material": "separate burgundy paper",
+    "widthAndPosition": "approved photograph",
+    "artwork": "exact approved lam top/bottom; full wordmark and musdal.com on vertical face; restrained flow pattern"
+  },
+  "innerWrap": {
+    "designApproved": true,
+    "tissue": "light translucent white with sparse burgundy lam",
+    "seal": "burgundy circle, ivory lam",
+    "productionMeasurementsConfirmed": false
+  },
+  "card": {
+    "designApproved": true,
+    "face": "burgundy",
+    "ink": "off-white",
+    "copy": [
+      "شكرًا لاختيارك مُسدل",
+      "ملبوس العافية"
+    ],
+    "referenceSizeMm": [
+      90,
+      55
+    ],
+    "productionMeasurementsConfirmed": false
+  },
+  "bag": {
+    "design": "previous approved coloured patterned bag",
+    "productionTiming": "separate decision"
+  },
+  "discountAndScratchProduction": "separate; no new commercial approval"
+}

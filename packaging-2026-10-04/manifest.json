@@ -2,7 +2,7 @@
   "brand": "مُسدل",
   "date": "2026-10-04",
   "version": 1,
-  "status": "review_only_not_press_ready",
+  "status": "visual_design_approved_production_specs_pending_sample",
   "confirmed": "lightweight_standard_packaging_gift_box_optional",
   "suggested_discount_percent": 10,
   "suggested_validity_days": 45,
@@ -13,7 +13,7 @@
     "1 natural brown kraft + printed burgundy ribbon",
     "2 stock white + printed burgundy ribbon"
   ],
-  "website": "pending confirmed store URL; never print placeholder",
+  "website": "musdal.com",
   "real_coupons_created": false,
   "box_dieline": "pending supplier folded-garment sample",
   "scratch_panel": {
@@ -580,6 +580,20 @@
     }
   ],
   "approval": {
+    "date": "2026-10-09",
+    "box": "approved",
+    "innerPaper": "approved",
+    "cardFrontColour": "burgundy-approved",
+    "cardText": "approved",
+    "bagDesign": "approved",
+    "boxTargetFootprintCm": [
+      30,
+      30
+    ],
+    "printProduction": "pending supplier sample and production measurements"
+  },
+  "asset_policy": "One independent downloadable image per option; no combined image as the only deliverable.",
+  "historicalApproval": {
     "date": "2026-10-04",
     "bag_design": "approved",
     "thank_you_scratch_card_design": "approved",
@@ -588,5 +602,5 @@
     "inner_option": "not_selected",
     "print_production": "pending final URL, dimensions and sample"
   },
-  "asset_policy": "One independent downloadable image per option; no combined image as the only deliverable."
+  "latestApprovalRecord": "approval-2026-10-09.json"
 }
