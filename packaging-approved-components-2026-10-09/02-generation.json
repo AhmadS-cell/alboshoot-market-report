@@ -1,0 +1,34 @@
+{
+  "component": "02-inner-wrap",
+  "date": "2026-10-09",
+  "mode": "built-in image_gen__imagegen",
+  "attempts": 1,
+  "prompt": "Use case: product-mockup. Generate one INDEPENDENT photorealistic inner product wrapping photograph for Musdal. Reference1 is approved old LIGHT TISSUE wrapping: extract ONLY that wrapping-paper design/material, folded tissue packet with sparse SMALL burgundy Arabic lam repeat and circular burgundy sticker bearing ivory lam. Do NOT bring any boxes/ribbons/cards/props from reference1. Reference2 supplies approved natural limestone tabletop, matching warm natural side light, delicate branch shadows and realistic camera colour, use only photo atmosphere/background. Reference3 exact round sticker artwork.\nSubject: ONE neat compact nearly-square rectangular folded garment packet ENTIRELY wrapped in extremely lightweight white semi-translucent tissue like butter paper / gift tissue, approximately170x170x35mm to fit200x200x100mm carton. Paper visibly thin and delicate, slight translucency shows folded textile underneath subtly, irregular fine creases and envelope folds. Not cloth bag, not thick cardstock, not transparent plastic, not pastry parchment roll. Centre seam secured with ONE flat round burgundy paper sticker30mm diameter carrying EXACT ivory long-stem Arabic lam from reference3. Copy seal glyph geometry, tall nearlystraight uprightstem onright joined to roundedbowl turning upward onleft, notshort diagonal dal, not generic monogram.\nSparse small burgundy lam marks spaced across tissue, like the approved packet in reference1. Same long-stem lam family. No flow-lines or other patterns and no words.\nComposition: packet ALONE placed on warm light limestone tabletop with stone wall backdrop. Natural elevated three-quarter photographic view, fills middle frame with comfortable margin. Soft sunny sidelight, restrained cinematic cream/burgundy palette, Sony full-frame50mm product-photography feel, authentic fine paper fibres/contact shadow. Landscape16:9 singleimage, highdetail atnative tool resolution, do not add title, label, watermark.\nStrictly NO box, NO sleeve, NO shoppingbag, NO card, NO ribbon, NO flowers/plants/extra objects. ONE packetalone. Same approvedpaperandseal.",
+  "references": [
+    "D:/Musdal/report/packaging-2026-10-04/assets/packaging-full-02.png",
+    "D:/Musdal/packaging-approved-components-2026-10-09/references/closed-box-approved-by-user.png",
+    "D:/Musdal/packaging-photo-options-2026-10-09/references/lam-seal.png"
+  ],
+  "source": "C:/Users/ACEMAGIC/.codex/generated_images/01a12084-72d7-7600-b087-0f290dae7ab8/exec-8a0cd799-0e7f-4e35-8520-6340a8630a40.png",
+  "savedPath": "D:/Musdal/packaging-approved-components-2026-10-09/02-inner-wrap.png",
+  "actualDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedDimensions": "Landscape16:9 high detail at native tool resolution",
+  "qa": {
+    "passed": [
+      "Independent packet alone; no box/sleeve/cards/ribbon/bag",
+      "Fine lightweight translucent white tissue and envelope folds",
+      "Sparse small burgundy lam repeat matches earlier approved concept",
+      "Central round burgundy seal with ivory tall lam and curved bowl",
+      "Compact folded garment fully covered",
+      "Limestone background and warm natural camera-like side light match approved option03"
+    ],
+    "limitations": [
+      "Concept photograph; dimensions are intended proportions, not measured manufactured sample",
+      "Physical printing must use approved vector seal/pattern artwork"
+    ],
+    "remainingVisibleDefects": []
+  }
+}

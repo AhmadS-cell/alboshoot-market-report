@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-09",
+  "images": [
+    {
+      "component": "closed-box",
+      "image": "01-closed-box.png",
+      "width": 1672,
+      "height": 941,
+      "approval": "معتمد من المستخدم"
+    },
+    {
+      "component": "inner-wrap",
+      "image": "02-inner-wrap.png",
+      "width": 1672,
+      "height": 941,
+      "approval": "للمراجعة"
+    },
+    {
+      "component": "thank-you-card",
+      "image": "03-thank-you-card.png",
+      "width": 1672,
+      "height": 941,
+      "approval": "للمراجعة"
+    }
+  ],
+  "cardWorkingSizeMm": [
+    90,
+    55
+  ],
+  "cardSizeApproved": false
+}

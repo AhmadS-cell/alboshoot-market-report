@@ -1,0 +1,34 @@
+{
+  "asset": "closed approved box with compact card",
+  "tool": "built-in image_gen__imagegen",
+  "mode": "precise-object-edit",
+  "date": "2026-10-09",
+  "prompt": "Use case: precise-object-edit, photographic packaging review.\nImage 1 is the exact approved photograph. Image2 is the exact replacement typography authority.\nEdit ONLY the adjacent burgundy thank-you card. Preserve ALL of image1 outside that card: exact square white one-piece stock corrugated carton silhouette, attached lid tucked closed, seams, angle, scale, position, entire burgundy sleeve WIDTH and POSITION, exact ivory large lam on top, exact Arabic wordmark on sleeve vertical face, small spaced MUSDAL, musdal.com, restrained copper flowing pattern, natural limestone surface, sunlight, shadows, cinematic warm camera look, framing unchanged.\nShrink the current oversized card dramatically to a realistic compact BUSINESS CARD measuring 90×55mm beside a physical carton measuring200×200×100mm. Card long edge is only45%of cartonphysical width, with correct scene perspective. Make its footprint aboutone-third originalcardarea, with its new long edge about58% originalcardlongedge. Keep card generally beside box to the right with same natural rotation, smaller and unobtrusive.\nReplace its printed face with image2 faithfully: same burgundy matte paper, exact small approved Arabic مُسدل logo with small M U S D A L beneath, exact line \"شكرًا لاختيارك مُسدل\", and exact second line \"ملبوس العافية\". Copy image2 typography; no added letters, no other text, no QR, no discount.\nMaintain believable card shadow and print, sharp enough to read as naturally photographed compact card. Result one independent photorealistic image, no collage, no overlays, no other changes.",
+  "reference_paths": [
+    "D:/Musdal/packaging-approved-components-2026-10-09/references/closed-box-approved-by-user.png",
+    "D:/Musdal/packaging-approved-components-2026-10-09/references/card-90x55mm.png"
+  ],
+  "attempts": 1,
+  "actual_dimensions": [
+    1672,
+    941
+  ],
+  "upsampled": false,
+  "native_output": "C:\\Users\\ACEMAGIC\\.codex\\generated_images\\01a12084-0dc5-7db2-92c2-6aacf8bc2948\\exec-e666c32c-4566-470e-8a4c-0bb4102f94da.png",
+  "workspace_output": "D:/Musdal/packaging-approved-components-2026-10-09/01-closed-box.png",
+  "qa": {
+    "approved_box_shape": "preserved",
+    "camera_angle_and_box_position": "preserved",
+    "white_stock_carton": "preserved",
+    "burgundy_sleeve_width_position": "preserved",
+    "logo_lam_domain_pattern": "preserved",
+    "card_size": "compact 90x55mm concept; roughly one third prior card area",
+    "card_content": [
+      "approved Arabic wordmark",
+      "شكرًا لاختيارك مُسدل",
+      "ملبوس العافية"
+    ],
+    "photo_lighting": "preserved natural limestone sunlight",
+    "material_limitations": "Photographic concept, not exact press print artwork; small card typography viewed in perspective."
+  }
+}

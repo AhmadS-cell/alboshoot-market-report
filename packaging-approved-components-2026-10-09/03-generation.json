@@ -1,0 +1,32 @@
+{
+  "component": "compact-thank-you-card",
+  "status": "proposed for review; card is not yet approved",
+  "mode": "built-in image_gen",
+  "actualDimensions": [
+    1672,
+    941
+  ],
+  "proposedPhysicalSizeMm": [
+    90,
+    55
+  ],
+  "prompt": "Use case: product-mockup. Create ONE independent photorealistic image of a small Musdal thank-you BUSINESS CARD ALONE lying on pale natural limestone countertop. Image1 is EXACT card face artwork: reproduce the entire printed face faithfully, no artistic reinterpretation, all text and logo geometry unchanged. Image2 only reference for limestone scene and natural cinematographic light; DO NOT include its box or sleeve or any other object.\nPhysical object is standard compact BUSINESS CARD 90x55mm, landscape aspect90:55, 350gsm matte cardstock about0.35mm thickness, burgundy #5C1E32 plain matte paper. Keep all artwork positions/proportions/margins EXACT as image1. Approved full ivory Arabic logo at uppercenter with small spaced MUSDAL, ONLY text line1 \"شكرًا لاختيارك مُسدل\" and line2 \"ملبوس العافية\", written in ivory as image1. Preserve exact Arabic letterforms and dots/diacritics. No extra text/domain/scratch/patterns. Card edges crisp thin and realistic, subtle fine paper fiber texture, no emboss or foil.\nSingle small card placed slightly obliquely (about10degree rotation) face-up on limestone; high three-quarter photographic angle, entire card readable and unobstructed, mostly flat across scene, small softcontactshadow. Card occupies about55% frame width, ample stone visible around, communicates physically small object rather than huge placard. Natural neutral warm afternoon light from left, soft-edged longshadow, Sony85mm full-frame camera feel, cinematic restraint and natural believable photographic detail, moderate depth of field with card text sharp.\nNo box, tissue packet, sleeve, bag, ruler, measurement/dimension labels, flower, hand, coins, ornamental props, numbered panels, watermark. ONE card ONLY. Landscape1672x941or native available resolution; no collage.",
+  "references": [
+    "D:/Musdal/packaging-approved-components-2026-10-09/references/card-90x55mm.png",
+    "D:/Musdal/packaging-approved-components-2026-10-09/references/closed-box-approved-by-user.png"
+  ],
+  "file": "D:/Musdal/packaging-approved-components-2026-10-09/03-thank-you-card.png",
+  "attempts": 1,
+  "qa": {
+    "objects": "One card alone; no props, box, ruler or dimension text.",
+    "copy": [
+      "شكرًا لاختيارك مُسدل",
+      "ملبوس العافية"
+    ],
+    "branding": "Approved ivory Arabic logo and spaced MUSDAL reproduced from exact deterministic face reference.",
+    "materials": "Burgundy matte thin cardstock; slight natural paper texture, soft contact shadow on limestone.",
+    "limitations": "Physical90x55mm is proposed design sizing; photography alone does not establish millimetre scale. Generated logo is a raster photographic representation, deterministic reference remains production-art authority.",
+    "imageDimensions": "Native1672x941; no upscaling."
+  },
+  "source": "Generated images are saved to C:\\Users\\ACEMAGIC\\.codex\\generated_images\\01a12084-db72-7c33-811a-f85dd9aee2fe as C:\\Users\\ACEMAGIC\\.codex\\generated_images\\01a12084-db72-7c33-811a-f85dd9aee2fe\\exec-30caf8f4-5241-4d54-b48e-6a0c91d279cf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}
