@@ -1412,8 +1412,8 @@
       "who": "نورة · للشنطة أو هدية صغيرة؛ شرط المالك: غطاء قماش ورسمة بارزة سهلة التنظيف",
       "price": "29–49",
       "spec": "مرآة قابلة للطي بقطر نحو7سم كمرجع عينة، داخل صلب لحماية الزجاج وسطح خارجي قماشي كثيف قليل الوبر. تطريز منخفض البروز بنحو0.5–1مم هدف اختبار لا قياس للصورة؛ نطلب كسوة قابلة للفك والتنظيف منفصلة، أو نعيد البناء إذا تعذر ذلك.",
-      "fit": "إكسسوار قماشي صغير يكمل الوشاح والجراب؛ ثلاث رسومات محلية القصة للمقارنة. <a href=\"#pocket-mirrors\">المواصفة والرسومات والتنظيف</a>.",
-      "why": "أضافها المالك كفئة مطلوبة في16أكتوبر2026. الصور مقترحات غير معتمدة بعد؛ لا دليل مبيعات أو تفضيل سعودي محسوم لأي رسمة.",
+      "fit": "إكسسوار قماشي صغير يكمل الوشاح والجراب؛ ثلاث رسومات كاملة معتمدة بصريًا، مع وجه خلفي منسق وشعار صغير لكل مرآة. <a href=\"#pocket-mirrors\">المواصفة والرسومات والتنظيف</a>.",
+      "why": "أضافها المالك كفئة مطلوبة في16أكتوبر2026. اعتمد المالك الرسومات الكاملة الثلاث وظهر كل مرآة بالشعار المصغر في16أكتوبر2026؛ لا دليل مبيعات محسوم ولا اعتماد تصنيع أو سعر.",
       "risk": "بروز يجمع الوبر أو يتنسل، بقع مكياج وزيوت، انفصال الكسوة، خدش/تشوه المرآة، رخاوة المفصل والإغلاق. لا وعد «سهلة التنظيف» أو «مضادة للبقع» قبل عينة ناجحة.",
       "test": "بقع بودرة وفاونديشن وأحمر شفاه، تنظيف لطيف متكرر للكسوة ثم تجفيف وإعادة تركيب، فحص الصبغة والبروز والإغلاق والحواف والزجاج.29–49ريالًا هدف بيع أولي غير مثبت بعرض مصنع.",
       "sources": [
@@ -1425,11 +1425,11 @@
         "M06",
         "U01"
       ],
-      "image": "mirror-taif-rose",
+      "image": "mirror-full-taif",
       "retail_min": 29,
       "retail_max": 49,
       "retail_ceiling": 300,
-      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/mirror-taif-rose.png",
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/mirror-full-taif.png",
       "supplier_options": [
         {
           "source_id": "U20",
@@ -1465,27 +1465,31 @@
       "sourcing_urls": "Choizin · الصين: https://www.choizin.com/products/custom-embroidered-fabric-compact-mirror | Guangzhou Yaliang · الصين: https://yaliangchina.com/productinfo/1268211.html | حسام صايغ · السعودية: https://housamfactory.com/en/",
       "retail_variants": [
         {
-          "label": "A14-1 · ورد الطائف · موف ووردي",
+          "label": "A14-1 · حديقة الطائف · حجري ووردي",
           "min": 29,
           "max": 49,
-          "image": "mirror-taif-rose"
+          "image": "mirror-full-taif",
+          "back_image": "mirror-back-taif-small-logo"
         },
         {
-          "label": "A14-2 · رمان الباحة · سماوي وتوتي",
+          "label": "A14-2 · بستان الرمان · سكري وتوتي",
           "min": 29,
           "max": 49,
-          "image": "mirror-pomegranate"
+          "image": "mirror-full-pomegranate",
+          "back_image": "mirror-back-pomegranate-small-logo"
         },
         {
-          "label": "A14-3 · روشن جدة · بترولي وعاجي",
+          "label": "A14-3 · جدة والبحر · بترولي ومرجاني",
           "min": 29,
           "max": 49,
-          "image": "mirror-roshan"
+          "image": "mirror-full-jeddah",
+          "back_image": "mirror-back-jeddah-small-logo"
         }
       ],
-      "variant_label": "الرسمة المقترحة · غير معتمدة بعد",
+      "variant_label": "التصميم المعتمد بصريًا · الوجه الأمامي",
       "image_note": "تصوّر مولّد لكسوة قماش بارزة؛ الفك والغسل والخامة النهائية تحتاج تطويرًا وعينة.",
-      "design_approval": "requested_category_designs_pending_owner_review",
+      "design_approval": "owner_visual_approved_2026-10-16",
+      "design_approval_record": "mirror-design-approval.json",
       "cleanability_status": "required_not_verified"
     },
     {

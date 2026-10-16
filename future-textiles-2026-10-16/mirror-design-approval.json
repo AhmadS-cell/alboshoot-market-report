@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-16",
+  "product": "A14",
+  "owner_instruction": "ممتاز، اعتمدهم وضيف صور الوجهين لكل مرآة على الدراسة، واعطيني الرابط النهائي.",
+  "scope": "Three full-art fronts and three color-matched backs with smaller centered Musdal logos",
+  "designs": [
+    {
+      "id": "A14-1",
+      "image": "assets/mirror-full-taif.png",
+      "front_image": "assets/mirror-full-taif.png",
+      "back_image": "assets/mirror-back-taif-small-logo.png",
+      "name": "حديقة الطائف · حجري ووردي",
+      "description": "رسمة كاملة من ورد الطائف وأوراق خضراء ودرج حجري وسماء؛ الظهر بلون حجري دافئ مأخوذ من الدرج، مع شعار مُسدل صغير في الوسط.",
+      "source_id": "N07",
+      "approval": "owner_visual_approved"
+    },
+    {
+      "id": "A14-2",
+      "image": "assets/mirror-full-pomegranate.png",
+      "front_image": "assets/mirror-full-pomegranate.png",
+      "back_image": "assets/mirror-back-pomegranate-small-logo.png",
+      "name": "بستان الرمان · سكري وتوتي",
+      "description": "رسمة كاملة من الرمان والأغصان والزهور والطيور على أرضية سكرية؛ الظهر سكري من لون الأرضية، مع شعار مُسدل عنابي صغير في الوسط.",
+      "source_id": "M03",
+      "approval": "owner_visual_approved"
+    },
+    {
+      "id": "A14-3",
+      "image": "assets/mirror-full-jeddah.png",
+      "front_image": "assets/mirror-full-jeddah.png",
+      "back_image": "assets/mirror-back-jeddah-small-logo.png",
+      "name": "جدة والبحر · بترولي ومرجاني",
+      "description": "رسمة كاملة من بيوت جدة والرواشين والدرج والبحر وألوان الغروب؛ الظهر بترولي من لون النوافذ، مع شعار مُسدل عاجي صغير في الوسط.",
+      "source_id": "M06",
+      "approval": "owner_visual_approved"
+    }
+  ],
+  "production_approval": false,
+  "cleanability": "required_not_verified",
+  "logo_artwork": "Use original approved vector wordmark for production",
+  "earlier_small_motifs": "Historical concepts only; not current approved designs"
+}
