@@ -1,0 +1,158 @@
+{
+  "brand": "مُسدل",
+  "approval_date": "2026-10-16",
+  "owner_decision": "Approve the four models and all twelve visual color directions; publish in Team Guide",
+  "scope": "Visual design and palette approval only",
+  "manufacturing_status": "No sample, supplier quote, inventory or production order approved",
+  "prices": "Development targets only; not final selling prices or factory quotes",
+  "models": [
+    {
+      "id": "A10",
+      "number": "1",
+      "name": "فيونكة القماش · ورد الطائف",
+      "minimum": 49,
+      "maximum": 69,
+      "default": "bow-ivory-berry",
+      "spec": "شريط قماش عريض وفيونكة بأطراف قصيرة؛ طبعة ورد صغيرة أصلية، باطن ناعم ونعل خارجي منخفض مقترح. نطلب نسبة الألياف ونسخة طبعة بسيطة لضبط التكلفة؛ الملمس الظاهر بالصورة لا يثبت قطنًا أو كتانًا.",
+      "use": "للبيت والزيارات والطلعات الخفيفة مع عباية؛ نختبر ثبات الفيونكة وعدم احتكاكها.",
+      "risk": "ثبات عقدة الفيونكة والرباط، احتكاك الحواف واتساخ الألوان الفاتحة.",
+      "sources": [
+        "C20",
+        "C23",
+        "N07"
+      ],
+      "colors": [
+        {
+          "code": "1A",
+          "label": "عاجي وورد توتي",
+          "image": "assets/bow-ivory-berry.png",
+          "visual_approval": true
+        },
+        {
+          "code": "1B",
+          "label": "ليلكي وورد بنفسجي",
+          "image": "assets/bow-lilac.png",
+          "visual_approval": true
+        },
+        {
+          "code": "1C",
+          "label": "مشمشي وورد كريمي",
+          "image": "assets/bow-apricot.png",
+          "visual_approval": true
+        }
+      ],
+      "visual_approval": true
+    },
+    {
+      "id": "A11",
+      "number": "2",
+      "name": "العقدة الناعمة · تفصيل الروشن",
+      "minimum": 49,
+      "maximum": 69,
+      "default": "twist-burgundy",
+      "spec": "شريط واحد عريض ملتف مرة عند الوسط، دون أطراف فيونكة؛ تفصيل شبكي صغير جانبي مستوحى من إيقاع الروشن. خامة كثيفة قليلة الوبر وباطن ناعم بعد العينة؛ نعل خارجي منخفض مقترح.",
+      "use": "اتجاه هادئ للبيت والطلعات اليومية الخفيفة؛ ينسق مع عبايات سادة.",
+      "risk": "ضغط العقدة على المشط أو رخاوة الشريط؛ اختبار القدم الضيقة والعريضة.",
+      "sources": [
+        "C21",
+        "C24",
+        "C25",
+        "M06"
+      ],
+      "colors": [
+        {
+          "code": "2A",
+          "label": "عنابي ووردي",
+          "image": "assets/twist-burgundy.png",
+          "visual_approval": true
+        },
+        {
+          "code": "2B",
+          "label": "سماوي وعاجي",
+          "image": "assets/twist-sky.png",
+          "visual_approval": true
+        },
+        {
+          "code": "2C",
+          "label": "بترولي ومرجاني",
+          "image": "assets/twist-teal.png",
+          "visual_approval": true
+        }
+      ],
+      "visual_approval": true
+    },
+    {
+      "id": "A12",
+      "number": "3",
+      "name": "المغلق المطرز · ورد الطائف",
+      "minimum": 69,
+      "maximum": 89,
+      "default": "mule-navy",
+      "spec": "مقدمة مستديرة مغلقة وكعب مفتوح، قماش كثيف وتطريز ورد صغير محدود مع حافة ملونة، دون بطانة فرو. نطلب عينة تبطين وتهوية؛ نعل خارجي منخفض مقترح.",
+      "use": "استقبال وزيارات قصيرة؛ تغطية الأصابع خيار وظيفي، والحرارة والتهوية تحتاجان اختبارًا.",
+      "risk": "حرارة المقدمة والتهوية ومقاس الأصابع، وتكلفة التطريز الموضعي.",
+      "sources": [
+        "N07",
+        "C20"
+      ],
+      "colors": [
+        {
+          "code": "3A",
+          "label": "وردي وورد كريمي",
+          "image": "assets/mule-rose.png",
+          "visual_approval": true
+        },
+        {
+          "code": "3B",
+          "label": "كحلي وتطريز عاجي",
+          "image": "assets/mule-navy.png",
+          "visual_approval": true
+        },
+        {
+          "code": "3C",
+          "label": "فستقي وورد وردي",
+          "image": "assets/mule-pistachio.png",
+          "visual_approval": true
+        }
+      ],
+      "visual_approval": true
+    },
+    {
+      "id": "A13",
+      "number": "4",
+      "name": "دنيم بإبزيمين · موج الساحل",
+      "minimum": 59,
+      "maximum": 79,
+      "default": "denim-ecru",
+      "spec": "شريطان منفصلان متوازيان من قماش دنيم، إبزيمان صغيران وتطريز موج محدود على الشريط الخلفي؛ فرشة بلون دافئ ونعل خارجي منخفض مقترح. قابلية ضبط الإبزيم وظيفة تطوير لا تثبتها الصورة.",
+      "use": "خيار يومي شبابي للبيت والطلعات الخفيفة؛ قصة الساحل في الموج دون نخلة.",
+      "risk": "خشونة الدنيم والمعدن على الجلد، انتقال صبغة الدنيم، وثبات الإبزيم.",
+      "sources": [
+        "C22",
+        "C21"
+      ],
+      "colors": [
+        {
+          "code": "4A",
+          "label": "دنيم ليلكي وموج عاجي",
+          "image": "assets/denim-lilac.png",
+          "visual_approval": true
+        },
+        {
+          "code": "4B",
+          "label": "دنيم سماوي وموج مرجاني",
+          "image": "assets/denim-sky.png",
+          "visual_approval": true
+        },
+        {
+          "code": "4C",
+          "label": "دنيم سكري وموج أزرق",
+          "image": "assets/denim-ecru.png",
+          "visual_approval": true
+        }
+      ],
+      "visual_approval": true
+    }
+  ],
+  "references": "See final sources section and image-prompts.json"
+}

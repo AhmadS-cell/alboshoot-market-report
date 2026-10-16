@@ -6,3 +6,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 #outdoor-slides .callout a{color:#fff;text-decoration:underline}#outdoor-slides .concept-grid figure{margin:0}#outdoor-slides .concept-grid img{object-fit:contain;width:100%;height:auto}
+
+#approved-slides .callout a{color:#fff;text-decoration:underline}.approved-model{margin:30px 0 40px;padding:22px;border:1px solid var(--line);border-radius:6px;scroll-margin-top:22px}.approved-model>h3{margin-top:0}.approved-color-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:20px 0}.approved-color-grid figure{scroll-margin-top:22px}.approved-color-grid img{aspect-ratio:1.1;object-fit:contain;background:#fff}.approved-color-grid figcaption{padding:12px;font-size:15px}.approved-color-grid figcaption p{font-size:14px;margin:5px 0}.approved-jumps{margin:22px 0}.archived-study{border:1px solid var(--line);padding:18px;border-radius:5px}@media(max-width:760px){.approved-model{padding:16px}.approved-color-grid{grid-template-columns:1fr;gap:18px}}

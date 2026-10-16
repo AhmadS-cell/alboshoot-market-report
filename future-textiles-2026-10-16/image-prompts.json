@@ -143,6 +143,90 @@
       "file": "assets/slide-roshan-blue.png",
       "prompt": "Use case: product-mockup\nAsset type: A09 original women's outdoor textile slide sandal visual concept, one independent product photograph\nPrimary request: ONE PAIR of feminine open-toe, open-heel slip-on outdoor slides. Slightly rounded square toes and TWO BROAD overlapping CROSS straps across each shoe's forefoot and instep.\nUpper design and materials: Real opaque densely woven low-pile cotton-jacquard-look fabric. An ORIGINAL small rectangular geometric lattice inspired by Jeddah wooden roshan windows, expressed purely as an abstract fine woven grid, without literal buildings. Dusty SKY BLUE main textile with soft RASPBERRY PINK, navy and warm IVORY fine woven grid accents. Fresh but wearable style for Saudi women's café outings, sophisticated and accessible-premium, not cartoon pastel or a toy. Soft wrapped strap edges, smooth lining, discreet side adjustment seam.\nSole construction: Charcoal wipeable microfiber-look cushioned footbed, shallow heel cup, a low midsole visually about 18–22 mm, slim durable BLACK rubber outsole with visible side tread. Credible outdoor sandal appearance, not bathroom slippers or terry house shoes.\nComposition and style: One clean photorealistic catalog photo of the whole pair, both shoes fully visible on a pale neutral studio table. Three-quarter, slightly overhead camera angle. Soft natural light, credible construction, realistic woven fibers and stitching.\nConstraints: No palms anywhere. No literal building, sacred or religious patterns, calligraphy, birds, flowers, plants, people, logos, words, annotations, printed dimensions, price text, collage or competitor copying. Target accessible-premium retail direction 149–199 SAR but do not print a price. AI visual concept only, not tested comfort, safety, durability or manufacturing proof.",
       "attempts": 1
+    },
+    {
+      "file": "assets/bow-ivory-berry.png",
+      "prompt": "Use case: precise-object-edit. Edit ONLY COLORS in the referenced complete pair of women's bow textile slides. Change the bow and all upper textile to WARM IVORY, recolor its existing tiny roses MUTED BERRY-PINK and its tiny leaves SAGE GREEN. Preserve the EXACT source silhouette, stitching, medium bow proportions, short tails, print layout, print scale and placement, cloth weave, geometry, original taupe footbed and outsole color, sole thickness, shoe positions, photograph angle, lighting and pale neutral background. Do not redesign or move anything. This must remain the same pair, same photograph, only upper fabric/print colors altered. One complete pair in one independent image, no collage. No palms, text or logos. Visual colorway concept, not actual manufacturing or comfort proof.",
+      "attempts": 1,
+      "method": "Built-in ImageGen reference edit of the previously reviewed model photograph",
+      "owner_visual_approval": "2026-10-16"
+    },
+    {
+      "file": "assets/bow-lilac.png",
+      "prompt": "Use case: precise-object-edit. Edit ONLY COLORS in the referenced complete pair of women's bow textile slides. Change the bow and all upper textile to DUSTY LIGHT LILAC, visibly pale violet and distinct from blush pink. Recolor its existing tiny roses PLUM/VIOLET and its tiny leaves SAGE GREEN. Preserve the EXACT source silhouette, stitching, medium bow proportions, short tails, print layout, print scale and placement, cloth weave, geometry, original taupe footbed and outsole color, sole thickness, shoe positions, photograph angle, lighting and pale neutral background. Do not redesign or move anything. This must remain the same pair, same photograph, only upper fabric/print colors altered. One complete pair in one independent image, no collage. No palms, text or logos. Visual colorway concept, not actual manufacturing or comfort proof.",
+      "attempts": 1,
+      "method": "Built-in ImageGen reference edit of the previously reviewed model photograph",
+      "owner_visual_approval": "2026-10-16"
+    },
+    {
+      "file": "assets/bow-apricot.png",
+      "prompt": "Use case: precise-object-edit. Edit ONLY COLORS in the referenced complete pair of women's bow textile slides. Change the bow and all upper textile to SOFT WARM APRICOT / CORAL-PEACH, visibly peach-orange and distinct from the source blush pink. Recolor its existing tiny roses CREAM/IVORY and its tiny leaves MUTED OLIVE GREEN. Preserve the EXACT source silhouette, stitching, medium bow proportions, short tails, print layout, print scale and placement, cloth weave, geometry, original taupe footbed and outsole color, sole thickness, shoe positions, photograph angle, lighting and pale neutral background. Do not redesign or move anything. This must remain the same pair, same photograph, only upper fabric/print colors altered. One complete pair in one independent image, no collage. No palms, text or logos. Visual colorway concept, not actual manufacturing or comfort proof.",
+      "attempts": 1,
+      "method": "Built-in ImageGen reference edit of the previously reviewed model photograph",
+      "owner_visual_approval": "2026-10-16"
+    },
+    {
+      "file": "assets/twist-burgundy.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied photograph as a colorway study only. Change ONLY the sage-green textile twisted bands on both shoes to rich BURGUNDY, and change the narrow ivory rectangular side-grid embroidery thread to SOFT BLUSH PINK. Keep the original taupe footbeds and soles exactly unchanged. Preserve the exact single-twist silhouette, band width, band height, fabric weave, folds, seams and stitching, original sole thickness, toe geometry, pair positions, whole-pair framing, camera angle, pale studio background, daylight, shadows and surface. No geometry changes, new straps, props, plants, palms, text, labels, logos or collage. Photorealistic color edit with credible burgundy textile and fine blush thread. AI color study only, not product proof.",
+      "attempts": 1,
+      "method": "Built-in ImageGen reference edit of the previously reviewed model photograph",
+      "owner_visual_approval": "2026-10-16"
+    },
+    {
+      "file": "assets/twist-sky.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied photograph as a colorway study only. Change ONLY the sage-green textile twisted bands on both shoes to powder SKY BLUE. Retain the narrow side-grid embroidery thread in IVORY. Keep the original taupe footbeds and soles exactly unchanged. Preserve the exact single-twist silhouette, band width, band height, fabric weave, folds, seams and stitching, original sole thickness, toe geometry, pair positions, whole-pair framing, camera angle, pale studio background, daylight, shadows and surface. No geometry changes, new straps, props, plants, palms, text, labels, logos or collage. Photorealistic color edit with credible powder sky-blue textile and fine ivory thread. AI color study only, not product proof.",
+      "attempts": 1,
+      "method": "Built-in ImageGen reference edit of the previously reviewed model photograph",
+      "owner_visual_approval": "2026-10-16"
+    },
+    {
+      "file": "assets/twist-teal.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied photograph as a colorway study only. Change ONLY the sage-green textile twisted bands on both shoes to deep PETROL TEAL, and change the narrow ivory rectangular side-grid embroidery thread to CORAL PINK. Keep the original taupe footbeds and soles exactly unchanged. Preserve the exact single-twist silhouette, band width, band height, fabric weave, folds, seams and stitching, original sole thickness, toe geometry, pair positions, whole-pair framing, camera angle, pale studio background, daylight, shadows and surface. No geometry changes, new straps, props, plants, palms, text, labels, logos or collage. Photorealistic color edit with credible deep petrol-teal textile and fine coral-pink thread. AI color study only, not product proof.",
+      "attempts": 1,
+      "method": "Built-in ImageGen reference edit of the previously reviewed model photograph",
+      "owner_visual_approval": "2026-10-16"
+    },
+    {
+      "file": "assets/mule-rose.png",
+      "prompt": "Use case: precise-object-edit\nAsset type: colorway-only edit of the attached mule product photograph\nInput image: edit target, preserve its exact product design and scene.\nChange ONLY these colors: recolor the canvas CLOSED-TOE upper of BOTH mules to DUSTY ROSE; recolor the existing same-size, same-position flower-cluster embroidery to CREAM/IVORY roses with muted olive leaves; recolor the narrow opening piping to BURGUNDY.\nInvariants: Preserve EXACT silhouette, closed toe and open heel, camera, entire-pair layout, seams, sole thickness, toe shape, embroidery placement and size, textile weave, stitches, lighting and neutral surface. Original taupe footbeds and original dark soles stay unchanged. No changes to construction.\nConstraints: One whole pair in one colorway only. No palms, plants, words, logos, labels, extra ornaments or collage. Photorealistic original reference color edit only. Visual concept; do not imply tested comfort or proven material composition.",
+      "attempts": 1,
+      "method": "Built-in ImageGen reference edit of the previously reviewed model photograph",
+      "owner_visual_approval": "2026-10-16"
+    },
+    {
+      "file": "assets/mule-navy.png",
+      "prompt": "Use case: precise-object-edit\nAsset type: colorway-only edit of the attached mule product photograph\nInput image: edit target, preserve its exact product design and scene.\nChange ONLY these colors: recolor the canvas CLOSED-TOE upper of BOTH mules to NAVY BLUE; recolor the existing same-size, same-position flower-cluster embroidery to IVORY roses with sage-green leaves; recolor the fine opening piping to POWDER SKY BLUE.\nInvariants: Preserve EXACT silhouette, closed toe and open heel, camera, entire-pair layout, seams, sole thickness, toe shape, embroidery placement and size, textile weave, stitches, lighting and neutral surface. Original taupe footbeds and original dark soles stay unchanged. No changes to construction.\nConstraints: One whole pair in one colorway only. No palms, plants, words, logos, labels, extra ornaments or collage. Photorealistic original reference color edit only. Visual concept; do not imply tested comfort or proven material composition.",
+      "attempts": 1,
+      "method": "Built-in ImageGen reference edit of the previously reviewed model photograph",
+      "owner_visual_approval": "2026-10-16"
+    },
+    {
+      "file": "assets/mule-pistachio.png",
+      "prompt": "Use case: precise-object-edit\nAsset type: colorway-only edit of the attached mule product photograph\nInput image: edit target, preserve its exact product design and scene.\nChange ONLY these colors: recolor the canvas CLOSED-TOE upper of BOTH mules to SOFT LIGHT PISTACHIO GREEN; recolor the existing same-size, same-position flower-cluster embroidery to dusty PINK roses with olive-green leaves; recolor the narrow opening piping to IVORY.\nInvariants: Preserve EXACT silhouette, closed toe and open heel, camera, entire-pair layout, seams, sole thickness, toe shape, embroidery placement and size, textile weave, stitches, lighting and neutral surface. Original taupe footbeds and original dark soles stay unchanged. No changes to construction.\nConstraints: One whole pair in one colorway only. No palms, plants, words, logos, labels, extra ornaments or collage. Photorealistic original reference color edit only. Visual concept; do not imply tested comfort or proven material composition.",
+      "attempts": 1,
+      "method": "Built-in ImageGen reference edit of the previously reviewed model photograph",
+      "owner_visual_approval": "2026-10-16"
+    },
+    {
+      "file": "assets/denim-lilac.png",
+      "prompt": "Use case: precise-object-edit. Edit ONLY STRAP COLOR in the referenced complete pair of women's two-strap denim slides. Recolor the blue denim textile straps to WASHED PALE LILAC DENIM, distinctly light lavender rather than blue, preserving the authentic visible woven denim texture. Keep the exact existing IVORY wave embroidery on each rear strap unchanged, and keep all brushed SILVER buckles unchanged. Preserve the EXACT source silhouette, two separate parallel straps, strap widths, stitching, embroidery size and placement, functional-looking buckle shapes/positions, rounded-square toe, original TAN padded footbed color and DARK outsole color, sole thickness, shoe positions, photograph angle, lighting and pale neutral background. Do not redesign or move anything. This must remain the same pair, same photograph, only blue denim strap color altered. One complete pair in one independent image, no collage. No palms, text or logos. Visual colorway concept, not actual manufacturing or comfort proof.",
+      "attempts": 1,
+      "method": "Built-in ImageGen reference edit of the previously reviewed model photograph",
+      "owner_visual_approval": "2026-10-16"
+    },
+    {
+      "file": "assets/denim-sky.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied denim slide photograph as a colorway study only. Change ONLY the dark denim fabric of the TWO PARALLEL straps on each shoe to LIGHT WASHED SKY-BLUE DENIM. Change the existing small ivory wave embroidery to CORAL PINK, keeping its exact size, three-wave shape and placement. Preserve the original SILVER buckles, buckle holes and metal prongs exactly, the original tan footbeds and dark soles unchanged. Preserve exact two-parallel-strap construction, band widths, heights and positioning, fabric weave and seams, edge stitching, original sole thickness, toe geometry, pair positions, whole-pair framing, camera angle, pale studio background, daylight, shadows and surface. Do not add straps or change any geometry. No new props, plants, palms, text, labels, logos or collage. Photorealistic light-washed denim with credible fabric and coral embroidery. AI color study only, not product proof.",
+      "attempts": 1,
+      "method": "Built-in ImageGen reference edit of the previously reviewed model photograph",
+      "owner_visual_approval": "2026-10-16"
+    },
+    {
+      "file": "assets/denim-ecru.png",
+      "prompt": "Use case: precise-object-edit\nAsset type: colorway-only edit of the attached denim double-strap sandal photograph\nInput image: edit target, preserve its exact product design and scene.\nChange ONLY these colors: recolor the denim fabric of BOTH straps on BOTH sandals to ECRU/OFF-WHITE; recolor the existing same-size, same-position wave embroidery to COBALT BLUE thread.\nInvariants: Preserve EXACT silhouette, two parallel straps and original silver buckles, open toe and open heel, original camera and whole-pair layout, seams, sole thickness, toe outline, wave embroidery placement and size, denim weave, stitches, lighting and neutral studio surface. Original tan footbeds and original dark soles stay unchanged. All original silver buckles remain silver. Do not alter construction or add details.\nConstraints: One whole pair in one colorway only. No palms, plants, flowers, words, logos, labels, extra ornaments or collage. Photorealistic reference color edit only. Visual concept; do not imply tested comfort or proven material composition.",
+      "attempts": 1,
+      "method": "Built-in ImageGen reference edit of the previously reviewed model photograph",
+      "owner_visual_approval": "2026-10-16"
     }
   ]
 }
