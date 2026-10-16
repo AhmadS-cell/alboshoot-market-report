@@ -43,6 +43,91 @@
       "file": "assets/tote-palm.png",
       "attempts": 1,
       "prompt": "Use case: product-mockup\nAsset type: independent Musdal textile tote visual concept\nPrimary request: One beautifully practical structured woven fabric tote bag, a contemporary accessible-premium women's accessory with original Saudi eastern oasis inspiration.\nSubject: Main fabric in soft fresh pale sage-green cotton canvas, with natural date palms embroidered in rich green fronds and clearly warm brown trunks, a few golden-yellow dates, and tiny blue-sky accents. Restrained placement: one large elegant palm motif on the front. Forest-green woven fabric handles; a subtle lining is visible at the zip top.\nComposition/framing: Entire single bag upright, clean three-quarter view, on a warm neutral studio surface. No person. Keep all handles and bag edges fully in frame.\nStyle/medium: Photorealistic catalog product photograph, credible cotton canvas weave, realistic seams and embroidery stitches, natural daylight.\nConstraints: Original design, no competitor copying. Do NOT make all palms burgundy or sand. No leather-dominated components. No text, no wordmark, no collage. AI concept only, not manufacturing or quality proof."
+    },
+    {
+      "file": "assets/pouch-rose.png",
+      "prompt": "Use case: product-mockup. A single practical small fabric zipped pouch, approximately 18 x 12 cm visual proportions only. Accessible-premium original Musdal concept. Sky-blue cotton canvas body with an original natural pink Taif rose and green leaves concentrated at one lower corner; clear mostly open blue area. Pink zipper edge across top, zipper slightly open to show a thin practical lining, believable sewn corners and seams. Entire compact pouch visible, standing slightly tilted in a three-quarter view on a clean neutral light studio surface. Fine woven cotton canvas texture, credible small-pouch construction, soft daylight. Affordable premium fabric accessory, no leather or opulent styling. No other props, no person, no logo, text, watermark, dimension labels or collage. AI concept visualization only, not verified dimensions, material or production quality.",
+      "attempts": 1,
+      "generator": "built-in ImageGen",
+      "status": "AI concept, not a factory sample or confirmed production specification"
+    },
+    {
+      "file": "assets/twilly-sea.png",
+      "prompt": "Use case: product-mockup. ONE slender narrow fabric twilly strip, approximately 8 x 90 cm visual proportions only, original accessible-premium Musdal accessory concept. Royal blue and turquoise fluid abstract sea artwork with small coral-pink accents concentrated at the two ends. Fine woven lightweight cloth with credible slim hems and believable drape. Very narrow elongated ribbon-scarf shape, not a full shawl. Laid in a loose elongated S curve on a quiet light neutral studio tabletop. Show the entire twilly including BOTH tapered or angled ends, with clear margins all around. Photorealistic catalog product photography, soft daylight, fresh richly varied coastal colors. No person, other products, props, logos, text, watermarks, dimension labels or collage. Original artwork, not copied competitor print. AI concept only, not verified dimensions, material or quality.",
+      "attempts": 1,
+      "generator": "built-in ImageGen",
+      "status": "AI concept, not a factory sample or confirmed production specification"
+    },
+    {
+      "file": "assets/garment-cover.png",
+      "prompt": "Use case: product-mockup. ONE full-length practical textile garment travel cover for a black abaya, accessible-premium original Musdal concept. Approximately 120 x 60 cm long rectangular visual proportions, proposed only. Solid sage-green finely woven fabric, central vertical zipper, a tiny original stitched palm motif at one upper corner with brown trunk and green fronds. The zipper is almost fully closed with only a small opening giving a glimpse of the plain black abaya inside. Tailored rounded shoulder line and straight sides; credible thin durable cloth walls and stitched seams, no transparent plastic. Suspended from ONE garment hanger on a minimal stand. Frame the entire long garment cover from hanger hook to its closed bottom edge, plus the floor beneath; clear margins, no cropping. Quiet neutral studio, soft daylight, photorealistic catalog photography. Practical clothing travel protector, not a retail gift bag. No handles like a shopping bag, no person, other products, logo, words, watermark, dimension labels or collage. AI concept only, not verified size, material, protection or production specifications.",
+      "attempts": 1,
+      "generator": "built-in ImageGen",
+      "status": "AI concept, not a factory sample or confirmed production specification"
+    },
+    {
+      "file": "assets/tissue-cover.png",
+      "prompt": "Use case: product-mockup. ONE fitted rectangular fabric cover around a standard horizontal rectangular tissue box, accessible-premium original Musdal home accessory concept. A single white tissue emerges gently from the narrow top slot. Tasteful blue and turquoise original flowing wave pattern over the textile surface, with a thin neat coral-pink stitched hem around the lower edge. Credible sewn textile walls with visible fine weave and lightly soft corners fitted over the rigid tissue box underneath; realistically constructed top slot with bound edges. The entire object is visible in three-quarter catalog view on a clean pale neutral studio table, clear margins, soft natural daylight, photorealistic product photography. Fresh blue and turquoise coastal colors. No other objects, people, logo, words, watermark, dimension labels or collage. Not a ceramic or plastic tissue holder: the outer cover is clearly fabric. AI concept only, not verified dimensions, textile composition or production specifications.",
+      "attempts": 1,
+      "generator": "built-in ImageGen",
+      "status": "AI concept, not a factory sample or confirmed production specification"
+    },
+    {
+      "file": "assets/cups-birds.png",
+      "prompt": "Use case: product-mockup\nAsset type: B01 affordable accessible-premium product concept, one independent catalog photograph\nPrimary request: A SET OF EXACTLY SIX small handleless Arabic coffee cups made of clean white porcelain. All six individual cups are fully identifiable and visible, staggered naturally in one physical studio scene.\nDesign: Restrained original tiny green leaves and blue-bird motif on each cup; contemporary, modest, useful everyday serveware. No gold opulence or super-luxury styling.\nScene and style: Warm neutral studio surface and background, soft natural daylight, realistic ceramic glaze and proportions, clean photorealistic catalog photography.\nConstraints: Six cups only, no handles, no teapot, no text, no logos, no collage, no people, no competitor copying. AI visual concept only, not a factory sample or verified quality; do not imply a confirmed price.",
+      "attempts": 1,
+      "generator": "built-in ImageGen",
+      "status": "AI concept, not a factory sample or confirmed production specification"
+    },
+    {
+      "file": "assets/teapot-olive.png",
+      "prompt": "Use case: product-mockup\nAsset type: B02 accessible-premium ready-sourced serveware visual concept, independent catalog photograph\nPrimary request: ONE modest white porcelain serving teapot with its fitted lid, handle and spout all clearly visible. Entire pot fully in frame, clean three-quarter view.\nDesign: Sparse original green olive-branch motif on the white ceramic body and one restrained cobalt-blue accent. Simple well-proportioned everyday serving design, modest and contemporary, no gold opulence.\nScene and style: Warm neutral studio surface, soft natural daylight, photorealistic porcelain glaze, believable joints and construction.\nConstraints: One teapot only, no cups or other products, no people, no logo, no words, no collage, no competitor copying. This is a serving-teapot visual concept; do not imply stovetop safety, tested quality, confirmed manufacture or confirmed price.",
+      "attempts": 2,
+      "generator": "built-in ImageGen",
+      "status": "AI concept, not a factory sample or confirmed production specification"
+    },
+    {
+      "file": "assets/prayer-mat.png",
+      "prompt": "Use case: product-mockup\nAsset type: H06 lightweight travel prayer mat textile product concept, one independent catalog photograph\nPrimary request: ONE thin lightweight travel prayer mat in sky-blue woven cloth, with a narrow olive-green original botanical border. The central area is plain sky blue. One corner is partly folded back to show a thin flexible single textile layer, NOT a thick cushion.\nProduct set and composition: Entire rectangular prayer mat visible mostly overhead on a clean warm neutral floor, with one small matching sky-blue drawstring storage pouch placed adjacent as part of the same product set. Realistic travel proportions and seams, modest accessible-premium design.\nStyle: Photorealistic textile catalog photography, natural daylight, credible fine cloth weave and soft thin folds.\nConstraints: NO sacred text, NO mosque images, NO Arabic words, no lettering or logos, no people, no collage, no thick memory foam. Original botanical design. AI visual concept only, not a factory sample, verified quality, comfort test or confirmed price.",
+      "attempts": 1,
+      "generator": "built-in ImageGen",
+      "status": "AI concept, not a factory sample or confirmed production specification"
+    },
+    {
+      "file": "assets/coasters-pomegranate.png",
+      "prompt": "Use case: product-mockup\nAsset type: H07 quilted textile drink-coaster set concept, one independent product photograph\nPrimary request: A set of EXACTLY FOUR small square quilted fabric drink coasters, each approximately 12 cm in plausible visual proportion. All four are clearly visible and countable, arranged in a natural lightly overlapping stagger on a clean warm-neutral studio surface.\nDesign: Warm blush textile ground, original natural red pomegranate fruit and green leaf motifs, tasteful contemporary botanical palette, neat stitched quilt lines and soft bound fabric edges. Modest accessible-premium everyday home accessory.\nStyle: Photorealistic macro catalog photograph in soft natural daylight, credible fine cotton weave, visible quilting stitches and thin padding.\nConstraints: Four small square coasters only, no cups, no placemats, no person, no text, no logos, no collage, no competitor copying. AI visual concept only, not a factory sample, tested heat resistance, verified quality or confirmed price.",
+      "attempts": 1,
+      "generator": "built-in ImageGen",
+      "status": "AI concept, not a factory sample or confirmed production specification"
+    },
+    {
+      "file": "assets/cushion-sea-cover.png",
+      "prompt": "Use case: precise-object-edit. Asset type: independent catalog product concept photograph of an empty cushion cover for Musdal. Edit the referenced product image. Preserve its existing rich turquoise main fabric, cobalt abstract flowing waves, coral-pink branch embroidery, tiny warm-white fish stitches and cobalt piping design EXACTLY. Show the SAME cushion COVER EMPTY, flat on a warm neutral tabletop, with a discreet open zipper along one edge and one corner turned back revealing thin woven fabric. No insert, no stuffing, no bulk, no other pillow. Entire square cover visible. Natural fine cloth weave and soft daylight, original accessible-premium home textile. Preserve the color and arrangement of the artwork. No text, logos, label, person or collage. This is a visual AI concept, not real quality proof.",
+      "attempts": 2,
+      "generator": "built-in ImageGen",
+      "status": "AI concept, not a factory sample or confirmed production specification",
+      "reference_image": "assets/cushion-sea.png"
+    },
+    {
+      "file": "assets/tablecloth-pomegranate.png",
+      "prompt": "Use case: product-mockup. Asset type: independent catalog concept photograph for Musdal H05. One whole rectangular FULL TABLECLOTH draped on a simple oak dining table, covering the entire tabletop and hanging visibly down all four sides. Full table and full tablecloth within frame, elevated three-quarter angle making the rectangular tabletop and hanging cloth clear. Pale warm pink cloth ground, original restrained natural red pomegranates and green leaves concentrated along the lower hem, open undecorated center. Realistic accessible-premium washable cotton-look woven cloth, soft folds and daylight. Colorful Saudi place-and-nature inspiration, original design, no copying competitors. This is a full tablecloth, NOT a narrow runner. No other props, chairs, food, people, text, logos, labels or collage. Single product photograph, visual AI concept only, not real quality proof.",
+      "attempts": 1,
+      "generator": "built-in ImageGen",
+      "status": "AI concept, not a factory sample or confirmed production specification"
+    },
+    {
+      "file": "assets/throw-palm.png",
+      "prompt": "Use case: product-mockup. Asset type: independent catalog concept photograph for Musdal H04. One lightweight cotton-look throw, visual rectangular proportions 130 × 170 cm without printed dimensions, draped naturally over one plain simple oak chair. Whole throw visible within frame, arranged across chair back and seat with its edge hanging close to the floor, not cropped. Muted sky-blue main field, green date-palm fronds and warm brown trunks in a narrow ORIGINAL border, neat short fringe. Believable affordable woven cloth, visible fine weave, soft airy natural folds, contemporary accessible-premium design inspired by Saudi palm oases. Soft daylight, clean pale neutral studio background, no other props. Do not make a cashmere or heavy luxury blanket. No logos, text, labels, people or collage. Original design, no competitor copying. Single product photograph, visual AI concept only, not real quality proof.",
+      "attempts": 1,
+      "generator": "built-in ImageGen",
+      "status": "AI concept, not a factory sample or confirmed production specification"
+    },
+    {
+      "file": "assets/napkins-olive.png",
+      "prompt": "Use case: product-mockup. Asset type: independent catalog concept photograph for Musdal H03. ONE product photograph of a SET OF EXACTLY FOUR square washable cotton dining napkins, realistic full dinner-napkin size. Two individually folded napkins side by side in foreground, a third half-open square napkin spread behind them, and the fourth folded and stacked slightly offset on one foreground napkin so all four separate cloth pieces can be counted. Natural green olive-branch corner embroidery, pale green and warm-white cloth with slate-blue hems, fine realistic cotton weave and stitched edges. On a simple warm wood dining table, clean soft daylight, no other props. Contemporary accessible-premium original Saudi nature-inspired design. These are dining napkins, NOT pocket squares, NOT paper tissues. No food, person, text, logo, label or collage. Original design, no competitor copying. Single product photograph, visual AI concept only, not real quality proof.",
+      "attempts": 1,
+      "generator": "built-in ImageGen",
+      "status": "AI concept, not a factory sample or confirmed production specification"
     }
   ]
 }

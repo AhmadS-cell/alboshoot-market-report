@@ -1,6 +1,13 @@
 {
   "date": "2026-10-16",
   "status": "research_not_launch_approval",
+  "retail_ceiling_sar": 300,
+  "removed_products": [
+    {
+      "id": "A04",
+      "reason": "Owner excluded pocket square"
+    }
+  ],
   "scope": "textile-led accessories and home; sourced serveware later",
   "sources": [
     {
@@ -330,12 +337,68 @@
       "evidence": "مرجع محلي",
       "note": "واحة زراعية وموقع ساحلي؛ مرجع لقصة نخيل القطيف. نميّزها عن الأحساء ولا نضع الاسمين على رسم واحد بلا بحث.",
       "read_date": "2026-10-16"
+    },
+    {
+      "id": "U11",
+      "title": "Yitian · حقائب قطنية مخصصة",
+      "url": "https://www.wzbags.com/cotton-tote-bag/",
+      "evidence": "موقع المصنع المعلن · 16 أكتوبر2026",
+      "note": "يعلن حقائب قطن وكانفس وجرابات؛ MOQ100 للتوت لكل تصميم، وعينة3–5 أيام معلنة. مواصفة الجراب والسحاب والتطريز تثبت بعرض مستقل؛ لا سعر وصول لمُسدل.",
+      "read_date": "2026-10-16"
+    },
+    {
+      "id": "U12",
+      "title": "EcoBagly · حقائب وحافظات ملابس",
+      "url": "https://ecobagly.com/",
+      "evidence": "موقع المصنع المعلن · 16 أكتوبر2026",
+      "note": "يعلن مصنعًا في قوانغتشو، حقائب قطن وجرابات وحافظات ملابس بسحاب. MOQ500 لكل موديل ولون ومقاس؛ عينة3–7 أيام معلنة. التشطيب والوزن للموديل المطلوب يحتاجان تأكيدًا.",
+      "read_date": "2026-10-16"
+    },
+    {
+      "id": "U13",
+      "title": "Habes · سجادات صلاة",
+      "url": "https://habestextile.com/en/prayer-mat-manufacturer-turkey.html",
+      "evidence": "موقع المصنع المعلن · 16 أكتوبر2026",
+      "note": "MOQ300 لكل تصميم/خامة للموديلات المطرزة، و500 للهدايا الخاصة؛ يذكر ظهرًا مطاطيًا. هذه ليست تلقائيًا سجادة سفر خفيفة، ولا نطبق MOQ250 العام عليها.",
+      "read_date": "2026-10-16"
+    },
+    {
+      "id": "U14",
+      "title": "Silsal · قطاع الأعمال والتخصيص",
+      "url": "https://silsal.com/en/corporate/gifting/",
+      "evidence": "موقع العلامة · 16 أكتوبر2026",
+      "note": "يعلن إهداء وتخصيصًا وكميات متنوعة؛ لا سعر جملة أو شروط إعادة بيع لمُسدل. تأكيد حق إعادة البيع والهوية وسقف300 شرط قبل إدراج أي منتج.",
+      "read_date": "2026-10-16"
+    },
+    {
+      "id": "U15",
+      "title": "VAVO Trading · طقم إبريق وفناجين",
+      "url": "https://vavotrading.com/products/vt-kw-007",
+      "evidence": "موقع شركة توريد · 16 أكتوبر2026",
+      "note": "VT-KW-007 طقم سيراميك من إبريق450مل تقريبًا و6فناجين100مل تقريبًا؛ يناقش OEM/ODM. MOQ والسعر بالاستفسار؛ فصل الإبريق أو الفناجين غير مؤكد. شركة توريد لا مصنع تحققنا منه.",
+      "read_date": "2026-10-16"
+    },
+    {
+      "id": "U16",
+      "title": "IKEA السعودية · حشوة INNER50×50",
+      "url": "https://www.ikea.com/sa/en/p/inner-cushion-pad-white-in-outdoor-50550702/",
+      "evidence": "متجر تجزئة · مرجع عينة · 16 أكتوبر2026",
+      "note": "25ر.س شاملVAT بحسب الصفحة، دون شحن؛ حشوة بوليستر395جم،50×50. مرجع شراء جاهز لتجربة المقاس، وليس مصنع جملة أو عرض تكلفة لإنتاج مُسدل.",
+      "read_date": "2026-10-16"
+    },
+    {
+      "id": "U17",
+      "title": "Carpetella · سجادات صلاة بالجملة",
+      "url": "https://carpetella.com/pages/wholesale-manufacturer",
+      "evidence": "موقع المصنع المعلن · 16 أكتوبر2026",
+      "note": "تركيا؛ MOQابتداء50 وتخصيص معلن؛ المعروض فوم3سم أو7سم. بديل مبطن مختلف عن سجادة السفر؛ لا نعرضه كمطابق للتصور الخفيف قبل تأكيد تطوير آخر.",
+      "read_date": "2026-10-16"
     }
   ],
   "products": [
     {
       "id": "A01",
-      "name": "وشاح نخيل طويل",
+      "name": "وشاح طويل · الطائف أو النخيل",
       "group": "fashion",
       "phase": "sample",
       "who": "نساء ورجال · كل خامة باختبار مستقل",
@@ -346,13 +409,48 @@
       "risk": "وبر، لسع، انزلاق، طول غير عملي أو صبغة تنتقل للملابس الفاتحة.",
       "test": "عينتا خامة، ارتداء فوق ثوب وفروة وعباية، عناية وفحص لون وحواف؛ لا نوعد بدفء من الصورة.",
       "sources": [
-        "C01",
-        "C02",
         "C06",
+        "N01",
+        "N03",
         "U05",
         "U06"
       ],
-      "image": "scarf-palm"
+      "image": "scarf-taif",
+      "retail_min": 179,
+      "retail_max": 249,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/scarf-taif.png",
+      "supplier_options": [
+        {
+          "source_id": "U05",
+          "name": "YANYAN · الصين",
+          "role": "تصنيع أوشحة بحسب موقعه",
+          "category_fit": "يوفر طباعة وخامات وتشطيب للأوشحة؛ اطلب المقاس الطويل أو الشريط تحديدًا.",
+          "moq": "100 للتصميم الخاص؛20 للجاهز/لون",
+          "check": "تركيب النسيج، حواف، ثبات الصبغة، ورسوم تصميمنا.",
+          "status": "تصنيع فئة معلن",
+          "url": "https://chinasilkscarf.net/custom"
+        },
+        {
+          "source_id": "U06",
+          "name": "Zhigeng · الصين",
+          "role": "تصنيع بحسب موقعه",
+          "category_fit": "وشاح مخصص؛ بديل للمقارنة بعد حسم اختلاف بيانات الصفحة.",
+          "moq": "متعارض:10/20/بلا حد",
+          "check": "لا نعتمد الحد الأدنى أو الخامة قبل تثبيتهما كتابيًا.",
+          "status": "شروط متعارضة تحتاج حسمًا",
+          "url": "https://www.customprintscarf.com/custom-lady-silk-scarf/custom-printed-silk-scarves-no-minimum.html"
+        }
+      ],
+      "sourcing_urls": "YANYAN · الصين: https://chinasilkscarf.net/custom | Zhigeng · الصين: https://www.customprintscarf.com/custom-lady-silk-scarf/custom-printed-silk-scarves-no-minimum.html",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 179,
+          "max": 249,
+          "image": "scarf-taif"
+        }
+      ]
     },
     {
       "id": "A02",
@@ -369,17 +467,53 @@
       "sources": [
         "U07",
         "V01",
-        "V02"
+        "V02",
+        "U01"
       ],
-      "image": "hair-barrette"
+      "image": "hair-barrette",
+      "retail_min": 35,
+      "retail_max": 49,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/hair-barrette.png",
+      "supplier_options": [
+        {
+          "source_id": "U07",
+          "name": "Glory · الصين",
+          "role": "إكسسوارات قماشية بحسب موقعه",
+          "category_fit": "ربطات وأطواق قماش؛ البكلة المسطحة تحت الشال تحتاج تأكيد آليتها.",
+          "moq": "غير مثبت لمقاسنا؛ موديل12سم له شروط أخرى",
+          "check": "عينة صغيرة قليلة النفخ؛ لا نشتري موديلًا كبيرًا بدل المطلوب.",
+          "status": "تأكيد البكلة النهائية مطلوب",
+          "url": "https://www.gloryhairaccessories.com/fabric-hair-accessories-category/"
+        },
+        {
+          "source_id": "U01",
+          "name": "حسام صايغ · السعودية",
+          "role": "شريك تطريز ومكوّنات",
+          "category_fit": "يمكن استكشاف ليبل أو تطريز؛ ليس جهة ثبت أنها تجمع البكلة أو تخيط المنتج كاملًا.",
+          "moq": "غير معلن",
+          "check": "ورشة تجميع/خياطة منفصلة لا تزال غير محددة.",
+          "status": "مكوّن فقط + تجميع غير محدد",
+          "url": "https://housamfactory.com/en/"
+        }
+      ],
+      "sourcing_urls": "Glory · الصين: https://www.gloryhairaccessories.com/fabric-hair-accessories-category/ | حسام صايغ · السعودية: https://housamfactory.com/en/",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 35,
+          "max": 49,
+          "image": "hair-barrette"
+        }
+      ]
     },
     {
       "id": "A03",
-      "name": "ربطة قماشية صغيرة قليلة النفخ",
+      "name": "طقم ربطتين قماشيتين صغيرتين تحت الشال",
       "group": "fashion",
       "phase": "sample",
       "who": "نساء · تحت الشال",
-      "price": "39–59 لطقم2",
+      "price": "39–59 للطقم",
       "spec": "قطر خارجي نحو5سم هدف مبدئي؛ ساتان أو نسيج ناعم، قماش قليل التجميع وقلب مطاطي قابل للمقارنة.",
       "fit": "مرشح أول للاختبار الوظيفي تحت الشال؛ يمكن تنسيقه لونيًا دون تطريز بارز.",
       "why": "بناء مرن وأقل معدنًا؛ العينة تحدد هل يثبت دون لفّات وشد زائدين.",
@@ -392,31 +526,120 @@
         "U07",
         "U08",
         "V01",
-        "V02"
+        "V02",
+        "U01"
       ],
-      "image": "hair-tie"
+      "image": "hair-tie",
+      "retail_min": 39,
+      "retail_max": 59,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/hair-tie.png",
+      "supplier_options": [
+        {
+          "source_id": "U07",
+          "name": "Glory · الصين",
+          "role": "إكسسوارات قماشية بحسب موقعه",
+          "category_fit": "ربطات وأطواق قماش؛ البكلة المسطحة تحت الشال تحتاج تأكيد آليتها.",
+          "moq": "غير مثبت لمقاسنا؛ موديل12سم له شروط أخرى",
+          "check": "عينة صغيرة قليلة النفخ؛ لا نشتري موديلًا كبيرًا بدل المطلوب.",
+          "status": "فئة معلنة؛ المقاس يحتاج تطويرًا",
+          "url": "https://www.gloryhairaccessories.com/fabric-hair-accessories-category/"
+        },
+        {
+          "source_id": "U01",
+          "name": "حسام صايغ · السعودية",
+          "role": "شريك تطريز ومكوّنات",
+          "category_fit": "يمكن استكشاف ليبل أو تطريز؛ ليس جهة ثبت أنها تجمع البكلة أو تخيط المنتج كاملًا.",
+          "moq": "غير معلن",
+          "check": "ورشة تجميع/خياطة منفصلة لا تزال غير محددة.",
+          "status": "مكوّن فقط + خياطة غير محددة",
+          "url": "https://housamfactory.com/en/"
+        }
+      ],
+      "sourcing_urls": "Glory · الصين: https://www.gloryhairaccessories.com/fabric-hair-accessories-category/ | حسام صايغ · السعودية: https://housamfactory.com/en/",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 39,
+          "max": 59,
+          "image": "hair-tie"
+        }
+      ],
+      "image_note": "الصورة تشرح شكل ربطة واحدة؛ نطاق السعر لطقم من ربطتين."
     },
     {
       "id": "H01",
-      "name": "غطاء وسادة الواحة",
+      "name": "وسادة البحر/الواحة · غطاء أو مع حشوة",
       "group": "home",
       "phase": "sample",
       "who": "المنزل · هدية مشتركة",
-      "price": "129–179 للغطاء",
-      "spec": "45×45 سم مقترح؛ قطن أو مخلوط قطن/كتان مثبت النسب، سحاب مخفي، تطريز محدود، حشوة اختيارية منفصلة.",
-      "fit": "وسادة لغرفة معيشة أو هدية بيت جديد، بألوان تنتمي لعالم مُسدل.",
+      "price": "129–179",
+      "spec": "مقاسان للاختبار45×45 و50×50سم؛ غطاء بسحاب وخامة مثبتة، وحشوة اختيارية بمقاس متوافق. صورنا تصوّرات للشكل وليست إثبات تركيب أو قياس. للحفاظ على السعر نطلب تسعير أمواج مطبوعة ولمسة تطريز محدودة، مقابل تطريز كثيف منفصل للمقارنة؛ الصورة لا تحدد طريقة الإنتاج.",
+      "fit": "غطاء فقط لمن لديها حشوة، أو وسادة مكتملة؛ كل صيغة بسعر واضح تحت300ريال.",
       "why": "قماش وقص وخياطة وتطريز؛ غطاء دون حشوة يخفض حجم الشحن والتخزين مقارنة بالوسادة المحشوة.",
       "risk": "مقاس لا يطابق الحشوة، تجعّد التطريز، نزف اللون، انكماش بعد العناية.",
-      "test": "حشوة مرجعية ثابتة وتجربتا غسل وفق بطاقة الخامة؛ قارن قبل/بعد وقوة السحاب.",
+      "test": "اختبار المقاس والامتلاء والسحاب والعناية وثبات اللون. وزن وحجم شحن الوسادة المحشوة يحسبان منفصلين.",
       "sources": [
         "C04",
         "C05",
         "C08",
         "U01",
         "U02",
-        "U03"
+        "U03",
+        "U16"
       ],
-      "image": "cushion-oasis"
+      "image": "cushion-sea-cover",
+      "retail_min": 129,
+      "retail_max": 179,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/cushion-sea-cover.png",
+      "supplier_options": [
+        {
+          "source_id": "U02",
+          "name": "DecoArt · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "ينص على أغطية وسائد مع خيارات حشوة، رانر، مناديل ومفارش طاولة ورميات.",
+          "moq": "مرن دون رقم منشور",
+          "check": "تكلفة العينة، MOQ لكل لون، خامة وتطريز وملاءمة سقف البيع.",
+          "status": "غطاء وخيارات حشوة معلنة",
+          "url": "https://www.deco-art.com.tr/commercial/"
+        },
+        {
+          "source_id": "U03",
+          "name": "Habes Textile · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "ينص على أغطية وسائد، رانر ومفارش، وبرامج علامة خاصة.",
+          "moq": "250 للبرنامج العام؛ لا نعممه على كل موديل",
+          "check": "عرض خاص بالموديل وشحن السعودية؛ ليس اعتماد جودة.",
+          "status": "غطاء معلن؛ الحشوة تُسأل منفصلة",
+          "url": "https://habestextile.com/en/private-label-home-textile-manufacturer.html"
+        },
+        {
+          "source_id": "U16",
+          "name": "IKEA السعودية · حشوة جاهزة",
+          "role": "متجر تجزئة لتجربة العينة",
+          "category_fit": "حشوة50×50 جاهزة لتجربة الامتلاء؛ ليست مورد جملة للعلامة.",
+          "moq": "قطعة تجزئة؛25ر.س في الرصد دون شحن",
+          "check": "توافقها مع الغطاء والبلد والتكلفة الفعلية؛ لا نعمم السعر على45×45.",
+          "status": "حشوة لعينة الاختبار فقط",
+          "url": "https://www.ikea.com/sa/en/p/inner-cushion-pad-white-in-outdoor-50550702/"
+        }
+      ],
+      "sourcing_urls": "DecoArt · تركيا: https://www.deco-art.com.tr/commercial/ | Habes Textile · تركيا: https://habestextile.com/en/private-label-home-textile-manufacturer.html | IKEA السعودية · حشوة جاهزة: https://www.ikea.com/sa/en/p/inner-cushion-pad-white-in-outdoor-50550702/",
+      "retail_variants": [
+        {
+          "label": "غطاء فقط · دون حشوة",
+          "min": 129,
+          "max": 179,
+          "image": "cushion-sea-cover"
+        },
+        {
+          "label": "وسادة مع حشوة",
+          "min": 199,
+          "max": 279,
+          "image": "cushion-sea"
+        }
+      ]
     },
     {
       "id": "H02",
@@ -436,24 +659,41 @@
         "U03",
         "M04"
       ],
-      "image": "runner-olive"
-    },
-    {
-      "id": "A04",
-      "name": "منديل جيب رجالي",
-      "group": "fashion",
-      "phase": "next",
-      "who": "رجال",
-      "price": "59–99",
-      "spec": "نحو30×30 سم مقترح؛ قطن/كتان أو مخلوط ناعم بحافة دقيقة ورسم صغير.",
-      "fit": "جيب ثوب مناسب أو بدلة؛ لا نفترض وجود جيب عرض في كل بشت، ونختبر الطيّة فعليًا.",
-      "why": "قطعة قماش صغيرة دون قالب أو آلية معدنية؛ مناسبة لإهداء مع قطعة رجالية.",
-      "risk": "حجم أو سماكة يكوّنان كتلة، عدم استعماله مع الإطلالة المستهدفة.",
-      "test": "تصوير داخل جيب ثوب فعلي وسؤال مشترين رجال عن استعماله؛ لا يكفي أن يعجبهم الرسم.",
-      "sources": [
-        "C01",
-        "C02",
-        "U05"
+      "image": "runner-olive",
+      "retail_min": 149,
+      "retail_max": 199,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/runner-olive.png",
+      "supplier_options": [
+        {
+          "source_id": "U02",
+          "name": "DecoArt · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "ينص على أغطية وسائد مع خيارات حشوة، رانر، مناديل ومفارش طاولة ورميات.",
+          "moq": "مرن دون رقم منشور",
+          "check": "تكلفة العينة، MOQ لكل لون، خامة وتطريز وملاءمة سقف البيع.",
+          "status": "رانر معلن ضمن منسوجات الطاولة",
+          "url": "https://www.deco-art.com.tr/commercial/"
+        },
+        {
+          "source_id": "U03",
+          "name": "Habes Textile · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "ينص على أغطية وسائد، رانر ومفارش، وبرامج علامة خاصة.",
+          "moq": "250 للبرنامج العام؛ لا نعممه على كل موديل",
+          "check": "عرض خاص بالموديل وشحن السعودية؛ ليس اعتماد جودة.",
+          "status": "رانر معلن ضمن العلامة الخاصة",
+          "url": "https://habestextile.com/en/private-label-home-textile-manufacturer.html"
+        }
+      ],
+      "sourcing_urls": "DecoArt · تركيا: https://www.deco-art.com.tr/commercial/ | Habes Textile · تركيا: https://habestextile.com/en/private-label-home-textile-manufacturer.html",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 149,
+          "max": 199,
+          "image": "runner-olive"
+        }
       ]
     },
     {
@@ -471,25 +711,45 @@
       "sources": [
         "C07",
         "U02",
-        "U03"
-      ]
-    },
-    {
-      "id": "H03",
-      "name": "طقم4 مناديل قماشية",
-      "group": "home",
-      "phase": "next",
-      "who": "الضيافة",
-      "price": "89–129 للطقم",
-      "spec": "نحو40×40 سم؛ قطن قابل للغسل، علامة زيتون صغيرة في الركن.",
-      "fit": "إضافة للرانر؛ لا نرفع عدد القطع لتجميل متوسط الطلب فقط.",
-      "why": "مادة مشتركة وتشطيب بسيط نسبيًا؛ اختبار لقابلية الإهداء.",
-      "risk": "الكي والبقع والامتصاص، وتكلفة عمل الحواف على أربع قطع.",
-      "test": "غسل وبقع وملمس عند الاستخدام؛ تسعير الطقم بوضوح.",
-      "sources": [
-        "U02",
         "U03",
-        "C10"
+        "U11",
+        "U12"
+      ],
+      "image": "pouch-rose",
+      "retail_min": 59,
+      "retail_max": 89,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/pouch-rose.png",
+      "supplier_options": [
+        {
+          "source_id": "U11",
+          "name": "Yitian · الصين",
+          "role": "مصنع حقائب معلن",
+          "category_fit": "أقرب مسار لكانفس التوت والجرابات؛ السحاب والجيب والتطريز حسب ملف العينة.",
+          "moq": "100 للتوت/تصميم؛ الجراب بعرض خاص",
+          "check": "عينة بطانة وسحاب ومقابض؛ سعر الموقع ليس سعر حقيبتنا.",
+          "status": "جراب قماشي؛ تأكيد البناء المطلوب",
+          "url": "https://www.wzbags.com/cotton-tote-bag/"
+        },
+        {
+          "source_id": "U12",
+          "name": "EcoBagly · الصين",
+          "role": "مصنع حقائب معلن",
+          "category_fit": "يذكر القطن والجرابات وحافظات الملابس بسحاب.",
+          "moq": "500 لكل موديل/لون/مقاس",
+          "check": "مرتفع للبدء؛ نطلب العينة ونقارن حجم المخزون.",
+          "status": "فئة معلنة؛ MOQ مرتفع",
+          "url": "https://ecobagly.com/"
+        }
+      ],
+      "sourcing_urls": "Yitian · الصين: https://www.wzbags.com/cotton-tote-bag/ | EcoBagly · الصين: https://ecobagly.com/",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 59,
+          "max": 89,
+          "image": "pouch-rose"
+        }
       ]
     },
     {
@@ -507,7 +767,45 @@
       "sources": [
         "C07",
         "N08",
-        "U02"
+        "U02",
+        "U11",
+        "U12"
+      ],
+      "image": "tote-palm",
+      "retail_min": 99,
+      "retail_max": 159,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/tote-palm.png",
+      "supplier_options": [
+        {
+          "source_id": "U11",
+          "name": "Yitian · الصين",
+          "role": "مصنع حقائب معلن",
+          "category_fit": "أقرب مسار لكانفس التوت والجرابات؛ السحاب والجيب والتطريز حسب ملف العينة.",
+          "moq": "100 للتوت/تصميم؛ الجراب بعرض خاص",
+          "check": "عينة بطانة وسحاب ومقابض؛ سعر الموقع ليس سعر حقيبتنا.",
+          "status": "توت قطن معلن",
+          "url": "https://www.wzbags.com/cotton-tote-bag/"
+        },
+        {
+          "source_id": "U12",
+          "name": "EcoBagly · الصين",
+          "role": "مصنع حقائب معلن",
+          "category_fit": "يذكر القطن والجرابات وحافظات الملابس بسحاب.",
+          "moq": "500 لكل موديل/لون/مقاس",
+          "check": "مرتفع للبدء؛ نطلب العينة ونقارن حجم المخزون.",
+          "status": "توت قطن معلن؛ MOQ مرتفع",
+          "url": "https://ecobagly.com/"
+        }
+      ],
+      "sourcing_urls": "Yitian · الصين: https://www.wzbags.com/cotton-tote-bag/ | EcoBagly · الصين: https://ecobagly.com/",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 99,
+          "max": 159,
+          "image": "tote-palm"
+        }
       ]
     },
     {
@@ -525,7 +823,44 @@
       "sources": [
         "N01",
         "N02",
-        "U05"
+        "U05",
+        "U06"
+      ],
+      "image": "twilly-sea",
+      "retail_min": 59,
+      "retail_max": 89,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/twilly-sea.png",
+      "supplier_options": [
+        {
+          "source_id": "U05",
+          "name": "YANYAN · الصين",
+          "role": "تصنيع أوشحة بحسب موقعه",
+          "category_fit": "يوفر طباعة وخامات وتشطيب للأوشحة؛ اطلب المقاس الطويل أو الشريط تحديدًا.",
+          "moq": "100 للتصميم الخاص؛20 للجاهز/لون",
+          "check": "تركيب النسيج، حواف، ثبات الصبغة، ورسوم تصميمنا.",
+          "status": "تأكيد الشريط8×90 مطلوب",
+          "url": "https://chinasilkscarf.net/custom"
+        },
+        {
+          "source_id": "U06",
+          "name": "Zhigeng · الصين",
+          "role": "تصنيع بحسب موقعه",
+          "category_fit": "وشاح مخصص؛ بديل للمقارنة بعد حسم اختلاف بيانات الصفحة.",
+          "moq": "متعارض:10/20/بلا حد",
+          "check": "لا نعتمد الحد الأدنى أو الخامة قبل تثبيتهما كتابيًا.",
+          "status": "تأكيد المقاس والحد الأدنى",
+          "url": "https://www.customprintscarf.com/custom-lady-silk-scarf/custom-printed-silk-scarves-no-minimum.html"
+        }
+      ],
+      "sourcing_urls": "YANYAN · الصين: https://chinasilkscarf.net/custom | Zhigeng · الصين: https://www.customprintscarf.com/custom-lady-silk-scarf/custom-printed-silk-scarves-no-minimum.html",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 59,
+          "max": 89,
+          "image": "twilly-sea"
+        }
       ]
     },
     {
@@ -542,7 +877,45 @@
       "test": "قياس ملابس فعلية وتجربة سيارة وسفر وتعليق، لا تكفي صورة الحافظة فارغة.",
       "sources": [
         "U02",
-        "U03"
+        "U03",
+        "U12",
+        "U11"
+      ],
+      "image": "garment-cover",
+      "retail_min": 99,
+      "retail_max": 149,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/garment-cover.png",
+      "supplier_options": [
+        {
+          "source_id": "U12",
+          "name": "EcoBagly · الصين",
+          "role": "مصنع حقائب معلن",
+          "category_fit": "يذكر القطن والجرابات وحافظات الملابس بسحاب.",
+          "moq": "500 لكل موديل/لون/مقاس",
+          "check": "مرتفع للبدء؛ نطلب العينة ونقارن حجم المخزون.",
+          "status": "حافظات ملابس بسحاب معلنة",
+          "url": "https://ecobagly.com/"
+        },
+        {
+          "source_id": "U11",
+          "name": "Yitian · الصين",
+          "role": "مصنع حقائب معلن",
+          "category_fit": "أقرب مسار لكانفس التوت والجرابات؛ السحاب والجيب والتطريز حسب ملف العينة.",
+          "moq": "100 للتوت/تصميم؛ الجراب بعرض خاص",
+          "check": "عينة بطانة وسحاب ومقابض؛ سعر الموقع ليس سعر حقيبتنا.",
+          "status": "بديل للاستفسار؛ الحافظة غير مثبتة",
+          "url": "https://www.wzbags.com/cotton-tote-bag/"
+        }
+      ],
+      "sourcing_urls": "EcoBagly · الصين: https://ecobagly.com/ | Yitian · الصين: https://www.wzbags.com/cotton-tote-bag/",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 99,
+          "max": 149,
+          "image": "garment-cover"
+        }
       ]
     },
     {
@@ -560,7 +933,98 @@
       "sources": [
         "U02",
         "M03",
-        "M04"
+        "M04",
+        "U03"
+      ],
+      "image": "coasters-pomegranate",
+      "retail_min": 49,
+      "retail_max": 79,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/coasters-pomegranate.png",
+      "supplier_options": [
+        {
+          "source_id": "U02",
+          "name": "DecoArt · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "ينص على أغطية وسائد مع خيارات حشوة، رانر، مناديل ومفارش طاولة ورميات.",
+          "moq": "مرن دون رقم منشور",
+          "check": "تكلفة العينة، MOQ لكل لون، خامة وتطريز وملاءمة سقف البيع.",
+          "status": "برنامج طاولة؛ قواعد12سم غير مثبتة",
+          "url": "https://www.deco-art.com.tr/commercial/"
+        },
+        {
+          "source_id": "U03",
+          "name": "Habes Textile · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "ينص على أغطية وسائد، رانر ومفارش، وبرامج علامة خاصة.",
+          "moq": "250 للبرنامج العام؛ لا نعممه على كل موديل",
+          "check": "عرض خاص بالموديل وشحن السعودية؛ ليس اعتماد جودة.",
+          "status": "تصنيع حسب الملف؛ هذا الموديل غير مثبت",
+          "url": "https://habestextile.com/en/private-label-home-textile-manufacturer.html"
+        }
+      ],
+      "sourcing_urls": "DecoArt · تركيا: https://www.deco-art.com.tr/commercial/ | Habes Textile · تركيا: https://habestextile.com/en/private-label-home-textile-manufacturer.html",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 49,
+          "max": 79,
+          "image": "coasters-pomegranate"
+        }
+      ]
+    },
+    {
+      "id": "H03",
+      "name": "طقم4 مناديل مائدة قماشية · للطاولة",
+      "group": "home",
+      "phase": "later",
+      "who": "الضيافة",
+      "price": "89–129 للطقم",
+      "spec": "نحو40×40سم مقترح؛ قطن قابل للغسل، غصن زيتون أخضر في الركن. توضع بجانب الطبق أو على الحضن أثناء الأكل، وتغسل لإعادة الاستخدام؛ ليست منديل جيب أو مناديل ورقية.",
+      "fit": "إضافة للرانر؛ لا نرفع عدد القطع لتجميل متوسط الطلب فقط.",
+      "why": "مثال تعليمي لتوضيح الفئة بعد تحفظ المالك على الطلب؛ لا أولوية شراء أو دليل نجاح لها.",
+      "risk": "الكي والبقع والامتصاص، وتكلفة عمل الحواف على أربع قطع.",
+      "test": "عرض الصورة والاستعمال والسعر على مشترين، ثم امتصاص وبقع وغسل وكي؛ تستبعد إن لم يتضح احتياجها.",
+      "sources": [
+        "U02",
+        "U03",
+        "C10"
+      ],
+      "image": "napkins-olive",
+      "retail_min": 89,
+      "retail_max": 129,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/napkins-olive.png",
+      "supplier_options": [
+        {
+          "source_id": "U02",
+          "name": "DecoArt · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "ينص على أغطية وسائد مع خيارات حشوة، رانر، مناديل ومفارش طاولة ورميات.",
+          "moq": "مرن دون رقم منشور",
+          "check": "تكلفة العينة، MOQ لكل لون، خامة وتطريز وملاءمة سقف البيع.",
+          "status": "مناديل مائدة معلنة صراحة",
+          "url": "https://www.deco-art.com.tr/commercial/"
+        },
+        {
+          "source_id": "U03",
+          "name": "Habes Textile · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "ينص على أغطية وسائد، رانر ومفارش، وبرامج علامة خاصة.",
+          "moq": "250 للبرنامج العام؛ لا نعممه على كل موديل",
+          "check": "عرض خاص بالموديل وشحن السعودية؛ ليس اعتماد جودة.",
+          "status": "تأكيد المناديل ضمن البرنامج مطلوب",
+          "url": "https://habestextile.com/en/private-label-home-textile-manufacturer.html"
+        }
+      ],
+      "sourcing_urls": "DecoArt · تركيا: https://www.deco-art.com.tr/commercial/ | Habes Textile · تركيا: https://habestextile.com/en/private-label-home-textile-manufacturer.html",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 89,
+          "max": 129,
+          "image": "napkins-olive"
+        }
       ]
     },
     {
@@ -569,8 +1033,8 @@
       "group": "home",
       "phase": "later",
       "who": "المنزل · موسم بارد",
-      "price": "249–349",
-      "spec": "نحو130×170 سم؛ قطن جاكار أو مخلوط صوف حسب العينة، تركيب ووزن مثبتان.",
+      "price": "249–299",
+      "spec": "نحو130×170سم مقترح؛ قطن أو مخلوط قطني خفيف بعد العينة، رسم نخيل طرفي بدل تطريز كثيف على كامل المساحة؛ لا نفترض كشميرًا أو صوفًا فاخرًا ضمن249–299ريالًا.",
       "fit": "هوية نسيجية مشتركة مع الفروة، لكن البناء مختلف عن قماش الملابس.",
       "why": "مناسبة للقصة العامة؛ المصنع ذوMOQ500–1000 قد يجعل البداية مكلفة.",
       "risk": "مخزون حجمي وموسمية وتنميش وحكة؛ لا نقيس الطلب على سعر الكشمير اللجري.",
@@ -579,6 +1043,42 @@
         "C03",
         "U02",
         "U04"
+      ],
+      "image": "throw-palm",
+      "retail_min": 249,
+      "retail_max": 299,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/throw-palm.png",
+      "supplier_options": [
+        {
+          "source_id": "U02",
+          "name": "DecoArt · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "ينص على أغطية وسائد مع خيارات حشوة، رانر، مناديل ومفارش طاولة ورميات.",
+          "moq": "مرن دون رقم منشور",
+          "check": "تكلفة العينة، MOQ لكل لون، خامة وتطريز وملاءمة سقف البيع.",
+          "status": "رميات معلنة",
+          "url": "https://www.deco-art.com.tr/commercial/"
+        },
+        {
+          "source_id": "U04",
+          "name": "Mooseloom · تركيا",
+          "role": "تصنيع بحسب موقعه",
+          "category_fit": "ينص على وسائد ورميات؛ خيار مقارنة عند توسع الطلب.",
+          "moq": "500–1,000 لكل موديل",
+          "check": "كمية مرتفعة للتجربة؛ لا نلتزم بها بسبب سعر الوحدة.",
+          "status": "رميات معلنة؛ MOQ مرتفع",
+          "url": "https://mooseloom.com/services/cushion-covers-wholesale/"
+        }
+      ],
+      "sourcing_urls": "DecoArt · تركيا: https://www.deco-art.com.tr/commercial/ | Mooseloom · تركيا: https://mooseloom.com/services/cushion-covers-wholesale/",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 249,
+          "max": 299,
+          "image": "throw-palm"
+        }
       ]
     },
     {
@@ -588,7 +1088,7 @@
       "phase": "later",
       "who": "المنزل",
       "price": "199–299",
-      "spec": "مقاسان فقط بعد جمع أبعاد الطاولات؛ قماش واحد وحواف بسيطة.",
+      "spec": "مقاسان فقط بعد قياس الطاولات؛ مثل140×220سم كمرجع نقاش لا قياس معتمد. قطن/مخلوط قابل للعناية، طباعة رمان محدودة على الحواف، وسط هادئ وتدلٍّ واضح من الجوانب. ليس رانرًا ضيقًا؛ الهدف199–299ريالًا بعد اختبار التكلفة.",
       "fit": "عائلة الرانر نفسها عند وجود طلب على التغطية الكاملة.",
       "why": "فكرة مناسبة للأقمشة، لكن تدرج المقاسات يرفع المخزون قبل فهم الحاجة.",
       "risk": "فرق مقاس الطاولة والتدلّي والانكماش وصعوبة تصوير الحجم.",
@@ -597,6 +1097,42 @@
         "U02",
         "U03",
         "C10"
+      ],
+      "image": "tablecloth-pomegranate",
+      "retail_min": 199,
+      "retail_max": 299,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/tablecloth-pomegranate.png",
+      "supplier_options": [
+        {
+          "source_id": "U02",
+          "name": "DecoArt · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "ينص على أغطية وسائد مع خيارات حشوة، رانر، مناديل ومفارش طاولة ورميات.",
+          "moq": "مرن دون رقم منشور",
+          "check": "تكلفة العينة، MOQ لكل لون، خامة وتطريز وملاءمة سقف البيع.",
+          "status": "مفارش كاملة معلنة صراحة",
+          "url": "https://www.deco-art.com.tr/commercial/"
+        },
+        {
+          "source_id": "U03",
+          "name": "Habes Textile · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "ينص على أغطية وسائد، رانر ومفارش، وبرامج علامة خاصة.",
+          "moq": "250 للبرنامج العام؛ لا نعممه على كل موديل",
+          "check": "عرض خاص بالموديل وشحن السعودية؛ ليس اعتماد جودة.",
+          "status": "مفارش كاملة معلنة صراحة",
+          "url": "https://habestextile.com/en/private-label-home-textile-manufacturer.html"
+        }
+      ],
+      "sourcing_urls": "DecoArt · تركيا: https://www.deco-art.com.tr/commercial/ | Habes Textile · تركيا: https://habestextile.com/en/private-label-home-textile-manufacturer.html",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 199,
+          "max": 299,
+          "image": "tablecloth-pomegranate"
+        }
       ]
     },
     {
@@ -605,15 +1141,53 @@
       "group": "serve",
       "phase": "later",
       "who": "الضيافة · توريد جاهز أولًا",
-      "price": "غير مقترح قبل عرض الجملة",
-      "spec": "بورسلان/خزف من مورد موثّق؛ عبوة مع فواصل؛ ملفات فحص مناسبة لملامسة الطعام.",
+      "price": "149–249 للطقم",
+      "spec": "بورسلان/خزف من مورد موثّق؛ عبوة مع فواصل؛ ملفات فحص مناسبة لملامسة الطعام. الصورة تصميم تصوّري للنقاش؛ ليست منتجًا موجودًا لدى أي من جهات التوريد المرتبطة.",
       "fit": "مسار مكمل للمنزل؛ يمكن اختيار منتج جاهز وتوضيح صانعه بدل ادعاء أنه تصنيع مُسدل.",
-      "why": "المنافس يبيع طقم6 بـ356ريالًا؛ لا نعرف هامش جملة أو شروط إعادة البيع.",
+      "why": "هدف اختبار149–249ريالًا إن سمح عرض الجملة وتكلفة الوصول؛ لا يوجد عرض يؤكد الهامش بعد. المرجع التجاري قد يتجاوز300 ولا يلزم مُسدل بسعره.",
       "risk": "كسر، وزن، تغليف مختلف، غسيل وزخرفة وسلامة ملامسة الطعام.",
       "test": "عينة شحن وتغليف وطلب مستندات المنتج والطلاء، شروط التوزيع والمقاس والعناية.",
       "sources": [
         "C14",
-        "U10"
+        "U10",
+        "U15",
+        "U14"
+      ],
+      "image": "cups-birds",
+      "retail_min": 149,
+      "retail_max": 249,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/cups-birds.png",
+      "supplier_options": [
+        {
+          "source_id": "U15",
+          "name": "VAVO Trading",
+          "role": "شركة توريد وتجارة",
+          "category_fit": "طقم إبريق+6فناجين معلن مع نقاش تخصيص؛ مناسب للاستفسار الأولي.",
+          "moq": "بالاستفسار للمخزون والتخصيص",
+          "check": "هل يورد كل مكون منفصلًا؟ الوثائق والكسر والشحن والسعر.",
+          "status": "فناجين في طقم؛ فصلها يحتاج تأكيدًا",
+          "url": "https://vavotrading.com/products/vt-kw-007"
+        },
+        {
+          "source_id": "U14",
+          "name": "Silsal · قطاع الأعمال",
+          "role": "علامة/خدمة إهداء وتخصيص",
+          "category_fit": "بديل جاهز/تعاون للضيافة؛ ليس دليلًا على تصنيع أبيض الاسم لنا.",
+          "moq": "لا رقم ملزم لمُسدل",
+          "check": "حقوق إعادة البيع والسعر بالجملة وسقف300 بعد التكلفة.",
+          "status": "جاهز/تعاون؛ الجملة غير مؤكدة",
+          "url": "https://silsal.com/en/corporate/gifting/"
+        }
+      ],
+      "sourcing_urls": "VAVO Trading: https://vavotrading.com/products/vt-kw-007 | Silsal · قطاع الأعمال: https://silsal.com/en/corporate/gifting/",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 149,
+          "max": 249,
+          "image": "cups-birds"
+        }
       ]
     },
     {
@@ -622,15 +1196,53 @@
       "group": "serve",
       "phase": "later",
       "who": "المنزل · توريد جاهز",
-      "price": "غير مقترح قبل عرض الجملة",
-      "spec": "تحديد إبريق تقديم أم استخدام حرارة؛ اختبار غطاء ومقبض وصبّ وتسريب.",
+      "price": "149–249",
+      "spec": "تحديد إبريق تقديم أم استخدام حرارة؛ اختبار غطاء ومقبض وصبّ وتسريب. الصورة تصميم تصوّري للنقاش؛ ليست منتجًا موجودًا لدى أي من جهات التوريد المرتبطة.",
       "fit": "تكملة للفناجين والرانر بعد نضج مسار المنزل.",
-      "why": "إبريق تمرة153ريالًا بعرض مقابل436سابقًا يبيّن ضغط التخفيضات، لا فرصة هامش مؤكدة.",
+      "why": "هدف اختبار149–249ريالًا إن سمح عرض الجملة وتكلفة الوصول؛ لا يوجد عرض يؤكد الهامش بعد. المرجع التجاري قد يتجاوز300 ولا يلزم مُسدل بسعره.",
       "risk": "غطاء منفصل وكسر وتسريب؛ لا نعد بصلاحية النار أو الميكروويف دون مواصفة موثقة.",
       "test": "تجربة صبّ وعناية وشحن، حدود الاستخدام من الصانع والوثائق المرتبطة.",
       "sources": [
         "C15",
-        "U10"
+        "U10",
+        "U15",
+        "U14"
+      ],
+      "image": "teapot-olive",
+      "retail_min": 149,
+      "retail_max": 249,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/teapot-olive.png",
+      "supplier_options": [
+        {
+          "source_id": "U15",
+          "name": "VAVO Trading",
+          "role": "شركة توريد وتجارة",
+          "category_fit": "طقم إبريق+6فناجين معلن مع نقاش تخصيص؛ مناسب للاستفسار الأولي.",
+          "moq": "بالاستفسار للمخزون والتخصيص",
+          "check": "هل يورد كل مكون منفصلًا؟ الوثائق والكسر والشحن والسعر.",
+          "status": "إبريق في طقم؛ فصله يحتاج تأكيدًا",
+          "url": "https://vavotrading.com/products/vt-kw-007"
+        },
+        {
+          "source_id": "U14",
+          "name": "Silsal · قطاع الأعمال",
+          "role": "علامة/خدمة إهداء وتخصيص",
+          "category_fit": "بديل جاهز/تعاون للضيافة؛ ليس دليلًا على تصنيع أبيض الاسم لنا.",
+          "moq": "لا رقم ملزم لمُسدل",
+          "check": "حقوق إعادة البيع والسعر بالجملة وسقف300 بعد التكلفة.",
+          "status": "جاهز/تعاون؛ الجملة غير مؤكدة",
+          "url": "https://silsal.com/en/corporate/gifting/"
+        }
+      ],
+      "sourcing_urls": "VAVO Trading: https://vavotrading.com/products/vt-kw-007 | Silsal · قطاع الأعمال: https://silsal.com/en/corporate/gifting/",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 149,
+          "max": 249,
+          "image": "teapot-olive"
+        }
       ]
     },
     {
@@ -647,7 +1259,45 @@
       "test": "عينة ملمس واستقرار وطي وغسل، ثم اختبار سعر مقابل بديل فعلي.",
       "sources": [
         "U02",
-        "U03"
+        "U03",
+        "U13",
+        "U17"
+      ],
+      "image": "prayer-mat",
+      "retail_min": 99,
+      "retail_max": 169,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/prayer-mat.png",
+      "supplier_options": [
+        {
+          "source_id": "U13",
+          "name": "Habes · خط سجادات الصلاة",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "فئة الصلاة مؤكدة في موقعه؛ وزن وسماكة نسخة السفر غير مؤكدين.",
+          "moq": "300 لكل تصميم/خامة؛500 لبعض الهدايا",
+          "check": "تطوير نسخة رقيقة قابلة للطي بلا زخرفة بارزة.",
+          "status": "فئة معلنة؛ نسخة السفر غير مثبتة",
+          "url": "https://habestextile.com/en/prayer-mat-manufacturer-turkey.html"
+        },
+        {
+          "source_id": "U17",
+          "name": "Carpetella · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "بديل لسجادة مبطنة؛ المعروض مختلف عن تصور السفر القماشي.",
+          "moq": "ابتداء50 حسب الموقع",
+          "check": "لا نعدّه مطابقًا؛ اسأل عن نسخة أخف أو استبعده للسفر.",
+          "status": "بديل مبطن مختلف عن الصورة",
+          "url": "https://carpetella.com/pages/wholesale-manufacturer"
+        }
+      ],
+      "sourcing_urls": "Habes · خط سجادات الصلاة: https://habestextile.com/en/prayer-mat-manufacturer-turkey.html | Carpetella · تركيا: https://carpetella.com/pages/wholesale-manufacturer",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 99,
+          "max": 169,
+          "image": "prayer-mat"
+        }
       ]
     },
     {
@@ -665,6 +1315,42 @@
       "sources": [
         "U02",
         "U03"
+      ],
+      "image": "tissue-cover",
+      "retail_min": 69,
+      "retail_max": 99,
+      "retail_ceiling": 300,
+      "image_url": "https://ahmads-cell.github.io/alboshoot-market-report/future-textiles-2026-10-16/assets/tissue-cover.png",
+      "supplier_options": [
+        {
+          "source_id": "U02",
+          "name": "DecoArt · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "ينص على أغطية وسائد مع خيارات حشوة، رانر، مناديل ومفارش طاولة ورميات.",
+          "moq": "مرن دون رقم منشور",
+          "check": "تكلفة العينة، MOQ لكل لون، خامة وتطريز وملاءمة سقف البيع.",
+          "status": "تطوير حسب الملف؛ المنتج غير مثبت",
+          "url": "https://www.deco-art.com.tr/commercial/"
+        },
+        {
+          "source_id": "U03",
+          "name": "Habes Textile · تركيا",
+          "role": "مصنع بحسب موقعه",
+          "category_fit": "ينص على أغطية وسائد، رانر ومفارش، وبرامج علامة خاصة.",
+          "moq": "250 للبرنامج العام؛ لا نعممه على كل موديل",
+          "check": "عرض خاص بالموديل وشحن السعودية؛ ليس اعتماد جودة.",
+          "status": "استفسار قدرة؛ المنتج غير مثبت",
+          "url": "https://habestextile.com/en/private-label-home-textile-manufacturer.html"
+        }
+      ],
+      "sourcing_urls": "DecoArt · تركيا: https://www.deco-art.com.tr/commercial/ | Habes Textile · تركيا: https://habestextile.com/en/private-label-home-textile-manufacturer.html",
+      "retail_variants": [
+        {
+          "label": "الخيار المصوّر",
+          "min": 69,
+          "max": 99,
+          "image": "tissue-cover"
+        }
       ]
     }
   ],
@@ -731,6 +1417,41 @@
       "غير مثبت",
       "اطلب جهة توريد/ورش وشروط جملة وهوية الصانع؛ المتجر التجزئة ليس تلقائيًا مصنع علامة خاصة.",
       "<a class=\"source\" href=\"https://saudiartisanal.com/\" target=\"_blank\" rel=\"noopener\">U10 · حرف السعودية · قطاع الأعمال ↗</a>"
+    ],
+    [
+      "Yitian · الصين",
+      "حقائب قطن وكانفس وجرابات؛ مصنع معلن",
+      "100 للتوت/تصميم؛ بقية البناء بعرض",
+      "بديل للتوت والجراب؛ لا نعمم سعر حقيبة سادة على تطريز وبطانة وسحاب.",
+      "<a class=\"source\" href=\"https://www.wzbags.com/cotton-tote-bag/\" target=\"_blank\" rel=\"noopener\">U11 · Yitian · حقائب قطنية مخصصة ↗</a>"
+    ],
+    [
+      "EcoBagly · الصين",
+      "حقائب قطن وحافظات ملابس بسحاب؛ مصنع معلن",
+      "500 لكل موديل/لون/مقاس",
+      "الموديل معلن؛ الحد مرتفع لتجربة مُسدل. اطلب تكلفة وملف عينة منفصلين.",
+      "<a class=\"source\" href=\"https://ecobagly.com/\" target=\"_blank\" rel=\"noopener\">U12 · EcoBagly · حقائب وحافظات ملابس ↗</a>"
+    ],
+    [
+      "Silsal · قطاع الأعمال",
+      "علامة وتصميم وإهداء؛ ليست مصنعًا دققناه",
+      "غير مثبت لمُسدل",
+      "الجملة وإعادة البيع والهوية وسقف300 بحاجة لاتفاق؛ وعود الخدمة العامة ليست عرضًا لنا.",
+      "<a class=\"source\" href=\"https://silsal.com/en/corporate/gifting/\" target=\"_blank\" rel=\"noopener\">U14 · Silsal · قطاع الأعمال والتخصيص ↗</a>"
+    ],
+    [
+      "VAVO Trading",
+      "شركة توريد؛ طقم سيراميك إبريق+6فناجين",
+      "بالاستفسار",
+      "إمكان فصل المكونات والتخصيص والوثائق والتكلفة يحتاج تأكيدًا. لا سعر وصول معلن.",
+      "<a class=\"source\" href=\"https://vavotrading.com/products/vt-kw-007\" target=\"_blank\" rel=\"noopener\">U15 · VAVO Trading · طقم إبريق وفناجين ↗</a>"
+    ],
+    [
+      "Carpetella · تركيا",
+      "سجادات صلاة مبطنة؛ مصنع معلن",
+      "ابتداء50 بحسب الموديل",
+      "ليس مطابقًا لتصور سجادة السفر الرقيقة؛ يحتاج تطويرًا أو يستبعد لهذا الاستخدام.",
+      "<a class=\"source\" href=\"https://carpetella.com/pages/wholesale-manufacturer\" target=\"_blank\" rel=\"noopener\">U17 · Carpetella · سجادات صلاة بالجملة ↗</a>"
     ]
   ]
 }
