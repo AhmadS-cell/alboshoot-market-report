@@ -12,3 +12,5 @@
 #pocket-mirrors .callout a{color:#fff;text-decoration:underline}#pocket-mirrors .approved-color-grid figcaption{overflow-wrap:anywhere}
 
 .mirror-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}.mirror-pair img{aspect-ratio:1.1;object-fit:contain}.mirror-pair figcaption{padding:12px;font-size:16px}.approved-jumps a{display:inline-block;padding:5px 0}@media(max-width:760px){.mirror-pair{grid-template-columns:1fr;gap:18px}}
+
+.mirror-comparison table{min-width:1240px}.mirror-comparison th,.mirror-comparison td{min-width:155px}.mirror-comparison small{display:block;color:var(--muted);font-size:14px}#mirror-manufacturers pre{text-align:left;direction:ltr;font-family:Arial,sans-serif;line-height:1.7;font-size:15px}#mirror-manufacturers .callout a{color:#fff}

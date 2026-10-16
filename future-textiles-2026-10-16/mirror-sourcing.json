@@ -1,0 +1,242 @@
+{
+  "date": "2026-10-16",
+  "city": "Riyadh",
+  "country": "Saudi Arabia",
+  "quantity_per_design": 100,
+  "design_count": 3,
+  "total_quantity": 300,
+  "owner_confirmed": true,
+  "postcode": null,
+  "street_address": null,
+  "quote_status": "No supplier contacted; no project quotation received",
+  "factory_feasibility_status": "Not confirmed for Musdal artwork; capabilities are supplier claims",
+  "unit_currency": "USD when explicitly stated",
+  "approved_designs": [
+    "A14-1",
+    "A14-2",
+    "A14-3"
+  ],
+  "supplier_comparison": [
+    {
+      "id": "hoha",
+      "name": "HOHA",
+      "role": "مصنع بحسب موقعه",
+      "fit": "أول مرشح للبحث في دفعة صغيرة",
+      "unit": "غير معلن لتصميمنا",
+      "base": "لا سعر مرجعي منشور",
+      "moq": "طلبات صغيرة مقبولة عمومًا؛ لا رقم",
+      "pilot": "100 لكل رسم: يحتاج موافقة مكتوبة",
+      "sample": "غير معلن؛ العينة الجديدة قد تكون مدفوعة",
+      "timing": "7–12 يوم عمل للعينة؛30–35 للإنتاج، ونص آخر25–30 للقياسي",
+      "shipping": "غير معلن للرياض؛ يذكر DHL/FedEx/TNT",
+      "gap": "الرسمة الكاملة، البروز، مساحة57مم، ورسوم3ألوان معدن",
+      "source_ids": [
+        "MS01",
+        "MS02"
+      ],
+      "custom_unit_price_usd": null,
+      "custom_sample_fee_usd": null,
+      "sample_freight_to_riyadh": null,
+      "bulk_freight_to_riyadh": null,
+      "quantity_accepted": null,
+      "quote_received": false,
+      "published_base_price_usd": null,
+      "published_sample_reference_usd": null
+    },
+    {
+      "id": "choizin",
+      "name": "CHOIZIN",
+      "role": "مصنع بحسب موقعه",
+      "fit": "تطريز معلن؛ الكمية الحالية أقل من الحد الخاص",
+      "unit": "غير معلن لتصميمنا",
+      "base": "0.69 USD ≈2.59ر.س للمنتج الأساسي فقط",
+      "moq": "1,000 للتطريز الخاص في التفاصيل؛100 في الملخص",
+      "pilot": "300 إجمالًا أقل من1,000؛ تقسيم الحد لكل رسم/لون يحتاج حسمًا",
+      "sample": "غير معلن؛ عينة جديدة نحو7 أيام بالتفاصيل",
+      "timing": "نحو20 يومًا للتخصيص؛ عنوان عام10–30",
+      "shipping": "غير معلن للرياض؛ شحن دولي من الصين",
+      "gap": "السعر لا يشمل تخصيصنا أو تغليفه؛ لا نعامل100كحد للرسم الخاص",
+      "source_ids": [
+        "U20",
+        "MS03"
+      ],
+      "custom_unit_price_usd": null,
+      "custom_sample_fee_usd": null,
+      "sample_freight_to_riyadh": null,
+      "bulk_freight_to_riyadh": null,
+      "quantity_accepted": null,
+      "quote_received": false,
+      "published_base_price_usd": 0.69,
+      "published_sample_reference_usd": null
+    },
+    {
+      "id": "jojo",
+      "name": "JoJoMirror",
+      "role": "مصنع تطوير معلن",
+      "fit": "احتياطي تطوير؛ القماش المطـرز غير مثبت",
+      "unit": "غير معلن لتصميمنا",
+      "base": "لا سعر قطعة منشور",
+      "moq": "100/300/500 لشعار على موديل مناسب؛ليس لرسمنا القماشي",
+      "pilot": "قبول300 بثلاثة أوجه قماشية غير مؤكد",
+      "sample": "50–100 USD ≈187.50–375ر.س مرجع عينة؛ نطاق3تصاميم غير محدد",
+      "timing": "7–10 أيام مرجع للعينة؛ الإنتاج بعرض",
+      "shipping": "غير معلن للرياض؛ الشحن خارج رسوم العينة المرجعية",
+      "gap": "نحتاج موافقة تصنيع قماش وملمس بارز قبل المقارنة السعرية",
+      "source_ids": [
+        "MS04"
+      ],
+      "custom_unit_price_usd": null,
+      "custom_sample_fee_usd": null,
+      "sample_freight_to_riyadh": null,
+      "bulk_freight_to_riyadh": null,
+      "quantity_accepted": null,
+      "quote_received": false,
+      "published_base_price_usd": null,
+      "published_sample_reference_usd": [
+        50,
+        100
+      ]
+    },
+    {
+      "id": "topjewelry",
+      "name": "Top Jewelry",
+      "role": "مصنع بحسب موقعه",
+      "fit": "بديل بناء قماشي للتوسّع لاحقًا",
+      "unit": "بالاستفسار",
+      "base": "لا سعر قطعة منشور",
+      "moq": "1,000 للحالة المعروضة؛ توزيعها غير محدد",
+      "pilot": "300 إجمالًا أقل من الحد المنشور",
+      "sample": "غير معلن",
+      "timing": "غير منشور لهذه المواصفة",
+      "shipping": "غير معلن للرياض",
+      "gap": "المعروض كانفس بشعار مضغوط؛ ليس رسمة ملونة مطرزة كاملة",
+      "source_ids": [
+        "MS05"
+      ],
+      "custom_unit_price_usd": null,
+      "custom_sample_fee_usd": null,
+      "sample_freight_to_riyadh": null,
+      "bulk_freight_to_riyadh": null,
+      "quantity_accepted": null,
+      "quote_received": false,
+      "published_base_price_usd": null,
+      "published_sample_reference_usd": null
+    },
+    {
+      "id": "yaliang",
+      "name": "Guangzhou Yaliang",
+      "role": "مصنع قاعدة بحسب موقعه",
+      "fit": "مكوّن فقط؛ ليس المنتج النهائي المطلوب",
+      "unit": "غير معلن للكسوة المطلوبة",
+      "base": "0.65 USD ≈2.44ر.س FOB Guangzhou لمرآةPU المرجعية",
+      "moq": "300 لكل موديل/لون",
+      "pilot": "100 لكل تصميم أقل من الحد؛ لا نفترض دمج الثلاثة",
+      "sample": "غير معلن",
+      "timing": "غير منشور للمشروع",
+      "shipping": "غير معلن؛FOB لا يعني الوصول إلى الرياض",
+      "gap": "PU مطبوع لا قماش بارز؛ يحتاج شريك كسوة وتجميع",
+      "source_ids": [
+        "U21"
+      ],
+      "custom_unit_price_usd": null,
+      "custom_sample_fee_usd": null,
+      "sample_freight_to_riyadh": null,
+      "bulk_freight_to_riyadh": null,
+      "quantity_accepted": null,
+      "quote_received": false,
+      "published_base_price_usd": 0.65,
+      "published_sample_reference_usd": null
+    },
+    {
+      "id": "liyang",
+      "name": "Wenzhou Liyang",
+      "role": "شركة تجارة وتغليف",
+      "fit": "احتياطي توريد؛ ليست مصنع مرايا مباشرًا مثبتًا",
+      "unit": "غير معلن لتصميمنا",
+      "base": "لا سعر إنتاج مطابق منشور",
+      "moq": "100 لون مخزون؛1,000 تصميم خاص",
+      "pilot": "100 مخزون لا تعني100من كل رسم خاص",
+      "sample": "20 USD ≈75ر.س معلنة؛FAQيذكر مجانية لمخزون بلا تخصيص، والشحن منفصل",
+      "timing": "إنتاج10–20 يومًا عام؛ عينة خاصة غير محددة",
+      "shipping": "غير معلن للرياض؛ شحن العينة على المشتري وفقFAQ",
+      "gap": "التطريز الكامل ليس مثبتًا؛ يجب تفسير تعارض نطاق العينة",
+      "source_ids": [
+        "MS06"
+      ],
+      "custom_unit_price_usd": null,
+      "custom_sample_fee_usd": null,
+      "sample_freight_to_riyadh": null,
+      "bulk_freight_to_riyadh": null,
+      "quantity_accepted": null,
+      "quote_received": false,
+      "published_base_price_usd": null,
+      "published_sample_reference_usd": [
+        20,
+        20
+      ]
+    }
+  ],
+  "source_notes": [
+    {
+      "id": "MS01",
+      "title": "HOHA · مرآة قماش مطرز على الوجهين",
+      "url": "https://www.hohacosmetics.com/product/personalized-cosmetics-mirror-with-flax-textiles-embroidery-designs-with-name.html",
+      "evidence": "موقع المورد مقروء ·16 أكتوبر2026",
+      "note": "هيكل70×70×10مم ومساحة غطاء57مم، كتان مطرز على الوجهين،1X/2X وألوان معدن متعددة. عينة7–12يوم عمل؛ إنتاج30–35يوم عمل مع نص آخر25–30للطلب القياسي. لا سعر قطعة أو MOQ رقمي أو أجرة شحن منشورة لهذا المنتج."
+    },
+    {
+      "id": "MS02",
+      "title": "HOHA · المصنع والعينات والشحن",
+      "url": "https://www.hohacosmetics.com/Faq.html",
+      "evidence": "أسئلة المورد الرسمية مقروءة ·16 أكتوبر2026",
+      "note": "يذكر مصنعًا في فوشان وقبول الطلبات الصغيرة وOEM دون رقم ملزم. بعض العينات جاهزة مجانية، والجديدة/الخاصة قد تكون مدفوعة دون مبلغ. يذكرDHL/FedEx/TNT للطلبات الصغيرة وبحرًا أو جوًا لغيرها؛ لا تسعيرة للرياض."
+    },
+    {
+      "id": "MS03",
+      "title": "CHOIZIN · برنامج تصنيع المرايا",
+      "url": "https://www.choizin.com/pages/custom-compact-mirror-manufacturer",
+      "evidence": "موقع الشركة مقروء ·16 أكتوبر2026",
+      "note": "Yiwu Choizin Houseware يعلن تصنيعOEM/ODM للمرايا، ومنها القماش، وخيارات طباعة وتشطيب وتغليف. الإعلان العامMOQمن100 لخيارات مخزونة لا يثبت قبول100من رسم مُسدل الخاص. لا عرض سعر لنا."
+    },
+    {
+      "id": "MS04",
+      "title": "JoJoMirror · التخصيص ورسوم العينة",
+      "url": "https://jojomirror.com/compact-mirror/",
+      "evidence": "موقع المصنع المعلن مقروء ·16 أكتوبر2026",
+      "note": "رسوم عينة مرجعية50–100دولار و7–10أيام مع إمكانية احتسابها ضمن الطلب حسب الاتفاق؛ الشحن والضرائب والقالب منفصلة بحسب العرض.100/300/500لقوالب مناسبة مع شعار فقط؛ تغيير اللون قد يراجع عند1,000. القماش المطـرز برسوماتنا غير مثبت في هذه الصفحة."
+    },
+    {
+      "id": "MS05",
+      "title": "Top Jewelry · تطوير مرآة بكسوة كانفس",
+      "url": "https://www.top-jewelry.net/dior-custom-compact-mirror-canvas-gwp-case-study/",
+      "evidence": "حالة يرويها المصنع عن نفسه مقروءة ·16 أكتوبر2026",
+      "note": "يعرض مرآة كانفس قطن/كتان380جم/م² مع شعار مضغوط؛ MOQ1,000 وسعر بالعرض. مرجع بناء قماشي مختلف عن رسوماتنا والتطريز، لا تأكيد لتنفيذها. لا سعر عينة أو شحن منشور؛ رواية العميل والفحوص تخص المورد ولم ندققها مستقلاً."
+    },
+    {
+      "id": "MS06",
+      "title": "Wenzhou Liyang · مرآة قماش وعينة",
+      "url": "https://sy19911109.en.made-in-china.com/product/DdhAQCoVAyUu/China-Different-Style-Sticker-Metal-Frame-Makeup-Compact-Mirror-Folding-Fabric-Mirror.html",
+      "evidence": "قائمة المورد وأسئلته علىMade-in-China مقروءة ·16 أكتوبر2026",
+      "note": "يصرح بأنه شركة تجارة مع مصنع تغليف وشركاء تصنيع. يعرض عينة20دولارًا، وFAQيذكر مجانية دون شعار/لون وشحنًا على المشتري؛ يلزم تثبيت النطاق. MOQ100لون مخزون و1,000للتصميم الخاص. لا إثبات للرسم الكامل البارز أو سعر إنتاجه أو شحن الرياض."
+    },
+    {
+      "id": "MS07",
+      "title": "DHL Express · الوزن الحقيقي والحجمي",
+      "url": "https://www.dhl.com/discover/en-gb/ship-with-dhl/products-and-services/weight-and-dimensions",
+      "evidence": "إرشاد الناقل الرسمي مقروء ·16 أكتوبر2026",
+      "note": "الوزن الحجمي بالسنتيمتر=الطول×العرض×الارتفاع÷5,000؛ المقارنة بالأكبر من الوزن الحقيقي والحجمي لكل طرد. طريقة حساب وزن وليست تسعيرة طريق الصين–الرياض، ولا تُنقل لكل ناقل دون تحقق."
+    },
+    {
+      "id": "MS08",
+      "title": "SAMA · مرجع تحويل الدولار والريال",
+      "url": "https://sama.gov.sa/en-US/MediaCenter/News/Pages/news-557.aspx",
+      "evidence": "مصدر رسمي لسعر الربط؛ مع فهرسة الصفحة الرئيسية الحالية ·16 أكتوبر2026",
+      "note": "مرجع الربط3.75ريال للدولار. نستخدمه للتحويل التقريبي فقط، دون رسوم بنك أو بطاقة أو نقل أو ضرائب؛ التحويل ليس عرض تكلفة وصول."
+    }
+  ],
+  "conversion": {
+    "usd_sar": 3.75,
+    "source": "MS08",
+    "use": "Approximate display conversion; bank fees excluded"
+  }
+}
