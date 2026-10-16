@@ -1,0 +1,76 @@
+{
+  "product_id": "A14",
+  "date": "2026-10-16",
+  "owner_requirements": [
+    "Pocket mirror",
+    "Fabric exterior cover",
+    "Raised motif",
+    "Suitable for Saudi women",
+    "Easy to clean"
+  ],
+  "status": "Category requested; design, fabric, price and manufacturing sample pending",
+  "retail_target_sar": [
+    29,
+    49
+  ],
+  "retail_target_confirmed": false,
+  "designs": [
+    {
+      "id": "A14-1",
+      "image": "assets/mirror-taif-rose.png",
+      "name": "ورد الطائف · موف ووردي",
+      "description": "ورد صغير بخيوط وردية وكريمية وأوراق هادئة على قماش موف غباري؛ قصة الطائف، لا نقل لرسم منافس.",
+      "source_id": "N07"
+    },
+    {
+      "id": "A14-2",
+      "image": "assets/mirror-pomegranate.png",
+      "name": "رمان الباحة · سماوي وتوتي",
+      "description": "رمان صغير بتوتي ومرجاني وأوراق خضراء على سماوي؛ ارتباط الباحة من المرجع البيئي، دون ادعاء حصرية الثمرة.",
+      "source_id": "M03"
+    },
+    {
+      "id": "A14-3",
+      "image": "assets/mirror-roshan.png",
+      "name": "روشن جدة · بترولي وعاجي",
+      "description": "شبكة أصلية صغيرة بإيقاع الروشن على قماش بترولي، بخيط عاجي ولمسة مرجانية؛ لا خشب ملصق أو نص ديني.",
+      "source_id": "M06"
+    }
+  ],
+  "construction": {
+    "outer_cover": "Dense low-pile textile with low-relief closed embroidery; removable cover preferred and not confirmed by any supplier",
+    "core": "Rigid protective folding compact",
+    "size": "~70mm diameter,~10–12mm thickness; proposed not measured",
+    "raised_height": "0.5–1mm working target; not measured from image",
+    "mirror": "1X standard; compare optional2X/3X in sample"
+  },
+  "cleaning_gate": {
+    "status": "Required, not verified",
+    "proposal": "Removable textile cover cleaned separately using method approved for actual fabric, thread and fastening; dry fully before refit",
+    "sample_tests": [
+      "Powder/foundation/lipstick/oil stains immediate and after24hours",
+      "10proposed cleaning/refit cycles",
+      "Color rub, snagging, hinge/closure and glass retention"
+    ],
+    "not_claimed": [
+      "Waterproof",
+      "Stain-proof",
+      "Machine-washable",
+      "Removable mechanism already available",
+      "Unbreakable"
+    ]
+  },
+  "suppliers": [
+    "U20",
+    "U21",
+    "U01"
+  ],
+  "sources": [
+    "U20",
+    "U21",
+    "F01",
+    "N07",
+    "M03",
+    "M06"
+  ]
+}
