@@ -11,3 +11,4 @@ jobs:
         with:
           python-version: '3.x'
       - run: python scripts/check_noindex.py
+      - run: python scripts/check_product_navigation.py
