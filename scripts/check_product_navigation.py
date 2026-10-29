@@ -47,9 +47,12 @@ assert primary in rootpage.links and root.count(primary)>=2,'primary approved st
 assert root.index('class="products-entry"')<root.index('<main'),'product entry must be above report content'
 assert rootpage.sections[1]=='products','product directory must follow overview'
 accessories=load('accessories-2026-10-29/index.html');a=Page(accessories)
-assert len(a.images)==9,'all nine internet image references must remain available'
+assert len(a.images)==13,'nine accessory references and four bag images must remain available'
 assert accessories.count('مرجع مختار للاستلهام</p>')==6,'six selected references required'
 assert accessories.count('اقتراح إضافي للمراجعة</p>')==3,'three watch proposals must stay unapproved'
 assert all(i.get('alt') and i.get('width') and i.get('height') for i in a.images),'image accessibility/layout dimensions'
 assert len([i for i in a.ids if i.startswith('reference-')])==9,'stable reference anchors'
+assert 'accessories-2026-10-29/index.html#bags' in rootpage.links,'bag entry missing from product directory'
+assert 'bags' in a.sections,'bag section missing'
+assert all(i in a.ids for i in ['bag-palm','bag-shell','bag-knot','bag-pleated']),'bag references missing'
 print('PASS: primary product entry, nine references, status labels, noindex, sources-last and ordered navigation')
